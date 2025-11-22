@@ -18,7 +18,17 @@ export default <JobEntry[]>[
         workMode: 'Hybrid',
         yearsOfExperience: 6,
         educationRequiredString: '',
-        hardSkills: ['typescript.js | typescript'],
+        hardSkills: ['typescript | typescript.js'],
+        softSkills: []
+    },
+    {
+        dateCreated: 1763830363,
+        companyName: 'Foo',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 5,
+        educationRequiredString: '',
+        hardSkills: ['typescript'],
         softSkills: []
     },
         {
@@ -28,7 +38,7 @@ export default <JobEntry[]>[
         workMode: 'Hybrid',
         yearsOfExperience: 5,
         educationRequiredString: '',
-        hardSkills: ['typescript'],
+        hardSkills: ['typescript | type script'],
         softSkills: []
     }
 ];

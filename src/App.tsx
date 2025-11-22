@@ -4,6 +4,7 @@ import mainDb from './mainDb';
 
 // MUI
 import Box from '@mui/material/Box';
+import { json } from 'stream/consumers';
 
 type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
 
@@ -60,7 +61,12 @@ const hardSkills: HardAndSoftSkillsArray = finalObj.hardSkills;
 mainDb.forEach((job, jobIndex) => {
     job.hardSkills.forEach((skill) => {
 
+        const splitTheString = skill.split('|');
+        console.log("splitTheString: ", splitTheString);
         const skillLower = skill.split('|')[0].trim().toLowerCase();
+        console.log("skillLower: ", skillLower);
+        const secondPart = skill.split('|')[1]?.trim().toLowerCase();
+        console.log("secondPart: ", secondPart);
 
         // for skill to be NEW, it must NOT be part of any existing subNames
         const foundIndex = hardSkills.findIndex((hs) => hs.subNames.includes(skillLower));
@@ -68,7 +74,14 @@ mainDb.forEach((job, jobIndex) => {
 
         if (foundIndex !== -1) {
 
+            // skill is a duplicate, so increase the count
             hardSkills[foundIndex].count += 1;
+
+
+            if (secondPart){
+                hardSkills[foundIndex].subNames.push(secondPart);
+            }
+            
 
         } else if (!hardSkills[foundIndex]?.subNames) {
             hardSkills.push({
@@ -87,7 +100,7 @@ mainDb.forEach((job, jobIndex) => {
 
 function App() {
     console.log('============================');
-    console.log('finalObj', finalObj);
+    console.log('finalObj', finalObj?.hardSkills);
 
     return (
         <Box>
@@ -101,6 +114,7 @@ function App() {
             </ul>
 
             <h2>Hard skills</h2>
+            <p>{JSON.stringify(finalObj.hardSkills)}</p>
         </Box>
     );
 }
