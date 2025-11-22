@@ -18,7 +18,7 @@ export default <JobEntry[]>[
         workMode: 'Hybrid',
         yearsOfExperience: 6,
         educationRequiredString: '',
-        hardSkills: ['typescript.js'],
+        hardSkills: ['typescript.js | typescript'],
         softSkills: []
     },
         {

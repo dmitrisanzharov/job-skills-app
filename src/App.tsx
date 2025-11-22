@@ -57,10 +57,10 @@ finalObj.onSite = onSite;
 // Calculate hard skills
 const hardSkills: HardAndSoftSkillsArray = finalObj.hardSkills;
 
-mainDb.forEach((job) => {
+mainDb.forEach((job, jobIndex) => {
     job.hardSkills.forEach((skill) => {
 
-        const skillLower = skill.toLowerCase();
+        const skillLower = skill.split('|')[0].trim().toLowerCase();
 
         // for skill to be NEW, it must NOT be part of any existing subNames
         const foundIndex = hardSkills.findIndex((hs) => hs.subNames.includes(skillLower));
@@ -70,14 +70,15 @@ mainDb.forEach((job) => {
 
             hardSkills[foundIndex].count += 1;
 
-        } else {
-            // throw new Error('new skill found: ' + skill);
+        } else if (!hardSkills[foundIndex]?.subNames) {
             hardSkills.push({
                 mainName: skillLower,
                 count: 1,
                 subNames: [skillLower]
             });
             
+        } else {
+            throw new Error('new skill found: ' + skillLower + ' in job index ' + JSON.stringify(mainDb[jobIndex]));
         }
     });
 });
