@@ -560,7 +560,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1761225600000,
+        dateCreated: 1763919427667,
         companyName: 'Canto',
         jobTitle: 'Senior Frontend Software Engineer',
         workMode: 'Hybrid',
@@ -606,7 +606,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1761225600000,
+        dateCreated: 1763919427667,
         companyName: 'Pragmatike',
         jobTitle: 'Senior/Lead Frontend Developer',
         workMode: 'Remote',
@@ -624,10 +624,14 @@ export default <JobEntry[]>[
             'SPA development',
             'Reusable UI components',
             'Object-Oriented JavaScript',
+            'Object-Oriented Programming',
             'Unit testing',
             'Performance optimization',
-            'UI testing (Selenium)',
-            'Front-end tooling (ESLint, Prettier)',
+            'UI testing',
+            'Selenium',
+            'Front-end tooling',
+            'ESLint',
+            'Prettier',
             'Responsive design',
             'Micro Frontend Applications'
         ],

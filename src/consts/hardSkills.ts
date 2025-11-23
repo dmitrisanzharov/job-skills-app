@@ -15,7 +15,7 @@ export const hardSkills: HardAndSoftSkillsArray = [
         subNames: ['react functional components', 'react functional component']
     },
     { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook'] },
-    { mainName: 'redux', count: 0, subNames: ['redux'] },
+    { mainName: 'redux', count: 0, subNames: ['redux', 'Redux.js'] },
     {
         mainName: 'state management tools',
         count: 0,
@@ -62,7 +62,14 @@ export const hardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'agile',
         count: 0,
-        subNames: ['agile methodologies', 'agile methodology', 'agile development', 'scrum', 'agile / scrum', 'Agile workflow']
+        subNames: [
+            'agile methodologies',
+            'agile methodology',
+            'agile development',
+            'scrum',
+            'agile / scrum',
+            'Agile workflow'
+        ]
     },
     { mainName: 'playwright', count: 0, subNames: ['playwright'] },
     { mainName: 'github copilot', count: 0, subNames: ['github copilot'] },
@@ -235,10 +242,18 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'collaboration with designers', count: 0, subNames: ['collaboration with designers'] },
     { mainName: 'collaboration with product managers', count: 0, subNames: ['collaboration with product managers'] },
     { mainName: 'react router', count: 0, subNames: ['react routing', 'react router'] },
-{ mainName: 'component composition', count: 0, subNames: ['component composition'] },
-{ mainName: 'mui', count: 0, subNames: ['mui', 'Material UI', 'Material UI (MUI)'] },
+    { mainName: 'component composition', count: 0, subNames: ['component composition'] },
+    { mainName: 'mui', count: 0, subNames: ['mui', 'Material UI', 'Material UI (MUI)'] },
+    { mainName: 'spa development', count: 0, subNames: ['spa development', 'single page application'] },
+    { mainName: 'reusable components', count: 0, subNames: ['reusable components', 'Reusable UI components'] },
+    { mainName: 'object-oriented javascript', count: 0, subNames: ['object-oriented javascript'] },
+    { mainName: 'ui testing', count: 0, subNames: ['ui testing'] },
+    { mainName: 'selenium', count: 0, subNames: ['selenium'] },
+    { mainName: 'front-end tooling', count: 0, subNames: ['front-end tooling'] },
+    { mainName: 'eslint', count: 0, subNames: ['eslint'] },
+    { mainName: 'prettier', count: 0, subNames: ['prettier'] },
+    { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] }
 
-
-
-
+    //
+    //
 ];
