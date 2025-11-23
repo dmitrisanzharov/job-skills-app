@@ -58,7 +58,11 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'github copilot', count: 0, subNames: ['github copilot'] },
     { mainName: 'claude code', count: 0, subNames: ['claude code'] },
     { mainName: 'cursor', count: 0, subNames: ['cursor'] },
-    { mainName: 'web performance', count: 0, subNames: ['web performance', 'performance optimization', 'Performance tooling', 'webpagetest'] },
+    {
+        mainName: 'web performance',
+        count: 0,
+        subNames: ['web performance', 'performance optimization', 'Performance tooling', 'webpagetest']
+    },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
     { mainName: 'storybook', count: 0, subNames: ['storybook'] },
     { mainName: 'monorepos', count: 0, subNames: ['monorepos'] },
@@ -75,7 +79,7 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'data-heavy interfaces', count: 0, subNames: ['data-heavy interfaces'] },
     { mainName: 'flutterflow', count: 0, subNames: ['flutterflow'] },
     { mainName: 'streamlit', count: 0, subNames: ['streamlit'] },
-    { mainName: 'svelte', count: 0, subNames: ['svelte', 'SvelteKit'] },
+    { mainName: 'svelte', count: 0, subNames: ['svelte', 'sveltekit'] },
     { mainName: 'component libraries', count: 0, subNames: ['component libraries'] },
     { mainName: 'theming', count: 0, subNames: ['tokens and theming', 'tokens', 'theming'] },
     { mainName: 'figma', count: 0, subNames: ['figma', 'Figma to production UI'] },
@@ -122,6 +126,5 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'webgl', count: 0, subNames: ['webgl'] },
     { mainName: 'canvas', count: 0, subNames: ['canvas'] },
     { mainName: 'svg', count: 0, subNames: ['svg'] },
-    { mainName: 'monitoring tools', count: 0, subNames: ['monitoring tools'] },
-
+    { mainName: 'monitoring tools', count: 0, subNames: ['monitoring tools'] }
 ];

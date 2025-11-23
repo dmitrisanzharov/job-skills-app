@@ -12,6 +12,7 @@ import Paper from '@mui/material/Paper';
 import { mainDbIteration } from './helpers/mainDbIteration';
 import mainDb from './mainDb';
 import mainDbMock1 from './helpers/__mocks__/mainDb.mock';
+import mainDbMockDuplicates from './helpers/__mocks__/mainDb.mock.duplicates';
 
 // REACT COMPONENT
 

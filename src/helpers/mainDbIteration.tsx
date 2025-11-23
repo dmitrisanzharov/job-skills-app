@@ -61,9 +61,7 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
     const hardSkills: HardAndSoftSkillsArray = finalObj.hardSkills;
 
     mainDb.forEach((job: JobEntry, jobIndex: number) => {
-
-        let duplicateManager: string[] = [];
-        console.log("duplicateManager: ", duplicateManager);
+        let duplicateCheckArray: string[] = [];
 
         job.hardSkills.forEach((skill) => {
             const firstPart = skill.split('|')[0].trim().toLowerCase();
@@ -75,15 +73,21 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
             );
             const isFoundInSubNames = foundIndex !== -1;
 
-            if (isFoundInSubNames && !duplicateManager.includes(firstPart)) {
-                // skill is a duplicate, so increase the count
-                hardSkills[foundIndex].count += 1;
-                duplicateManager.push(firstPart);
+            if (isFoundInSubNames) {
+                // what skill it found from hardSkills
+                const theHardSkillItemItFound = hardSkills[foundIndex];
+                duplicateCheckArray.push(theHardSkillItemItFound.mainName);
 
-                // if its a new variation on same skill, add to subNames
-                // i.e. secondPart must exist AND be different from firstPart
-                if (secondPart && secondPart !== firstPart) {
-                    hardSkills[foundIndex].subNames.push(secondPart);
+                // do NOT count if already counted for this job
+                const wasSkillAlreadyCountedForThisJob = duplicateCheckArray.filter(
+                    (item) => item === theHardSkillItemItFound.mainName
+                ).length;
+
+                if (wasSkillAlreadyCountedForThisJob === 1) {
+                    // skill found and not yet counted for this job
+                    hardSkills[foundIndex].count += 1;
+                } else {
+                    console.log(`Skill "${theHardSkillItemItFound.mainName}" was already counted for this job.`);
                 }
             }
 
