@@ -26,7 +26,7 @@ function SkillAnalysis() {
 
     const testIfWorkModeHasAllEntries = (finalObj.remote + finalObj.hybrid + finalObj.onSite) === totalJobEntries;
 
-    if (renderCount.current === 2) {
+    if (renderCount.current >= 2) {
         console.log('reloaded, cause too many renders');
         window.location.reload();
     }
@@ -34,6 +34,10 @@ function SkillAnalysis() {
     useEffect(() => {
         document.title = 'Skill Analysis';
     }, []);
+
+    if(!testIfWorkModeHasAllEntries){
+        throw new Error('DMITRIs CUSTOM ERROR: Work mode entry is missing from one of the jobs OR misspelled... find it and fix it!');
+    }
 
     return (
         <Box>
@@ -46,7 +50,6 @@ function SkillAnalysis() {
                 <li>Remote: {finalObj.remote} | {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%</li>
                 <li>Hybrid: {finalObj.hybrid} | {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%</li>
                 <li>On-site: {finalObj.onSite} | {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%</li>
-                {!testIfWorkModeHasAllEntries && <li style={{ color: 'red', fontWeight: 'bold' }}>Error, missing work mode</li>}
             </ul>
 
             {/* MAIN JSON */}
