@@ -1,0 +1,103 @@
+import { JobEntry } from '../types';
+import mainDb from '../mainDb.mock';
+
+type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
+
+type FinalObjType = {
+    totalJobEntries: number;
+    avgYearsOfExperience: number;
+
+    remote: number;
+    hybrid: number;
+    onSite: number;
+
+    hardSkills: HardAndSoftSkillsArray;
+    softSkills: HardAndSoftSkillsArray;
+};
+
+type FunctionReturn = {
+    finalObj: FinalObjType;
+    totalJobEntries: number;
+    avgYears: number;
+}
+
+export function mainDbIteration(): FunctionReturn {
+
+    let finalObj: FinalObjType = {
+        totalJobEntries: 0,
+        avgYearsOfExperience: 0,
+
+        remote: 0,
+        hybrid: 0,
+        onSite: 0,
+
+        hardSkills: [
+            { mainName: 'typescript', count: 0, subNames: ['typescript'] },
+            { mainName: 'html', count: 0, subNames: ['html', 'html5'] }
+        ],
+        softSkills: []
+    };
+
+    // Calculate total job entries
+    const totalJobEntries = mainDb.length;
+
+    // average years of experience
+    const totalYears = mainDb.reduce((acc, job) => acc + job.yearsOfExperience, 0);
+    const avgYears = totalYears / mainDb.length;
+    finalObj.avgYearsOfExperience = avgYears;
+
+    // work mode counts
+    let remote = 0;
+    let hybrid = 0;
+    let onSite = 0;
+
+    mainDb.forEach((job: JobEntry) => {
+        if (job.workMode === 'Remote') remote++;
+        else if (job.workMode === 'Hybrid') hybrid++;
+        else if (job.workMode === 'On-site') onSite++;
+    });
+
+    finalObj.remote = remote;
+    finalObj.hybrid = hybrid;
+    finalObj.onSite = onSite;
+
+    // Calculate hard skills
+    const hardSkills: HardAndSoftSkillsArray = finalObj.hardSkills;
+
+    mainDb.forEach((job: JobEntry, jobIndex: number) => {
+        job.hardSkills.forEach((skill) => {
+            const firstPart = skill.split('|')[0].trim().toLowerCase();
+            const secondPart = skill.split('|')[1]?.trim().toLowerCase();
+
+            // for skill to be NEW, it must NOT be part of any existing subNames
+            const foundIndex = hardSkills.findIndex((hs) => hs.subNames.includes(firstPart));
+            const isFoundInSubNames = foundIndex !== -1;
+
+            if (isFoundInSubNames) {
+                // skill is a duplicate, so increase the count
+                hardSkills[foundIndex].count += 1;
+
+                // if its a new variation on same skill, add to subNames
+                // i.e. secondPart must exist AND be different from firstPart
+                if (secondPart && secondPart !== firstPart) {
+                    hardSkills[foundIndex].subNames.push(secondPart);
+                }
+            }
+
+            // is it truly a new skill, i.e. secondPart does not exist and it is not found in any subNames
+            // here I have to manually add it to finalObj.hardSkills
+            if (!isFoundInSubNames && !secondPart) {
+                throw new Error(
+                    `New skill found without variation handling. Skill: ${skill} in job index: ${JSON.stringify(
+                        mainDb[jobIndex]
+                    )}`
+                );
+            }
+        });
+    });
+
+
+
+    // final returns
+    return { finalObj, totalJobEntries, avgYears };
+}
