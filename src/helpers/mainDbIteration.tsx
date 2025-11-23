@@ -61,6 +61,10 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
     const hardSkills: HardAndSoftSkillsArray = finalObj.hardSkills;
 
     mainDb.forEach((job: JobEntry, jobIndex: number) => {
+
+        let duplicateManager: string[] = [];
+        console.log("duplicateManager: ", duplicateManager);
+
         job.hardSkills.forEach((skill) => {
             const firstPart = skill.split('|')[0].trim().toLowerCase();
             const secondPart = skill.split('|')[1]?.trim().toLowerCase();
@@ -71,9 +75,10 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
             );
             const isFoundInSubNames = foundIndex !== -1;
 
-            if (isFoundInSubNames) {
+            if (isFoundInSubNames && !duplicateManager.includes(firstPart)) {
                 // skill is a duplicate, so increase the count
                 hardSkills[foundIndex].count += 1;
+                duplicateManager.push(firstPart);
 
                 // if its a new variation on same skill, add to subNames
                 // i.e. secondPart must exist AND be different from firstPart
