@@ -4,7 +4,6 @@ import mainDb from './mainDb';
 
 // MUI
 import Box from '@mui/material/Box';
-import { json } from 'stream/consumers';
 
 type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
 
@@ -28,7 +27,10 @@ let finalObj: FinalObjType = {
     hybrid: 0,
     onSite: 0,
 
-    hardSkills: [],
+    hardSkills: [
+        { mainName: 'typescript', count: 0, subNames: ['typescript'] },
+        { mainName: 'html', count: 0, subNames: ['html', 'html5'] }
+    ],
     softSkills: []
 };
 
@@ -60,38 +62,31 @@ const hardSkills: HardAndSoftSkillsArray = finalObj.hardSkills;
 
 mainDb.forEach((job, jobIndex) => {
     job.hardSkills.forEach((skill) => {
-
-        const splitTheString = skill.split('|');
-        console.log("splitTheString: ", splitTheString);
-        const skillLower = skill.split('|')[0].trim().toLowerCase();
-        console.log("skillLower: ", skillLower);
+        const firstPart = skill.split('|')[0].trim().toLowerCase();
+        console.log('firstPart: ', firstPart);
         const secondPart = skill.split('|')[1]?.trim().toLowerCase();
-        console.log("secondPart: ", secondPart);
+        console.log('secondPart: ', secondPart);
 
         // for skill to be NEW, it must NOT be part of any existing subNames
-        const foundIndex = hardSkills.findIndex((hs) => hs.subNames.includes(skillLower));
-        console.log("foundIndex: ", foundIndex);
+        const foundIndex = hardSkills.findIndex((hs) => hs.subNames.includes(firstPart));
+        const isFoundInSubNames = foundIndex !== -1;
+        console.log('foundIndex: ', foundIndex);
 
-        if (foundIndex !== -1) {
-
+        if (isFoundInSubNames) {
             // skill is a duplicate, so increase the count
             hardSkills[foundIndex].count += 1;
 
-
-            if (secondPart){
+            // if its a new variation on same skill, add to subNames
+            // i.e. secondPart must exist AND be different from firstPart
+            if (secondPart && secondPart !== firstPart) {
                 hardSkills[foundIndex].subNames.push(secondPart);
             }
-            
+        }
 
-        } else if (!hardSkills[foundIndex]?.subNames) {
-            hardSkills.push({
-                mainName: skillLower,
-                count: 1,
-                subNames: [skillLower]
-            });
-            
-        } else {
-            throw new Error('new skill found: ' + skillLower + ' in job index ' + JSON.stringify(mainDb[jobIndex]));
+        // is it truly a new skill, i.e. secondPart does not exist and it is not found in any subNames
+        // here I have to manually add it to finalObj.hardSkills
+        if (!isFoundInSubNames && !secondPart) {
+            throw new Error(`New skill found without variation handling. Skill: ${skill} in job index: ${JSON.stringify(mainDb[jobIndex])}`);
         }
     });
 });

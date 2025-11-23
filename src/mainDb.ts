@@ -40,5 +40,25 @@ export default <JobEntry[]>[
         educationRequiredString: '',
         hardSkills: ['typescript | type script'],
         softSkills: []
+    },
+        {
+        dateCreated: 1763830363,
+        companyName: 'Foo',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 5,
+        educationRequiredString: '',
+        hardSkills: ['html'],
+        softSkills: []
+    },
+        {
+        dateCreated: 1763830363,
+        companyName: 'Foo',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 5,
+        educationRequiredString: '',
+        hardSkills: ['html5'],
+        softSkills: []
     }
 ];
