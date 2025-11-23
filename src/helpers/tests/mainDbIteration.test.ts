@@ -1,6 +1,6 @@
-import { mainDbIteration } from './mainDbIteration';
-import dbMock1 from './__mocks__/mainDb.mock';
-import dbMock2 from './__mocks__/mainDb.mock2';
+import { mainDbIteration } from '../mainDbIteration';
+import dbMock1 from '../__mocks__/mainDb.mock';
+import dbMock2 from '../__mocks__/mainDb.mock2';
 
 describe('mainDbIteration()', () => {
     it('should correctly process job entries', () => {

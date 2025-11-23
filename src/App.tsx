@@ -22,6 +22,7 @@ function App() {
     console.log('render count', renderCount.current);
 
     const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
+    console.log("finalObj: ", finalObj);
     const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > 0).sort((a, b) => b.count - a.count);
 
     if (renderCount.current === 2) {
