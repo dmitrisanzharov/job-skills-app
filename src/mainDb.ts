@@ -1,6 +1,6 @@
 import { JobEntry } from './types';
 
-export default <JobEntry[]> [
+export default <JobEntry[]>[
     {
         dateCreated: 1763830348,
         companyName: 'Deel',
@@ -79,6 +79,47 @@ export default <JobEntry[]> [
             'Usability focus',
             'Code quality advocacy',
             'Keeping up with new technologies'
+        ]
+    },
+    {
+        dateCreated: 1763830348,
+        companyName: 'Zinkworks',
+        jobTitle: 'Senior React UI Developer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 5,
+        educationRequiredString: '',
+        hardSkills: [
+            'React.js',
+            'React Class Components',
+            'React Functional Components',
+            'React Hooks',
+            'HTML',
+            'CSS',
+            'Frontend architecture',
+            'Performance optimization',
+            'Accessibility',
+            'Git',
+            'Agile development',
+            'Jira',
+            'Confluence',
+            'UI/UX design without UX support',
+            'Data-heavy interfaces',
+            'Docker',
+            'CI/CD pipelines',
+            'FlutterFlow',
+            'Streamlit'
+        ],
+        softSkills: [
+            'Ownership',
+            'Autonomy',
+            'Collaboration',
+            'Communication',
+            'Problem-solving',
+            'Teamwork',
+            'Adaptability',
+            'High performance mindset',
+            'Decision-making',
+            'Working in distributed teams'
         ]
     }
 ];

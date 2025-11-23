@@ -16,7 +16,17 @@ import mainDbMock1 from './helpers/__mocks__/mainDb.mock';
 // REACT COMPONENT
 
 function App() {
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDbMock1);
+    const renderCount = React.useRef(0);
+    renderCount.current += 1;
+    console.log('render count', renderCount.current);
+
+    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
+    const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > 0);
+
+    if (renderCount.current === 2) {
+        console.log('reloaded, cause too many renders');
+        window.location.reload();
+    }
 
     return (
         <Box>
@@ -50,7 +60,7 @@ function App() {
                     </TableHead>
 
                     <TableBody>
-                        {finalObj.hardSkills.map((skill, index) => {
+                        {hardSkillsFinal.map((skill, index) => {
                             const skillCount = skill.count;
 
                             return (

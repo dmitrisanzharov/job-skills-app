@@ -19,10 +19,9 @@ type FunctionReturn = {
     finalObj: FinalObjType;
     totalJobEntries: number;
     avgYears: number;
-}
+};
 
 export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
-
     let finalObj: FinalObjType = {
         totalJobEntries: 0,
         avgYearsOfExperience: 0,
@@ -67,7 +66,9 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
             const secondPart = skill.split('|')[1]?.trim().toLowerCase();
 
             // for skill to be NEW, it must NOT be part of any existing subNames
-            const foundIndex = hardSkills.findIndex((hs) => hs.subNames.includes(firstPart));
+            const foundIndex = hardSkills.findIndex((hs) =>
+                hs.subNames.some((sub) => sub.toLowerCase() === firstPart.toLowerCase())
+            );
             const isFoundInSubNames = foundIndex !== -1;
 
             if (isFoundInSubNames) {
@@ -76,24 +77,20 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
 
                 // if its a new variation on same skill, add to subNames
                 // i.e. secondPart must exist AND be different from firstPart
-                if (secondPart && (secondPart !== firstPart)) {
+                if (secondPart && secondPart !== firstPart) {
                     hardSkills[foundIndex].subNames.push(secondPart);
-                } 
+                }
             }
 
             // is it truly a new skill, i.e. secondPart does not exist and it is not found in any subNames
             // here I have to manually add it to finalObj.hardSkills
             if (!isFoundInSubNames && !secondPart) {
                 throw new Error(
-                    `Company Name: ${job.companyName}, Job Skill: ${skill}, Object: ${JSON.stringify(
-                        mainDb[jobIndex]
-                    )}`
+                    `Company Name: ${job.companyName}, Job Skill: ${skill}, Object: ${JSON.stringify(mainDb[jobIndex])}`
                 );
             }
         });
     });
-
-
 
     // final returns
     return { finalObj, totalJobEntries, avgYears };
