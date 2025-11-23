@@ -20,7 +20,7 @@ type FunctionReturn = {
     avgYears: number;
 }
 
-export function mainDbIteration(mainDb): FunctionReturn {
+export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
 
     let finalObj: FinalObjType = {
         totalJobEntries: 0,

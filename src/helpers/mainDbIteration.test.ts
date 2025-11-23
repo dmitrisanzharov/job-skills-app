@@ -1,9 +1,8 @@
 import { mainDbIteration } from './mainDbIteration';
 import dbMock1 from './__mocks__/mainDb.mock';
-
+import dbMock2 from './__mocks__/mainDb.mock2';
 
 describe('mainDbIteration()', () => {
-
     it('should correctly process job entries', () => {
         const { finalObj, totalJobEntries, avgYears } = mainDbIteration(dbMock1);
 
@@ -22,8 +21,8 @@ describe('mainDbIteration()', () => {
         expect(finalObj.onSite).toBe(0);
 
         // --- hard skills
-        const tsSkill = finalObj.hardSkills.find(h => h.mainName === 'typescript');
-        const htmlSkill = finalObj.hardSkills.find(h => h.mainName === 'html');
+        const tsSkill = finalObj.hardSkills.find((h) => h.mainName === 'typescript');
+        const htmlSkill = finalObj.hardSkills.find((h) => h.mainName === 'html');
 
         expect(tsSkill).toBeDefined();
         expect(htmlSkill).toBeDefined();
@@ -31,29 +30,17 @@ describe('mainDbIteration()', () => {
         // @ts-ignore
         expect(tsSkill.count).toBe(4);
         // @ts-ignore
-        expect(tsSkill.subNames.sort()).toEqual(
-            ['typescript', 'typescript.js', 'type script'].sort()
-        );
+        expect(tsSkill.subNames.sort()).toEqual(['typescript', 'typescript.js', 'type script'].sort());
 
         // @ts-ignore
         expect(htmlSkill.count).toBe(2);
         // @ts-ignore
-        expect(htmlSkill.subNames.sort()).toEqual(
-            ['html', 'html5'].sort()
-        );
+        expect(htmlSkill.subNames.sort()).toEqual(['html', 'html5'].sort());
     });
 
-    // it('should throw an error for a new skill without secondPart variation', () => {
-    //     // Mock the database used inside mainDbIteration
-    //     jest.doMock('./mainDb', () => ({
-    //         __esModule: true,
-    //         default: newSkillDb
-    //     }));
-
-    //     const { mainDbIteration: freshFn } = require('./mainDbIteration');
-
-    //     expect(() => {
-    //         freshFn();
-    //     }).toThrowError(/New skill found without variation handling/i);
-    // });
+    it('should throw an error for a new skill without secondPart variation', () => {
+        expect(() => {
+            mainDbIteration(dbMock2);
+        }).toThrow(/New skill found without variation handling/i);
+    });
 });

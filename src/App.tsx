@@ -1,6 +1,14 @@
 import React from 'react';
 // MUI
 import Box from '@mui/material/Box';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+//
 import { mainDbIteration } from './helpers/mainDbIteration';
 import mainDb from './helpers/__mocks__/mainDb.mock';
 
@@ -17,13 +25,34 @@ function App() {
             <p>Total Job Entries: {totalJobEntries}</p>
             <p>Average Years of Experience: {avgYears.toFixed(2)}</p>
             <ul>
-                <li>Remote: {(finalObj.remote / totalJobEntries) * 100}%</li>
-                <li>Hybrid: {(finalObj.hybrid / totalJobEntries) * 100}%</li>
-                <li>On-site: {(finalObj.onSite / totalJobEntries) * 100}%</li>
+                <li>Remote: {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%</li>
+                <li>Hybrid: {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%</li>
+                <li>On-site: {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%</li>
             </ul>
 
             <h2>Hard skills</h2>
-            <p>{JSON.stringify(finalObj.hardSkills)}</p>
+                    <TableContainer component={Paper}>
+            <Table>
+                <TableHead>
+                    <TableRow>
+                        <TableCell><strong>Skill</strong></TableCell>
+                        <TableCell><strong>Demand (%)</strong></TableCell>
+                        <TableCell><strong>Count</strong></TableCell>
+                    </TableRow>
+                </TableHead>
+
+                <TableBody>
+                    {finalObj.hardSkills.map((skill, index) => (
+                        <TableRow key={index}>
+                            <TableCell>{skill.mainName}</TableCell>
+                            <TableCell>{(skill.count / totalJobEntries * 100).toFixed(0)}%</TableCell>
+                            <TableCell>{skill.count}</TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+        </TableContainer>
+
         </Box>
     );
 }
