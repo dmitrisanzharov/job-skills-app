@@ -1,7 +1,7 @@
 import { JobEntry } from '../types';
 import { hardSkills as initialHardSkills } from '../consts/hardSkills';
 
-export type HardAndSoftSkillsArray = { mainName: string; subNames: string[] }[];
+export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
 
 type FinalObjType = {
     totalJobEntries: number;
@@ -72,14 +72,13 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
 
             if (isFoundInSubNames) {
                 // skill is a duplicate, so increase the count
+                hardSkills[foundIndex].count += 1;
 
                 // if its a new variation on same skill, add to subNames
                 // i.e. secondPart must exist AND be different from firstPart
-                if (secondPart && secondPart !== firstPart) {
+                if (secondPart && (secondPart !== firstPart)) {
                     hardSkills[foundIndex].subNames.push(secondPart);
-                } else {
-                    hardSkills[foundIndex].subNames.push(firstPart);
-                }
+                } 
             }
 
             // is it truly a new skill, i.e. secondPart does not exist and it is not found in any subNames

@@ -11,11 +11,12 @@ import Paper from '@mui/material/Paper';
 //
 import { mainDbIteration } from './helpers/mainDbIteration';
 import mainDb from './mainDb';
+import mainDbMock1 from './helpers/__mocks__/mainDb.mock';
 
 // REACT COMPONENT
 
 function App() {
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
+    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDbMock1);
 
     return (
         <Box>
@@ -27,6 +28,9 @@ function App() {
                 <li>Hybrid: {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%</li>
                 <li>On-site: {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%</li>
             </ul>
+
+            {/* MAIN JSON */}
+            {/* <h3>{JSON.stringify(finalObj.hardSkills, null, 2)}</h3> */}
 
             <h2>Hard skills</h2>
             <TableContainer component={Paper}>
@@ -47,8 +51,7 @@ function App() {
 
                     <TableBody>
                         {finalObj.hardSkills.map((skill, index) => {
-
-                            const skillCount = skill.subNames.length;
+                            const skillCount = skill.count;
 
                             return (
                                 <TableRow key={index}>

@@ -2,7 +2,7 @@ import { JobEntry } from '../../types';
 
 export default <JobEntry[]>[
     {
-        dateCreated: 1763830348,
+        dateCreated: 1,
         companyName: 'Deel',
         jobTitle: 'Senior Frontend Engineer, React.js',
         workMode: 'Remote',
@@ -12,7 +12,7 @@ export default <JobEntry[]>[
         softSkills: []
     },
     {
-        dateCreated: 1763830363,
+        dateCreated: 2,
         companyName: 'Distilled (DoneDeal / Adverts)',
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
@@ -22,7 +22,7 @@ export default <JobEntry[]>[
         softSkills: []
     },
     {
-        dateCreated: 1763830363,
+        dateCreated: 3,
         companyName: 'Foo',
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
@@ -32,7 +32,7 @@ export default <JobEntry[]>[
         softSkills: []
     },
     {
-        dateCreated: 1763830363,
+        dateCreated: 4,
         companyName: 'Foo',
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
@@ -42,7 +42,7 @@ export default <JobEntry[]>[
         softSkills: []
     },
     {
-        dateCreated: 1763830363,
+        dateCreated: 5,
         companyName: 'Foo',
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
@@ -52,7 +52,7 @@ export default <JobEntry[]>[
         softSkills: []
     },
     {
-        dateCreated: 1763830363,
+        dateCreated: 6,
         companyName: 'Foo',
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',

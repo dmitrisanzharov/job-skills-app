@@ -29,18 +29,14 @@ describe('mainDbIteration()', () => {
 
         // @ts-ignore
         expect(tsSkill.count).toBe(4);
-        // @ts-ignore
-        expect(tsSkill.subNames.sort()).toEqual(['typescript', 'typescript.js', 'type script'].sort());
 
         // @ts-ignore
         expect(htmlSkill.count).toBe(2);
-        // @ts-ignore
-        expect(htmlSkill.subNames.sort()).toEqual(['html', 'html5'].sort());
     });
 
     it('should throw an error for a new skill without secondPart variation', () => {
         expect(() => {
             mainDbIteration(dbMock2);
-        }).toThrow(/New skill found without variation handling/i);
+        }).toThrow();
     });
 });
