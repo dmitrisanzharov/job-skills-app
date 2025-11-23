@@ -46,7 +46,7 @@ function SkillAnalysis() {
             {/* MAIN JSON */}
             {/* <h3>{JSON.stringify(finalObj.hardSkills, null, 2)}</h3> */}
 
-            <h2>Hard skills {'<= 20%'}</h2>
+            <h2>Hard skills {'>= 20%'}</h2>
             <TableContainer component={Paper}>
                 <Table>
                     <TableHead>

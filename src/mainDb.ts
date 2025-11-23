@@ -558,5 +558,52 @@ export default <JobEntry[]>[
             'Cross-disciplinary communication',
             'Inclusive mindset'
         ]
-    }
+    },
+    {
+    dateCreated: 1761225600000,
+    companyName: 'Canto',
+    jobTitle: 'Senior Frontend Software Engineer',
+    workMode: 'Hybrid',
+    yearsOfExperience: 5,
+    bachelorDegree: false,
+    mastersDegree: false,
+    hardSkills: [
+        'React.js',
+        'React Hooks',
+        'React Context',
+        'React Routing',
+        'Component composition',
+        'TypeScript',
+        'JavaScript (ES6+)',
+        'HTML',
+        'CSS',
+        'Tailwind CSS',
+        'Material UI (MUI)',
+        'TanStack Query',
+        'Figma',
+        'WCAG accessibility',
+        'Frontend performance optimization',
+        'Unit testing',
+        'Jest',
+        'React Testing Library',
+        'Integration testing',
+        'Component testing',
+        'Playwright',
+        'CI/CD practices',
+        'Agile workflow'
+    ],
+    softSkills: [
+        'Problem-solving',
+        'Collaboration',
+        'Communication',
+        'Mentorship',
+        'Teamwork',
+        'Attention to detail',
+        'Autonomy',
+        'Creativity',
+        'Adaptability',
+        'Proactive learning'
+    ]
+}
+
 ];

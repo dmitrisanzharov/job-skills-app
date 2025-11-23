@@ -57,12 +57,12 @@ export const hardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'ci/cd',
         count: 0,
-        subNames: ['ci/cd', 'continuous integration', 'continuous deployment', 'CI/CD pipelines']
+        subNames: ['ci/cd', 'continuous integration', 'continuous deployment', 'CI/CD pipelines', 'CI/CD practices']
     },
     {
         mainName: 'agile',
         count: 0,
-        subNames: ['agile methodologies', 'agile methodology', 'agile development', 'scrum', 'agile / scrum']
+        subNames: ['agile methodologies', 'agile methodology', 'agile development', 'scrum', 'agile / scrum', 'Agile workflow']
     },
     { mainName: 'playwright', count: 0, subNames: ['playwright'] },
     { mainName: 'github copilot', count: 0, subNames: ['github copilot'] },
@@ -76,14 +76,15 @@ export const hardSkills: HardAndSoftSkillsArray = [
             'performance optimization',
             'Performance tooling',
             'webpagetest',
-            'Web performance optimization'
+            'Web performance optimization',
+            'Frontend performance optimization'
         ]
     },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
     { mainName: 'storybook', count: 0, subNames: ['storybook'] },
     { mainName: 'monorepos', count: 0, subNames: ['monorepos'] },
     { mainName: 'design systems', count: 0, subNames: ['design systems'] },
-    { mainName: 'accessibility', count: 0, subNames: ['accessibility'] },
+    { mainName: 'accessibility', count: 0, subNames: ['accessibility', 'WCAG accessibility'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
     { mainName: 'testing', count: 0, subNames: ['testing'] },
     { mainName: 'frontend architecture', count: 0, subNames: ['frontend architecture'] },
@@ -232,5 +233,12 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'internationalization', count: 0, subNames: ['internationalization'] },
     { mainName: 'translation workflows', count: 0, subNames: ['translation workflows'] },
     { mainName: 'collaboration with designers', count: 0, subNames: ['collaboration with designers'] },
-    { mainName: 'collaboration with product managers', count: 0, subNames: ['collaboration with product managers'] }
+    { mainName: 'collaboration with product managers', count: 0, subNames: ['collaboration with product managers'] },
+    { mainName: 'react router', count: 0, subNames: ['react routing', 'react router'] },
+{ mainName: 'component composition', count: 0, subNames: ['component composition'] },
+{ mainName: 'mui', count: 0, subNames: ['mui', 'Material UI', 'Material UI (MUI)'] },
+
+
+
+
 ];
