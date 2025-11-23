@@ -28,7 +28,11 @@ export const hardSkills: HardAndSoftSkillsArray = [
             'State management libraries'
         ]
     },
-    { mainName: 'SaaS experience', count: 0, subNames: ['SaaS experience', 'saas experience', 'saas product development'] },
+    {
+        mainName: 'SaaS experience',
+        count: 0,
+        subNames: ['SaaS experience', 'saas experience', 'saas product development']
+    },
     { mainName: 'cloud platforms', count: 0, subNames: ['cloud platforms', 'Cloud services'] },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
@@ -55,7 +59,11 @@ export const hardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['ci/cd', 'continuous integration', 'continuous deployment', 'CI/CD pipelines']
     },
-    { mainName: 'agile', count: 0, subNames: ['agile methodologies', 'agile methodology', 'agile development'] },
+    {
+        mainName: 'agile',
+        count: 0,
+        subNames: ['agile methodologies', 'agile methodology', 'agile development', 'scrum', 'agile / scrum']
+    },
     { mainName: 'playwright', count: 0, subNames: ['playwright'] },
     { mainName: 'github copilot', count: 0, subNames: ['github copilot'] },
     { mainName: 'claude code', count: 0, subNames: ['claude code'] },
@@ -167,19 +175,57 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'frontend-backend integration', count: 0, subNames: ['frontend-backend integration'] },
     { mainName: 'unit testing', count: 0, subNames: ['unit testing'] },
     { mainName: 'integration testing', count: 0, subNames: ['integration testing'] },
-    { mainName: 'react testing library', count: 0, subNames: ['react testing library'] },
+    {
+        mainName: 'react testing library',
+        count: 0,
+        subNames: ['react testing library', 'Component/integration testing (React Testing Library)']
+    },
     { mainName: 'grpc', count: 0, subNames: ['grpc'] },
     { mainName: 'backend technologies', count: 0, subNames: ['backend technologies'] },
     { mainName: 'backend databases', count: 0, subNames: ['backend databases'] },
     { mainName: 'modular component design', count: 0, subNames: ['modular component design'] },
-{ mainName: 'localization', count: 0, subNames: ['localization'] },
-{ mainName: 'build tooling', count: 0, subNames: ['build tooling'] },
-{ mainName: 'observability', count: 0, subNames: ['observability'] },
-{ mainName: 'code review', count: 0, subNames: ['code review', 'code reviews'] },
-{ mainName: 'design documentation', count: 0, subNames: ['design documentation'] },
-{ mainName: 'technical mentoring', count: 0, subNames: ['technical mentoring'] },
-{ mainName: 'reliability best practices', count: 0, subNames: ['reliability best practices'] },
-
-
-
+    { mainName: 'localization', count: 0, subNames: ['localization'] },
+    { mainName: 'build tooling', count: 0, subNames: ['build tooling'] },
+    { mainName: 'observability', count: 0, subNames: ['observability'] },
+    { mainName: 'code review', count: 0, subNames: ['code review', 'code reviews'] },
+    { mainName: 'design documentation', count: 0, subNames: ['design documentation'] },
+    { mainName: 'technical mentoring', count: 0, subNames: ['technical mentoring'] },
+    { mainName: 'reliability best practices', count: 0, subNames: ['reliability best practices'] },
+    { mainName: 'test-driven development', count: 0, subNames: ['test-driven development'] },
+    {
+        mainName: 'object-oriented programming',
+        count: 0,
+        subNames: ['object-oriented programming', 'Object-Oriented Programming (OOP)', 'OOP']
+    },
+    { mainName: 'solid principles', count: 0, subNames: ['solid principles'] },
+    { mainName: 'dry principles', count: 0, subNames: ['dry principles'] },
+    { mainName: 'software design principles', count: 0, subNames: ['software design principles'] },
+    {
+        mainName: 'software development life cycle',
+        count: 0,
+        subNames: ['software development life cycle (sdlc)', 'software development life cycle', 'sdlc']
+    },
+    { mainName: 'c++', count: 0, subNames: ['c++'] },
+    { mainName: 'c#', count: 0, subNames: ['c#'] },
+    { mainName: '.net', count: 0, subNames: ['.net'] },
+    { mainName: 'azure devops', count: 0, subNames: ['azure devops'] },
+    { mainName: 'backlog management', count: 0, subNames: ['backlog management'] },
+    { mainName: 'team foundation server', count: 0, subNames: ['team foundation server', 'tfs'] },
+    { mainName: 'activex data objects', count: 0, subNames: ['activex data objects', 'ado'] },
+    { mainName: 'software design diagrams', count: 0, subNames: ['software design diagrams'] },
+    {
+        mainName: 'mathematical foundations',
+        count: 0,
+        subNames: ['mathematical foundations (geometry, trigonometry)', 'geometry', 'trigonometry']
+    },
+    { mainName: 'infrastructure software knowledge', count: 0, subNames: ['infrastructure software knowledge'] },
+    { mainName: 'react context', count: 0, subNames: ['react context'] },
+    { mainName: 'react suspense', count: 0, subNames: ['react suspense'] },
+    { mainName: 'concurrent react features', count: 0, subNames: ['concurrent react features'] },
+    { mainName: 'tanstack query', count: 0, subNames: ['tanstack query'] },
+    { mainName: 'graphql', count: 0, subNames: ['graphql', 'GraphQL (queries, mutations, caching, fragments)'] },
+    { mainName: 'vitest', count: 0, subNames: ['vitest'] },
+    { mainName: 'component testing', count: 0, subNames: ['component testing'] },
+    { mainName: 'e2e testing', count: 0, subNames: ['e2e testing'] },
+    { mainName: 'modern frontend patterns', count: 0, subNames: ['modern frontend patterns'] }
 ];

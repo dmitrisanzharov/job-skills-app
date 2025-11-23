@@ -23,7 +23,7 @@ function App() {
 
     const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
     console.log('finalObj: ', finalObj);
-    const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > 0).sort((a, b) => b.count - a.count);
+    const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > (totalJobEntries * 0.2)).sort((a, b) => b.count - a.count);
 
     if (renderCount.current === 2) {
         console.log('reloaded, cause too many renders');
@@ -46,7 +46,7 @@ function App() {
             {/* MAIN JSON */}
             {/* <h3>{JSON.stringify(finalObj.hardSkills, null, 2)}</h3> */}
 
-            <h2>Hard skills</h2>
+            <h2>Hard skills {'<= 20%'}</h2>
             <TableContainer component={Paper}>
                 <Table>
                     <TableHead>
