@@ -7,7 +7,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer, React.js',
         workMode: 'Remote',
         yearsOfExperience: 8,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'TypeScript',
             'React.js',
@@ -44,7 +45,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
         yearsOfExperience: 6,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'HTML',
             'CSS',
@@ -87,7 +89,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior React UI Developer',
         workMode: 'Hybrid',
         yearsOfExperience: 5,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'React.js',
             'React Class Components',
@@ -128,7 +131,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Remote',
         yearsOfExperience: 5,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'React.js',
             'Next.js',

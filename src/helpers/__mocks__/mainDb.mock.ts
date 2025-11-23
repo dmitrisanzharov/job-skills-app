@@ -7,7 +7,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer, React.js',
         workMode: 'Remote',
         yearsOfExperience: 8,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: ['TypeScript'],
         softSkills: []
     },
@@ -17,7 +18,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
         yearsOfExperience: 6,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: ['typescript | typescript.js'],
         softSkills: []
     },
@@ -27,7 +29,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
         yearsOfExperience: 5,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: ['typescript'],
         softSkills: []
     },
@@ -37,7 +40,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
         yearsOfExperience: 5,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: ['typescript | type script'],
         softSkills: []
     },
@@ -47,7 +51,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
         yearsOfExperience: 5,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: ['html'],
         softSkills: []
     },
@@ -57,7 +62,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
         yearsOfExperience: 5,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: ['html5'],
         softSkills: []
     }
