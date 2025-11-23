@@ -1,7 +1,7 @@
 import { JobEntry } from '../types';
 import { hardSkills as initialHardSkills } from '../consts/hardSkills';
 
-export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
+export type HardAndSoftSkillsArray = { mainName: string; subNames: string[] }[];
 
 type FinalObjType = {
     totalJobEntries: number;
@@ -72,12 +72,13 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
 
             if (isFoundInSubNames) {
                 // skill is a duplicate, so increase the count
-                hardSkills[foundIndex].count += 1;
 
                 // if its a new variation on same skill, add to subNames
                 // i.e. secondPart must exist AND be different from firstPart
                 if (secondPart && secondPart !== firstPart) {
                     hardSkills[foundIndex].subNames.push(secondPart);
+                } else {
+                    hardSkills[foundIndex].subNames.push(firstPart);
                 }
             }
 
@@ -85,7 +86,7 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
             // here I have to manually add it to finalObj.hardSkills
             if (!isFoundInSubNames && !secondPart) {
                 throw new Error(
-                    `New skill found without variation handling. Skill: ${skill} in job index: ${JSON.stringify(
+                    `Company Name: ${job.companyName}, Job Skill: ${skill}, Object: ${JSON.stringify(
                         mainDb[jobIndex]
                     )}`
                 );

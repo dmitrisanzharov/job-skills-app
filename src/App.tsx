@@ -12,11 +12,9 @@ import Paper from '@mui/material/Paper';
 import { mainDbIteration } from './helpers/mainDbIteration';
 import mainDb from './mainDb';
 
-
 // REACT COMPONENT
 
 function App() {
-    
     const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
 
     return (
@@ -31,28 +29,38 @@ function App() {
             </ul>
 
             <h2>Hard skills</h2>
-                    <TableContainer component={Paper}>
-            <Table>
-                <TableHead>
-                    <TableRow>
-                        <TableCell><strong>Skill</strong></TableCell>
-                        <TableCell><strong>Demand (%)</strong></TableCell>
-                        <TableCell><strong>Count</strong></TableCell>
-                    </TableRow>
-                </TableHead>
-
-                <TableBody>
-                    {finalObj.hardSkills.map((skill, index) => (
-                        <TableRow key={index}>
-                            <TableCell>{skill.mainName}</TableCell>
-                            <TableCell>{(skill.count / totalJobEntries * 100).toFixed(0)}%</TableCell>
-                            <TableCell>{skill.count}</TableCell>
+            <TableContainer component={Paper}>
+                <Table>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>
+                                <strong>Skill</strong>
+                            </TableCell>
+                            <TableCell>
+                                <strong>Demand (%)</strong>
+                            </TableCell>
+                            <TableCell>
+                                <strong>Count</strong>
+                            </TableCell>
                         </TableRow>
-                    ))}
-                </TableBody>
-            </Table>
-        </TableContainer>
+                    </TableHead>
 
+                    <TableBody>
+                        {finalObj.hardSkills.map((skill, index) => {
+
+                            const skillCount = skill.subNames.length;
+
+                            return (
+                                <TableRow key={index}>
+                                    <TableCell>{skill.mainName}</TableCell>
+                                    <TableCell>{((skillCount / totalJobEntries) * 100).toFixed(0)}%</TableCell>
+                                    <TableCell>{skillCount}</TableCell>
+                                </TableRow>
+                            );
+                        })}
+                    </TableBody>
+                </Table>
+            </TableContainer>
         </Box>
     );
 }
