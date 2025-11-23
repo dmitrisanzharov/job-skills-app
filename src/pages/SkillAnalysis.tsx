@@ -24,6 +24,8 @@ function SkillAnalysis() {
     const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
     const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > (totalJobEntries * 0.2)).sort((a, b) => b.count - a.count);
 
+    const testIfWorkModeHasAllEntries = (finalObj.remote + finalObj.hybrid + finalObj.onSite) === totalJobEntries;
+
     if (renderCount.current === 2) {
         console.log('reloaded, cause too many renders');
         window.location.reload();
@@ -44,6 +46,7 @@ function SkillAnalysis() {
                 <li>Remote: {finalObj.remote} | {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%</li>
                 <li>Hybrid: {finalObj.hybrid} | {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%</li>
                 <li>On-site: {finalObj.onSite} | {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%</li>
+                {!testIfWorkModeHasAllEntries && <li style={{ color: 'red', fontWeight: 'bold' }}>Error, missing work mode</li>}
             </ul>
 
             {/* MAIN JSON */}

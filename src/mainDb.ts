@@ -652,7 +652,7 @@ export default <JobEntry[]>[
         dateCreated: 1763919427667,
         companyName: 'BrainRocket',
         jobTitle: 'Senior Angular Developer',
-        workMode: 'On-site (Valencia, Spain)',
+        workMode: 'On-site',
         yearsOfExperience: 5,
         bachelorDegree: false,
         mastersDegree: false,
