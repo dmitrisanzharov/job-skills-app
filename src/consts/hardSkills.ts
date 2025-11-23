@@ -28,7 +28,7 @@ export const hardSkills: HardAndSoftSkillsArray = [
             'State management libraries'
         ]
     },
-    { mainName: 'SaaS experience', count: 0, subNames: ['SaaS experience', 'saas experience'] },
+    { mainName: 'SaaS experience', count: 0, subNames: ['SaaS experience', 'saas experience', 'saas product development'] },
     { mainName: 'cloud platforms', count: 0, subNames: ['cloud platforms', 'Cloud services'] },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
@@ -172,5 +172,14 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'backend technologies', count: 0, subNames: ['backend technologies'] },
     { mainName: 'backend databases', count: 0, subNames: ['backend databases'] },
     { mainName: 'modular component design', count: 0, subNames: ['modular component design'] },
+{ mainName: 'localization', count: 0, subNames: ['localization'] },
+{ mainName: 'build tooling', count: 0, subNames: ['build tooling'] },
+{ mainName: 'observability', count: 0, subNames: ['observability'] },
+{ mainName: 'code review', count: 0, subNames: ['code review', 'code reviews'] },
+{ mainName: 'design documentation', count: 0, subNames: ['design documentation'] },
+{ mainName: 'technical mentoring', count: 0, subNames: ['technical mentoring'] },
+{ mainName: 'reliability best practices', count: 0, subNames: ['reliability best practices'] },
+
+
 
 ];

@@ -383,5 +383,46 @@ export default <JobEntry[]>[
             'User-focused mindset',
             'Fast-paced environment adaptability'
         ]
+    },
+    {
+        dateCreated: 1763830348,
+        companyName: 'Intercom',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 5,
+        bachelorDegree: false,
+        mastersDegree: false,
+        hardSkills: [
+            'React.js',
+            'JavaScript',
+            'HTML',
+            'CSS',
+            'Node.js',
+            'SaaS product development',
+            'Frontend architecture',
+            'Design systems',
+            'Localization',
+            'Build tooling',
+            'Observability',
+            'Unit testing',
+            'Code reviews',
+            'Design documentation',
+            'Technical mentoring',
+            'Performance optimization',
+            'Reliability best practices'
+        ],
+        softSkills: [
+            'Collaboration',
+            'Communication',
+            'Leadership',
+            'Mentorship',
+            'Problem-solving',
+            'Autonomy',
+            'Teamwork',
+            'Attention to detail',
+            'Technical articulation',
+            'Persistence',
+            'Learning agility'
+        ]
     }
 ];
