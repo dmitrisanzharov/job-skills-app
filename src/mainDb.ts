@@ -2,7 +2,7 @@ import { JobEntry } from './types';
 
 export default <JobEntry[]>[
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Deel',
         jobTitle: 'Senior Frontend Engineer, React.js',
         workMode: 'Remote',
@@ -40,7 +40,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830363,
+        dateCreated: 1763830363000,
         companyName: 'Distilled (DoneDeal / Adverts)',
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
@@ -84,7 +84,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Zinkworks',
         jobTitle: 'Senior React UI Developer',
         workMode: 'Hybrid',
@@ -126,7 +126,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Monad Foundation',
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Remote',
@@ -213,7 +213,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Restream',
         jobTitle: 'Frontend Engineer',
         workMode: 'Remote',
@@ -252,7 +252,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Confidential Global Software Company',
         jobTitle: 'Senior Frontend Developer',
         workMode: 'Remote',
@@ -291,9 +291,9 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Confidential Blockchain Startup',
-        jobTitle: 'Senior Software Engineer – Web3 & Cross-Chain DApps',
+        jobTitle: 'Senior Software Engineer - Web3 & Cross-Chain DApps',
         workMode: 'Remote',
         yearsOfExperience: 5,
         bachelorDegree: true,
@@ -330,7 +330,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Proxify',
         jobTitle: 'Senior Software Developer',
         workMode: 'Remote',
@@ -385,7 +385,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Intercom',
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
@@ -426,7 +426,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Bentley Systems',
         jobTitle: 'Senior Software Engineer (TypeScript / JavaScript / React)',
         workMode: 'Hybrid',
@@ -473,7 +473,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Dataminr',
         jobTitle: 'Frontend Software Engineer III',
         workMode: 'Remote',
@@ -522,7 +522,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1763830348,
+        dateCreated: 1763830348000,
         companyName: 'Squarespace',
         jobTitle: 'Senior Frontend Engineer - International Team',
         workMode: 'Hybrid',
