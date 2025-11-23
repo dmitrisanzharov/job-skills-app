@@ -520,5 +520,43 @@ export default <JobEntry[]>[
             'Feature delivery focus',
             'Learning agility'
         ]
+    },
+    {
+        dateCreated: 1763830348,
+        companyName: 'Squarespace',
+        jobTitle: 'Senior Frontend Engineer - International Team',
+        workMode: 'Hybrid',
+        yearsOfExperience: 6,
+        bachelorDegree: false,
+        mastersDegree: false,
+        hardSkills: [
+            'React.js',
+            'TypeScript',
+            'Frontend architecture',
+            'Testing best practices',
+            'Performance optimization',
+            'Maintainable code',
+            'Maintainable architecture',
+            'Internationalization',
+            'i18n',
+            'Localization',
+            'Translation workflows',
+            'Component libraries',
+            'Design systems',
+            'Collaboration with designers',
+            'Collaboration with product managers'
+        ],
+        softSkills: [
+            'Collaboration',
+            'Communication',
+            'Mentorship',
+            'Problem-solving',
+            'Attention to detail',
+            'Autonomy',
+            'Teamwork',
+            'Technical articulation',
+            'Cross-disciplinary communication',
+            'Inclusive mindset'
+        ]
     }
 ];

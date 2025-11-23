@@ -167,7 +167,7 @@ export const hardSkills: HardAndSoftSkillsArray = [
         subNames: ['mobile, tablet, and desktop frontend development']
     },
     { mainName: 'code quality', count: 0, subNames: ['code quality'] },
-    { mainName: 'code maintainability', count: 0, subNames: ['code maintainability'] },
+    { mainName: 'code maintainability', count: 0, subNames: ['code maintainability', 'Maintainable code'] },
     { mainName: 'css-in-js', count: 0, subNames: ['css-in-js'] },
     { mainName: 'zustand', count: 0, subNames: ['zustand'] },
     { mainName: 'recoil', count: 0, subNames: ['recoil'] },
@@ -227,5 +227,10 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'vitest', count: 0, subNames: ['vitest'] },
     { mainName: 'component testing', count: 0, subNames: ['component testing'] },
     { mainName: 'e2e testing', count: 0, subNames: ['e2e testing'] },
-    { mainName: 'modern frontend patterns', count: 0, subNames: ['modern frontend patterns'] }
+    { mainName: 'modern frontend patterns', count: 0, subNames: ['modern frontend patterns'] },
+    { mainName: 'maintainable architecture', count: 0, subNames: ['maintainable architecture'] },
+    { mainName: 'internationalization', count: 0, subNames: ['internationalization'] },
+    { mainName: 'translation workflows', count: 0, subNames: ['translation workflows'] },
+    { mainName: 'collaboration with designers', count: 0, subNames: ['collaboration with designers'] },
+    { mainName: 'collaboration with product managers', count: 0, subNames: ['collaboration with product managers'] }
 ];
