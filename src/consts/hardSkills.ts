@@ -82,7 +82,7 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'git', count: 0, subNames: ['git'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
-    { mainName: 'ui/ux', count: 0, subNames: ['ui/ux', 'UX best practices'] },
+    { mainName: 'ui/ux', count: 0, subNames: ['ui/ux', 'UX best practices', 'UI/UX design'] },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
     { mainName: 'data-heavy interfaces', count: 0, subNames: ['data-heavy interfaces'] },
     { mainName: 'flutterflow', count: 0, subNames: ['flutterflow'] },
@@ -143,5 +143,21 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'aws', count: 0, subNames: ['aws'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
     { mainName: 'vite', count: 0, subNames: ['vite'] },
+{ mainName: 'xstate', count: 0, subNames: ['xstate'] },
+{ mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
+{ mainName: 'react native', count: 0, subNames: ['react native'] },
+{ mainName: 'frontend optimization', count: 0, subNames: ['frontend optimization'] },
+{ mainName: 'sdk development', count: 0, subNames: ['sdk development'] },
+{ mainName: 'cross-chain dapps', count: 0, subNames: ['cross-chain dapps'] },
+{ mainName: 'blockchain technology', count: 0, subNames: ['blockchain technology'] },
+{ mainName: 'defi platforms', count: 0, subNames: ['defi platforms'] },
+{ mainName: 'observability and tracing', count: 0, subNames: ['observability and tracing'] },
+{ mainName: 'state machines', count: 0, subNames: ['state machines'] },
+{ mainName: 'mobile, tablet, and desktop frontend development', count: 0, subNames: ['mobile, tablet, and desktop frontend development'] },
+{ mainName: 'code quality', count: 0, subNames: ['code quality'] },
+{ mainName: 'code maintainability', count: 0, subNames: ['code maintainability'] },
+
+
+
 
 ];

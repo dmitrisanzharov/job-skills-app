@@ -289,5 +289,44 @@ export default <JobEntry[]>[
             'Autonomy',
             'Teamwork'
         ]
+    },
+    {
+        dateCreated: 1763830348,
+        companyName: 'Confidential Blockchain Startup',
+        jobTitle: 'Senior Software Engineer – Web3 & Cross-Chain DApps',
+        workMode: 'Remote',
+        yearsOfExperience: 5,
+        bachelorDegree: true,
+        mastersDegree: false,
+        hardSkills: [
+            'TypeScript',
+            'React.js',
+            'Next.js',
+            'XState',
+            'Wagmi',
+            'React Native',
+            'UI/UX design',
+            'Frontend optimization',
+            'SDK development',
+            'Cross-chain DApps',
+            'Blockchain technology',
+            'DeFi platforms',
+            'Observability and tracing',
+            'State machines',
+            'Mobile, tablet, and desktop frontend development',
+            'Code quality',
+            'Code maintainability'
+        ],
+        softSkills: [
+            'Collaboration',
+            'Communication',
+            'Problem-solving',
+            'Attention to detail',
+            'UI/UX sensibility',
+            'Autonomy',
+            'Teamwork',
+            'Cross-timezone collaboration',
+            'Startup mindset'
+        ]
     }
 ];
