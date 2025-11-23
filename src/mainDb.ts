@@ -215,7 +215,7 @@ export default <JobEntry[]>[
     {
         dateCreated: 1763830348000,
         companyName: 'Restream',
-        jobTitle: 'Frontend Engineer',
+        jobTitle: 'Senior Software Engineer - Frontend',
         workMode: 'Remote',
         yearsOfExperience: 0,
         bachelorDegree: false,
