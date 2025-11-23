@@ -1,20 +1,15 @@
 import { mainDbIteration } from './mainDbIteration';
-import mainDb from '../mainDb.mock';
-
-
-
+import dbMock1 from './__mocks__/mainDb.mock';
 
 
 describe('mainDbIteration()', () => {
 
     it('should correctly process job entries', () => {
-
-        const { finalObj, totalJobEntries, avgYears } = mainDbIteration();
+        const { finalObj, totalJobEntries, avgYears } = mainDbIteration(dbMock1);
 
         // --- total entries
         expect(totalJobEntries).toBe(6);
-        expect(finalObj.totalJobEntries).toBe(0); 
-        // (you never set this field — might want to fix later!)
+        expect(finalObj.totalJobEntries).toBe(0);
 
         // --- average years
         const expectedAvg = (8 + 6 + 5 + 5 + 5 + 5) / 6;
@@ -33,29 +28,32 @@ describe('mainDbIteration()', () => {
         expect(tsSkill).toBeDefined();
         expect(htmlSkill).toBeDefined();
 
-        // Typescript appears 4 times in your DB
-        // 1) 'TypeScript'
-        // 2) 'typescript | typescript.js'
-        // 3) 'typescript'
-        // 4) 'typescript | type script'
         // @ts-ignore
         expect(tsSkill.count).toBe(4);
-
-        // variations should be added
         // @ts-ignore
         expect(tsSkill.subNames.sort()).toEqual(
             ['typescript', 'typescript.js', 'type script'].sort()
         );
 
-        // HTML skill counts
-        // 1) 'html'
-        // 2) 'html5'
         // @ts-ignore
         expect(htmlSkill.count).toBe(2);
-
         // @ts-ignore
         expect(htmlSkill.subNames.sort()).toEqual(
             ['html', 'html5'].sort()
         );
     });
+
+    // it('should throw an error for a new skill without secondPart variation', () => {
+    //     // Mock the database used inside mainDbIteration
+    //     jest.doMock('./mainDb', () => ({
+    //         __esModule: true,
+    //         default: newSkillDb
+    //     }));
+
+    //     const { mainDbIteration: freshFn } = require('./mainDbIteration');
+
+    //     expect(() => {
+    //         freshFn();
+    //     }).toThrowError(/New skill found without variation handling/i);
+    // });
 });

@@ -2,13 +2,14 @@ import React from 'react';
 // MUI
 import Box from '@mui/material/Box';
 import { mainDbIteration } from './helpers/mainDbIteration';
+import mainDb from './helpers/__mocks__/mainDb.mock';
 
 
 // REACT COMPONENT
 
 function App() {
     
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration();
+    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
 
     return (
         <Box>

@@ -1,4 +1,4 @@
-import { JobEntry } from './types';
+import { JobEntry } from '../../types';
 
 export default <JobEntry[]>[
     {
@@ -31,7 +31,7 @@ export default <JobEntry[]>[
         hardSkills: ['typescript'],
         softSkills: []
     },
-        {
+    {
         dateCreated: 1763830363,
         companyName: 'Foo',
         jobTitle: 'Senior Frontend Engineer',
@@ -41,7 +41,7 @@ export default <JobEntry[]>[
         hardSkills: ['typescript | type script'],
         softSkills: []
     },
-        {
+    {
         dateCreated: 1763830363,
         companyName: 'Foo',
         jobTitle: 'Senior Frontend Engineer',
@@ -51,7 +51,7 @@ export default <JobEntry[]>[
         hardSkills: ['html'],
         softSkills: []
     },
-        {
+    {
         dateCreated: 1763830363,
         companyName: 'Foo',
         jobTitle: 'Senior Frontend Engineer',

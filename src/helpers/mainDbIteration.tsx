@@ -1,5 +1,4 @@
 import { JobEntry } from '../types';
-import mainDb from '../mainDb.mock';
 
 type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
 
@@ -21,7 +20,7 @@ type FunctionReturn = {
     avgYears: number;
 }
 
-export function mainDbIteration(): FunctionReturn {
+export function mainDbIteration(mainDb): FunctionReturn {
 
     let finalObj: FinalObjType = {
         totalJobEntries: 0,
