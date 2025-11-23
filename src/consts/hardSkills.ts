@@ -94,11 +94,11 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'accessibility', count: 0, subNames: ['accessibility', 'WCAG accessibility'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
     { mainName: 'testing', count: 0, subNames: ['testing'] },
-    { mainName: 'frontend architecture', count: 0, subNames: ['frontend architecture'] },
+    { mainName: 'frontend architecture', count: 0, subNames: ['frontend architecture', 'client-side architecture'] },
     { mainName: 'git', count: 0, subNames: ['git'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
-    { mainName: 'ui/ux', count: 0, subNames: ['ui/ux', 'UX best practices', 'UI/UX design'] },
+    { mainName: 'ui/ux', count: 0, subNames: ['ui/ux', 'UX best practices', 'UI/UX design', 'UX understanding'] },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
     { mainName: 'data-heavy interfaces', count: 0, subNames: ['data-heavy interfaces'] },
     { mainName: 'flutterflow', count: 0, subNames: ['flutterflow'] },
@@ -252,7 +252,21 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'front-end tooling', count: 0, subNames: ['front-end tooling'] },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier'] },
-    { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] }
+    { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] },
+    { mainName: 'angular 2', count: 0, subNames: ['angular 2', 'angular 2+', 'Angular 15'] },
+{ mainName: 'web development', count: 0, subNames: ['web development'] },
+{ mainName: 'testing frameworks', count: 0, subNames: ['testing frameworks'] },
+{ mainName: 'test runner frameworks', count: 0, subNames: ['test runner frameworks'] },
+{ mainName: 'grasp principles', count: 0, subNames: ['grasp principles'] },
+{ mainName: 'cross-browser compatibility', count: 0, subNames: ['cross-browser compatibility'] },
+{ mainName: 'npm', count: 0, subNames: ['npm', 'node package manager'] },
+{ mainName: 'linters', count: 0, subNames: ['linters'] },
+{ mainName: 'nx framework', count: 0, subNames: ['nx framework'] },
+{ mainName: 'typescript ast', count: 0, subNames: ['typescript ast', 'typescript abstract syntax tree'] },
+{ mainName: 'code modifiers', count: 0, subNames: ['code modifiers'] },
+{ mainName: 'gitlab', count: 0, subNames: ['gitlab'] },
+{ mainName: 'nginx', count: 0, subNames: ['nginx'] },
+
 
     //
     //

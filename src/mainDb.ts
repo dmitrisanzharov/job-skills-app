@@ -647,5 +647,55 @@ export default <JobEntry[]>[
             'Teamwork',
             'Adaptability'
         ]
+    },
+    {
+        dateCreated: 1763919427667,
+        companyName: 'BrainRocket',
+        jobTitle: 'Senior Angular Developer',
+        workMode: 'On-site (Valencia, Spain)',
+        yearsOfExperience: 5,
+        bachelorDegree: false,
+        mastersDegree: false,
+        hardSkills: [
+            'Angular 2+',
+            'Angular 15',
+            'TypeScript',
+            'Web development',
+            'REST APIs',
+            'Jest',
+            'Testing frameworks',
+            'Test runner frameworks',
+            'SOLID principles',
+            'GRASP principles',
+            'Client-side architecture',
+            'Design patterns',
+            'Cross-browser compatibility',
+            'Performance optimization',
+            'Git',
+            'npm',
+            'Webpack',
+            'Babel',
+            'Linters',
+            'Nx framework',
+            'TypeScript AST',
+            'Code modifiers',
+            'GitLab',
+            'CI/CD',
+            'Docker',
+            'NGINX',
+            'Node.js',
+            'UX understanding'
+        ],
+        softSkills: [
+            'Problem-solving',
+            'Learning skills',
+            'Ability to work independently',
+            'Technical advice and mentorship',
+            'Task coordination',
+            'Communication',
+            'Attention to detail',
+            'Team collaboration',
+            'Strong product mindset'
+        ]
     }
 ];
