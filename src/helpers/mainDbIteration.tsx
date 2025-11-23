@@ -1,6 +1,7 @@
 import { JobEntry } from '../types';
+import { hardSkills as initialHardSkills } from '../consts/hardSkills';
 
-type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
+export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
 
 type FinalObjType = {
     totalJobEntries: number;
@@ -30,10 +31,7 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
         hybrid: 0,
         onSite: 0,
 
-        hardSkills: [
-            { mainName: 'typescript', count: 0, subNames: ['typescript'] },
-            { mainName: 'html', count: 0, subNames: ['html', 'html5'] }
-        ],
+        hardSkills: initialHardSkills,
         softSkills: []
     };
 

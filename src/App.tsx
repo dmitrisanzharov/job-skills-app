@@ -10,7 +10,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 //
 import { mainDbIteration } from './helpers/mainDbIteration';
-import mainDb from './helpers/__mocks__/mainDb.mock';
+import mainDb from './mainDb';
 
 
 // REACT COMPONENT
