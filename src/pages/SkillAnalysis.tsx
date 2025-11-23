@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // MUI
 import Box from '@mui/material/Box';
 import Table from '@mui/material/Table';
@@ -29,6 +29,10 @@ function SkillAnalysis() {
         console.log('reloaded, cause too many renders');
         window.location.reload();
     }
+
+    useEffect(() => {
+        document.title = 'Skill Analysis';
+    }, []);
 
     return (
         <Box>

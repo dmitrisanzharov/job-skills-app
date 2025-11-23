@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import mainDb from '../mainDb';
 import dayjs from 'dayjs';
 
@@ -15,6 +15,9 @@ import Paper from '@mui/material/Paper';
 type Props = {};
 
 const CompaniesAnalyzed: React.FC<Props> = () => {
+    useEffect(() => {
+        document.title = 'Companies Analyzed';
+    }, []);
 
     return (
         <Box>
