@@ -7,7 +7,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer, React.js',
         workMode: 'Remote',
         yearsOfExperience: 8,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'TypeScript',
             'React.js',
@@ -44,7 +45,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Hybrid',
         yearsOfExperience: 6,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'HTML',
             'CSS',
@@ -87,7 +89,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior React UI Developer',
         workMode: 'Hybrid',
         yearsOfExperience: 5,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'React.js',
             'React Class Components',
@@ -128,7 +131,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Remote',
         yearsOfExperience: 5,
-        educationRequiredString: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'React.js',
             'Next.js',
@@ -206,6 +210,84 @@ export default <JobEntry[]>[
             'Self-direction',
             'Feedback culture',
             'Quality mindset'
+        ]
+    },
+    {
+        dateCreated: 1763830348,
+        companyName: 'Restream',
+        jobTitle: 'Frontend Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: 0,
+        bachelorDegree: false,
+        mastersDegree: false,
+        hardSkills: [
+            'JavaScript',
+            'TypeScript',
+            'React.js',
+            'State management systems',
+            'MobX',
+            'CSS',
+            'LESS',
+            'SASS',
+            'Node.js',
+            'REST APIs',
+            'Relational databases',
+            'NoSQL databases',
+            'AWS',
+            'Linux',
+            'Docker',
+            'Kubernetes',
+            'Continuous deployment'
+        ],
+        softSkills: [
+            'Collaboration',
+            'Communication',
+            'Entrepreneurial attitude',
+            'Attention to detail',
+            'Design sensibility',
+            'Analytical thinking',
+            'Self-directed',
+            'Teamwork',
+            'User-focused mindset'
+        ]
+    },
+    {
+        dateCreated: 1763830348,
+        companyName: 'Confidential Global Software Company',
+        jobTitle: 'Senior Frontend Developer',
+        workMode: 'Remote',
+        yearsOfExperience: 5,
+        bachelorDegree: true,
+        mastersDegree: false,
+        hardSkills: [
+            'JavaScript',
+            'TypeScript',
+            'HTML5',
+            'CSS3',
+            'React.js',
+            'Angular',
+            'Vue.js',
+            'State management libraries',
+            'RESTful APIs',
+            'Webpack',
+            'Vite',
+            'Responsive design',
+            'Web performance optimization',
+            'UX best practices',
+            'Git',
+            'Agile development'
+        ],
+        softSkills: [
+            'Collaboration',
+            'Communication',
+            'Leadership',
+            'Mentorship',
+            'Problem-solving',
+            'Attention to detail',
+            'Creativity',
+            'Innovation',
+            'Autonomy',
+            'Teamwork'
         ]
     }
 ];

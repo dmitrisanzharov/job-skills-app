@@ -4,7 +4,8 @@ export type JobEntry = {
     jobTitle: string;
     workMode: 'Remote' | 'On-site' | 'Hybrid';
     yearsOfExperience: number;
-    educationRequiredString: string;
+    bachelorDegree: boolean;
+    mastersDegree: boolean;
     hardSkills: string[];
     softSkills: string[];
 };

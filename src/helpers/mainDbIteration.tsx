@@ -7,6 +7,9 @@ type FinalObjType = {
     totalJobEntries: number;
     avgYearsOfExperience: number;
 
+    bachelorDegreeFinal: number;
+    mastersDegreeFinal: number;
+
     remote: number;
     hybrid: number;
     onSite: number;
@@ -26,6 +29,9 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
         totalJobEntries: 0,
         avgYearsOfExperience: 0,
 
+        bachelorDegreeFinal: 0,
+        mastersDegreeFinal: 0,
+
         remote: 0,
         hybrid: 0,
         onSite: 0,
@@ -41,6 +47,18 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
     const totalYears = mainDb.reduce((acc, job) => acc + job.yearsOfExperience, 0);
     const avgYears = totalYears / mainDb.length;
     finalObj.avgYearsOfExperience = avgYears;
+
+    // education counts
+    let bachelorDegreeCount = 0;
+    let mastersDegreeCount = 0;
+
+    mainDb.forEach((job: JobEntry) => {
+        if (job.bachelorDegree) bachelorDegreeCount++;
+        if (job.mastersDegree) mastersDegreeCount++;
+    });
+
+    finalObj.bachelorDegreeFinal = bachelorDegreeCount;
+    finalObj.mastersDegreeFinal = mastersDegreeCount;
 
     // work mode counts
     let remote = 0;

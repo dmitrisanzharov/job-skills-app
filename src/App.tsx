@@ -22,7 +22,7 @@ function App() {
     console.log('render count', renderCount.current);
 
     const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
-    console.log("finalObj: ", finalObj);
+    console.log('finalObj: ', finalObj);
     const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > 0).sort((a, b) => b.count - a.count);
 
     if (renderCount.current === 2) {
@@ -35,6 +35,8 @@ function App() {
             <h1>Job Skills Analysis</h1>
             <p>Total Job Entries: {totalJobEntries}</p>
             <p>Average Years of Experience: {avgYears.toFixed(0)}</p>
+            <p>Bachelor: {(finalObj.bachelorDegreeFinal / totalJobEntries * 100).toFixed(0)}%</p>
+            <p>Masters: {(finalObj.mastersDegreeFinal / totalJobEntries * 100).toFixed(0)}%</p>
             <ul>
                 <li>Remote: {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%</li>
                 <li>Hybrid: {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%</li>

@@ -23,7 +23,9 @@ export const hardSkills: HardAndSoftSkillsArray = [
             'state management tools',
             'state management tool',
             'State management',
-            'State management for loading/skeleton/error'
+            'State management for loading/skeleton/error',
+            'State management systems',
+            'State management libraries'
         ]
     },
     { mainName: 'SaaS experience', count: 0, subNames: ['SaaS experience', 'saas experience'] },
@@ -34,7 +36,7 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'fintech knowledge', count: 0, subNames: ['fintech knowledge'] },
     { mainName: 'javascript', count: 0, subNames: ['javascript'] },
     { mainName: 'next.js', count: 0, subNames: ['next.js'] },
-    { mainName: 'rest api', count: 0, subNames: ['rest apis', 'rest api'] },
+    { mainName: 'rest api', count: 0, subNames: ['rest apis', 'rest api', 'RESTful APIs'] },
     { mainName: 'responsive design', count: 0, subNames: ['responsive design'] },
     {
         mainName: 'mobile first',
@@ -61,7 +63,13 @@ export const hardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'web performance',
         count: 0,
-        subNames: ['web performance', 'performance optimization', 'Performance tooling', 'webpagetest']
+        subNames: [
+            'web performance',
+            'performance optimization',
+            'Performance tooling',
+            'webpagetest',
+            'Web performance optimization'
+        ]
     },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
     { mainName: 'storybook', count: 0, subNames: ['storybook'] },
@@ -74,7 +82,7 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'git', count: 0, subNames: ['git'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
-    { mainName: 'ui/ux', count: 0, subNames: ['ui/ux'] },
+    { mainName: 'ui/ux', count: 0, subNames: ['ui/ux', 'UX best practices'] },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
     { mainName: 'data-heavy interfaces', count: 0, subNames: ['data-heavy interfaces'] },
     { mainName: 'flutterflow', count: 0, subNames: ['flutterflow'] },
@@ -126,5 +134,14 @@ export const hardSkills: HardAndSoftSkillsArray = [
     { mainName: 'webgl', count: 0, subNames: ['webgl'] },
     { mainName: 'canvas', count: 0, subNames: ['canvas'] },
     { mainName: 'svg', count: 0, subNames: ['svg'] },
-    { mainName: 'monitoring tools', count: 0, subNames: ['monitoring tools'] }
+    { mainName: 'monitoring tools', count: 0, subNames: ['monitoring tools'] },
+    { mainName: 'mobx', count: 0, subNames: ['mobx'] },
+    { mainName: 'less', count: 0, subNames: ['less'] },
+    { mainName: 'sass', count: 0, subNames: ['sass'] },
+    { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
+    { mainName: 'nosql databases', count: 0, subNames: ['nosql databases'] },
+    { mainName: 'aws', count: 0, subNames: ['aws'] },
+    { mainName: 'linux', count: 0, subNames: ['linux'] },
+    { mainName: 'vite', count: 0, subNames: ['vite'] },
+
 ];
