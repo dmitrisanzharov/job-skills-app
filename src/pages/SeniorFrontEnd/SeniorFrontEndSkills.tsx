@@ -9,25 +9,24 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 //
-import { mainDbIteration } from '../helpers/mainDbIteration';
-import mainDb from '../databases/seniorFrontEndDb';
+import { mainDbIteration } from '../../helpers/mainDbIteration';
 
 // skills
-import { seniorFrontEndSkills } from '../consts/seniorFrontEndSkills';
+import { seniorFrontEndSkills } from '../../consts/seniorFrontEndSkills';
+import seniorFrontEndDb from '../../databases/seniorFrontEndDb';
 
 // for tests
-import { seniorFrontEndSkills_25112025 } from '../helpers/__mocks__/seniorFrontEnd/seniorFrontEndSkills_25112025';
-import mainDbTest from '../helpers/__mocks__/seniorFrontEnd/mainDb.mock.duplicates';
+import { seniorFrontEndSkills_25112025 } from '../../helpers/__mocks__/seniorFrontEnd/seniorFrontEndSkills_25112025';
+import mainDbTest from '../../helpers/__mocks__/seniorFrontEnd/mainDb.mock.duplicates';
 
 // REACT COMPONENT
 
-function SkillAnalysis() {
+function SeniorFrontEndSkills() {
     const renderCount = React.useRef(0);
     renderCount.current += 1;
     console.log('render count', renderCount.current);
 
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDbTest, seniorFrontEndSkills_25112025);
-    console.log("🚀 ~ SkillAnalysis ~ finalObj:", finalObj)
+    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb, seniorFrontEndSkills);
     const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > (totalJobEntries * 0.2)).sort((a, b) => b.count - a.count);
 
     const testIfWorkModeHasAllEntries = (finalObj.remote + finalObj.hybrid + finalObj.onSite) === totalJobEntries;
@@ -97,4 +96,4 @@ function SkillAnalysis() {
     );
 }
 
-export default SkillAnalysis;
+export default SeniorFrontEndSkills;
