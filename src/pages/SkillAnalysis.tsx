@@ -10,9 +10,14 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 //
 import { mainDbIteration } from '../helpers/mainDbIteration';
-import mainDb from '../mainDb';
-import mainDbMock1 from '../helpers/__mocks__/mainDb.mock';
-import mainDbMockDuplicates from '../helpers/__mocks__/mainDb.mock.duplicates';
+import mainDb from '../databases/seniorFrontEndDb';
+
+// skills
+import { seniorFrontEndSkills } from '../consts/seniorFrontEndSkills';
+
+// for tests
+import { seniorFrontEndSkills_25112025 } from '../helpers/__mocks__/seniorFrontEnd/seniorFrontEndSkills_25112025';
+import mainDbTest from '../helpers/__mocks__/seniorFrontEnd/mainDb.mock.duplicates';
 
 // REACT COMPONENT
 
@@ -21,7 +26,8 @@ function SkillAnalysis() {
     renderCount.current += 1;
     console.log('render count', renderCount.current);
 
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
+    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDbTest, seniorFrontEndSkills_25112025);
+    console.log("🚀 ~ SkillAnalysis ~ finalObj:", finalObj)
     const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > (totalJobEntries * 0.2)).sort((a, b) => b.count - a.count);
 
     const testIfWorkModeHasAllEntries = (finalObj.remote + finalObj.hybrid + finalObj.onSite) === totalJobEntries;

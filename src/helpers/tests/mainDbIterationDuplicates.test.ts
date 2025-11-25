@@ -1,10 +1,10 @@
 import { mainDbIteration } from '../mainDbIteration';
-import mainDb from '../__mocks__/mainDb.mock.duplicates'; // ⬅️ adjust this path to wherever your DB lives
+import mainDb from '../__mocks__/seniorFrontEnd/mainDb.mock.duplicates';
+import { seniorFrontEndSkills_25112025 } from '../__mocks__/seniorFrontEnd/seniorFrontEndSkills_25112025';
 
 describe('mainDbIteration', () => {
     it('produces the expected final object for the given mainDb', () => {
-        const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb);
-
+        const { finalObj, totalJobEntries, avgYears } = mainDbIteration(mainDb, seniorFrontEndSkills_25112025);
         // Sanity checks
         expect(totalJobEntries).toBe(mainDb.length);
         expect(avgYears).toBe(6);
@@ -12,11 +12,11 @@ describe('mainDbIteration', () => {
         const expectedFinalObj = {
             totalJobEntries: 0,
             avgYearsOfExperience: 6,
-
+            bachelorDegreeFinal: 0,
+            mastersDegreeFinal: 0,
             remote: 2,
             hybrid: 2,
             onSite: 0,
-
             hardSkills: [
                 {
                     mainName: 'typescript',
@@ -71,7 +71,7 @@ describe('mainDbIteration', () => {
                 {
                     mainName: 'redux',
                     count: 0,
-                    subNames: ['redux']
+                    subNames: ['redux', 'Redux.js']
                 },
                 {
                     mainName: 'state management tools',
@@ -80,18 +80,20 @@ describe('mainDbIteration', () => {
                         'state management tools',
                         'state management tool',
                         'State management',
-                        'State management for loading/skeleton/error'
+                        'State management for loading/skeleton/error',
+                        'State management systems',
+                        'State management libraries'
                     ]
                 },
                 {
                     mainName: 'SaaS experience',
                     count: 1,
-                    subNames: ['SaaS experience', 'saas experience']
+                    subNames: ['SaaS experience', 'saas experience', 'saas product development']
                 },
                 {
                     mainName: 'cloud platforms',
                     count: 1,
-                    subNames: ['cloud platforms']
+                    subNames: ['cloud platforms', 'Cloud services']
                 },
                 {
                     mainName: 'pixel-perfect',
@@ -116,7 +118,7 @@ describe('mainDbIteration', () => {
                 {
                     mainName: 'javascript',
                     count: 1,
-                    subNames: ['javascript']
+                    subNames: ['javascript', 'JavaScript (ES6+)']
                 },
                 {
                     mainName: 'next.js',
@@ -126,7 +128,7 @@ describe('mainDbIteration', () => {
                 {
                     mainName: 'rest api',
                     count: 1,
-                    subNames: ['rest apis', 'rest api']
+                    subNames: ['rest apis', 'rest api', 'RESTful APIs']
                 },
                 {
                     mainName: 'responsive design',
@@ -176,12 +178,25 @@ describe('mainDbIteration', () => {
                 {
                     mainName: 'ci/cd',
                     count: 1,
-                    subNames: ['ci/cd', 'continuous integration', 'continuous deployment', 'CI/CD pipelines']
+                    subNames: [
+                        'ci/cd',
+                        'continuous integration',
+                        'continuous deployment',
+                        'CI/CD pipelines',
+                        'CI/CD practices'
+                    ]
                 },
                 {
                     mainName: 'agile',
                     count: 1,
-                    subNames: ['agile methodologies', 'agile methodology', 'agile development']
+                    subNames: [
+                        'agile methodologies',
+                        'agile methodology',
+                        'agile development',
+                        'scrum',
+                        'agile / scrum',
+                        'Agile workflow'
+                    ]
                 },
                 {
                     mainName: 'playwright',
@@ -206,7 +221,14 @@ describe('mainDbIteration', () => {
                 {
                     mainName: 'web performance',
                     count: 3,
-                    subNames: ['web performance', 'performance optimization', 'Performance tooling', 'webpagetest']
+                    subNames: [
+                        'web performance',
+                        'performance optimization',
+                        'Performance tooling',
+                        'webpagetest',
+                        'Web performance optimization',
+                        'Frontend performance optimization'
+                    ]
                 },
                 {
                     mainName: 'styled components',
@@ -231,7 +253,7 @@ describe('mainDbIteration', () => {
                 {
                     mainName: 'accessibility',
                     count: 2,
-                    subNames: ['accessibility']
+                    subNames: ['accessibility', 'WCAG accessibility']
                 },
                 {
                     mainName: 'design patterns',
@@ -246,7 +268,7 @@ describe('mainDbIteration', () => {
                 {
                     mainName: 'frontend architecture',
                     count: 1,
-                    subNames: ['frontend architecture']
+                    subNames: ['frontend architecture', 'client-side architecture']
                 },
                 {
                     mainName: 'git',
@@ -266,7 +288,7 @@ describe('mainDbIteration', () => {
                 {
                     mainName: 'ui/ux',
                     count: 0,
-                    subNames: ['ui/ux']
+                    subNames: ['ui/ux', 'UX best practices', 'UI/UX design', 'UX understanding']
                 },
                 {
                     mainName: 'no designer',
@@ -527,6 +549,481 @@ describe('mainDbIteration', () => {
                     mainName: 'monitoring tools',
                     count: 1,
                     subNames: ['monitoring tools']
+                },
+                {
+                    mainName: 'mobx',
+                    count: 0,
+                    subNames: ['mobx']
+                },
+                {
+                    mainName: 'less',
+                    count: 0,
+                    subNames: ['less']
+                },
+                {
+                    mainName: 'sass',
+                    count: 0,
+                    subNames: ['sass']
+                },
+                {
+                    mainName: 'relational databases',
+                    count: 0,
+                    subNames: ['relational databases']
+                },
+                {
+                    mainName: 'nosql databases',
+                    count: 0,
+                    subNames: ['nosql databases']
+                },
+                {
+                    mainName: 'aws',
+                    count: 0,
+                    subNames: ['aws']
+                },
+                {
+                    mainName: 'linux',
+                    count: 0,
+                    subNames: ['linux']
+                },
+                {
+                    mainName: 'vite',
+                    count: 0,
+                    subNames: ['vite']
+                },
+                {
+                    mainName: 'xstate',
+                    count: 0,
+                    subNames: ['xstate']
+                },
+                {
+                    mainName: 'wagmi',
+                    count: 0,
+                    subNames: ['wagmi']
+                },
+                {
+                    mainName: 'react native',
+                    count: 0,
+                    subNames: ['react native']
+                },
+                {
+                    mainName: 'frontend optimization',
+                    count: 0,
+                    subNames: ['frontend optimization']
+                },
+                {
+                    mainName: 'sdk development',
+                    count: 0,
+                    subNames: ['sdk development']
+                },
+                {
+                    mainName: 'cross-chain dapps',
+                    count: 0,
+                    subNames: ['cross-chain dapps']
+                },
+                {
+                    mainName: 'blockchain technology',
+                    count: 0,
+                    subNames: ['blockchain technology']
+                },
+                {
+                    mainName: 'defi platforms',
+                    count: 0,
+                    subNames: ['defi platforms']
+                },
+                {
+                    mainName: 'observability and tracing',
+                    count: 0,
+                    subNames: ['observability and tracing']
+                },
+                {
+                    mainName: 'state machines',
+                    count: 0,
+                    subNames: ['state machines']
+                },
+                {
+                    mainName: 'mobile, tablet, and desktop frontend development',
+                    count: 0,
+                    subNames: ['mobile, tablet, and desktop frontend development']
+                },
+                {
+                    mainName: 'code quality',
+                    count: 0,
+                    subNames: ['code quality']
+                },
+                {
+                    mainName: 'code maintainability',
+                    count: 0,
+                    subNames: ['code maintainability', 'Maintainable code']
+                },
+                {
+                    mainName: 'css-in-js',
+                    count: 0,
+                    subNames: ['css-in-js']
+                },
+                {
+                    mainName: 'zustand',
+                    count: 0,
+                    subNames: ['zustand']
+                },
+                {
+                    mainName: 'recoil',
+                    count: 0,
+                    subNames: ['recoil']
+                },
+                {
+                    mainName: 'asynchronous operations',
+                    count: 0,
+                    subNames: ['asynchronous operations']
+                },
+                {
+                    mainName: 'frontend-backend integration',
+                    count: 0,
+                    subNames: ['frontend-backend integration']
+                },
+                {
+                    mainName: 'unit testing',
+                    count: 0,
+                    subNames: ['unit testing']
+                },
+                {
+                    mainName: 'integration testing',
+                    count: 0,
+                    subNames: ['integration testing']
+                },
+                {
+                    mainName: 'react testing library',
+                    count: 0,
+                    subNames: ['react testing library', 'Component/integration testing (React Testing Library)']
+                },
+                {
+                    mainName: 'grpc',
+                    count: 0,
+                    subNames: ['grpc']
+                },
+                {
+                    mainName: 'backend technologies',
+                    count: 0,
+                    subNames: ['backend technologies']
+                },
+                {
+                    mainName: 'backend databases',
+                    count: 0,
+                    subNames: ['backend databases']
+                },
+                {
+                    mainName: 'modular component design',
+                    count: 0,
+                    subNames: ['modular component design']
+                },
+                {
+                    mainName: 'localization',
+                    count: 0,
+                    subNames: ['localization']
+                },
+                {
+                    mainName: 'build tooling',
+                    count: 0,
+                    subNames: ['build tooling']
+                },
+                {
+                    mainName: 'observability',
+                    count: 0,
+                    subNames: ['observability']
+                },
+                {
+                    mainName: 'code review',
+                    count: 0,
+                    subNames: ['code review', 'code reviews']
+                },
+                {
+                    mainName: 'design documentation',
+                    count: 0,
+                    subNames: ['design documentation']
+                },
+                {
+                    mainName: 'technical mentoring',
+                    count: 0,
+                    subNames: ['technical mentoring']
+                },
+                {
+                    mainName: 'reliability best practices',
+                    count: 0,
+                    subNames: ['reliability best practices']
+                },
+                {
+                    mainName: 'test-driven development',
+                    count: 0,
+                    subNames: ['test-driven development']
+                },
+                {
+                    mainName: 'object-oriented programming',
+                    count: 0,
+                    subNames: ['object-oriented programming', 'Object-Oriented Programming (OOP)', 'OOP']
+                },
+                {
+                    mainName: 'solid principles',
+                    count: 0,
+                    subNames: ['solid principles']
+                },
+                {
+                    mainName: 'dry principles',
+                    count: 0,
+                    subNames: ['dry principles']
+                },
+                {
+                    mainName: 'software design principles',
+                    count: 0,
+                    subNames: ['software design principles']
+                },
+                {
+                    mainName: 'software development life cycle',
+                    count: 0,
+                    subNames: ['software development life cycle (sdlc)', 'software development life cycle', 'sdlc']
+                },
+                {
+                    mainName: 'c++',
+                    count: 0,
+                    subNames: ['c++']
+                },
+                {
+                    mainName: 'c#',
+                    count: 0,
+                    subNames: ['c#']
+                },
+                {
+                    mainName: '.net',
+                    count: 0,
+                    subNames: ['.net']
+                },
+                {
+                    mainName: 'azure devops',
+                    count: 0,
+                    subNames: ['azure devops']
+                },
+                {
+                    mainName: 'backlog management',
+                    count: 0,
+                    subNames: ['backlog management']
+                },
+                {
+                    mainName: 'team foundation server',
+                    count: 0,
+                    subNames: ['team foundation server', 'tfs']
+                },
+                {
+                    mainName: 'activex data objects',
+                    count: 0,
+                    subNames: ['activex data objects', 'ado']
+                },
+                {
+                    mainName: 'software design diagrams',
+                    count: 0,
+                    subNames: ['software design diagrams']
+                },
+                {
+                    mainName: 'mathematical foundations',
+                    count: 0,
+                    subNames: ['mathematical foundations (geometry, trigonometry)', 'geometry', 'trigonometry']
+                },
+                {
+                    mainName: 'infrastructure software knowledge',
+                    count: 0,
+                    subNames: ['infrastructure software knowledge']
+                },
+                {
+                    mainName: 'react context',
+                    count: 0,
+                    subNames: ['react context']
+                },
+                {
+                    mainName: 'react suspense',
+                    count: 0,
+                    subNames: ['react suspense']
+                },
+                {
+                    mainName: 'concurrent react features',
+                    count: 0,
+                    subNames: ['concurrent react features']
+                },
+                {
+                    mainName: 'tanstack query',
+                    count: 0,
+                    subNames: ['tanstack query']
+                },
+                {
+                    mainName: 'graphql',
+                    count: 0,
+                    subNames: ['graphql', 'GraphQL (queries, mutations, caching, fragments)']
+                },
+                {
+                    mainName: 'vitest',
+                    count: 0,
+                    subNames: ['vitest']
+                },
+                {
+                    mainName: 'component testing',
+                    count: 0,
+                    subNames: ['component testing']
+                },
+                {
+                    mainName: 'e2e testing',
+                    count: 0,
+                    subNames: ['e2e testing']
+                },
+                {
+                    mainName: 'modern frontend patterns',
+                    count: 0,
+                    subNames: ['modern frontend patterns']
+                },
+                {
+                    mainName: 'maintainable architecture',
+                    count: 0,
+                    subNames: ['maintainable architecture']
+                },
+                {
+                    mainName: 'internationalization',
+                    count: 0,
+                    subNames: ['internationalization']
+                },
+                {
+                    mainName: 'translation workflows',
+                    count: 0,
+                    subNames: ['translation workflows']
+                },
+                {
+                    mainName: 'collaboration with designers',
+                    count: 0,
+                    subNames: ['collaboration with designers']
+                },
+                {
+                    mainName: 'collaboration with product managers',
+                    count: 0,
+                    subNames: ['collaboration with product managers']
+                },
+                {
+                    mainName: 'react router',
+                    count: 0,
+                    subNames: ['react routing', 'react router']
+                },
+                {
+                    mainName: 'component composition',
+                    count: 0,
+                    subNames: ['component composition']
+                },
+                {
+                    mainName: 'mui',
+                    count: 0,
+                    subNames: ['mui', 'Material UI', 'Material UI (MUI)']
+                },
+                {
+                    mainName: 'spa development',
+                    count: 0,
+                    subNames: ['spa development', 'single page application']
+                },
+                {
+                    mainName: 'reusable components',
+                    count: 0,
+                    subNames: ['reusable components', 'Reusable UI components']
+                },
+                {
+                    mainName: 'object-oriented javascript',
+                    count: 0,
+                    subNames: ['object-oriented javascript']
+                },
+                {
+                    mainName: 'ui testing',
+                    count: 0,
+                    subNames: ['ui testing']
+                },
+                {
+                    mainName: 'selenium',
+                    count: 0,
+                    subNames: ['selenium']
+                },
+                {
+                    mainName: 'front-end tooling',
+                    count: 0,
+                    subNames: ['front-end tooling']
+                },
+                {
+                    mainName: 'eslint',
+                    count: 0,
+                    subNames: ['eslint']
+                },
+                {
+                    mainName: 'prettier',
+                    count: 0,
+                    subNames: ['prettier']
+                },
+                {
+                    mainName: 'micro frontend applications',
+                    count: 0,
+                    subNames: ['micro frontend applications']
+                },
+                {
+                    mainName: 'angular 2',
+                    count: 0,
+                    subNames: ['angular 2', 'angular 2+', 'Angular 15']
+                },
+                {
+                    mainName: 'web development',
+                    count: 0,
+                    subNames: ['web development']
+                },
+                {
+                    mainName: 'testing frameworks',
+                    count: 0,
+                    subNames: ['testing frameworks']
+                },
+                {
+                    mainName: 'test runner frameworks',
+                    count: 0,
+                    subNames: ['test runner frameworks']
+                },
+                {
+                    mainName: 'grasp principles',
+                    count: 0,
+                    subNames: ['grasp principles']
+                },
+                {
+                    mainName: 'cross-browser compatibility',
+                    count: 0,
+                    subNames: ['cross-browser compatibility']
+                },
+                {
+                    mainName: 'npm',
+                    count: 0,
+                    subNames: ['npm', 'node package manager']
+                },
+                {
+                    mainName: 'linters',
+                    count: 0,
+                    subNames: ['linters']
+                },
+                {
+                    mainName: 'nx framework',
+                    count: 0,
+                    subNames: ['nx framework']
+                },
+                {
+                    mainName: 'typescript ast',
+                    count: 0,
+                    subNames: ['typescript ast', 'typescript abstract syntax tree']
+                },
+                {
+                    mainName: 'code modifiers',
+                    count: 0,
+                    subNames: ['code modifiers']
+                },
+                {
+                    mainName: 'gitlab',
+                    count: 0,
+                    subNames: ['gitlab']
+                },
+                {
+                    mainName: 'nginx',
+                    count: 0,
+                    subNames: ['nginx']
                 }
             ],
             softSkills: []

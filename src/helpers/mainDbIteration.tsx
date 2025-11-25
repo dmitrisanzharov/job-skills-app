@@ -1,5 +1,4 @@
 import { JobEntry } from '../types';
-import { hardSkills as initialHardSkills } from '../consts/hardSkills';
 
 export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
 
@@ -24,7 +23,7 @@ type FunctionReturn = {
     avgYears: number;
 };
 
-export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
+export function mainDbIteration(mainDb: JobEntry[], hardSkillsArr: HardAndSoftSkillsArray): FunctionReturn {
     let finalObj: FinalObjType = {
         totalJobEntries: 0,
         avgYearsOfExperience: 0,
@@ -36,7 +35,7 @@ export function mainDbIteration(mainDb: JobEntry[]): FunctionReturn {
         hybrid: 0,
         onSite: 0,
 
-        hardSkills: initialHardSkills,
+        hardSkills: hardSkillsArr || [],
         softSkills: []
     };
 

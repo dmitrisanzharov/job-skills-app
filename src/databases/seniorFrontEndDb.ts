@@ -1,4 +1,4 @@
-import { JobEntry } from './types';
+import { JobEntry } from '../types';
 
 export default <JobEntry[]>[
     {

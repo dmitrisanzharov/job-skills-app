@@ -1,11 +1,11 @@
 import { mainDbIteration } from '../mainDbIteration';
-import dbMock1 from '../__mocks__/mainDb.mock';
-import dbMock2 from '../__mocks__/mainDb.mock2';
+import dbMock from '../__mocks__/seniorFrontEnd/mainDb.mock';
+import dbMock2 from '../__mocks__/seniorFrontEnd/mainDb.mock2';
+import { seniorFrontEndSkills_25112025 } from '../__mocks__/seniorFrontEnd/seniorFrontEndSkills_25112025';
 
 describe('mainDbIteration()', () => {
     it('should correctly process job entries', () => {
-        const { finalObj, totalJobEntries, avgYears } = mainDbIteration(dbMock1);
-
+        const { finalObj, totalJobEntries, avgYears } = mainDbIteration(dbMock, seniorFrontEndSkills_25112025);
         // --- total entries
         expect(totalJobEntries).toBe(6);
         expect(finalObj.totalJobEntries).toBe(0);
@@ -36,7 +36,7 @@ describe('mainDbIteration()', () => {
 
     it('should throw an error for a new skill without secondPart variation', () => {
         expect(() => {
-            mainDbIteration(dbMock2);
+            mainDbIteration(dbMock2, seniorFrontEndSkills_25112025);
         }).toThrow();
     });
 });
