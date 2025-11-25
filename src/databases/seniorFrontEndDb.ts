@@ -740,5 +740,46 @@ export default <JobEntry[]>[
             'Ability to thrive in fast-paced environments',
             'Remote teamwork'
         ]
+    },
+    {
+        dateCreated: 1764096000000,
+        companyName: 'Primus Global Solutions',
+        jobTitle: 'Senior Frontend Developer',
+        workMode: 'Hybrid',
+        yearsOfExperience: null,
+        bachelorDegree: false,
+        mastersDegree: false,
+        hardSkills: [
+            // 'React',
+            // 'Next.js',
+            // 'TypeScript',
+            // 'Vue',
+            // 'AI-powered solutions',
+            // 'Chatbots',
+            // 'LLM workflows',
+            // 'OpenAI GPT',
+            // 'SSR',
+            // 'SSG',
+            // 'Component libraries',
+            // 'Dashboards',
+            // 'Accessibility (a11y)',
+            // 'Performance optimisation',
+            // 'HTML5',
+            // 'CSS3',
+            // 'JavaScript/ES6+',
+            // 'AngularJS',
+            // 'Node.js',
+            // 'MobX',
+            // 'Redux',
+            // 'Tailwind CSS',
+            // 'MUI',
+            // 'Styled Components',
+            // 'WordPress',
+            // 'Joomla',
+            // 'Drupal',
+            // 'Cockpit CMS',
+            // 'Agile teamwork'
+        ],
+        softSkills: ['Agile teamwork']
     }
 ];

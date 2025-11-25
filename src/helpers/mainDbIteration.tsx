@@ -44,7 +44,7 @@ export function mainDbIteration(mainDb: JobEntry[], hardSkillsArr: HardAndSoftSk
     const totalJobEntries = mainDb.length;
 
     // average years of experience
-    const totalYears = mainDb.reduce((acc, job) => acc + job.yearsOfExperience, 0);
+    const totalYears = mainDb.filter((job) => job.yearsOfExperience).reduce((acc, job) => acc + job.yearsOfExperience, 0);
     const avgYears = totalYears / mainDb.length;
     finalObj.avgYearsOfExperience = avgYears;
 
