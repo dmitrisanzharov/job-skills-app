@@ -14,7 +14,7 @@ import Paper from '@mui/material/Paper';
 
 type Props = {};
 
-const CompaniesAnalyzed: React.FC<Props> = () => {
+const CompaniesAnalyzedSeniorFrontEnd: React.FC<Props> = () => {
     useEffect(() => {
         document.title = 'Companies Analyzed';
     }, []);
@@ -52,4 +52,4 @@ const CompaniesAnalyzed: React.FC<Props> = () => {
     );
 };
 
-export default CompaniesAnalyzed;
+export default CompaniesAnalyzedSeniorFrontEnd;
