@@ -10,6 +10,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 //
 import { mainDbIteration } from '../../helpers/mainDbIteration';
+import { skillMinPercentageToFilter } from '../../consts/globalVars';
 
 // skills
 import { seniorFrontEndSkills } from '../../consts/seniorFrontEndSkills';
@@ -26,10 +27,8 @@ function SeniorFrontEndSkills() {
     renderCount.current += 1;
     console.log('render count', renderCount.current);
 
-    console.log('seniorFrontEndSkills:', seniorFrontEndSkills);
-
     const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb, seniorFrontEndSkills);
-    const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > (totalJobEntries * 0.2)).sort((a, b) => b.count - a.count);
+    const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > (totalJobEntries * skillMinPercentageToFilter)).sort((a, b) => b.count - a.count);
 
     const testIfWorkModeHasAllEntries = (finalObj.remote + finalObj.hybrid + finalObj.onSite) === totalJobEntries;
 

@@ -1,0 +1,1 @@
+export const skillMinPercentageToFilter: number = 0.15;

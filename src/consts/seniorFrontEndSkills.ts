@@ -2,7 +2,7 @@ import { HardAndSoftSkillsArray } from '../helpers/mainDbIteration';
 
 export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'typescript', count: 0, subNames: ['TypeScript', 'typescript', 'typescript.js', 'type script'] },
-    { mainName: 'html', count: 0, subNames: ['html', 'html5'] },
+    { mainName: 'html', count: 0, subNames: ['html', 'html5', 'Semantic HTML'] },
     { mainName: 'css', count: 0, subNames: ['css', 'css3'] },
     { mainName: 'react', count: 0, subNames: ['react', 'react.js', 'reactjs', 'react js'] },
     { mainName: 'angular', count: 0, subNames: ['angular', 'angular.js', 'angularjs', 'angular js'] },
@@ -25,7 +25,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'State management',
             'State management for loading/skeleton/error',
             'State management systems',
-            'State management libraries'
+            'State management libraries',
+            'State management patterns'
         ]
     },
     {
@@ -38,10 +39,14 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
     { mainName: 'access auditing', count: 0, subNames: ['access auditing'] },
     { mainName: 'fintech knowledge', count: 0, subNames: ['fintech knowledge'] },
-    { mainName: 'javascript', count: 0, subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+'] },
+    {
+        mainName: 'javascript',
+        count: 0,
+        subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+', 'modern JavaScript']
+    },
     { mainName: 'next.js', count: 0, subNames: ['next.js'] },
     { mainName: 'rest api', count: 0, subNames: ['rest apis', 'rest api', 'RESTful APIs'] },
-    { mainName: 'responsive design', count: 0, subNames: ['responsive design'] },
+    { mainName: 'responsive design', count: 0, subNames: ['responsive design', 'Responsive layout'] },
     {
         mainName: 'mobile first',
         count: 0,
@@ -69,7 +74,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'scrum',
             'agile / scrum',
             'Agile workflow',
-            'agile teamwork'
+            'agile teamwork',
+            'Agile Project Management tools'
         ]
     },
     { mainName: 'playwright', count: 0, subNames: ['playwright'] },
@@ -86,14 +92,16 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'webpagetest',
             'Web performance optimization',
             'Frontend performance optimization',
-            'Performance optimisation'
+            'Performance optimisation',
+            'Runtime performance optimization',
+            'runtime performance'
         ]
     },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
     { mainName: 'storybook', count: 0, subNames: ['storybook'] },
     { mainName: 'monorepos', count: 0, subNames: ['monorepos'] },
-    { mainName: 'design systems', count: 0, subNames: ['design systems'] },
-    { mainName: 'accessibility', count: 0, subNames: ['accessibility', 'WCAG accessibility'] },
+    { mainName: 'design systems', count: 0, subNames: ['design systems', 'design system'] },
+    { mainName: 'accessibility', count: 0, subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
     { mainName: 'testing', count: 0, subNames: ['testing'] },
     { mainName: 'frontend architecture', count: 0, subNames: ['frontend architecture', 'client-side architecture'] },
@@ -103,14 +111,21 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'ui/ux',
         count: 0,
-        subNames: ['ui/ux', 'UX best practices', 'UI/UX design', 'UX understanding', 'UI/UX implementation']
+        subNames: [
+            'ui/ux',
+            'UX best practices',
+            'UI/UX design',
+            'UX understanding',
+            'UI/UX implementation',
+            'UI/UX best practices'
+        ]
     },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
     { mainName: 'data-heavy interfaces', count: 0, subNames: ['data-heavy interfaces'] },
     { mainName: 'flutterflow', count: 0, subNames: ['flutterflow'] },
     { mainName: 'streamlit', count: 0, subNames: ['streamlit'] },
     { mainName: 'svelte', count: 0, subNames: ['svelte', 'sveltekit'] },
-    { mainName: 'component libraries', count: 0, subNames: ['component libraries'] },
+    { mainName: 'component libraries', count: 0, subNames: ['component libraries', 'component library'] },
     { mainName: 'theming', count: 0, subNames: ['tokens and theming', 'tokens', 'theming'] },
     { mainName: 'figma', count: 0, subNames: ['figma', 'Figma to production UI'] },
     { mainName: 'animations', count: 0, subNames: ['animations'] },
@@ -162,9 +177,9 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'sass', count: 0, subNames: ['sass'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
     { mainName: 'nosql databases', count: 0, subNames: ['nosql databases'] },
-    { mainName: 'aws', count: 0, subNames: ['aws'] },
+    { mainName: 'aws', count: 0, subNames: ['aws', 'AWS cloud services', 'AWS/cloud technologies'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
-    { mainName: 'vite', count: 0, subNames: ['vite'] },
+    { mainName: 'vite', count: 0, subNames: ['vite'], meta: 'Webpack clone' },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
     { mainName: 'react native', count: 0, subNames: ['react native'] },
@@ -199,7 +214,18 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'backend databases', count: 0, subNames: ['backend databases'] },
     { mainName: 'modular component design', count: 0, subNames: ['modular component design'] },
     { mainName: 'localization', count: 0, subNames: ['localization'] },
-    { mainName: 'build tooling', count: 0, subNames: ['build tooling'] },
+    {
+        mainName: 'build tools',
+        count: 0,
+        subNames: [
+            'build tooling',
+            'Front-end build tools',
+            'build tooling',
+            'Frontend build tools',
+            'Modern build tools'
+        ],
+        meta: 'this refers to WebPack... e.g. of post in Amazon AWS -> Modern build tools (Webpack, Vite, or similar)'
+    },
     { mainName: 'observability', count: 0, subNames: ['observability'] },
     { mainName: 'code review', count: 0, subNames: ['code review', 'code reviews'] },
     { mainName: 'design documentation', count: 0, subNames: ['design documentation'] },
@@ -259,7 +285,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier'] },
     { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] },
-    { mainName: 'angular 2', count: 0, subNames: ['angular 2', 'angular 2+', 'Angular 15'] },
+    { mainName: 'angular 2', count: 0, subNames: ['angular 2', 'angular 2+', 'Angular 15', 'Angular (13+)'] },
     { mainName: 'web development', count: 0, subNames: ['web development'] },
     { mainName: 'testing frameworks', count: 0, subNames: ['testing frameworks'] },
     { mainName: 'test runner frameworks', count: 0, subNames: ['test runner frameworks'] },
@@ -275,24 +301,53 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'modern frameworks', count: 0, subNames: ['modern frameworks'] },
     { mainName: 'api development', count: 0, subNames: ['api development'] },
     { mainName: 'backend api layer experience', count: 0, subNames: ['backend api layer experience'] },
-    { mainName: 'sql', count: 0, subNames: ['sql'] },
+    { mainName: 'sql', count: 0, subNames: ['sql', 'SQL querying tools'] },
     { mainName: 'data-driven query languages', count: 0, subNames: ['data-driven query languages'] },
     { mainName: 'cloud services ui development', count: 0, subNames: ['cloud services ui development'] },
     { mainName: 'golang', count: 0, subNames: ['golang'] },
     { mainName: 'postgresql', count: 0, subNames: ['postgresql'] },
     { mainName: 'data visualization', count: 0, subNames: ['data visualization'] },
     { mainName: 'ai-powered solutions', count: 0, subNames: ['ai-powered solutions'] },
-{ mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
-{ mainName: 'llm workflows', count: 0, subNames: ['llm workflows'] },
-{ mainName: 'openai gpt', count: 0, subNames: ['openai gpt'] },
-{ mainName: 'ssr', count: 0, subNames: ['ssr', 'server side rendering', 'server-side rendering'] },
-{ mainName: 'ssg', count: 0, subNames: ['ssg'] },
-{ mainName: 'dashboards', count: 0, subNames: ['dashboards'] },
-{ mainName: 'ally', count: 0, subNames: ['ally'], meta: 'this is Accessibility tool for Wordpress' },
-{ mainName: 'wordpress', count: 0, subNames: ['wordpress'] },
-{ mainName: 'joomla', count: 0, subNames: ['joomla'] },
-{ mainName: 'drupal', count: 0, subNames: ['drupal'] },
-{ mainName: 'cockpit', count: 0, subNames: ['cockpit cms', 'cockpit'], meta: 'its a content management system' },
+    { mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
+    { mainName: 'llm workflows', count: 0, subNames: ['llm workflows'] },
+    { mainName: 'openai gpt', count: 0, subNames: ['openai gpt'] },
+    { mainName: 'ssr', count: 0, subNames: ['ssr', 'server side rendering', 'server-side rendering'] },
+    { mainName: 'ssg', count: 0, subNames: ['ssg'] },
+    { mainName: 'dashboards', count: 0, subNames: ['dashboards'] },
+    { mainName: 'ally', count: 0, subNames: ['ally'], meta: 'this is Accessibility tool for Wordpress' },
+    { mainName: 'wordpress', count: 0, subNames: ['wordpress'] },
+    { mainName: 'joomla', count: 0, subNames: ['joomla'] },
+    { mainName: 'drupal', count: 0, subNames: ['drupal'] },
+    { mainName: 'cockpit', count: 0, subNames: ['cockpit cms', 'cockpit'], meta: 'its a content management system' },
+    {
+        mainName: 'core web vitals optimization',
+        count: 0,
+        subNames: ['core web vitals optimization', 'Core Web Vitals']
+    },
+    { mainName: 'routing', count: 0, subNames: ['routing'] },
+    { mainName: 'modularization', count: 0, subNames: ['modularization'] },
+    { mainName: 'legacy code refactoring', count: 0, subNames: ['legacy code refactoring'] },
+    { mainName: 'architectural improvements', count: 0, subNames: ['architectural improvements'] },
+    { mainName: 'api collaboration', count: 0, subNames: ['api collaboration'] },
+    { mainName: 'large-scale applications', count: 0, subNames: ['large-scale applications'] },
+    { mainName: 'jasmine', count: 0, subNames: ['jasmine'] },
+    { mainName: 'karma', count: 0, subNames: ['karma'] },
+    { mainName: 'version control', count: 0, subNames: ['version control'] },
+    { mainName: 'refactoring', count: 0, subNames: ['refactoring'] },
+    { mainName: 'shadcn ui components', count: 0, subNames: ['shadcn ui components'] },
+    { mainName: 'tanstack router', count: 0, subNames: ['tanstack router'] },
+    { mainName: 'tanstack libraries', count: 0, subNames: ['tanstack libraries'] },
+    { mainName: 'github', count: 0, subNames: ['github'] },
+    {
+        mainName: 'containerized application development',
+        count: 0,
+        subNames: ['containerized application development']
+    },
+    { mainName: 'automation testing', count: 0, subNames: ['automation testing'] },
+    { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
+    { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
+    { mainName: 'cloud technologies', count: 0, subNames: ['cloud technologies'] },
+{ mainName: 'mysql', count: 0, subNames: ['mysql'] },
 
 
     //
