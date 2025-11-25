@@ -24,6 +24,7 @@ type FunctionReturn = {
 };
 
 export function mainDbIteration(mainDb: JobEntry[], hardSkillsArr: HardAndSoftSkillsArray): FunctionReturn {
+    console.log("hardSkillsArr: ", hardSkillsArr);
     let finalObj: FinalObjType = {
         totalJobEntries: 0,
         avgYearsOfExperience: 0,

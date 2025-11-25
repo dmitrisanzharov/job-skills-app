@@ -21,7 +21,7 @@ const CompaniesAnalyzedSeniorFrontEnd: React.FC<Props> = () => {
 
     return (
         <Box>
-            <h3>Companies Analyzed: {mainDb.length}</h3>
+            <h3>Senior Front End: Companies Analyzed: {mainDb.length}</h3>
             <TableContainer component={Paper}>
                 <Table>
                     <TableHead>

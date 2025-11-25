@@ -697,5 +697,48 @@ export default <JobEntry[]>[
             'Team collaboration',
             'Strong product mindset'
         ]
+    },
+    {
+        dateCreated: 1764096000000,
+        companyName: 'Tiger Data',
+        jobTitle: 'Senior Front-End Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: 5,
+        bachelorDegree: false,
+        mastersDegree: false,
+        hardSkills: [
+            'TypeScript',
+            'React',
+            'JavaScript',
+            'UI/UX implementation',
+            'Pixel-perfect UI',
+            'Cypress',
+            'testing',
+            'End-to-end testing',
+            'API development',
+            'Backend API layer experience',
+            'SQL',
+            'Data-driven query languages',
+            'SaaS product development',
+            'Cloud services UI development',
+            'Golang',
+            'PostgreSQL',
+            'Docker',
+            'Kubernetes',
+            'AWS',
+            'Data visualization',
+            'modern frameworks'
+        ],
+        softSkills: [
+            'Ownership',
+            'Self-driven execution',
+            'Strong communication',
+            'Attention to detail',
+            'Collaboration',
+            'Working with product and design',
+            'Customer-centric thinking',
+            'Ability to thrive in fast-paced environments',
+            'Remote teamwork'
+        ]
     }
 ];

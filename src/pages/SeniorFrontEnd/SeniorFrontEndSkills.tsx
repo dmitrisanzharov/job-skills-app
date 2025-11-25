@@ -26,6 +26,8 @@ function SeniorFrontEndSkills() {
     renderCount.current += 1;
     console.log('render count', renderCount.current);
 
+    console.log('seniorFrontEndSkills:', seniorFrontEndSkills);
+
     const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb, seniorFrontEndSkills);
     const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > (totalJobEntries * 0.2)).sort((a, b) => b.count - a.count);
 
@@ -46,7 +48,7 @@ function SeniorFrontEndSkills() {
 
     return (
         <Box>
-            <h1>Job Skills Analysis</h1>
+            <h1>Senior Front End: Job Skills Analysis</h1>
             <p>Total Job Entries: {totalJobEntries}</p>
             <p>Average Years of Experience: {avgYears.toFixed(0)}</p>
             <p>Bachelor: {finalObj.bachelorDegreeFinal} | {(finalObj.bachelorDegreeFinal / totalJobEntries * 100).toFixed(0)}%</p>
