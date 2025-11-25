@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import mainDb from '../mainDb';
+import mainDb from '../databases/seniorFrontEndDb';
 import dayjs from 'dayjs';
 
 // MUI

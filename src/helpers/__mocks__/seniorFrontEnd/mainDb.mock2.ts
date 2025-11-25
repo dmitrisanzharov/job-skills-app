@@ -1,4 +1,4 @@
-import { JobEntry } from '../../types';
+import { JobEntry } from '../../../types';
 
 // same as Mock 1, only has new skill that doesn't exist
 
