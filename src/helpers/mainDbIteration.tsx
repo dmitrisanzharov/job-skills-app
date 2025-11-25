@@ -1,6 +1,6 @@
 import { JobEntry } from '../types';
 
-export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[] }[];
+export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[], meta?: string }[];
 
 type FinalObjType = {
     totalJobEntries: number;

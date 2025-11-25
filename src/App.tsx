@@ -12,7 +12,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 
 // senior front end
-import SeniorFrontEndSkills from './pages/SeniorFrontEnd/SeniorFrontEndSkills';
+import SeniorFrontEndSkillsUi from './pages/SeniorFrontEnd/SeniorFrontEndSkillsUi';
 import CompaniesAnalyzedSeniorFrontEnd from './pages/SeniorFrontEnd/CompaniesAnalyzedSeniorFrontEnd';
 
 
@@ -37,7 +37,7 @@ const App: React.FC = () => {
             <hr />
 
             <Routes>
-                <Route path={seniorFrontEndDeveloperSkillsLink} element={<SeniorFrontEndSkills />} />
+                <Route path={seniorFrontEndDeveloperSkillsLink} element={<SeniorFrontEndSkillsUi />} />
                 <Route path={companiesAnalyzedSeniorFrontEndLink} element={<CompaniesAnalyzedSeniorFrontEnd />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>

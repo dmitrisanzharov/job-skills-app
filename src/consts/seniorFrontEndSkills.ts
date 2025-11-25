@@ -38,7 +38,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
     { mainName: 'access auditing', count: 0, subNames: ['access auditing'] },
     { mainName: 'fintech knowledge', count: 0, subNames: ['fintech knowledge'] },
-    { mainName: 'javascript', count: 0, subNames: ['javascript', 'JavaScript (ES6+)'] },
+    { mainName: 'javascript', count: 0, subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+'] },
     { mainName: 'next.js', count: 0, subNames: ['next.js'] },
     { mainName: 'rest api', count: 0, subNames: ['rest apis', 'rest api', 'RESTful APIs'] },
     { mainName: 'responsive design', count: 0, subNames: ['responsive design'] },
@@ -68,7 +68,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'agile development',
             'scrum',
             'agile / scrum',
-            'Agile workflow'
+            'Agile workflow',
+            'agile teamwork'
         ]
     },
     { mainName: 'playwright', count: 0, subNames: ['playwright'] },
@@ -84,7 +85,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'Performance tooling',
             'webpagetest',
             'Web performance optimization',
-            'Frontend performance optimization'
+            'Frontend performance optimization',
+            'Performance optimisation'
         ]
     },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
@@ -278,7 +280,20 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'cloud services ui development', count: 0, subNames: ['cloud services ui development'] },
     { mainName: 'golang', count: 0, subNames: ['golang'] },
     { mainName: 'postgresql', count: 0, subNames: ['postgresql'] },
-    { mainName: 'data visualization', count: 0, subNames: ['data visualization'] }
+    { mainName: 'data visualization', count: 0, subNames: ['data visualization'] },
+    { mainName: 'ai-powered solutions', count: 0, subNames: ['ai-powered solutions'] },
+{ mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
+{ mainName: 'llm workflows', count: 0, subNames: ['llm workflows'] },
+{ mainName: 'openai gpt', count: 0, subNames: ['openai gpt'] },
+{ mainName: 'ssr', count: 0, subNames: ['ssr', 'server side rendering', 'server-side rendering'] },
+{ mainName: 'ssg', count: 0, subNames: ['ssg'] },
+{ mainName: 'dashboards', count: 0, subNames: ['dashboards'] },
+{ mainName: 'ally', count: 0, subNames: ['ally'], meta: 'this is Accessibility tool for Wordpress' },
+{ mainName: 'wordpress', count: 0, subNames: ['wordpress'] },
+{ mainName: 'joomla', count: 0, subNames: ['joomla'] },
+{ mainName: 'drupal', count: 0, subNames: ['drupal'] },
+{ mainName: 'cockpit', count: 0, subNames: ['cockpit cms', 'cockpit'], meta: 'its a content management system' },
+
 
     //
     //

@@ -38,13 +38,16 @@ const CompaniesAnalyzedSeniorFrontEnd: React.FC<Props> = () => {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {mainDb.map((job, index) => (
-                            <TableRow key={index}>
-                                <TableCell>{dayjs(job.dateCreated).format('DD-MMM-YYYY')}</TableCell>
-                                <TableCell>{job.companyName}</TableCell>
-                                <TableCell>{job.jobTitle}</TableCell>
-                            </TableRow>
-                        ))}
+                        {mainDb
+                            .slice() // create a shallow copy to avoid mutating original array
+                            .sort((a, b) => b.dateCreated - a.dateCreated) // latest first
+                            .map((job, index) => (
+                                <TableRow key={index}>
+                                    <TableCell>{dayjs(job.dateCreated).format('DD-MMM-YYYY')}</TableCell>
+                                    <TableCell>{job.companyName}</TableCell>
+                                    <TableCell>{job.jobTitle}</TableCell>
+                                </TableRow>
+                            ))}
                     </TableBody>
                 </Table>
             </TableContainer>
