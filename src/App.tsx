@@ -10,27 +10,22 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import  Typography  from '@mui/material/Typography';
+import Typography from '@mui/material/Typography';
 
 const App: React.FC = () => {
     return (
         <Box>
-          <Typography variant="h5" gutterBottom>
-            Senior FrontEnd Job Market Analysis
-          </Typography>
-            <List>
-                <ListItem disablePadding>
-                    <ListItemButton component={Link} to='/companies-analyzed'>
-                        <ListItemText primary='Senior FrontEnd Companies Analyzed' />
-                    </ListItemButton>
-                </ListItem>
-
-                <ListItem disablePadding>
-                    <ListItemButton component={Link} to='/'>
-                        <ListItemText primary='Senior FrontEnd Skills Analysis' />
-                    </ListItemButton>
-                </ListItem>
-            </List>
+            <h3>
+                Senior FrontEnd: 
+            </h3>
+            <ul>
+                <li>
+                    <Link to='/companies-analyzed'>Senior FrontEnd Companies Analyzed</Link>
+                </li>
+                <li>
+                    <Link to='/'>Senior FrontEnd Skills Analysis</Link>
+                </li>
+            </ul>
             <hr />
 
             <Routes>
