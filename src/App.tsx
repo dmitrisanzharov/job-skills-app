@@ -13,6 +13,11 @@ import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 
 const App: React.FC = () => {
+
+    const seniorFrontEndDeveloperSkillsLink = '/';
+    const companiesAnalyzedSeniorFrontEndLink = '/senior-front-end-companies-analyzed';
+
+
     return (
         <Box>
             <h3>
@@ -20,17 +25,17 @@ const App: React.FC = () => {
             </h3>
             <ul>
                 <li>
-                    <Link to='/companies-analyzed'>Senior FrontEnd Companies Analyzed</Link>
+                    <Link to={companiesAnalyzedSeniorFrontEndLink}>Senior FrontEnd Companies Analyzed</Link>
                 </li>
                 <li>
-                    <Link to='/'>Senior FrontEnd Skills Analysis</Link>
+                    <Link to={seniorFrontEndDeveloperSkillsLink}>Senior FrontEnd Skills Analysis</Link>
                 </li>
             </ul>
             <hr />
 
             <Routes>
-                <Route path='/' element={<SkillAnalysis />} />
-                <Route path='/companies-analyzed' element={<CompaniesAnalyzedSeniorFrontEnd />} />
+                <Route path={seniorFrontEndDeveloperSkillsLink} element={<SkillAnalysis />} />
+                <Route path={companiesAnalyzedSeniorFrontEndLink} element={<CompaniesAnalyzedSeniorFrontEnd />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </Box>
