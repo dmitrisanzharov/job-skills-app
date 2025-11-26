@@ -94,7 +94,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'Frontend performance optimization',
             'Performance optimisation',
             'Runtime performance optimization',
-            'runtime performance'
+            'runtime performance',
+            'Performance audits'
         ]
     },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
@@ -177,7 +178,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'sass', count: 0, subNames: ['sass'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
     { mainName: 'nosql databases', count: 0, subNames: ['nosql databases'] },
-    { mainName: 'aws', count: 0, subNames: ['aws', 'AWS cloud services', 'AWS/cloud technologies'] },
+    { mainName: 'aws', count: 0, subNames: ['aws', 'AWS cloud services', 'AWS/cloud technologies', 'AWS hosting'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
     { mainName: 'vite', count: 0, subNames: ['vite'], meta: 'Webpack clone' },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
@@ -212,7 +213,18 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'grpc', count: 0, subNames: ['grpc'] },
     { mainName: 'backend technologies', count: 0, subNames: ['backend technologies'] },
     { mainName: 'backend databases', count: 0, subNames: ['backend databases'] },
-    { mainName: 'modular component design', count: 0, subNames: ['modular component design'] },
+    {
+        mainName: 'reusable components',
+        count: 0,
+        subNames: [
+            'modular component design',
+            'Frontend component-based architecture',
+            'component-based architecture',
+            'reusable components',
+            'Reusable UI components',
+            'component based architecture'
+        ]
+    },
     { mainName: 'localization', count: 0, subNames: ['localization'] },
     {
         mainName: 'build tools',
@@ -277,7 +289,6 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'component composition', count: 0, subNames: ['component composition'] },
     { mainName: 'mui', count: 0, subNames: ['mui', 'Material UI', 'Material UI (MUI)'] },
     { mainName: 'spa development', count: 0, subNames: ['spa development', 'single page application'] },
-    { mainName: 'reusable components', count: 0, subNames: ['reusable components', 'Reusable UI components'] },
     { mainName: 'object-oriented javascript', count: 0, subNames: ['object-oriented javascript'] },
     { mainName: 'ui testing', count: 0, subNames: ['ui testing'] },
     { mainName: 'selenium', count: 0, subNames: ['selenium'] },
@@ -305,7 +316,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'data-driven query languages', count: 0, subNames: ['data-driven query languages'] },
     { mainName: 'cloud services ui development', count: 0, subNames: ['cloud services ui development'] },
     { mainName: 'golang', count: 0, subNames: ['golang'] },
-    { mainName: 'postgresql', count: 0, subNames: ['postgresql'] },
+    { mainName: 'postgresql', count: 0, subNames: ['postgresql', 'Postgres', 'Postgres (context)'] },
     { mainName: 'data visualization', count: 0, subNames: ['data visualization'] },
     { mainName: 'ai-powered solutions', count: 0, subNames: ['ai-powered solutions'] },
     { mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
@@ -347,8 +358,33 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
     { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
     { mainName: 'cloud technologies', count: 0, subNames: ['cloud technologies'] },
-{ mainName: 'mysql', count: 0, subNames: ['mysql'] },
-
+    { mainName: 'mysql', count: 0, subNames: ['mysql'] },
+    {
+        mainName: 'seo best practices',
+        count: 0,
+        subNames: [
+            'seo',
+            'search-engine-optimization',
+            'seo-best-practices',
+            'seo best practices',
+            'search engine optimization'
+        ]
+    },
+    { mainName: 'Third-party APIs', count: 0, subNames: ['Third-party APIs'] },
+    { mainName: 'Analytics integrations', count: 0, subNames: ['Analytics integrations'] },
+    { mainName: 'CMS integrations', count: 0, subNames: ['CMS integrations', 'Headless CMS integrations'] },
+    { mainName: 'Elixir/Phoenix (context)', count: 0, subNames: ['Elixir/Phoenix (context)'] },
+    { mainName: 'Express.js', count: 0, subNames: ['Express.js'] },
+    { mainName: 'Ant Design', count: 0, subNames: ['Ant Design'] },
+    { mainName: 'MongoDb', count: 0, subNames: ['MongoDb'] },
+    { mainName: 'DynamoDb', count: 0, subNames: ['DynamoDb'] },
+    { mainName: 'Database schema design', count: 0, subNames: ['Database schema design', 'schema design'] },
+    { mainName: 'Database performance optimization', count: 0, subNames: ['Database performance optimization'] },
+    { mainName: 'GCP', count: 0, subNames: ['GCP'] },
+    { mainName: 'Azure', count: 0, subNames: ['Azure'] },
+    { mainName: 'Containerization', count: 0, subNames: ['Containerization'] },
+    { mainName: 'Scalable backend systems', count: 0, subNames: ['Scalable backend systems'] },
+    { mainName: 'Fullstack web application development', count: 0, subNames: ['Fullstack web application development'] }
 
     //
     //
