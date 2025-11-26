@@ -14,7 +14,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['react functional components', 'react functional component']
     },
-    { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook'] },
+    { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook', 'Hooks'] },
     { mainName: 'redux', count: 0, subNames: ['redux', 'Redux.js', 'Redux Toolkit'] },
     {
         mainName: 'state management tools',
@@ -100,7 +100,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'Performance optimisation',
             'Runtime performance optimization',
             'runtime performance',
-            'Performance audits'
+            'Performance audits',
+            'Performance profiling'
         ]
     },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
@@ -135,7 +136,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'UI & UX design',
             'Design principles',
             'UX process',
-            'UI/UX development'
+            'UI/UX development',
+            'UX design translation to UI'
         ]
     },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
@@ -277,7 +279,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'object-oriented programming',
         count: 0,
-        subNames: ['object-oriented programming', 'Object-Oriented Programming (OOP)', 'OOP']
+        subNames: ['object-oriented programming', 'Object-Oriented Programming (OOP)', 'OOP', 'OO languages']
     },
     { mainName: 'solid principles', count: 0, subNames: ['solid principles'] },
     { mainName: 'dry principles', count: 0, subNames: ['dry principles'] },
@@ -326,19 +328,19 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'collaboration with product managers', count: 0, subNames: ['collaboration with product managers'] },
     { mainName: 'react router', count: 0, subNames: ['react routing', 'react router'] },
     { mainName: 'component composition', count: 0, subNames: ['component composition'] },
-    { mainName: 'mui', count: 0, subNames: ['mui', 'Material UI', 'Material UI (MUI)', 'Material Design'] },
+    { mainName: 'mui', count: 0, subNames: ['mui', 'Material UI', 'Material UI (MUI)', 'Material Design', 'Material-UI'] },
     { mainName: 'spa development', count: 0, subNames: ['spa development', 'single page application'] },
     { mainName: 'object-oriented javascript', count: 0, subNames: ['object-oriented javascript'] },
     { mainName: 'ui testing', count: 0, subNames: ['ui testing'] },
     { mainName: 'selenium', count: 0, subNames: ['selenium'] },
-    { mainName: 'front-end tooling', count: 0, subNames: ['front-end tooling', 'Modern front-end tooling'] },
+    { mainName: 'front-end tooling', count: 0, subNames: ['front-end tooling', 'Modern front-end tooling', 'Developer tooling'] },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier'] },
     { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] },
     {
         mainName: 'angular 2',
         count: 0,
-        subNames: ['angular 2', 'angular 2+', 'Angular 15', 'Angular (13+)', 'Angular 20']
+        subNames: ['angular 2', 'angular 2+', 'Angular 15', 'Angular (13+)', 'Angular 20', 'Angular (v8+)']
     },
     {
         mainName: 'web development',
@@ -354,7 +356,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'cross-browser compatibility', count: 0, subNames: ['cross-browser compatibility'] },
     { mainName: 'npm', count: 0, subNames: ['npm', 'node package manager'] },
     { mainName: 'linters', count: 0, subNames: ['linters'] },
-    { mainName: 'nx framework', count: 0, subNames: ['nx framework'] },
+    { mainName: 'nx framework', count: 0, subNames: ['nx framework', 'Nx'] },
     { mainName: 'typescript ast', count: 0, subNames: ['typescript ast', 'typescript abstract syntax tree'] },
     { mainName: 'code modifiers', count: 0, subNames: ['code modifiers'] },
     { mainName: 'gitlab', count: 0, subNames: ['gitlab'] },
@@ -422,7 +424,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'seo-best-practices',
             'seo best practices',
             'search engine optimization',
-            'SEO compliance'
+            'SEO compliance',
+            'SEO optimization'
         ]
     },
     { mainName: 'Third-party APIs', count: 0, subNames: ['Third-party APIs', 'third-party services', 'Integration of third-party services'] },
@@ -446,7 +449,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Fullstack web application development',
         count: 0,
-        subNames: ['Fullstack web application development', 'Fullstack development']
+        subNames: ['Fullstack web application development', 'Fullstack development', 'Frontend and backend tooling setup']
     },
     {
         mainName: 'Software development',
@@ -454,7 +457,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         subNames: ['Software development', 'Software development processes']
     },
     { mainName: 'Web applications', count: 0, subNames: ['Web applications'] },
-    { mainName: 'Security', count: 0, subNames: ['Security'] },
+    { mainName: 'Security', count: 0, subNames: ['Security', 'Secure coding practices'] },
     { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets'] },
     {
         mainName: 'Experience in large technology organizations',
@@ -543,6 +546,16 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
 { mainName: 'Cententful', count: 0, subNames: ['Cententful'] },
 { mainName: 'Contentstack', count: 0, subNames: ['Contentstack'] },
 { mainName: 'Kentico', count: 0, subNames: ['Kentico'] },
+{ mainName: 'SCSS', count: 0, subNames: ['SCSS'] },
+{ mainName: 'Sitecore JSS', count: 0, subNames: ['Sitecore JSS'] },
+{ mainName: 'ISR', count: 0, subNames: ['ISR'] },
+{ mainName: 'Django', count: 0, subNames: ['Django'] },
+{ mainName: 'Microfrontends', count: 0, subNames: ['Microfrontends'] },
+{ mainName: 'Serverless architectures', count: 0, subNames: ['Serverless architectures'] },
+{ mainName: 'Developer automation', count: 0, subNames: ['Developer automation'] },
+
+
+
 
     //
     //
