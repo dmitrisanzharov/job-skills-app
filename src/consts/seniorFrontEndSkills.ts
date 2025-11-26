@@ -15,7 +15,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         subNames: ['react functional components', 'react functional component']
     },
     { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook'] },
-    { mainName: 'redux', count: 0, subNames: ['redux', 'Redux.js'] },
+    { mainName: 'redux', count: 0, subNames: ['redux', 'Redux.js', 'Redux Toolkit'] },
     {
         mainName: 'state management tools',
         count: 0,
@@ -46,7 +46,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'next.js', count: 0, subNames: ['next.js'] },
     { mainName: 'rest api', count: 0, subNames: ['rest apis', 'rest api', 'RESTful APIs'] },
-    { mainName: 'responsive design', count: 0, subNames: ['responsive design', 'Responsive layout'] },
+    {
+        mainName: 'responsive design',
+        count: 0,
+        subNames: ['responsive design', 'Responsive layout', 'Responsive web design']
+    },
     {
         mainName: 'mobile first',
         count: 0,
@@ -75,7 +79,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'agile / scrum',
             'Agile workflow',
             'agile teamwork',
-            'Agile Project Management tools'
+            'Agile Project Management tools',
+            'Agile'
         ]
     },
     { mainName: 'playwright', count: 0, subNames: ['playwright'] },
@@ -101,11 +106,19 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
     { mainName: 'storybook', count: 0, subNames: ['storybook'] },
     { mainName: 'monorepos', count: 0, subNames: ['monorepos'] },
-    { mainName: 'design systems', count: 0, subNames: ['design systems', 'design system'] },
+    {
+        mainName: 'design systems',
+        count: 0,
+        subNames: ['design systems', 'design system', 'Scalable system design', 'Fault-tolerant system design']
+    },
     { mainName: 'accessibility', count: 0, subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
-    { mainName: 'testing', count: 0, subNames: ['testing'] },
-    { mainName: 'frontend architecture', count: 0, subNames: ['frontend architecture', 'client-side architecture'] },
+    { mainName: 'testing', count: 0, subNames: ['testing', 'Testable code'] },
+    {
+        mainName: 'frontend architecture',
+        count: 0,
+        subNames: ['frontend architecture', 'client-side architecture', 'Software architecture']
+    },
     { mainName: 'git', count: 0, subNames: ['git'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
@@ -118,7 +131,9 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'UI/UX design',
             'UX understanding',
             'UI/UX implementation',
-            'UI/UX best practices'
+            'UI/UX best practices',
+            'UI & UX design',
+            'Design principles'
         ]
     },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
@@ -172,7 +187,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'webgl', count: 0, subNames: ['webgl'] },
     { mainName: 'canvas', count: 0, subNames: ['canvas'] },
     { mainName: 'svg', count: 0, subNames: ['svg'] },
-    { mainName: 'monitoring tools', count: 0, subNames: ['monitoring tools'] },
+    { mainName: 'monitoring tools', count: 0, subNames: ['monitoring tools', 'System performance monitoring'] },
     { mainName: 'mobx', count: 0, subNames: ['mobx'] },
     { mainName: 'less', count: 0, subNames: ['less'] },
     { mainName: 'sass', count: 0, subNames: ['sass'] },
@@ -234,7 +249,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'Front-end build tools',
             'build tooling',
             'Frontend build tools',
-            'Modern build tools'
+            'Modern build tools',
+            'Modern front-end build pipelines'
         ],
         meta: 'this refers to WebPack... e.g. of post in Amazon AWS -> Modern build tools (Webpack, Vite, or similar)'
     },
@@ -280,7 +296,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'component testing', count: 0, subNames: ['component testing'] },
     { mainName: 'e2e testing', count: 0, subNames: ['e2e testing', 'End-to-end testing'] },
     { mainName: 'modern frontend patterns', count: 0, subNames: ['modern frontend patterns'] },
-    { mainName: 'maintainable architecture', count: 0, subNames: ['maintainable architecture'] },
+    {
+        mainName: 'maintainable architecture',
+        count: 0,
+        subNames: ['maintainable architecture', 'Maintainable system design']
+    },
     { mainName: 'internationalization', count: 0, subNames: ['internationalization'] },
     { mainName: 'translation workflows', count: 0, subNames: ['translation workflows'] },
     { mainName: 'collaboration with designers', count: 0, subNames: ['collaboration with designers'] },
@@ -292,14 +312,17 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'object-oriented javascript', count: 0, subNames: ['object-oriented javascript'] },
     { mainName: 'ui testing', count: 0, subNames: ['ui testing'] },
     { mainName: 'selenium', count: 0, subNames: ['selenium'] },
-    { mainName: 'front-end tooling', count: 0, subNames: ['front-end tooling'] },
+    { mainName: 'front-end tooling', count: 0, subNames: ['front-end tooling', 'Modern front-end tooling'] },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier'] },
     { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] },
     { mainName: 'angular 2', count: 0, subNames: ['angular 2', 'angular 2+', 'Angular 15', 'Angular (13+)'] },
     { mainName: 'web development', count: 0, subNames: ['web development'] },
-    { mainName: 'testing frameworks', count: 0, subNames: ['testing frameworks'] },
-    { mainName: 'test runner frameworks', count: 0, subNames: ['test runner frameworks'] },
+    {
+        mainName: 'testing frameworks',
+        count: 0,
+        subNames: ['testing frameworks', 'Frontend testing frameworks', 'test runner frameworks']
+    },
     { mainName: 'grasp principles', count: 0, subNames: ['grasp principles'] },
     { mainName: 'cross-browser compatibility', count: 0, subNames: ['cross-browser compatibility'] },
     { mainName: 'npm', count: 0, subNames: ['npm', 'node package manager'] },
@@ -310,7 +333,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'gitlab', count: 0, subNames: ['gitlab'] },
     { mainName: 'nginx', count: 0, subNames: ['nginx'] },
     { mainName: 'modern frameworks', count: 0, subNames: ['modern frameworks'] },
-    { mainName: 'api development', count: 0, subNames: ['api development'] },
+    { mainName: 'api development', count: 0, subNames: ['api development', 'API design'] },
     { mainName: 'backend api layer experience', count: 0, subNames: ['backend api layer experience'] },
     { mainName: 'sql', count: 0, subNames: ['sql', 'SQL querying tools'] },
     { mainName: 'data-driven query languages', count: 0, subNames: ['data-driven query languages'] },
@@ -378,13 +401,92 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'Ant Design', count: 0, subNames: ['Ant Design'] },
     { mainName: 'MongoDb', count: 0, subNames: ['MongoDb'] },
     { mainName: 'DynamoDb', count: 0, subNames: ['DynamoDb'] },
-    { mainName: 'Database schema design', count: 0, subNames: ['Database schema design', 'schema design'] },
+    {
+        mainName: 'Database schema design',
+        count: 0,
+        subNames: ['Database schema design', 'schema design', 'Database design']
+    },
     { mainName: 'Database performance optimization', count: 0, subNames: ['Database performance optimization'] },
     { mainName: 'GCP', count: 0, subNames: ['GCP'] },
     { mainName: 'Azure', count: 0, subNames: ['Azure'] },
     { mainName: 'Containerization', count: 0, subNames: ['Containerization'] },
     { mainName: 'Scalable backend systems', count: 0, subNames: ['Scalable backend systems'] },
-    { mainName: 'Fullstack web application development', count: 0, subNames: ['Fullstack web application development'] }
+    {
+        mainName: 'Fullstack web application development',
+        count: 0,
+        subNames: ['Fullstack web application development', 'Fullstack development']
+    },
+    {
+        mainName: 'Software development',
+        count: 0,
+        subNames: ['Software development', 'Software development processes']
+    },
+    { mainName: 'Web applications', count: 0, subNames: ['Web applications'] },
+    { mainName: 'Security', count: 0, subNames: ['Security'] },
+    { mainName: 'WebSockets', count: 0, subNames: ['WebSockets'] },
+    {
+        mainName: 'Experience in large technology organizations',
+        count: 0,
+        subNames: ['Experience in large technology organizations']
+    },
+    {
+        mainName: 'fast growing startups',
+        count: 0,
+        subNames: ['fast growing startups', 'Experience in fast growing startups']
+    },
+    { mainName: 'Consumer payments experience', count: 0, subNames: ['Consumer payments experience'] },
+    { mainName: 'Crypto applications experience', count: 0, subNames: ['Crypto applications experience'] },
+    {
+        mainName: 'Fintech mobile applications experience',
+        count: 0,
+        subNames: ['Fintech mobile applications experience']
+    },
+    { mainName: 'Async/Await', count: 0, subNames: ['Async/Await'] },
+    { mainName: 'Clean code', count: 0, subNames: ['Clean code'] },
+    { mainName: 'Well-documented code', count: 0, subNames: ['Well-documented code'] },
+    { mainName: 'Ember', count: 0, subNames: ['Ember'] },
+    { mainName: 'AJAX', count: 0, subNames: ['AJAX'] },
+    { mainName: 'Atomic CSS', count: 0, subNames: ['Atomic CSS', 'Atomic design'] },
+    { mainName: 'Superagent', count: 0, subNames: ['Superagent'] },
+    { mainName: 'Web Vitals', count: 0, subNames: ['Web Vitals'] },
+    { mainName: 'JSON', count: 0, subNames: ['JSON'] },
+    { mainName: 'WebdriverIO', count: 0, subNames: ['WebdriverIO'] },
+    { mainName: 'Mock Service Worker', count: 0, subNames: ['Mock Service Worker'] },
+    { mainName: 'Application stability', count: 0, subNames: ['Application stability'] },
+    {
+        mainName: 'Debugging large-scale web applications',
+        count: 0,
+        subNames: ['Debugging large-scale web applications']
+    },
+    {
+        mainName: 'Figma to pixel-perfect implementation',
+        count: 0,
+        subNames: ['Figma to pixel-perfect implementation']
+    },
+    { mainName: 'iOS development', count: 0, subNames: ['iOS development'] },
+    { mainName: 'Android development', count: 0, subNames: ['Android development'] },
+    { mainName: 'Multi-channel deployment', count: 0, subNames: ['Multi-channel deployment'] },
+    { mainName: 'MFA implementation', count: 0, subNames: ['MFA implementation'] },
+    { mainName: 'SSO', count: 0, subNames: ['SSO'] },
+    { mainName: 'Offline-first applications', count: 0, subNames: ['Offline-first applications'] },
+    { mainName: 'Local storage', count: 0, subNames: ['Local storage'] },
+    { mainName: 'Deep linking', count: 0, subNames: ['Deep linking'] },
+    { mainName: 'Notifications', count: 0, subNames: ['Notifications'] },
+    { mainName: 'UI code deployment', count: 0, subNames: ['UI code deployment'] },
+    { mainName: 'Release management', count: 0, subNames: ['Release management'] },
+    { mainName: 'User behavior tracking', count: 0, subNames: ['User behavior tracking'] },
+    { mainName: 'Alerting principles', count: 0, subNames: ['Alerting principles'] },
+    {
+        mainName: 'DevOps/SRE automation for UI deployments',
+        count: 0,
+        subNames: ['DevOps/SRE automation for UI deployments']
+    },
+    { mainName: 'AI tooling', count: 0, subNames: ['AI tooling'] },
+    { mainName: 'Visual design', count: 0, subNames: ['Visual design'] },
+    { mainName: 'Cross-channel UI frameworks', count: 0, subNames: ['Cross-channel UI frameworks'] },
+    { mainName: 'jQuery', count: 0, subNames: ['jQuery'] },
+    { mainName: 'MERN stack', count: 0, subNames: ['MERN stack'] },
+    { mainName: 'Query optimization', count: 0, subNames: ['Query optimization'] }
 
     //
     //
