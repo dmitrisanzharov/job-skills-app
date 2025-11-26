@@ -237,7 +237,9 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'component-based architecture',
             'reusable components',
             'Reusable UI components',
-            'component based architecture'
+            'component based architecture',
+            'Reusable code',
+            'modular code'
         ]
     },
     { mainName: 'localization', count: 0, subNames: ['localization'] },
@@ -377,7 +379,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['containerized application development']
     },
-    { mainName: 'automation testing', count: 0, subNames: ['automation testing'] },
+    { mainName: 'automation testing', count: 0, subNames: ['automation testing', 'Automated testing'] },
     { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
     { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
     { mainName: 'cloud technologies', count: 0, subNames: ['cloud technologies'] },
@@ -486,7 +488,14 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'Cross-channel UI frameworks', count: 0, subNames: ['Cross-channel UI frameworks'] },
     { mainName: 'jQuery', count: 0, subNames: ['jQuery'] },
     { mainName: 'MERN stack', count: 0, subNames: ['MERN stack'] },
-    { mainName: 'Query optimization', count: 0, subNames: ['Query optimization'] }
+    { mainName: 'Query optimization', count: 0, subNames: ['Query optimization'] },
+    { mainName: 'Frontend migrations', count: 0, subNames: ['Frontend migrations'] },
+    { mainName: 'Greenfield development', count: 0, subNames: ['Greenfield development'] },
+    { mainName: 'Python', count: 0, subNames: ['Python'] },
+    { mainName: 'Spark', count: 0, subNames: ['Spark'] },
+    { mainName: 'Snowflake', count: 0, subNames: ['Snowflake'] }
+
+    
 
     //
     //
