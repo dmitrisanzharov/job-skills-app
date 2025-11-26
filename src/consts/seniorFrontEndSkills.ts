@@ -34,7 +34,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['SaaS experience', 'saas experience', 'saas product development']
     },
-    { mainName: 'cloud platforms', count: 0, subNames: ['cloud platforms', 'Cloud services'] },
+    {
+        mainName: 'cloud platforms',
+        count: 0,
+        subNames: ['cloud platforms', 'Cloud services', 'Cloud-native development']
+    },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
     { mainName: 'access auditing', count: 0, subNames: ['access auditing'] },
@@ -66,7 +70,14 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'ci/cd',
         count: 0,
-        subNames: ['ci/cd', 'continuous integration', 'continuous deployment', 'CI/CD pipelines', 'CI/CD practices']
+        subNames: [
+            'ci/cd',
+            'continuous integration',
+            'continuous deployment',
+            'CI/CD pipelines',
+            'CI/CD practices',
+            'CI/CD tools'
+        ]
     },
     {
         mainName: 'agile',
@@ -266,7 +277,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'Frontend build tools',
             'Modern build tools',
             'Modern front-end build pipelines',
-            'build tools'
+            'build tools',
+            'build'
         ],
         meta: 'this refers to WebPack... e.g. of post in Amazon AWS -> Modern build tools (Webpack, Vite, or similar)'
     },
@@ -421,7 +433,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'automation testing',
         count: 0,
-        subNames: ['automation testing', 'Automated testing', 'Browser testing']
+        subNames: ['automation testing', 'Automated testing', 'Browser testing', 'Test automation frameworks']
     },
     { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
     { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
@@ -468,7 +480,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         subNames: [
             'Fullstack web application development',
             'Fullstack development',
-            'Frontend and backend tooling setup'
+            'Frontend and backend tooling setup',
+            'Full-stack development'
         ]
     },
     {
@@ -477,7 +490,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         subNames: ['Software development', 'Software development processes']
     },
     { mainName: 'Web applications', count: 0, subNames: ['Web applications'] },
-    { mainName: 'Security', count: 0, subNames: ['Security', 'Secure coding practices', 'Secure web application development'] },
+    {
+        mainName: 'Security',
+        count: 0,
+        subNames: ['Security', 'Secure coding practices', 'Secure web application development']
+    },
     { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets'] },
     {
         mainName: 'Experience in large technology organizations',
@@ -574,8 +591,39 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'Serverless architectures', count: 0, subNames: ['Serverless architectures'] },
     { mainName: 'Developer automation', count: 0, subNames: ['Developer automation'] },
     { mainName: 'D3.js', count: 0, subNames: ['D3.js'] },
-{ mainName: 'visx', count: 0, subNames: ['visx'] },
-
+    { mainName: 'visx', count: 0, subNames: ['visx'] },
+    { mainName: 'Sprint Boot', count: 0, subNames: ['Sprint Boot'] },
+    {
+        mainName: 'Spring Batch',
+        count: 0,
+        subNames: ['Spring Batch']
+    },
+    {
+        mainName: 'Hibernate',
+        count: 0,
+        subNames: ['Hibernate']
+    },
+    {
+        mainName: 'JPA',
+        count: 0,
+        subNames: ['JPA']
+    },
+    { mainName: 'Oracle Database', count: 0, subNames: ['Oracle Database'] },
+    { mainName: 'PL', count: 0, subNames: ['PL'] },
+    { mainName: 'SOAP', count: 0, subNames: ['SOAP'] },
+    { mainName: 'Jenkins', count: 0, subNames: ['Jenkins'] },
+    { mainName: 'Maven', count: 0, subNames: ['Maven'] },
+    { mainName: 'Gradle', count: 0, subNames: ['Gradle'] },
+    { mainName: 'Unix scripts', count: 0, subNames: ['Unix scripts'] },
+    { mainName: 'Shell scripts', count: 0, subNames: ['Shell scripts'] },
+    { mainName: 'Scripting', count: 0, subNames: ['Scripting'] },
+    { mainName: 'Rest-Assured', count: 0, subNames: ['Rest-Assured'] },
+    { mainName: 'TestNG', count: 0, subNames: ['TestNG'] },
+    { mainName: 'Postman', count: 0, subNames: ['Postman'] },
+    { mainName: 'Insomnia', count: 0, subNames: ['Insomnia'] },
+    { mainName: 'PCF', count: 0, subNames: ['PCF'] },
+    { mainName: 'AI-assisted development tools', count: 0, subNames: ['AI-assisted development tools'] },
+    { mainName: 'Microservices design patterns', count: 0, subNames: ['Microservices design patterns'] }
 
     //
     //
