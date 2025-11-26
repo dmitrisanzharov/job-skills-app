@@ -28,9 +28,11 @@ function SeniorFrontEndSkills() {
     console.log('render count', renderCount.current);
 
     const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb, seniorFrontEndSkills);
-    const hardSkillsFinal = finalObj.hardSkills.filter((hs) => hs.count > (totalJobEntries * skillMinPercentageToFilter)).sort((a, b) => b.count - a.count);
+    const hardSkillsFinal = finalObj.hardSkills
+        .filter((hs) => hs.count > totalJobEntries * skillMinPercentageToFilter)
+        .sort((a, b) => b.count - a.count);
 
-    const testIfWorkModeHasAllEntries = (finalObj.remote + finalObj.hybrid + finalObj.onSite) === totalJobEntries;
+    const testIfWorkModeHasAllEntries = finalObj.remote + finalObj.hybrid + finalObj.onSite === totalJobEntries;
 
     if (renderCount.current >= 2) {
         console.log('reloaded, cause too many renders');
@@ -41,8 +43,10 @@ function SeniorFrontEndSkills() {
         document.title = 'Skill Analysis';
     }, []);
 
-    if(!testIfWorkModeHasAllEntries){
-        throw new Error('DMITRIs CUSTOM ERROR: Work mode entry is missing from one of the jobs OR misspelled... find it and fix it!');
+    if (!testIfWorkModeHasAllEntries) {
+        throw new Error(
+            'DMITRIs CUSTOM ERROR: Work mode entry is missing from one of the jobs OR misspelled... find it and fix it!'
+        );
     }
 
     return (
@@ -50,18 +54,30 @@ function SeniorFrontEndSkills() {
             <h1>Senior Front End: Job Skills Analysis</h1>
             <p>Total Job Entries: {totalJobEntries}</p>
             <p>Average Years of Experience: {avgYears.toFixed(0)}</p>
-            <p>Bachelor: {finalObj.bachelorDegreeFinal} | {(finalObj.bachelorDegreeFinal / totalJobEntries * 100).toFixed(0)}%</p>
-            <p>Masters: {finalObj.mastersDegreeFinal} | {(finalObj.mastersDegreeFinal / totalJobEntries * 100).toFixed(0)}%</p>
+            <p>
+                Bachelor: {finalObj.bachelorDegreeFinal} |{' '}
+                {((finalObj.bachelorDegreeFinal / totalJobEntries) * 100).toFixed(0)}%
+            </p>
+            <p>
+                Masters: {finalObj.mastersDegreeFinal} |{' '}
+                {((finalObj.mastersDegreeFinal / totalJobEntries) * 100).toFixed(0)}%
+            </p>
             <ul>
-                <li>Remote: {finalObj.remote} | {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%</li>
-                <li>Hybrid: {finalObj.hybrid} | {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%</li>
-                <li>On-site: {finalObj.onSite} | {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%</li>
+                <li>
+                    Remote: {finalObj.remote} | {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%
+                </li>
+                <li>
+                    Hybrid: {finalObj.hybrid} | {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%
+                </li>
+                <li>
+                    On-site: {finalObj.onSite} | {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%
+                </li>
             </ul>
 
             {/* MAIN JSON */}
             {/* <h3>{JSON.stringify(finalObj.hardSkills, null, 2)}</h3> */}
 
-            <h2>Hard skills {'>= 20%'}</h2>
+            <h2>Hard skills {`>= ${skillMinPercentageToFilter * 100}%`}</h2>
             <TableContainer component={Paper}>
                 <Table>
                     <TableHead>
