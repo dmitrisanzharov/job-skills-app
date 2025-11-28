@@ -644,7 +644,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'Postman', count: 0, subNames: ['Postman'] },
     { mainName: 'Insomnia', count: 0, subNames: ['Insomnia'] },
     { mainName: 'PCF', count: 0, subNames: ['PCF'] },
-    { mainName: 'AI-assisted development tools', count: 0, subNames: ['AI-assisted development tools', 'AI-assisted development'] },
+    {
+        mainName: 'AI-assisted development tools',
+        count: 0,
+        subNames: ['AI-assisted development tools', 'AI-assisted development']
+    },
     { mainName: 'Microservices design patterns', count: 0, subNames: ['Microservices design patterns'] },
     { mainName: 'Redux Saga', count: 0, subNames: ['Redux Saga'] },
     { mainName: 'A/B testing', count: 0, subNames: ['A/B testing'] },
@@ -654,21 +658,19 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'Notion', count: 0, subNames: ['Notion'] },
     { mainName: 'Slack', count: 0, subNames: ['Slack'] },
     { mainName: 'Google Suite', count: 0, subNames: ['Google Suite'] },
-{ mainName: 'RTK Query', count: 0, subNames: ['RTK Query'] },
-{ mainName: 'Rsbuild', count: 0, subNames: ['Rsbuild'] },
-{ mainName: 'Rspack', count: 0, subNames: ['Rspack'] },
-{ mainName: 'Server-Sent Events', count: 0, subNames: ['Server-Sent Events', 'sse'] },
-{ mainName: 'Message streaming', count: 0, subNames: ['Message streaming'] },
-{ mainName: 'Real-time features', count: 0, subNames: ['Real-time features'] },
-{ mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
-{ mainName: 'HeroUI', count: 0, subNames: ['HeroUI'] },
-{ mainName: 'NextUI', count: 0, subNames: ['NextUI'] },
-{ mainName: 'React Hook Form', count: 0, subNames: ['React Hook Form'] },
-{ mainName: 'Valibot', count: 0, subNames: ['Valibot'] },
-{ mainName: 'Biome', count: 0, subNames: ['Biome'] },
-{ mainName: 'SonarQube', count: 0, subNames: ['SonarQube'] },
-
-
+    { mainName: 'RTK Query', count: 0, subNames: ['RTK Query'] },
+    { mainName: 'Rsbuild', count: 0, subNames: ['Rsbuild'] },
+    { mainName: 'Rspack', count: 0, subNames: ['Rspack'] },
+    { mainName: 'Server-Sent Events', count: 0, subNames: ['Server-Sent Events', 'sse'] },
+    { mainName: 'Message streaming', count: 0, subNames: ['Message streaming'] },
+    { mainName: 'Real-time features', count: 0, subNames: ['Real-time features'] },
+    { mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
+    { mainName: 'HeroUI', count: 0, subNames: ['HeroUI'] },
+    { mainName: 'NextUI', count: 0, subNames: ['NextUI'] },
+    { mainName: 'React Hook Form', count: 0, subNames: ['React Hook Form'] },
+    { mainName: 'Valibot', count: 0, subNames: ['Valibot'] },
+    { mainName: 'Biome', count: 0, subNames: ['Biome'] },
+    { mainName: 'SonarQube', count: 0, subNames: ['SonarQube'] }
 
     //
     //
