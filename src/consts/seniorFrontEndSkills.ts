@@ -1,10 +1,10 @@
 import { HardAndSoftSkillsArray } from '../helpers/mainDbIteration';
 
 export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
-    { mainName: 'typescript', count: 0, subNames: ['TypeScript', 'typescript', 'typescript.js', 'type script'] },
+    { mainName: 'typescript', count: 0, subNames: ['TypeScript', 'typescript', 'typescript.js', 'type script', 'TypeScript 5+'] },
     { mainName: 'html', count: 0, subNames: ['html', 'html5', 'Semantic HTML'] },
     { mainName: 'css', count: 0, subNames: ['css', 'css3'] },
-    { mainName: 'react', count: 0, subNames: ['react', 'react.js', 'reactjs', 'react js'] },
+    { mainName: 'react', count: 0, subNames: ['react', 'react.js', 'reactjs', 'react js', 'React 18+'] },
     { mainName: 'angular', count: 0, subNames: ['angular', 'angular.js', 'angularjs', 'angular js'] },
     { mainName: 'vue', count: 0, subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3'] },
     { mainName: 'node.js', count: 0, subNames: ['node.js', 'nodejs', 'node js', 'node'] },
@@ -49,11 +49,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+', 'modern JavaScript']
     },
     { mainName: 'next.js', count: 0, subNames: ['next.js'] },
-    { mainName: 'rest api', count: 0, subNames: ['rest apis', 'rest api', 'RESTful APIs', 'RESTful Services'] },
+    { mainName: 'rest api', count: 0, subNames: ['rest apis', 'rest api', 'RESTful APIs', 'RESTful Services', 'RESTful API integration'] },
     {
         mainName: 'responsive design',
         count: 0,
-        subNames: ['responsive design', 'Responsive layout', 'Responsive web design']
+        subNames: ['responsive design', 'Responsive layout', 'Responsive web design', 'Responsive UX patterns']
     },
     {
         mainName: 'mobile first',
@@ -62,7 +62,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'jest', count: 0, subNames: ['jest'] },
     { mainName: 'cypress', count: 0, subNames: ['cypress'] },
-    { mainName: 'webpack', count: 0, subNames: ['webpack'] },
+    { mainName: 'webpack', count: 0, subNames: ['webpack', 'Webpack configuration'] },
     { mainName: 'babel', count: 0, subNames: ['babel'] },
     { mainName: 'graphql', count: 0, subNames: ['graphql'] },
     { mainName: 'docker', count: 0, subNames: ['docker'] },
@@ -125,7 +125,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'accessibility', count: 0, subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
-    { mainName: 'testing', count: 0, subNames: ['testing', 'Testable code'] },
+    { mainName: 'testing', count: 0, subNames: ['testing', 'Testable code', 'Testing strategies'] },
     {
         mainName: 'frontend architecture',
         count: 0,
@@ -181,7 +181,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'hydration strategies', count: 0, subNames: ['hydration strategies'] },
     { mainName: 'caching strategies', count: 0, subNames: ['caching strategies'] },
     { mainName: 'virtualization', count: 0, subNames: ['virtualization'] },
-    { mainName: 'react query', count: 0, subNames: ['react query'] },
+    { mainName: 'react query', count: 0, subNames: ['react query', 'React-Query'] },
     { mainName: 'lazy loading', count: 0, subNames: ['lazy loading'] },
     { mainName: 'swr', count: 0, subNames: ['swr'] },
     { mainName: 'digital wallets', count: 0, subNames: ['wallet integrations', 'WalletConnect'] },
@@ -214,7 +214,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'nosql databases', count: 0, subNames: ['nosql databases'] },
     { mainName: 'aws', count: 0, subNames: ['aws', 'AWS cloud services', 'AWS/cloud technologies', 'AWS hosting'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
-    { mainName: 'vite', count: 0, subNames: ['vite'], meta: 'Webpack clone' },
+    { mainName: 'vite', count: 0, subNames: ['vite', 'Vite configuration'], meta: 'Webpack clone' },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
     { mainName: 'react native', count: 0, subNames: ['react native'] },
@@ -297,7 +297,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['object-oriented programming', 'Object-Oriented Programming (OOP)', 'OOP', 'OO languages']
     },
-    { mainName: 'solid principles', count: 0, subNames: ['solid principles'] },
+    { mainName: 'solid principles', count: 0, subNames: ['solid principles', 'solid'] },
     { mainName: 'dry principles', count: 0, subNames: ['dry principles'] },
     { mainName: 'software design principles', count: 0, subNames: ['software design principles'] },
     {
@@ -369,7 +369,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'web development',
         count: 0,
-        subNames: ['web development', 'Frontend development', 'Frontend web development', 'Web client development']
+        subNames: ['web development', 'Frontend development', 'Frontend web development', 'Web client development', 'Frontend application development']
     },
     {
         mainName: 'testing frameworks',
@@ -493,7 +493,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Security',
         count: 0,
-        subNames: ['Security', 'Secure coding practices', 'Secure web application development']
+        subNames: ['Security', 'Secure coding practices', 'Secure web application development', 'Web security']
     },
     { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets'] },
     {
@@ -623,7 +623,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'Insomnia', count: 0, subNames: ['Insomnia'] },
     { mainName: 'PCF', count: 0, subNames: ['PCF'] },
     { mainName: 'AI-assisted development tools', count: 0, subNames: ['AI-assisted development tools'] },
-    { mainName: 'Microservices design patterns', count: 0, subNames: ['Microservices design patterns'] }
+    { mainName: 'Microservices design patterns', count: 0, subNames: ['Microservices design patterns'] },
+    { mainName: 'Redux Saga', count: 0, subNames: ['Redux Saga'] },
+{ mainName: 'A/B testing', count: 0, subNames: ['A/B testing'] },
+{ mainName: 'Multivariate testing', count: 0, subNames: ['Multivariate testing'] },
+
 
     //
     //

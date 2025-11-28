@@ -1762,5 +1762,50 @@ export default <JobEntry[]>[
             'Ability to multitask and meet deadlines',
             'Attention to security and corporate compliance'
         ]
+    },
+    {
+        dateCreated: 1764352131000,
+        companyName: 'Welltech',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: null,
+        bachelorDegree: null,
+        mastersDegree: null,
+        hardSkills: [
+            'Frontend application development',
+            'JavaScript (ES6+)',
+            'TypeScript 5+',
+            'React 18+',
+            'React-Query',
+            'Redux Saga',
+            'Styled Components',
+            'Vite',
+            'RESTful API integration',
+            'Web security',
+            'Responsive UX patterns',
+            'Software design principles',
+            'solid',
+            'Design patterns',
+            'Testing strategies',
+            'Sentry',
+            'Datadog',
+            'A/B testing',
+            'multivariate testing',
+            'Material UI',
+            'Next.js',
+            'SSR',
+            'Webpack configuration',
+            'Vite configuration'
+        ],
+        softSkills: [
+            'Strong communication (English C1)',
+            'Collaboration with cross-functional teams',
+            'Mentoring',
+            'Leading technical discussions',
+            'Ownership and accountability',
+            'Strategic thinking',
+            'Continuous learning mindset',
+            'Ability to translate business requirements into technical solutions'
+        ]
     }
 ];
