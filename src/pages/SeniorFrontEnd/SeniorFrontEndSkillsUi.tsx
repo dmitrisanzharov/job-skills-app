@@ -13,7 +13,7 @@ import { mainDbIteration } from '../../helpers/mainDbIteration';
 import { skillMinPercentageToFilter } from '../../consts/globalVars';
 
 // skills
-import { seniorFrontEndSkills } from '../../consts/seniorFrontEndSkills';
+import { allFrontEndHardSkills } from '../../consts/allFrontEndHardSkills';
 import seniorFrontEndDb from '../../databases/seniorFrontEndDb';
 
 // for tests
@@ -27,7 +27,7 @@ function SeniorFrontEndSkills() {
     renderCount.current += 1;
     console.log('render count', renderCount.current);
 
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb, seniorFrontEndSkills);
+    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb, allFrontEndHardSkills);
     const hardSkillsFinal = finalObj.hardSkills
         .filter((hs) => hs.count > totalJobEntries * skillMinPercentageToFilter)
         .sort((a, b) => b.count - a.count);

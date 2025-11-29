@@ -1,6 +1,6 @@
 import { HardAndSoftSkillsArray } from '../helpers/mainDbIteration';
 
-export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
+export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'typescript',
         count: 0,
@@ -53,11 +53,20 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+', 'modern JavaScript']
     },
-    { mainName: 'next.js', count: 0, subNames: ['next.js'] },
+    { mainName: 'next.js', count: 0, subNames: ['next.js', 'NextJS'] },
     {
         mainName: 'rest api',
         count: 0,
-        subNames: ['rest apis', 'rest api', 'RESTful APIs', 'RESTful Services', 'RESTful API integration']
+        subNames: [
+            'rest apis',
+            'rest api',
+            'RESTful APIs',
+            'RESTful Services',
+            'RESTful API integration',
+            'API integrations',
+            'RESTful API design',
+            'APIs'
+        ]
     },
     {
         mainName: 'responsive design',
@@ -186,7 +195,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'css grid', count: 0, subNames: ['css grid'] },
     { mainName: 'flexbox', count: 0, subNames: ['flexbox'] },
     { mainName: 'css custom properties', count: 0, subNames: ['css custom properties'] },
-    { mainName: 'tailwind', count: 0, subNames: ['tailwind css', 'tailwind'] },
+    { mainName: 'tailwind', count: 0, subNames: ['tailwind css', 'tailwind', 'TailwindCSS'] },
     { mainName: 'shadcn/ui', count: 0, subNames: ['shadcn/ui'] },
     { mainName: 'bundle size optimization', count: 0, subNames: ['bundle size optimization'] },
     { mainName: 'code splitting', count: 0, subNames: ['code splitting'] },
@@ -261,8 +270,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         subNames: ['react testing library', 'Component/integration testing (React Testing Library)']
     },
     { mainName: 'grpc', count: 0, subNames: ['grpc'] },
-    { mainName: 'backend technologies', count: 0, subNames: ['backend technologies'] },
-    { mainName: 'backend databases', count: 0, subNames: ['backend databases'] },
+    {
+        mainName: 'backend development',
+        count: 0,
+        subNames: ['backend technologies', 'backend databases', 'Backend development']
+    },
     {
         mainName: 'reusable components',
         count: 0,
@@ -460,7 +472,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
     { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
-    { mainName: 'cloud technologies', count: 0, subNames: ['cloud technologies'] },
+    { mainName: 'cloud technologies', count: 0, subNames: ['cloud technologies', 'Cloud hosting'] },
     { mainName: 'mysql', count: 0, subNames: ['mysql'] },
     {
         mainName: 'seo best practices',
@@ -472,7 +484,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'seo best practices',
             'search engine optimization',
             'SEO compliance',
-            'SEO optimization'
+            'SEO optimization',
+            'SEO principles'
         ]
     },
     {
@@ -480,10 +493,14 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Third-party APIs', 'third-party services', 'Integration of third-party services']
     },
-    { mainName: 'Analytics integrations', count: 0, subNames: ['Analytics integrations'] },
-    { mainName: 'CMS integrations', count: 0, subNames: ['CMS integrations', 'Headless CMS integrations', 'CMS'] },
+    { mainName: 'Analytics integrations', count: 0, subNames: ['Analytics integrations', 'Analytics tools'] },
+    {
+        mainName: 'CMS integrations',
+        count: 0,
+        subNames: ['CMS integrations', 'Headless CMS integrations', 'CMS', 'CMS architecture']
+    },
     { mainName: 'Elixir/Phoenix (context)', count: 0, subNames: ['Elixir/Phoenix (context)'] },
-    { mainName: 'Express.js', count: 0, subNames: ['Express.js'] },
+    { mainName: 'Express.js', count: 0, subNames: ['Express.js', 'Express'] },
     { mainName: 'Ant Design', count: 0, subNames: ['Ant Design'] },
     { mainName: 'MongoDb', count: 0, subNames: ['MongoDb'] },
     { mainName: 'DynamoDb', count: 0, subNames: ['DynamoDb'] },
@@ -573,7 +590,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'Notifications', count: 0, subNames: ['Notifications'] },
     { mainName: 'UI code deployment', count: 0, subNames: ['UI code deployment'] },
     { mainName: 'Release management', count: 0, subNames: ['Release management'] },
-    { mainName: 'User behavior tracking', count: 0, subNames: ['User behavior tracking'] },
+    { mainName: 'User behavior tracking', count: 0, subNames: ['User behavior tracking', 'tracking tools'] },
     { mainName: 'Alerting principles', count: 0, subNames: ['Alerting principles'] },
     {
         mainName: 'DevOps/SRE automation for UI deployments',
@@ -599,7 +616,7 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'Web Workers', count: 0, subNames: ['Web Workers'] },
     { mainName: 'CQRS', count: 0, subNames: ['CQRS'] },
-    { mainName: 'DevOps', count: 0, subNames: ['DevOps', 'DevOps knowledge'] },
+    { mainName: 'DevOps', count: 0, subNames: ['DevOps', 'DevOps knowledge', 'DevOps tools'] },
     { mainName: 'SecDevOps', count: 0, subNames: ['SecDevOps'] },
     { mainName: 'Efficient data handling', count: 0, subNames: ['Efficient data handling'] },
     { mainName: 'Vue Composition API', count: 0, subNames: ['Vue Composition API'] },
@@ -683,7 +700,21 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'EC2', count: 0, subNames: ['EC2'], meta: 'part of aws suite' },
     { mainName: 'S3', count: 0, subNames: ['S3'], meta: 'part of aws suite' },
     { mainName: 'CloudFront', count: 0, subNames: ['CloudFront'], meta: 'part of aws suite' },
-    { mainName: 'ECS', count: 0, subNames: ['ECS'], meta: 'part of aws suite' }
+    { mainName: 'ECS', count: 0, subNames: ['ECS'], meta: 'part of aws suite' },
+    { mainName: 'PHP', count: 0, subNames: ['PHP'] },
+    {
+        mainName: 'Custom WordPress',
+        count: 0,
+        subNames: ['Custom WordPress theme development', 'Custom WordPress plugin development']
+    },
+    { mainName: 'HubSpot', count: 0, subNames: ['HubSpot'] },
+    { mainName: 'GA4', count: 0, subNames: ['GA4'] },
+    { mainName: 'NestJS', count: 0, subNames: ['NestJS'] },
+    { mainName: 'Technical architecture', count: 0, subNames: ['Technical architecture', 'System architecture'] },
+    { mainName: 'Astro', count: 0, subNames: ['Astro'] },
+{ mainName: 'Redis', count: 0, subNames: ['Redis'] },
+{ mainName: 'Interactive experiences', count: 0, subNames: ['Interactive experiences'] },
+
 
     //
     //
