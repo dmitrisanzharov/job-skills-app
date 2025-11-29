@@ -2043,9 +2043,9 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1762185600000,
+        dateCreated: 1764426325000,
         companyName: 'Sumsub',
-        jobTitle: 'Full Stack Team Lead (Frontend Focus)',
+        jobTitle: 'Web Development Team Lead',
         workMode: 'Remote',
         yearsOfExperience: null,
         bachelorDegree: false,
