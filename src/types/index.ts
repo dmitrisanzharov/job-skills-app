@@ -3,9 +3,10 @@ export type JobEntry = {
     companyName: string;
     jobTitle: string;
     workMode: 'Remote' | 'On-site' | 'Hybrid';
-    yearsOfExperience: number;
+    yearsOfExperience: number | null;
     bachelorDegree: boolean;
     mastersDegree: boolean;
+    compensationRange?: number | number[] | null;
     hardSkills: string[];
     softSkills: string[];
 };

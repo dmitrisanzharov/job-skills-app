@@ -30,7 +30,8 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
             'State management for loading/skeleton/error',
             'State management systems',
             'State management libraries',
-            'State management patterns'
+            'State management patterns',
+            'Client-side state management'
         ]
     },
     {
@@ -511,7 +512,11 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Software development', 'Software development processes']
     },
-    { mainName: 'Web applications', count: 0, subNames: ['Web applications'] },
+    {
+        mainName: 'Web applications',
+        count: 0,
+        subNames: ['Web applications', 'Building modern web applications', 'Building modern desktop applications']
+    },
     {
         mainName: 'Security',
         count: 0,
@@ -663,14 +668,17 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'Rspack', count: 0, subNames: ['Rspack'] },
     { mainName: 'Server-Sent Events', count: 0, subNames: ['Server-Sent Events', 'sse'] },
     { mainName: 'Message streaming', count: 0, subNames: ['Message streaming'] },
-    { mainName: 'Real-time features', count: 0, subNames: ['Real-time features'] },
+    { mainName: 'Real-time features', count: 0, subNames: ['Real-time features', 'Handling real-time data'] },
     { mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
     { mainName: 'HeroUI', count: 0, subNames: ['HeroUI'] },
     { mainName: 'NextUI', count: 0, subNames: ['NextUI'] },
     { mainName: 'React Hook Form', count: 0, subNames: ['React Hook Form'] },
     { mainName: 'Valibot', count: 0, subNames: ['Valibot'] },
     { mainName: 'Biome', count: 0, subNames: ['Biome'] },
-    { mainName: 'SonarQube', count: 0, subNames: ['SonarQube'] }
+    { mainName: 'SonarQube', count: 0, subNames: ['SonarQube'] },
+    { mainName: 'zod', count: 0, subNames: ['zod'] },
+    { mainName: 'Lexical', count: 0, subNames: ['Lexical'] },
+    { mainName: 'Collaborative editing', count: 0, subNames: ['Collaborative editing'] }
 
     //
     //

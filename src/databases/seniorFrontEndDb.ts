@@ -1769,8 +1769,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Remote',
         yearsOfExperience: null,
-        bachelorDegree: null,
-        mastersDegree: null,
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'Frontend application development',
             'JavaScript (ES6+)',
@@ -1814,8 +1814,8 @@ export default <JobEntry[]>[
         jobTitle: 'Lead Frontend Engineer',
         workMode: 'Remote',
         yearsOfExperience: 8,
-        bachelorDegree: '',
-        mastersDegree: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'React',
             'TypeScript',
@@ -1854,8 +1854,8 @@ export default <JobEntry[]>[
         jobTitle: 'Senior Frontend Engineer',
         workMode: 'Remote',
         yearsOfExperience: 5,
-        bachelorDegree: '',
-        mastersDegree: '',
+        bachelorDegree: false,
+        mastersDegree: false,
         hardSkills: [
             'React 19',
             'TypeScript 5.9',
@@ -1895,6 +1895,73 @@ export default <JobEntry[]>[
             'Writing clean, testable code',
             'Willingness to adopt AI tools',
             'Staying current with new technologies'
+        ]
+    },
+    {
+        dateCreated: 1764413099000,
+        companyName: 'Attio',
+        jobTitle: 'Senior Product Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: null,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: [95000, 125000],
+        hardSkills: [
+            'JavaScript',
+            'TypeScript',
+            'React',
+            'Zod',
+            'Lexical',
+            'Frontend development',
+            'Building modern web applications',
+            'Building modern desktop applications',
+            'Client-side state management',
+            'Handling real-time data',
+            'Collaborative editing'
+        ],
+        softSkills: [
+            'UI and product sense',
+            'Project ownership',
+            'Problem solving',
+            'Proactive attitude',
+            'Communication with cross-functional teams',
+            'Interest in innovation and experimentation',
+            'Mentoring'
+        ]
+    },
+    {
+        dateCreated: 1764413219000,
+        companyName: 'NUACOM',
+        jobTitle: 'Senior React Application Developer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 5,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'JavaScript (ES6+)',
+            'HTML5',
+            'CSS3',
+            'ReactJS',
+            'React Native',
+            'Redux',
+            'TypeScript',
+            'CI/CD pipelines',
+            'Unit testing',
+            'Integration testing',
+            'Automated testing',
+            'Git',
+            'WebRTC (nice to have)',
+            'AWS (EC2, S3, CloudFront, ECS — nice to have)'
+        ],
+        softSkills: [
+            'Collaboration with cross-functional teams',
+            'Clean code practices',
+            'Performance optimization',
+            'Debugging',
+            'Problem solving',
+            'Code review participation',
+            'Continuous learning'
         ]
     }
 ];

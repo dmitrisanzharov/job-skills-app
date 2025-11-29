@@ -1,6 +1,6 @@
 import { JobEntry } from '../types';
 
-export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[], meta?: string }[];
+export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[]; meta?: string }[];
 
 type FinalObjType = {
     totalJobEntries: number;
@@ -24,7 +24,6 @@ type FunctionReturn = {
 };
 
 export function mainDbIteration(mainDb: JobEntry[], hardSkillsArr: HardAndSoftSkillsArray): FunctionReturn {
-    
     let finalObj: FinalObjType = {
         totalJobEntries: 0,
         avgYearsOfExperience: 0,
@@ -44,7 +43,9 @@ export function mainDbIteration(mainDb: JobEntry[], hardSkillsArr: HardAndSoftSk
     const totalJobEntries = mainDb.length;
 
     // average years of experience
-    const totalYears = mainDb.filter((job) => job.yearsOfExperience).reduce((acc, job) => acc + job.yearsOfExperience, 0);
+    const totalYears = mainDb
+        .filter((job): job is JobEntry & { yearsOfExperience: number } => job.yearsOfExperience !== null)
+        .reduce((acc, job) => acc + job.yearsOfExperience, 0);
     const avgYears = totalYears / mainDb.length;
     finalObj.avgYearsOfExperience = avgYears;
 
