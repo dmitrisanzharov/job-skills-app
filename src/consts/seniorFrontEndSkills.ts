@@ -678,7 +678,12 @@ export const seniorFrontEndSkills: HardAndSoftSkillsArray = [
     { mainName: 'SonarQube', count: 0, subNames: ['SonarQube'] },
     { mainName: 'zod', count: 0, subNames: ['zod'] },
     { mainName: 'Lexical', count: 0, subNames: ['Lexical'] },
-    { mainName: 'Collaborative editing', count: 0, subNames: ['Collaborative editing'] }
+    { mainName: 'Collaborative editing', count: 0, subNames: ['Collaborative editing'] },
+    { mainName: 'WebRTC', count: 0, subNames: ['WebRTC'] },
+    { mainName: 'EC2', count: 0, subNames: ['EC2'], meta: 'part of aws suite' },
+    { mainName: 'S3', count: 0, subNames: ['S3'], meta: 'part of aws suite' },
+    { mainName: 'CloudFront', count: 0, subNames: ['CloudFront'], meta: 'part of aws suite' },
+    { mainName: 'ECS', count: 0, subNames: ['ECS'], meta: 'part of aws suite' }
 
     //
     //

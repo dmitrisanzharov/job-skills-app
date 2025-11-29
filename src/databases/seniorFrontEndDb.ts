@@ -1951,8 +1951,12 @@ export default <JobEntry[]>[
             'Integration testing',
             'Automated testing',
             'Git',
-            'WebRTC (nice to have)',
-            'AWS (EC2, S3, CloudFront, ECS — nice to have)'
+            'WebRTC',
+            'EC2',
+            'S3',
+            'CloudFront',
+            'ECS',
+            'AWS'
         ],
         softSkills: [
             'Collaboration with cross-functional teams',
