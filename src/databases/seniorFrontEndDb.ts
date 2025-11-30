@@ -2194,5 +2194,47 @@ export default <JobEntry[]>[
             'Creativity',
             'Self-awareness'
         ]
+    },
+    {
+        dateCreated: 1764521302000,
+        companyName: 'Fixify',
+        jobTitle: 'Senior Software Engineer - Full Stack',
+        workMode: 'Remote',
+        yearsOfExperience: 5,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'Full-stack development',
+            'SaaS development',
+            'Scalable system design',
+            'Observability',
+            'AWS',
+            'GCP',
+            'Azure',
+            'TypeScript',
+            'Cloud platforms',
+            'Modular code design',
+            'Documentation',
+            'Pull request review',
+            'Messaging pipelines',
+            'Large Language Models (LLMs)',
+            'LLM',
+            'LLMs',
+            'User research',
+            'UI/UX attention to detail'
+        ],
+        softSkills: [
+            'Cross-functional collaboration',
+            'Attention to detail',
+            'Positive energy',
+            'Curiosity',
+            'User empathy',
+            'Communication',
+            'Teamwork',
+            'Continuous improvement mindset',
+            'Ownership',
+            'Kind engineering'
+        ]
     }
 ];

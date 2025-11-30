@@ -37,7 +37,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'SaaS experience',
         count: 0,
-        subNames: ['SaaS experience', 'saas experience', 'saas product development']
+        subNames: ['SaaS experience', 'saas experience', 'saas product development', 'SaaS development']
     },
     {
         mainName: 'cloud platforms',
@@ -173,7 +173,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'UX process',
             'UI/UX development',
             'UX design translation to UI',
-            'UX implementation'
+            'UX implementation',
+            'UI/UX attention to detail'
         ]
     },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
@@ -292,7 +293,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Reusable code',
             'modular code',
             'Reusable code design',
-            'UI components'
+            'UI components',
+            'Modular code design'
         ]
     },
     { mainName: 'localization', count: 0, subNames: ['localization'] },
@@ -312,7 +314,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         meta: 'this refers to WebPack... e.g. of post in Amazon AWS -> Modern build tools (Webpack, Vite, or similar)'
     },
     { mainName: 'observability', count: 0, subNames: ['observability'] },
-    { mainName: 'code review', count: 0, subNames: ['code review', 'code reviews'] },
+    { mainName: 'code review', count: 0, subNames: ['code review', 'code reviews', 'Pull request review'] },
     { mainName: 'design documentation', count: 0, subNames: ['design documentation'] },
     {
         mainName: 'technical mentoring',
@@ -352,7 +354,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['mathematical foundations (geometry, trigonometry)', 'geometry', 'trigonometry']
     },
-    { mainName: 'infrastructure software knowledge', count: 0, subNames: ['infrastructure software knowledge', 'Infrastructure as Code'] },
+    {
+        mainName: 'infrastructure software knowledge',
+        count: 0,
+        subNames: ['infrastructure software knowledge', 'Infrastructure as Code']
+    },
     { mainName: 'react context', count: 0, subNames: ['react context'] },
     { mainName: 'react suspense', count: 0, subNames: ['react suspense'] },
     { mainName: 'concurrent react features', count: 0, subNames: ['concurrent react features'] },
@@ -613,7 +619,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Notifications', count: 0, subNames: ['Notifications'] },
     { mainName: 'UI code deployment', count: 0, subNames: ['UI code deployment'] },
     { mainName: 'Release management', count: 0, subNames: ['Release management'] },
-    { mainName: 'User behavior tracking', count: 0, subNames: ['User behavior tracking', 'tracking tools'] },
+    { mainName: 'User behavior tracking', count: 0, subNames: ['User behavior tracking', 'tracking tools', 'User research'] },
     { mainName: 'Alerting principles', count: 0, subNames: ['Alerting principles'] },
     {
         mainName: 'DevOps/SRE automation for UI deployments',
@@ -751,7 +757,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Loki', count: 0, subNames: ['Loki'] },
     { mainName: 'Faro', count: 0, subNames: ['Faro'] },
     { mainName: 'Helm', count: 0, subNames: ['Helm'] },
-{ mainName: 'Telemetry', count: 0, subNames: ['Telemetry'] },
+    { mainName: 'Telemetry', count: 0, subNames: ['Telemetry'] },
+    { mainName: 'Messaging pipelines', count: 0, subNames: ['Messaging pipelines'] },
+{ mainName: 'Large Language Models', count: 0, subNames: ['Large Language Models', 'Large Language Models (LLMs)', 'llm', 'llms'] },
 
 
     //
