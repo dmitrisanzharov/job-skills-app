@@ -65,7 +65,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'RESTful API integration',
             'API integrations',
             'RESTful API design',
-            'APIs'
+            'APIs',
+            'API integration',
+            'Modern API frameworks'
         ]
     },
     {
@@ -132,7 +134,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'runtime performance',
             'Performance audits',
             'Performance profiling',
-            'Debugging performance issues'
+            'Debugging performance issues',
+            'Profiling',
+            'System tuning'
         ]
     },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
@@ -196,7 +200,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'flexbox', count: 0, subNames: ['flexbox'] },
     { mainName: 'css custom properties', count: 0, subNames: ['css custom properties'] },
     { mainName: 'tailwind', count: 0, subNames: ['tailwind css', 'tailwind', 'TailwindCSS'] },
-    { mainName: 'shadcn/ui', count: 0, subNames: ['shadcn/ui'] },
+    { mainName: 'shadcn', count: 0, subNames: ['shadcn/ui', 'Shadcn'] },
     { mainName: 'bundle size optimization', count: 0, subNames: ['bundle size optimization'] },
     { mainName: 'code splitting', count: 0, subNames: ['code splitting'] },
     { mainName: 'hydration strategies', count: 0, subNames: ['hydration strategies'] },
@@ -232,7 +236,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'less', count: 0, subNames: ['less'] },
     { mainName: 'sass', count: 0, subNames: ['sass'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
-    { mainName: 'nosql databases', count: 0, subNames: ['nosql databases'] },
+    { mainName: 'nosql databases', count: 0, subNames: ['nosql databases', 'NoSQL'] },
     { mainName: 'aws', count: 0, subNames: ['aws', 'AWS cloud services', 'AWS/cloud technologies', 'AWS hosting'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
     { mainName: 'vite', count: 0, subNames: ['vite', 'Vite configuration'], meta: 'Webpack clone' },
@@ -273,7 +277,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'backend development',
         count: 0,
-        subNames: ['backend technologies', 'backend databases', 'Backend development']
+        subNames: ['backend technologies', 'backend databases', 'Backend development', 'Typed backend languages']
     },
     {
         mainName: 'reusable components',
@@ -348,7 +352,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['mathematical foundations (geometry, trigonometry)', 'geometry', 'trigonometry']
     },
-    { mainName: 'infrastructure software knowledge', count: 0, subNames: ['infrastructure software knowledge'] },
+    { mainName: 'infrastructure software knowledge', count: 0, subNames: ['infrastructure software knowledge', 'Infrastructure as Code'] },
     { mainName: 'react context', count: 0, subNames: ['react context'] },
     { mainName: 'react suspense', count: 0, subNames: ['react suspense'] },
     { mainName: 'concurrent react features', count: 0, subNames: ['concurrent react features'] },
@@ -365,8 +369,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'internationalization', count: 0, subNames: ['internationalization'] },
     { mainName: 'translation workflows', count: 0, subNames: ['translation workflows'] },
-    { mainName: 'collaboration with designers', count: 0, subNames: ['collaboration with designers'] },
-    { mainName: 'collaboration with product managers', count: 0, subNames: ['collaboration with product managers'] },
+    {
+        mainName: 'collaboration with product team',
+        count: 0,
+        subNames: ['collaboration with designers', 'UX collaboration', 'collaboration with product managers']
+    },
     { mainName: 'react router', count: 0, subNames: ['react routing', 'react router', 'React Router 7'] },
     { mainName: 'component composition', count: 0, subNames: ['component composition'] },
     {
@@ -414,7 +421,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'nx framework', count: 0, subNames: ['nx framework', 'Nx'] },
     { mainName: 'typescript ast', count: 0, subNames: ['typescript ast', 'typescript abstract syntax tree'] },
     { mainName: 'code modifiers', count: 0, subNames: ['code modifiers'] },
-    { mainName: 'gitlab', count: 0, subNames: ['gitlab'] },
+    { mainName: 'gitlab', count: 0, subNames: ['gitlab', 'GitLab CI'] },
     { mainName: 'nginx', count: 0, subNames: ['nginx'] },
     { mainName: 'modern frameworks', count: 0, subNames: ['modern frameworks'] },
     {
@@ -463,7 +470,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'containerized application development',
         count: 0,
-        subNames: ['containerized application development', 'Containerized environments']
+        subNames: ['containerized application development', 'Containerized environments', 'Containerisation']
     },
     {
         mainName: 'automation testing',
@@ -491,7 +498,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Third-party APIs',
         count: 0,
-        subNames: ['Third-party APIs', 'third-party services', 'Integration of third-party services']
+        subNames: [
+            'Third-party APIs',
+            'third-party services',
+            'Integration of third-party services',
+            '3rd party SDK integration'
+        ]
     },
     { mainName: 'Analytics integrations', count: 0, subNames: ['Analytics integrations', 'Analytics tools'] },
     {
@@ -532,12 +544,23 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Web applications',
         count: 0,
-        subNames: ['Web applications', 'Building modern web applications', 'Building modern desktop applications']
+        subNames: [
+            'Web applications',
+            'Building modern web applications',
+            'Building modern desktop applications',
+            'Web application development'
+        ]
     },
     {
         mainName: 'Security',
         count: 0,
-        subNames: ['Security', 'Secure coding practices', 'Secure web application development', 'Web security']
+        subNames: [
+            'Security',
+            'Secure coding practices',
+            'Secure web application development',
+            'Web security',
+            'Secure coding'
+        ]
     },
     { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets'] },
     {
@@ -602,7 +625,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Cross-channel UI frameworks', count: 0, subNames: ['Cross-channel UI frameworks'] },
     { mainName: 'jQuery', count: 0, subNames: ['jQuery'] },
     { mainName: 'MERN stack', count: 0, subNames: ['MERN stack'] },
-    { mainName: 'Query optimization', count: 0, subNames: ['Query optimization'] },
+    { mainName: 'Query optimization', count: 0, subNames: ['Query optimization', 'Query optimisation'] },
     { mainName: 'Frontend migrations', count: 0, subNames: ['Frontend migrations'] },
     { mainName: 'Greenfield development', count: 0, subNames: ['Greenfield development'] },
     { mainName: 'Python', count: 0, subNames: ['Python'] },
@@ -712,8 +735,23 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'NestJS', count: 0, subNames: ['NestJS'] },
     { mainName: 'Technical architecture', count: 0, subNames: ['Technical architecture', 'System architecture'] },
     { mainName: 'Astro', count: 0, subNames: ['Astro'] },
-{ mainName: 'Redis', count: 0, subNames: ['Redis'] },
-{ mainName: 'Interactive experiences', count: 0, subNames: ['Interactive experiences'] },
+    { mainName: 'Redis', count: 0, subNames: ['Redis'] },
+    { mainName: 'Interactive experiences', count: 0, subNames: ['Interactive experiences'] },
+    { mainName: 'Functional programming', count: 0, subNames: ['Functional programming'] },
+    { mainName: 'Singleton pattern', count: 0, subNames: ['Singleton pattern'] },
+    { mainName: 'Contract design', count: 0, subNames: ['Contract design'] },
+    { mainName: 'Rust', count: 0, subNames: ['Rust'] },
+    { mainName: 'HTTP', count: 0, subNames: ['HTTP'] },
+    { mainName: 'WebAssembly', count: 0, subNames: ['WebAssembly'] },
+    { mainName: 'OAuth2', count: 0, subNames: ['OAuth2'] },
+    { mainName: 'OpenID Connect', count: 0, subNames: ['OpenID Connect'] },
+    { mainName: 'Recharts', count: 0, subNames: ['Recharts'] },
+    { mainName: 'Grafana', count: 0, subNames: ['Grafana'] },
+    { mainName: 'Prometheus', count: 0, subNames: ['Prometheus'] },
+    { mainName: 'Loki', count: 0, subNames: ['Loki'] },
+    { mainName: 'Faro', count: 0, subNames: ['Faro'] },
+    { mainName: 'Helm', count: 0, subNames: ['Helm'] },
+{ mainName: 'Telemetry', count: 0, subNames: ['Telemetry'] },
 
 
     //
