@@ -1,14 +1,31 @@
 import { HardAndSoftSkillsArray } from '../helpers/mainDbIteration';
 
 export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
+    // CORE
     {
         mainName: 'typescript',
         count: 0,
-        subNames: ['TypeScript', 'typescript', 'typescript.js', 'type script', 'TypeScript 5+', 'TypeScript 5.9']
+        subNames: ['TypeScript', 'typescript', 'typescript.js', 'type script', 'TypeScript 5+', 'TypeScript 5.9'],
+        mySkillLevel: 9
     },
+    {
+        mainName: 'react',
+        count: 0,
+        subNames: ['react', 'react.js', 'reactjs', 'react js', 'React 18+', 'React 19'],
+        mySkillLevel: 9.5
+    },
+    {
+        mainName: 'javascript',
+        count: 0,
+        subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+', 'modern JavaScript'],
+        mySkillLevel: 9
+    },
+
+    // -----------------------------------------------------------------
+    // ALL OTHER
+
     { mainName: 'html', count: 0, subNames: ['html', 'html5', 'Semantic HTML'] },
     { mainName: 'css', count: 0, subNames: ['css', 'css3', 'CSS 4', 'CSS Modules'] },
-    { mainName: 'react', count: 0, subNames: ['react', 'react.js', 'reactjs', 'react js', 'React 18+', 'React 19'] },
     { mainName: 'angular', count: 0, subNames: ['angular', 'angular.js', 'angularjs', 'angular js'] },
     { mainName: 'vue', count: 0, subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3'] },
     { mainName: 'node.js', count: 0, subNames: ['node.js', 'nodejs', 'node js', 'node', 'Node.js ecosystem'] },
@@ -48,11 +65,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
     { mainName: 'access auditing', count: 0, subNames: ['access auditing'] },
     { mainName: 'fintech knowledge', count: 0, subNames: ['fintech knowledge'] },
-    {
-        mainName: 'javascript',
-        count: 0,
-        subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+', 'modern JavaScript']
-    },
     { mainName: 'next.js', count: 0, subNames: ['next.js', 'NextJS'] },
     {
         mainName: 'rest api',

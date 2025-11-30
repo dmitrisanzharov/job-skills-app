@@ -11,6 +11,7 @@ import Paper from '@mui/material/Paper';
 //
 import { mainDbIteration } from '../../helpers/mainDbIteration';
 import { skillMinPercentageToFilter } from '../../consts/globalVars';
+import { getColorByNumber } from '../../helpers/getColorByNumber';
 
 // skills
 import { allFrontEndHardSkills } from '../../consts/allFrontEndHardSkills';
@@ -82,6 +83,9 @@ function SeniorFrontEndSkills() {
                 <Table>
                     <TableHead>
                         <TableRow>
+                            <TableCell sx={{ width: 100 }}>
+                                <strong>My Skill Level</strong>
+                            </TableCell>
                             <TableCell>
                                 <strong>Skill</strong>
                             </TableCell>
@@ -97,9 +101,12 @@ function SeniorFrontEndSkills() {
                     <TableBody>
                         {hardSkillsFinal.map((skill, index) => {
                             const skillCount = skill.count;
+                            const skillLevel = skill.mySkillLevel;
+                            const skillLevelColor = skillLevel ? getColorByNumber(skillLevel) : null;
 
                             return (
                                 <TableRow key={index}>
+                                    <TableCell sx={{ backgroundColor: skillLevelColor }}>{skillLevel}</TableCell>
                                     <TableCell>{skill.mainName}</TableCell>
                                     <TableCell>{((skillCount / totalJobEntries) * 100).toFixed(0)}%</TableCell>
                                     <TableCell>{skillCount}</TableCell>
