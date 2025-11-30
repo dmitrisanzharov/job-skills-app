@@ -403,7 +403,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'collaboration with product team',
         count: 0,
-        subNames: ['collaboration with designers', 'UX collaboration', 'collaboration with product managers', 'Remote collaboration']
+        subNames: [
+            'collaboration with designers',
+            'UX collaboration',
+            'collaboration with product managers',
+            'Remote collaboration'
+        ]
     },
     { mainName: 'react router', count: 0, subNames: ['react routing', 'react router', 'React Router 7'] },
     { mainName: 'component composition', count: 0, subNames: ['component composition'] },
@@ -505,7 +510,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'automation testing',
         count: 0,
-        subNames: ['automation testing', 'Automated testing', 'Browser testing', 'Test automation frameworks', 'Frontend automation testing']
+        subNames: [
+            'automation testing',
+            'Automated testing',
+            'Browser testing',
+            'Test automation frameworks',
+            'Frontend automation testing'
+        ]
     },
     { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
     { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
@@ -817,12 +828,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'On-call rotation', count: 0, subNames: ['On-call rotation'] },
     { mainName: 'SolidJS', count: 0, subNames: ['SolidJS'] },
     { mainName: 'Acceptance testing', count: 0, subNames: ['Acceptance testing'] },
-{ mainName: 'Domain-driven design', count: 0, subNames: ['Domain-driven design', 'DDD', 'Domain-driven design (DDD)'] },
-{ mainName: 'Transpiling', count: 0, subNames: ['Transpiling'] },
-{ mainName: 'Yarn', count: 0, subNames: ['Yarn'] },
-{ mainName: 'Turborepo', count: 0, subNames: ['Turborepo'] },
-{ mainName: 'Formatting', count: 0, subNames: ['Formatting'] },
-
+    {
+        mainName: 'Domain-driven design',
+        count: 0,
+        subNames: ['Domain-driven design', 'DDD', 'Domain-driven design (DDD)']
+    },
+    { mainName: 'Transpiling', count: 0, subNames: ['Transpiling'] },
+    { mainName: 'Yarn', count: 0, subNames: ['Yarn'] },
+    { mainName: 'Turborepo', count: 0, subNames: ['Turborepo'] },
+    { mainName: 'Formatting', count: 0, subNames: ['Formatting'] }
 
     //
     //
