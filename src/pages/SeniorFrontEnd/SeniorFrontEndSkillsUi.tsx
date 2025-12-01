@@ -12,12 +12,13 @@ import Tooltip from '@mui/material/Tooltip';
 import InfoOutlineIcon from '@mui/icons-material/InfoOutline';
 //
 import { mainDbIteration } from '../../helpers/mainDbIteration';
-import { skillMinPercentageToFilter } from '../../consts/globalVars';
+import { skillMinPercentageToFilter, skillThatIWillNotTake } from '../../consts/globalVars';
 import { getColorByNumber } from '../../helpers/getColorByNumber';
 
 // skills
 import { allFrontEndHardSkills } from '../../consts/allFrontEndHardSkills';
-import seniorFrontEndDb from '../../databases/seniorFrontEndDb';
+import seniorFrontEndDb_withFullStack from '../../databases/seniorFrontEndDb_withFullStack';
+import seniorFrontEndDb_noFullStack from '../../databases/seniorFrontEndDb_noFullStack';
 
 // for tests
 import { seniorFrontEndSkills_25112025 } from '../../helpers/__mocks__/seniorFrontEnd/seniorFrontEndSkills_25112025';
@@ -30,7 +31,7 @@ function SeniorFrontEndSkills() {
     renderCount.current += 1;
     console.log('render count', renderCount.current);
 
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb, allFrontEndHardSkills);
+    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb_noFullStack, allFrontEndHardSkills);
     const hardSkillsFinal = finalObj.hardSkills
         .filter((hs) => hs.count > totalJobEntries * skillMinPercentageToFilter)
         .sort((a, b) => b.count - a.count);
@@ -54,7 +55,7 @@ function SeniorFrontEndSkills() {
 
     return (
         <Box>
-            <h1>Senior Front End: Job Skills Analysis</h1>
+            <h1>Senior Front End Only</h1>
             <p>Total Job Entries: {totalJobEntries}</p>
             <p>Average Years of Experience: {avgYears.toFixed(0)}</p>
             <p>

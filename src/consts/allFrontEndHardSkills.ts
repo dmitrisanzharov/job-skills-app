@@ -12,7 +12,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'react',
         count: 0,
         subNames: ['react', 'react.js', 'reactjs', 'react js', 'React 18+', 'React 19'],
-        mySkillLevel: 9.5
+        mySkillLevel: 9
     },
     {
         mainName: 'javascript',
@@ -82,7 +82,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'node.js',
         count: 0,
         subNames: ['node.js', 'nodejs', 'node js', 'node', 'Node.js ecosystem'],
-        mySkillLevel: 5
+        mySkillLevel: 6
     },
     {
         mainName: 'rest api',
@@ -132,7 +132,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Dashboard development',
             'Frontend interfaces'
         ],
-        mySkillLevel: 5
+        mySkillLevel: 4
     },
     { mainName: 'html', count: 0, subNames: ['html', 'html5', 'Semantic HTML'], mySkillLevel: 8 },
     {
@@ -200,25 +200,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Full-stack development'
         ],
         meta: 'skip this skill',
-        mySkillLevel: 5,
-    },
-
-    // -----------------------------------------------------------------
-    // ALL OTHER
-
-    { mainName: 'angular', count: 0, subNames: ['angular', 'angular.js', 'angularjs', 'angular js'] },
-    { mainName: 'vue', count: 0, subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3'] },
-    { mainName: 'react class components', count: 0, subNames: ['react class components', 'react class component'] },
-    {
-        mainName: 'react functional components',
-        count: 0,
-        subNames: ['react functional components', 'react functional component']
-    },
-    { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook', 'Hooks'] },
-    {
-        mainName: 'SaaS experience',
-        count: 0,
-        subNames: ['SaaS experience', 'saas experience', 'saas product development', 'SaaS development']
+        mySkillLevel: 5
     },
     {
         mainName: 'cloud platforms',
@@ -230,7 +212,227 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cloud deployment',
             'cloud technologies',
             'Cloud hosting'
-        ]
+        ],
+        mySkillLevel: 0
+    },
+    {
+        mainName: 'responsive design',
+        count: 0,
+        subNames: [
+            'responsive design',
+            'Responsive layout',
+            'Responsive web design',
+            'Responsive UX patterns',
+            'Responsive UI development'
+        ],
+        mySkillLevel: 7
+    },
+    {
+        mainName: 'webpack',
+        count: 0,
+        subNames: ['webpack', 'Webpack configuration', 'Bundling', 'esbuild'],
+        mySkillLevel: 8
+    },
+    {
+        mainName: 'accessibility',
+        count: 0,
+        subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)', 'Web Accessibility'],
+        mySkillLevel: 2
+    },
+    { mainName: 'git', count: 0, subNames: ['git', 'Git workflows'], mySkillLevel: 8 },
+    {
+        mainName: 'monitoring tools',
+        count: 0,
+        subNames: [
+            'monitoring tools',
+            'System performance monitoring',
+            'Application monitoring',
+            'Monitoring',
+            'Observability tools',
+            'observability',
+            'alerting'
+        ],
+        meta: 'GOOGLE ANALYTICS?, but this needs New Relic and Stuff like that',
+        mySkillLevel: 0
+    },
+    {
+        mainName: 'reusable components',
+        count: 0,
+        subNames: [
+            'modular component design',
+            'Frontend component-based architecture',
+            'component-based architecture',
+            'reusable components',
+            'Reusable UI components',
+            'component based architecture',
+            'Reusable code',
+            'modular code',
+            'Reusable code design',
+            'UI components',
+            'Modular code design',
+            'Reusable modules'
+        ],
+        mySkillLevel: 9
+    },
+    {
+        mainName: 'angular',
+        count: 0,
+        subNames: [
+            'angular 2',
+            'angular 2+',
+            'Angular 15',
+            'Angular (13+)',
+            'Angular 20',
+            'Angular (v8+)',
+            'angular',
+            'angular.js',
+            'angularjs',
+            'angular js'
+        ],
+        meta: 'there is mix up between angularJS and angular, so group them together',
+        mySkillLevel: 4
+    },
+    { mainName: 'docker', count: 0, subNames: ['docker'], mySkillLevel: 1 },
+    {
+        mainName: 'web development',
+        count: 0,
+        subNames: [
+            'web development',
+            'Frontend development',
+            'Frontend web development',
+            'Web client development',
+            'Frontend application development'
+        ],
+        mySkillLevel: 9
+    },
+    { mainName: 'jest', count: 0, subNames: ['jest'], mySkillLevel: 8 },
+    {
+        mainName: 'integration testing',
+        count: 0,
+        subNames: ['integration testing'],
+        meta: 'react testing library covers this',
+        mySkillLevel: 3
+    },
+    {
+        mainName: 'automation testing',
+        count: 0,
+        subNames: [
+            'automation testing',
+            'Automated testing',
+            'Browser testing',
+            'Test automation frameworks',
+            'Frontend automation testing'
+        ],
+        mySkillLevel: 5
+    },
+    { mainName: 'cypress', count: 0, subNames: ['cypress'], mySkillLevel: 5 },
+    { mainName: 'storybook', count: 0, subNames: ['storybook'], mySkillLevel: 5 },
+    {
+        mainName: 'component libraries',
+        count: 0,
+        subNames: [
+            'component libraries',
+            'component library',
+            'Component library management',
+            'UI component libraries'
+        ],
+        meta: 'MUI, Bootstrap, Material UI cover this',
+        mySkillLevel: 8
+    },
+    { mainName: 'tailwind', count: 0, subNames: ['tailwind css', 'tailwind', 'TailwindCSS'], mySkillLevel: 0 },
+    {
+        mainName: 'documentation',
+        count: 0,
+        subNames: ['documentation', 'Technical documentation', 'well-documented code', 'Documentation generation'],
+        mySkillLevel: 8
+    },
+    {
+        mainName: 'code review',
+        count: 0,
+        subNames: ['code review', 'code reviews', 'Pull request review'],
+        mySkillLevel: 8
+    },
+    {
+        mainName: 'AI-assisted development tools',
+        count: 0,
+        subNames: [
+            'AI-assisted development tools',
+            'AI-assisted development',
+            'AI coding tools',
+            'openai gpt',
+            'ai assisted development',
+            'ai tooling',
+            'windsurf',
+            'AI tools',
+            'OpenAi'
+        ],
+        mySkillLevel: 8
+    },
+    {
+        mainName: 'vue',
+        count: 0,
+        subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3'],
+        meta: 'skip this one',
+        mySkillLevel: 0
+    },
+    { mainName: 'playwright', count: 0, subNames: ['playwright'], meta: 'similar to Cypress', mySkillLevel: 0 },
+    {
+        mainName: 'vite',
+        count: 0,
+        subNames: ['vite', 'Vite configuration'],
+        meta: 'Webpack clone - SKIP',
+        mySkillLevel: 0
+    },
+    {
+        mainName: 'backend development',
+        count: 0,
+        subNames: [
+            'backend technologies',
+            'backend databases',
+            'Backend development',
+            'Typed backend languages',
+            'Databases',
+            'Backend systems'
+        ],
+        mySkillLevel: 5
+    },
+    {
+        mainName: 'build tools',
+        count: 0,
+        subNames: [
+            'build tooling',
+            'Front-end build tools',
+            'build tooling',
+            'Frontend build tools',
+            'Modern build tools',
+            'Modern front-end build pipelines',
+            'build tools',
+            'build'
+        ],
+        meta: 'this refers to WebPack... e.g. of post in Amazon AWS -> Modern build tools (Webpack, Vite, or similar)',
+        mySkillLevel: 8
+    },
+    {
+        mainName: 'e2e testing',
+        count: 0,
+        subNames: ['e2e testing', 'End-to-end testing'],
+        meta: 'cypress covers this',
+        mySkillLevel: 5
+    },
+
+    // -----------------------------------------------------------------
+    // ALL OTHER
+    { mainName: 'react class components', count: 0, subNames: ['react class components', 'react class component'] },
+    {
+        mainName: 'react functional components',
+        count: 0,
+        subNames: ['react functional components', 'react functional component']
+    },
+    { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook', 'Hooks'] },
+    {
+        mainName: 'SaaS experience',
+        count: 0,
+        subNames: ['SaaS experience', 'saas experience', 'saas product development', 'SaaS development']
     },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
@@ -253,44 +455,22 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Global marketplace platforms'
         ]
     },
-    {
-        mainName: 'responsive design',
-        count: 0,
-        subNames: [
-            'responsive design',
-            'Responsive layout',
-            'Responsive web design',
-            'Responsive UX patterns',
-            'Responsive UI development'
-        ]
-    },
+
     {
         mainName: 'mobile first',
         count: 0,
         subNames: ['mobile-first development', 'mobile first development', 'mobile first']
     },
-    { mainName: 'jest', count: 0, subNames: ['jest'] },
-    { mainName: 'cypress', count: 0, subNames: ['cypress'] },
-    { mainName: 'webpack', count: 0, subNames: ['webpack', 'Webpack configuration', 'Bundling', 'esbuild'] },
     { mainName: 'babel', count: 0, subNames: ['babel'] },
     { mainName: 'graphql', count: 0, subNames: ['graphql'] },
-    { mainName: 'docker', count: 0, subNames: ['docker'] },
     { mainName: 'kubernetes', count: 0, subNames: ['kubernetes', 'Kubernetes deployment'] },
-    { mainName: 'playwright', count: 0, subNames: ['playwright'] },
     { mainName: 'github copilot', count: 0, subNames: ['github copilot'] },
     { mainName: 'claude code', count: 0, subNames: ['claude code'] },
     { mainName: 'cursor', count: 0, subNames: ['cursor'] },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
-    { mainName: 'storybook', count: 0, subNames: ['storybook'] },
     { mainName: 'monorepos', count: 0, subNames: ['monorepos'] },
-    {
-        mainName: 'accessibility',
-        count: 0,
-        subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)', 'Web Accessibility']
-    },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
     { mainName: 'testing', count: 0, subNames: ['testing', 'Testable code', 'Testing strategies'] },
-    { mainName: 'git', count: 0, subNames: ['git', 'Git workflows'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
@@ -298,11 +478,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'flutterflow', count: 0, subNames: ['flutterflow'] },
     { mainName: 'streamlit', count: 0, subNames: ['streamlit'] },
     { mainName: 'svelte', count: 0, subNames: ['svelte', 'sveltekit'] },
-    {
-        mainName: 'component libraries',
-        count: 0,
-        subNames: ['component libraries', 'component library', 'Component library management', 'UI component libraries']
-    },
     { mainName: 'theming', count: 0, subNames: ['tokens and theming', 'tokens', 'theming'] },
     { mainName: 'figma', count: 0, subNames: ['figma', 'Figma to production UI', 'Figma API'] },
     { mainName: 'animations', count: 0, subNames: ['animations'] },
@@ -316,7 +491,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'css grid', count: 0, subNames: ['css grid'] },
     { mainName: 'flexbox', count: 0, subNames: ['flexbox'] },
     { mainName: 'css custom properties', count: 0, subNames: ['css custom properties'] },
-    { mainName: 'tailwind', count: 0, subNames: ['tailwind css', 'tailwind', 'TailwindCSS'] },
     { mainName: 'shadcn', count: 0, subNames: ['shadcn/ui', 'Shadcn'] },
     { mainName: 'bundle size optimization', count: 0, subNames: ['bundle size optimization'] },
     { mainName: 'code splitting', count: 0, subNames: ['code splitting'] },
@@ -332,11 +506,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'rpc/indexer integration', count: 0, subNames: ['rpc/indexer integration'] },
     { mainName: 'testing best practices', count: 0, subNames: ['testing best practices'] },
     { mainName: 'ci checks', count: 0, subNames: ['ci checks'] },
-    {
-        mainName: 'documentation',
-        count: 0,
-        subNames: ['documentation', 'Technical documentation', 'well-documented code', 'Documentation generation']
-    },
     { mainName: 'ui refactoring', count: 0, subNames: ['ui refactoring'] },
     { mainName: 'testing library', count: 0, subNames: ['testing library'] },
     { mainName: 'chromatic', count: 0, subNames: ['chromatic'] },
@@ -352,26 +521,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'webgl', count: 0, subNames: ['webgl'] },
     { mainName: 'canvas', count: 0, subNames: ['canvas'] },
     { mainName: 'svg', count: 0, subNames: ['svg'] },
-    {
-        mainName: 'monitoring tools',
-        count: 0,
-        subNames: [
-            'monitoring tools',
-            'System performance monitoring',
-            'Application monitoring',
-            'Monitoring',
-            'Observability tools',
-            'observability',
-            'alerting'
-        ]
-    },
     { mainName: 'mobx', count: 0, subNames: ['mobx'] },
     { mainName: 'less', count: 0, subNames: ['less'] },
     { mainName: 'sass', count: 0, subNames: ['sass'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
     { mainName: 'nosql databases', count: 0, subNames: ['nosql databases', 'NoSQL'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
-    { mainName: 'vite', count: 0, subNames: ['vite', 'Vite configuration'], meta: 'Webpack clone' },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
     { mainName: 'react native', count: 0, subNames: ['react native'] },
@@ -396,60 +551,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['frontend-backend integration', 'Backend integration']
     },
-    { mainName: 'integration testing', count: 0, subNames: ['integration testing'] },
     {
         mainName: 'react testing library',
         count: 0,
         subNames: ['react testing library', 'Component/integration testing (React Testing Library)']
     },
     { mainName: 'grpc', count: 0, subNames: ['grpc'] },
-    {
-        mainName: 'backend development',
-        count: 0,
-        subNames: [
-            'backend technologies',
-            'backend databases',
-            'Backend development',
-            'Typed backend languages',
-            'Databases',
-            'Backend systems'
-        ]
-    },
-    {
-        mainName: 'reusable components',
-        count: 0,
-        subNames: [
-            'modular component design',
-            'Frontend component-based architecture',
-            'component-based architecture',
-            'reusable components',
-            'Reusable UI components',
-            'component based architecture',
-            'Reusable code',
-            'modular code',
-            'Reusable code design',
-            'UI components',
-            'Modular code design',
-            'Reusable modules'
-        ]
-    },
     { mainName: 'localization', count: 0, subNames: ['localization'] },
-    {
-        mainName: 'build tools',
-        count: 0,
-        subNames: [
-            'build tooling',
-            'Front-end build tools',
-            'build tooling',
-            'Frontend build tools',
-            'Modern build tools',
-            'Modern front-end build pipelines',
-            'build tools',
-            'build'
-        ],
-        meta: 'this refers to WebPack... e.g. of post in Amazon AWS -> Modern build tools (Webpack, Vite, or similar)'
-    },
-    { mainName: 'code review', count: 0, subNames: ['code review', 'code reviews', 'Pull request review'] },
     { mainName: 'design documentation', count: 0, subNames: ['design documentation'] },
     {
         mainName: 'technical mentoring',
@@ -505,7 +613,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'graphql', count: 0, subNames: ['graphql', 'GraphQL (queries, mutations, caching, fragments)'] },
     { mainName: 'vitest', count: 0, subNames: ['vitest'] },
     { mainName: 'component testing', count: 0, subNames: ['component testing'] },
-    { mainName: 'e2e testing', count: 0, subNames: ['e2e testing', 'End-to-end testing'] },
     {
         mainName: 'maintainable architecture',
         count: 0,
@@ -542,22 +649,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier'] },
     { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] },
-    {
-        mainName: 'angular 2',
-        count: 0,
-        subNames: ['angular 2', 'angular 2+', 'Angular 15', 'Angular (13+)', 'Angular 20', 'Angular (v8+)']
-    },
-    {
-        mainName: 'web development',
-        count: 0,
-        subNames: [
-            'web development',
-            'Frontend development',
-            'Frontend web development',
-            'Web client development',
-            'Frontend application development'
-        ]
-    },
     {
         mainName: 'testing frameworks',
         count: 0,
@@ -618,17 +709,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'containerized application development',
         count: 0,
         subNames: ['containerized application development', 'Containerized environments', 'Containerisation']
-    },
-    {
-        mainName: 'automation testing',
-        count: 0,
-        subNames: [
-            'automation testing',
-            'Automated testing',
-            'Browser testing',
-            'Test automation frameworks',
-            'Frontend automation testing'
-        ]
     },
     { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
     { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
@@ -849,21 +929,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Postman', count: 0, subNames: ['Postman'] },
     { mainName: 'Insomnia', count: 0, subNames: ['Insomnia'] },
     { mainName: 'PCF', count: 0, subNames: ['PCF'] },
-    {
-        mainName: 'AI-assisted development tools',
-        count: 0,
-        subNames: [
-            'AI-assisted development tools',
-            'AI-assisted development',
-            'AI coding tools',
-            'openai gpt',
-            'ai assisted development',
-            'ai tooling',
-            'windsurf',
-            'AI tools',
-            'OpenAi'
-        ]
-    },
     {
         mainName: 'Microservices design patterns',
         count: 0,
