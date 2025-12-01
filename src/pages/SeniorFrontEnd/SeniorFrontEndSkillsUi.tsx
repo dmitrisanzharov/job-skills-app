@@ -10,6 +10,11 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Tooltip from '@mui/material/Tooltip';
 import InfoOutlineIcon from '@mui/icons-material/InfoOutline';
+import FormControl from '@mui/material/FormControl';
+import FormLabel from '@mui/material/FormLabel';
+import Typography from '@mui/material/Typography';
+import Divider from '@mui/material/Divider';
+
 //
 import { mainDbIteration } from '../../helpers/mainDbIteration';
 import { skillMinPercentageToFilter, skillThatIWillNotTake } from '../../consts/globalVars';
@@ -26,12 +31,17 @@ import mainDbTest from '../../helpers/__mocks__/seniorFrontEnd/mainDb.mock.dupli
 
 // REACT COMPONENT
 
-function SeniorFrontEndSkills() {
+const SeniorFrontEndSkills: React.FC = () => {
+    const fieldSetStyle = { border: '1px solid #ccc', borderRadius: 2, p: 2, mb: 3 };
+
     const renderCount = React.useRef(0);
     renderCount.current += 1;
     console.log('render count', renderCount.current);
 
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(seniorFrontEndDb_noFullStack, allFrontEndHardSkills);
+    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(
+        seniorFrontEndDb_noFullStack,
+        allFrontEndHardSkills
+    );
     const hardSkillsFinal = finalObj.hardSkills
         .filter((hs) => hs.count > totalJobEntries * skillMinPercentageToFilter)
         .sort((a, b) => b.count - a.count);
@@ -55,33 +65,51 @@ function SeniorFrontEndSkills() {
 
     return (
         <Box>
-            <h1>Senior Front End Only</h1>
-            <p>Total Job Entries: {totalJobEntries}</p>
-            <p>Average Years of Experience: {avgYears.toFixed(0)}</p>
-            <p>
-                Bachelor: {finalObj.bachelorDegreeFinal} |{' '}
-                {((finalObj.bachelorDegreeFinal / totalJobEntries) * 100).toFixed(0)}%
-            </p>
-            <p>
-                Masters: {finalObj.mastersDegreeFinal} |{' '}
-                {((finalObj.mastersDegreeFinal / totalJobEntries) * 100).toFixed(0)}%
-            </p>
-            <ul>
-                <li>
-                    Remote: {finalObj.remote} | {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%
-                </li>
-                <li>
-                    Hybrid: {finalObj.hybrid} | {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%
-                </li>
-                <li>
-                    On-site: {finalObj.onSite} | {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%
-                </li>
-            </ul>
+            <Typography variant='h4'>Senior Front End Only</Typography>
+            <Typography variant='subtitle1' sx={{ mb: 2 }}>
+                Total Job Entries: {totalJobEntries} | Hard skills{' '}
+                {`>= ${skillMinPercentageToFilter * 100}%`}
+            </Typography>
+
+            <Box sx={{ display: 'flex', gap: 2 }}>
+                <FormControl component='fieldset' sx={fieldSetStyle}>
+                    <FormLabel component='legend'>Education & Experience</FormLabel>
+
+                    <Typography>Average Years of Experience: {avgYears.toFixed(0)}</Typography>
+
+                    <Typography>
+                        Bachelor: {finalObj.bachelorDegreeFinal} |{' '}
+                        {((finalObj.bachelorDegreeFinal / totalJobEntries) * 100).toFixed(0)}%
+                    </Typography>
+
+                    <Typography>
+                        Masters: {finalObj.mastersDegreeFinal} |{' '}
+                        {((finalObj.mastersDegreeFinal / totalJobEntries) * 100).toFixed(0)}%
+                    </Typography>
+                </FormControl>
+
+                <FormControl component='fieldset' sx={fieldSetStyle}>
+                    <FormLabel component='legend'>WorkType</FormLabel>
+
+                    <Box component='ul' sx={{ pl: 3, m: 0 }}>
+                        <Typography>
+                            Remote: {finalObj.remote} | {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%
+                        </Typography>
+
+                        <Typography>
+                            Hybrid: {finalObj.hybrid} | {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%
+                        </Typography>
+
+                        <Typography>
+                            On-site: {finalObj.onSite} | {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%
+                        </Typography>
+                    </Box>
+                </FormControl>
+            </Box>
 
             {/* MAIN JSON */}
             {/* <h3>{JSON.stringify(finalObj.hardSkills, null, 2)}</h3> */}
 
-            <h2>Hard skills {`>= ${skillMinPercentageToFilter * 100}%`}</h2>
             <TableContainer component={Paper}>
                 <Table>
                     <TableHead>
@@ -105,7 +133,8 @@ function SeniorFrontEndSkills() {
                         {hardSkillsFinal.map((skill, index) => {
                             const skillCount = skill.count;
                             const skillLevel = skill.mySkillLevel;
-                            const skillLevelColor = (skillLevel === 0 || skillLevel) ? getColorByNumber(skillLevel) : null;
+                            const skillLevelColor =
+                                skillLevel === 0 || skillLevel ? getColorByNumber(skillLevel) : null;
                             const hasMetaInfo = !!skill.meta;
 
                             return (
@@ -133,6 +162,6 @@ function SeniorFrontEndSkills() {
             </TableContainer>
         </Box>
     );
-}
+};
 
 export default SeniorFrontEndSkills;
