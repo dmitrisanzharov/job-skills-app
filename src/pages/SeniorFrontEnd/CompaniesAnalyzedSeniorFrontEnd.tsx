@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import mainDb from '../../databases/seniorFrontEndDb_withFullStack';
+import seniorFrontEndDb_noFullStack from '../../databases/seniorFrontEndDb_noFullStack';
 import dayjs from 'dayjs';
 
 // MUI
@@ -21,7 +21,7 @@ const CompaniesAnalyzedSeniorFrontEnd: React.FC<Props> = () => {
 
     return (
         <Box>
-            <h3>Senior Front End: Companies Analyzed: {mainDb.length}</h3>
+            <h3>Senior Front End: Companies Analyzed: {seniorFrontEndDb_noFullStack.length}</h3>
             <TableContainer component={Paper}>
                 <Table>
                     <TableHead>
@@ -38,7 +38,7 @@ const CompaniesAnalyzedSeniorFrontEnd: React.FC<Props> = () => {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {mainDb
+                        {seniorFrontEndDb_noFullStack
                             .slice() // create a shallow copy to avoid mutating original array
                             .sort((a, b) => b.dateCreated - a.dateCreated) // latest first
                             .map((job, index) => (

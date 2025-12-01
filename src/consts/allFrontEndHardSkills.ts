@@ -419,6 +419,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         meta: 'cypress covers this',
         mySkillLevel: 5
     },
+    { mainName: 'figma', count: 0, subNames: ['figma', 'Figma to production UI', 'Figma API'], mySkillLevel: 1 },
 
     // -----------------------------------------------------------------
     // ALL OTHER
@@ -479,7 +480,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'streamlit', count: 0, subNames: ['streamlit'] },
     { mainName: 'svelte', count: 0, subNames: ['svelte', 'sveltekit'] },
     { mainName: 'theming', count: 0, subNames: ['tokens and theming', 'tokens', 'theming'] },
-    { mainName: 'figma', count: 0, subNames: ['figma', 'Figma to production UI', 'Figma API'] },
     { mainName: 'animations', count: 0, subNames: ['animations'] },
     { mainName: 'micro-interactions', count: 0, subNames: ['micro-interactions'] },
     { mainName: 'framer motion', count: 0, subNames: ['framer motion'] },
