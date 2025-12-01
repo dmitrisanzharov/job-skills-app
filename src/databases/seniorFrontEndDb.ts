@@ -2830,5 +2830,39 @@ export default <JobEntry[]>[
             'Adaptability to multiple tech stacks',
             'Cross-functional teamwork'
         ]
+    },
+    {
+        dateCreated: 1764600586000,
+        companyName: 'Reebelo',
+        jobTitle: 'Senior Full Stack Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: 4,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'React',
+            'Node.js',
+            'AWS',
+            'Next.js',
+            'Nest.js',
+            'ElasticSearch',
+            'API integration',
+            'Performance optimization',
+            'Global marketplace platforms',
+            'High-traffic B2C platforms',
+            'AI tools',
+            'OpenAi',
+        ],
+        softSkills: [
+            'Collaboration in global/remote teams',
+            'Asynchronous communication',
+            'Problem-solving in high-impact environments',
+            'Autonomy and self-management',
+            'Architecture and technical strategy',
+            'Innovation mindset',
+            'Scalability-focused development',
+            'Cross-functional teamwork'
+        ]
     }
 ];

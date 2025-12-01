@@ -85,7 +85,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'FX',
             'Options',
             'Digital Assets',
-            'Perpetual Swaps'
+            'Perpetual Swaps',
+            'Global marketplace platforms'
         ]
     },
     { mainName: 'next.js', count: 0, subNames: ['next.js', 'NextJS'] },
@@ -830,7 +831,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'openai gpt',
             'ai assisted development',
             'ai tooling',
-            'windsurf'
+            'windsurf',
+            'AI tools',
+            'OpenAi'
         ]
     },
     {
@@ -934,7 +937,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Memcache', count: 0, subNames: ['Memcache'] },
     { mainName: 'Conversion funnels', count: 0, subNames: ['Conversion funnels'] },
     { mainName: 'Swift', count: 0, subNames: ['Swift'] },
-    { mainName: 'Kotlin', count: 0, subNames: ['Kotlin'] }
+    { mainName: 'Kotlin', count: 0, subNames: ['Kotlin'] },
+{ mainName: 'ElasticSearch', count: 0, subNames: ['ElasticSearch'] },
+{ mainName: 'High-traffic B2C platforms', count: 0, subNames: ['High-traffic B2C platforms'] },
 
     //
     //
