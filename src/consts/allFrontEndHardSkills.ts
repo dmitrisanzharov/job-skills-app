@@ -59,12 +59,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'cloud platforms',
         count: 0,
-        subNames: ['cloud platforms', 'Cloud services', 'Cloud-native development']
+        subNames: ['cloud platforms', 'Cloud services', 'Cloud-native development', 'Cloud deployment', 'cloud technologies', 'Cloud hosting']
     },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
     { mainName: 'access auditing', count: 0, subNames: ['access auditing'] },
-    { mainName: 'fintech knowledge', count: 0, subNames: ['fintech knowledge'] },
+    { mainName: 'fintech knowledge', count: 0, subNames: ['fintech knowledge', 'FinTech domain knowledge'] },
     { mainName: 'next.js', count: 0, subNames: ['next.js', 'NextJS'] },
     {
         mainName: 'rest api',
@@ -155,7 +155,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Performance profiling',
             'Debugging performance issues',
             'Profiling',
-            'System tuning'
+            'System tuning',
+            'Feature optimization'
         ]
     },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
@@ -175,7 +176,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Software architecture',
             'Modern web architecture',
             'Hexagonal architecture',
-            'Component architecture'
+            'Component architecture',
+            'Scalable software design',
+            'Front-end architecture',
+            'System design',
+            'Architecture design',
+            'Scaling systems'
         ]
     },
     { mainName: 'accessibility', count: 0, subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)'] },
@@ -314,7 +320,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'backend development',
         count: 0,
-        subNames: ['backend technologies', 'backend databases', 'Backend development', 'Typed backend languages']
+        subNames: [
+            'backend technologies',
+            'backend databases',
+            'Backend development',
+            'Typed backend languages',
+            'Databases'
+        ]
     },
     {
         mainName: 'reusable components',
@@ -532,7 +544,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
     { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
-    { mainName: 'cloud technologies', count: 0, subNames: ['cloud technologies', 'Cloud hosting'] },
     { mainName: 'mysql', count: 0, subNames: ['mysql'] },
     {
         mainName: 'seo best practices',
@@ -637,7 +648,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['fast growing startups', 'Experience in fast growing startups']
     },
-    { mainName: 'Consumer payments experience', count: 0, subNames: ['Consumer payments experience'] },
+    { mainName: 'Consumer payments experience', count: 0, subNames: ['Consumer payments experience', 'Payments systems'] },
     { mainName: 'Crypto applications experience', count: 0, subNames: ['Crypto applications experience'] },
     {
         mainName: 'Fintech mobile applications experience',
@@ -848,7 +859,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Transpiling', count: 0, subNames: ['Transpiling'] },
     { mainName: 'Yarn', count: 0, subNames: ['Yarn'] },
     { mainName: 'Turborepo', count: 0, subNames: ['Turborepo'] },
-    { mainName: 'Formatting', count: 0, subNames: ['Formatting'] }
+    { mainName: 'Formatting', count: 0, subNames: ['Formatting'] },
+    { mainName: 'PHPUnit', count: 0, subNames: ['PHPUnit'] },
+    { mainName: 'Experimentation', count: 0, subNames: ['Experimentation'] },
+    { mainName: 'Stripe integration', count: 0, subNames: ['Stripe integration'] },
+{ mainName: 'Compliance domain knowledge', count: 0, subNames: ['Compliance domain knowledge'] },
+
 
     //
     //

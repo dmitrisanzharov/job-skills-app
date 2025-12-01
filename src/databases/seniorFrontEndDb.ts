@@ -2443,5 +2443,115 @@ export default <JobEntry[]>[
             'Problem-solving',
             'Working efficiently in remote teams'
         ]
+    },
+    {
+        dateCreated: 1764599581000,
+        companyName: 'OnTheGoSystems',
+        jobTitle: 'Senior PHP/React Developer',
+        workMode: 'Remote',
+        yearsOfExperience: null,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'PHP',
+            'JavaScript',
+            'React',
+            'Redux',
+            'Databases',
+            'PHPUnit',
+            'Automated testing',
+            'End-to-end testing',
+            'Git',
+            'Version control',
+            'Software architecture',
+            'Design patterns',
+            'Clean code',
+            'Scalable software design'
+        ],
+        softSkills: [
+            'Collaboration',
+            'Problem-solving',
+            'Time management',
+            'Prioritization',
+            'Ownership',
+            'Process improvement',
+            'Communication'
+        ]
+    },
+    {
+        dateCreated: 1764599652000,
+        companyName: 'SurveyMonkey',
+        jobTitle: 'Senior Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: 8,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'Full-stack development',
+            'React',
+            'TypeScript',
+            'Next.js',
+            'SCSS',
+            'Python',
+            'Backend development',
+            'REST APIs',
+            'GraphQL',
+            'CI/CD',
+            'GitHub Actions',
+            'AWS',
+            'A/B testing',
+            'Experimentation',
+            'Debugging',
+            'Front-end architecture',
+            'System design',
+            'Feature optimization'
+        ],
+        softSkills: [
+            'Collaboration',
+            'Product thinking',
+            'Analytical skills',
+            'User-first decision making',
+            'Shared ownership',
+            'Continuous improvement',
+            'Communication',
+            'Problem-solving'
+        ]
+    },
+    {
+        dateCreated: 1764599728000,
+        companyName: 'Atlantic Search',
+        jobTitle: 'Founding Senior Full Stack Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: null,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'Full-stack development',
+            'TypeScript',
+            'Node.js',
+            'React',
+            'PostgreSQL',
+            'Stripe integration',
+            'REST APIs',
+            'Cloud deployment',
+            'FinTech domain knowledge',
+            'Payments systems',
+            'Compliance domain knowledge',
+            'Architecture design',
+            'Scaling systems',
+            'Refactoring'
+        ],
+        softSkills: [
+            'Ownership',
+            'Product mindset',
+            'Pragmatism',
+            'Adaptability',
+            'Startup experience',
+            'Technical leadership potential',
+            'Collaboration'
+        ]
     }
 ];
