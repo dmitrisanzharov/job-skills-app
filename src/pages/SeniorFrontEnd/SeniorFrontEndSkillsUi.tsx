@@ -8,6 +8,8 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import Tooltip from '@mui/material/Tooltip';
+import InfoOutlineIcon from '@mui/icons-material/InfoOutline';
 //
 import { mainDbIteration } from '../../helpers/mainDbIteration';
 import { skillMinPercentageToFilter } from '../../consts/globalVars';
@@ -102,12 +104,24 @@ function SeniorFrontEndSkills() {
                         {hardSkillsFinal.map((skill, index) => {
                             const skillCount = skill.count;
                             const skillLevel = skill.mySkillLevel;
-                            const skillLevelColor = skillLevel ? getColorByNumber(skillLevel) : null;
+                            const skillLevelColor = (skillLevel === 0 || skillLevel) ? getColorByNumber(skillLevel) : null;
+                            const hasMetaInfo = !!skill.meta;
 
                             return (
                                 <TableRow key={index}>
                                     <TableCell sx={{ backgroundColor: skillLevelColor }}>{skillLevel}</TableCell>
-                                    <TableCell>{skill.mainName}</TableCell>
+                                    <TableCell>
+                                        {' '}
+                                        {hasMetaInfo ? (
+                                            <Tooltip title={skill.meta} arrow>
+                                                <span>
+                                                    {skill.mainName} <InfoOutlineIcon fontSize='small' />
+                                                </span>
+                                            </Tooltip>
+                                        ) : (
+                                            skill.mainName
+                                        )}
+                                    </TableCell>
                                     <TableCell>{((skillCount / totalJobEntries) * 100).toFixed(0)}%</TableCell>
                                     <TableCell>{skillCount}</TableCell>
                                 </TableRow>

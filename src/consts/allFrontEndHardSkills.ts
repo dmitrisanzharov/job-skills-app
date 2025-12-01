@@ -20,23 +20,144 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+', 'modern JavaScript'],
         mySkillLevel: 9
     },
-
-    // -----------------------------------------------------------------
-    // ALL OTHER
-
-    { mainName: 'html', count: 0, subNames: ['html', 'html5', 'Semantic HTML'] },
-    { mainName: 'css', count: 0, subNames: ['css', 'css3', 'CSS 4', 'CSS Modules'] },
-    { mainName: 'angular', count: 0, subNames: ['angular', 'angular.js', 'angularjs', 'angular js'] },
-    { mainName: 'vue', count: 0, subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3'] },
-    { mainName: 'node.js', count: 0, subNames: ['node.js', 'nodejs', 'node js', 'node', 'Node.js ecosystem'] },
-    { mainName: 'react class components', count: 0, subNames: ['react class components', 'react class component'] },
     {
-        mainName: 'react functional components',
+        mainName: 'web performance',
         count: 0,
-        subNames: ['react functional components', 'react functional component']
+        subNames: [
+            'web performance',
+            'performance optimization',
+            'Performance tooling',
+            'webpagetest',
+            'Web performance optimization',
+            'Frontend performance optimization',
+            'Performance optimisation',
+            'Runtime performance optimization',
+            'runtime performance',
+            'Performance audits',
+            'Performance profiling',
+            'Debugging performance issues',
+            'Profiling',
+            'System tuning',
+            'Feature optimization',
+            'Metrics',
+            'frontend optimization',
+            'High-performance system'
+        ],
+        mySkillLevel: 2
     },
-    { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook', 'Hooks'] },
-    { mainName: 'redux', count: 0, subNames: ['redux', 'Redux.js', 'Redux Toolkit'] },
+    { mainName: 'css', count: 0, subNames: ['css', 'css3', 'CSS 4', 'CSS Modules'], mySkillLevel: 8 },
+    {
+        mainName: 'architecture',
+        count: 0,
+        subNames: [
+            'design systems',
+            'design system',
+            'Scalable system design',
+            'Fault-tolerant system design',
+            'Scalable architecture',
+            'frontend architecture',
+            'client-side architecture',
+            'Software architecture',
+            'Modern web architecture',
+            'Hexagonal architecture',
+            'Component architecture',
+            'Scalable software design',
+            'Front-end architecture',
+            'System design',
+            'Architecture design',
+            'Scaling systems',
+            'Solution Design',
+            'Tracing',
+            'modern frontend patterns',
+            'Frontend Engineering',
+            'Web Architecture',
+            'Platform Engineering',
+            'scaling system',
+            'Scalable code development'
+        ],
+        meta: 'SCALABLE and ARCHITECTURE are very important word here',
+        mySkillLevel: 4
+    },
+    {
+        mainName: 'node.js',
+        count: 0,
+        subNames: ['node.js', 'nodejs', 'node js', 'node', 'Node.js ecosystem'],
+        mySkillLevel: 5
+    },
+    {
+        mainName: 'rest api',
+        count: 0,
+        subNames: [
+            'rest apis',
+            'rest api',
+            'RESTful APIs',
+            'RESTful Services',
+            'RESTful API integration',
+            'API integrations',
+            'RESTful API design',
+            'APIs',
+            'API integration',
+            'Modern API frameworks'
+        ],
+        mySkillLevel: 8
+    },
+    {
+        mainName: 'ui/ux',
+        count: 0,
+        subNames: [
+            'ui/ux',
+            'UX best practices',
+            'UI/UX design',
+            'UX understanding',
+            'UI/UX implementation',
+            'UI/UX best practices',
+            'UI & UX design',
+            'Design principles',
+            'UX process',
+            'UI/UX development',
+            'UX design translation to UI',
+            'UX implementation',
+            'UI/UX attention to detail',
+            'UX validation',
+            'Ui validation',
+            'Feature Development',
+            'User Behavior Analysis',
+            'User behavior tracking',
+            'tracking tools',
+            'User research',
+            'UI Design',
+            'Web Interface Design',
+            'Engagement features',
+            'dashboards',
+            'Dashboard development',
+            'Frontend interfaces'
+        ],
+        mySkillLevel: 5
+    },
+    { mainName: 'html', count: 0, subNames: ['html', 'html5', 'Semantic HTML'], mySkillLevel: 8 },
+    {
+        mainName: 'ci/cd',
+        count: 0,
+        subNames: [
+            'ci/cd',
+            'continuous integration',
+            'continuous deployment',
+            'CI/CD pipelines',
+            'CI/CD practices',
+            'CI/CD tools',
+            'CI/CD principles',
+            'Deployment pipelines'
+        ],
+        mySkillLevel: 7
+    },
+    { mainName: 'next.js', count: 0, subNames: ['next.js', 'NextJS'], mySkillLevel: 6 },
+    { mainName: 'unit testing', count: 0, subNames: ['unit testing', 'Functional testing'], mySkillLevel: 8 },
+    {
+        mainName: 'aws',
+        count: 0,
+        subNames: ['aws', 'AWS cloud services', 'AWS/cloud technologies', 'AWS hosting'],
+        mySkillLevel: 0
+    },
     {
         mainName: 'state management tools',
         count: 0,
@@ -49,8 +170,51 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'State management libraries',
             'State management patterns',
             'Client-side state management'
-        ]
+        ],
+        mySkillLevel: 8
     },
+    {
+        mainName: 'agile',
+        count: 0,
+        subNames: [
+            'agile methodologies',
+            'agile methodology',
+            'agile development',
+            'scrum',
+            'agile / scrum',
+            'Agile workflow',
+            'agile teamwork',
+            'Agile Project Management tools',
+            'Agile'
+        ],
+        mySkillLevel: 9
+    },
+    { mainName: 'redux', count: 0, subNames: ['redux', 'Redux.js', 'Redux Toolkit'], mySkillLevel: 8 },
+    {
+        mainName: 'Fullstack web application development',
+        count: 0,
+        subNames: [
+            'Fullstack web application development',
+            'Fullstack development',
+            'Frontend and backend tooling setup',
+            'Full-stack development'
+        ],
+        meta: 'skip this skill',
+        mySkillLevel: 5,
+    },
+
+    // -----------------------------------------------------------------
+    // ALL OTHER
+
+    { mainName: 'angular', count: 0, subNames: ['angular', 'angular.js', 'angularjs', 'angular js'] },
+    { mainName: 'vue', count: 0, subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3'] },
+    { mainName: 'react class components', count: 0, subNames: ['react class components', 'react class component'] },
+    {
+        mainName: 'react functional components',
+        count: 0,
+        subNames: ['react functional components', 'react functional component']
+    },
+    { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook', 'Hooks'] },
     {
         mainName: 'SaaS experience',
         count: 0,
@@ -89,23 +253,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Global marketplace platforms'
         ]
     },
-    { mainName: 'next.js', count: 0, subNames: ['next.js', 'NextJS'] },
-    {
-        mainName: 'rest api',
-        count: 0,
-        subNames: [
-            'rest apis',
-            'rest api',
-            'RESTful APIs',
-            'RESTful Services',
-            'RESTful API integration',
-            'API integrations',
-            'RESTful API design',
-            'APIs',
-            'API integration',
-            'Modern API frameworks'
-        ]
-    },
     {
         mainName: 'responsive design',
         count: 0,
@@ -129,95 +276,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'graphql', count: 0, subNames: ['graphql'] },
     { mainName: 'docker', count: 0, subNames: ['docker'] },
     { mainName: 'kubernetes', count: 0, subNames: ['kubernetes', 'Kubernetes deployment'] },
-    {
-        mainName: 'ci/cd',
-        count: 0,
-        subNames: [
-            'ci/cd',
-            'continuous integration',
-            'continuous deployment',
-            'CI/CD pipelines',
-            'CI/CD practices',
-            'CI/CD tools',
-            'CI/CD principles',
-            'Deployment pipelines'
-        ]
-    },
-    {
-        mainName: 'agile',
-        count: 0,
-        subNames: [
-            'agile methodologies',
-            'agile methodology',
-            'agile development',
-            'scrum',
-            'agile / scrum',
-            'Agile workflow',
-            'agile teamwork',
-            'Agile Project Management tools',
-            'Agile'
-        ]
-    },
     { mainName: 'playwright', count: 0, subNames: ['playwright'] },
     { mainName: 'github copilot', count: 0, subNames: ['github copilot'] },
     { mainName: 'claude code', count: 0, subNames: ['claude code'] },
     { mainName: 'cursor', count: 0, subNames: ['cursor'] },
-    {
-        mainName: 'web performance',
-        count: 0,
-        subNames: [
-            'web performance',
-            'performance optimization',
-            'Performance tooling',
-            'webpagetest',
-            'Web performance optimization',
-            'Frontend performance optimization',
-            'Performance optimisation',
-            'Runtime performance optimization',
-            'runtime performance',
-            'Performance audits',
-            'Performance profiling',
-            'Debugging performance issues',
-            'Profiling',
-            'System tuning',
-            'Feature optimization',
-            'Metrics',
-            'frontend optimization',
-            'High-performance system'
-        ]
-    },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
     { mainName: 'storybook', count: 0, subNames: ['storybook'] },
     { mainName: 'monorepos', count: 0, subNames: ['monorepos'] },
-    {
-        mainName: 'architecture',
-        count: 0,
-        subNames: [
-            'design systems',
-            'design system',
-            'Scalable system design',
-            'Fault-tolerant system design',
-            'Scalable architecture',
-            'frontend architecture',
-            'client-side architecture',
-            'Software architecture',
-            'Modern web architecture',
-            'Hexagonal architecture',
-            'Component architecture',
-            'Scalable software design',
-            'Front-end architecture',
-            'System design',
-            'Architecture design',
-            'Scaling systems',
-            'Solution Design',
-            'Tracing',
-            'modern frontend patterns',
-            'Frontend Engineering',
-            'Web Architecture',
-            'Platform Engineering',
-            'scaling system'
-        ]
-    },
     {
         mainName: 'accessibility',
         count: 0,
@@ -228,37 +293,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'git', count: 0, subNames: ['git', 'Git workflows'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
-    {
-        mainName: 'ui/ux',
-        count: 0,
-        subNames: [
-            'ui/ux',
-            'UX best practices',
-            'UI/UX design',
-            'UX understanding',
-            'UI/UX implementation',
-            'UI/UX best practices',
-            'UI & UX design',
-            'Design principles',
-            'UX process',
-            'UI/UX development',
-            'UX design translation to UI',
-            'UX implementation',
-            'UI/UX attention to detail',
-            'UX validation',
-            'Ui validation',
-            'Feature Development',
-            'User Behavior Analysis',
-            'User behavior tracking',
-            'tracking tools',
-            'User research',
-            'UI Design',
-            'Web Interface Design',
-            'Engagement features',
-            'dashboards',
-            'Dashboard development'
-        ]
-    },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
     { mainName: 'data-heavy interfaces', count: 0, subNames: ['data-heavy interfaces'] },
     { mainName: 'flutterflow', count: 0, subNames: ['flutterflow'] },
@@ -327,7 +361,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Application monitoring',
             'Monitoring',
             'Observability tools',
-            'observability'
+            'observability',
+            'alerting'
         ]
     },
     { mainName: 'mobx', count: 0, subNames: ['mobx'] },
@@ -335,7 +370,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'sass', count: 0, subNames: ['sass'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
     { mainName: 'nosql databases', count: 0, subNames: ['nosql databases', 'NoSQL'] },
-    { mainName: 'aws', count: 0, subNames: ['aws', 'AWS cloud services', 'AWS/cloud technologies', 'AWS hosting'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
     { mainName: 'vite', count: 0, subNames: ['vite', 'Vite configuration'], meta: 'Webpack clone' },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
@@ -362,7 +396,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['frontend-backend integration', 'Backend integration']
     },
-    { mainName: 'unit testing', count: 0, subNames: ['unit testing', 'Functional testing'] },
     { mainName: 'integration testing', count: 0, subNames: ['integration testing'] },
     {
         mainName: 'react testing library',
@@ -378,7 +411,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'backend databases',
             'Backend development',
             'Typed backend languages',
-            'Databases'
+            'Databases',
+            'Backend systems'
         ]
     },
     {
@@ -427,7 +461,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['reliability best practices', 'Reliability engineering']
     },
-    { mainName: 'test-driven development', count: 0, subNames: ['test-driven development'] },
+    { mainName: 'test-driven development', count: 0, subNames: ['test-driven development', 'TDD'] },
     {
         mainName: 'object-oriented programming',
         count: 0,
@@ -651,21 +685,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Database schema design', 'schema design', 'Database design']
     },
-    { mainName: 'Database performance optimization', count: 0, subNames: ['Database performance optimization'] },
+    {
+        mainName: 'Database performance optimization',
+        count: 0,
+        subNames: ['Database performance optimization', 'Database optimization']
+    },
     { mainName: 'GCP', count: 0, subNames: ['GCP'] },
     { mainName: 'Azure', count: 0, subNames: ['Azure'] },
     { mainName: 'Containerization', count: 0, subNames: ['Containerization'] },
     { mainName: 'Scalable backend systems', count: 0, subNames: ['Scalable backend systems'] },
-    {
-        mainName: 'Fullstack web application development',
-        count: 0,
-        subNames: [
-            'Fullstack web application development',
-            'Fullstack development',
-            'Frontend and backend tooling setup',
-            'Full-stack development'
-        ]
-    },
     {
         mainName: 'Software development',
         count: 0,
@@ -938,8 +966,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Conversion funnels', count: 0, subNames: ['Conversion funnels'] },
     { mainName: 'Swift', count: 0, subNames: ['Swift'] },
     { mainName: 'Kotlin', count: 0, subNames: ['Kotlin'] },
-{ mainName: 'ElasticSearch', count: 0, subNames: ['ElasticSearch'] },
-{ mainName: 'High-traffic B2C platforms', count: 0, subNames: ['High-traffic B2C platforms'] },
+    { mainName: 'ElasticSearch', count: 0, subNames: ['ElasticSearch'] },
+    { mainName: 'High-traffic B2C platforms', count: 0, subNames: ['High-traffic B2C platforms'] },
+    { mainName: 'Dependency injection', count: 0, subNames: ['Dependency injection'] }
 
     //
     //

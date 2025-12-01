@@ -11,8 +11,8 @@ export function getColorByNumber(num: number): string {
   if (num >= 8) {
     return 'green';
   } else if (num >= 5) {
-    return 'yellow';
+    return '#B8860B';
   } else {
-    return 'red';
+    return '#8B0000';
   }
 }

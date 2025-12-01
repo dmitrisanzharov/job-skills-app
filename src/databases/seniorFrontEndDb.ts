@@ -2742,7 +2742,7 @@ export default <JobEntry[]>[
         ]
     },
     {
-        dateCreated: 1767283200000,
+        dateCreated: 1764600169000,
         companyName: 'Ideawise',
         jobTitle: 'Senior Fullstack Developer',
         workMode: 'Remote',
@@ -2852,7 +2852,7 @@ export default <JobEntry[]>[
             'Global marketplace platforms',
             'High-traffic B2C platforms',
             'AI tools',
-            'OpenAi',
+            'OpenAi'
         ],
         softSkills: [
             'Collaboration in global/remote teams',
@@ -2863,6 +2863,46 @@ export default <JobEntry[]>[
             'Innovation mindset',
             'Scalability-focused development',
             'Cross-functional teamwork'
+        ]
+    },
+    {
+        dateCreated: 1764600746000,
+        companyName: 'Perspective',
+        jobTitle: 'Senior Fullstack Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: 5,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'TypeScript',
+            'API design',
+            'Backend systems',
+            'Frontend interfaces',
+            'TDD',
+            'Test-Driven Development',
+            'Automated testing',
+            'Software architecture',
+            'Domain-Driven Design',
+            'SOLID principles',
+            'Dependency injection',
+            'Database optimization',
+            'Logging',
+            'alerting',
+            'Monitoring',
+            'Performance optimization',
+            'Scalable code development'
+        ],
+        softSkills: [
+            'Collaboration across teams',
+            'Clear communication',
+            'Curiosity and learning mindset',
+            'Ownership and responsibility',
+            'Impact-driven mindset',
+            'Problem-solving',
+            'Proactive engagement in team rituals',
+            'Remote work adaptability',
+            'Personal and professional growth focus'
         ]
     }
 ];
