@@ -40,7 +40,10 @@ const SeniorFrontEndSkills: React.FC = () => {
 
     const fieldSetStyle = { border: '1px solid #ccc', borderRadius: 2, p: 2, mb: 3 };
 
-    const { finalObj, totalJobEntries, avgYears } = useMemo(() => mainDbIteration(seniorFrontEndDb_noFullStack, allFrontEndHardSkills), []);
+    const { finalObj, totalJobEntries, avgYears } = useMemo(
+        () => mainDbIteration(seniorFrontEndDb_noFullStack, allFrontEndHardSkills),
+        []
+    );
     // console.log('🚀 ~ SeniorFrontEndSkills ~ finalObj:', finalObj);
 
     const jobInterviewSkillObj = {
@@ -53,7 +56,7 @@ const SeniorFrontEndSkills: React.FC = () => {
 
     const hardSkillsFinal = [jobInterviewSkillObj, ...finalObj.hardSkills]
         .filter((hs) => hs.count > totalJobEntries * skillMinPercentageToFilter)
-        .filter((hs) => showNotTakingJobs ? true : !skillThatIWillNotTake.includes(hs.mainName))
+        .filter((hs) => (showNotTakingJobs ? true : !skillThatIWillNotTake.includes(hs.mainName)))
         .sort((a, b) => b.count - a.count);
 
     const testIfWorkModeHasAllEntries = finalObj.remote + finalObj.hybrid + finalObj.onSite === totalJobEntries;
@@ -70,18 +73,20 @@ const SeniorFrontEndSkills: React.FC = () => {
 
     return (
         <Box>
-            <Box>
-                <Tooltip title='hide jobs not taking' placement='top-end' arrow>
+            <Box sx={{ mb: 3 }}>
+                <Typography variant='h4'>Senior Front End Only</Typography>
+                <Typography sx={{ mb: 2 }}>
+                    Total Job Entries: {totalJobEntries} | Hard skills {`>= ${skillMinPercentageToFilter * 100}%`}
+                </Typography>
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                     <Switch
                         size='small'
                         checked={showNotTakingJobs}
                         onChange={(e) => setShowNotTakingJobs(e.target.checked)}
                     />
-                </Tooltip>
-                <Typography variant='h4'>Senior Front End Only</Typography>
-                <Typography variant='subtitle1' sx={{ mb: 2 }}>
-                    Total Job Entries: {totalJobEntries} | Hard skills {`>= ${skillMinPercentageToFilter * 100}%`}
-                </Typography>
+
+                    <Typography variant='caption'>hide skills not taking</Typography>
+                </Box>
             </Box>
 
             <Box sx={{ display: 'flex', gap: 2 }}>
