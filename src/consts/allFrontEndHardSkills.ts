@@ -17,7 +17,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'javascript',
         count: 0,
-        subNames: ['javascript', 'JavaScript (ES6+)', 'JavaScript/ES6+', 'modern JavaScript'],
+        subNames: [
+            'javascript',
+            'JavaScript (ES6+)',
+            'JavaScript/ES6+',
+            'modern JavaScript',
+            'JavaScript fundamentals',
+            'Vanilla JavaScript',
+            'DOM manipulation'
+        ],
         mySkillLevel: 9
     },
     {
@@ -73,7 +81,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Web Architecture',
             'Platform Engineering',
             'scaling system',
-            'Scalable code development'
+            'Scalable code development',
+            'Large-scale app architecture',
+            'scalable code'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -97,7 +107,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'RESTful API design',
             'APIs',
             'API integration',
-            'Modern API frameworks'
+            'Modern API frameworks',
+            'REST API integration'
         ],
         mySkillLevel: 8
     },
@@ -146,7 +157,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'CI/CD practices',
             'CI/CD tools',
             'CI/CD principles',
-            'Deployment pipelines'
+            'Deployment pipelines',
+            'CI/CD for frontend'
         ],
         mySkillLevel: 7
     },
@@ -211,7 +223,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cloud-native development',
             'Cloud deployment',
             'cloud technologies',
-            'Cloud hosting'
+            'Cloud hosting',
+            'Cloud infrastructure'
         ],
         mySkillLevel: 0
     },
@@ -236,7 +249,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'accessibility',
         count: 0,
-        subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)', 'Web Accessibility'],
+        subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)', 'Web Accessibility', 'WCAG'],
         mySkillLevel: 2
     },
     { mainName: 'git', count: 0, subNames: ['git', 'Git workflows'], mySkillLevel: 8 },
@@ -270,7 +283,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Reusable code design',
             'UI components',
             'Modular code design',
-            'Reusable modules'
+            'Reusable modules',
+            'Library development',
+            'Reusable component',
+            'Reusable component development'
         ],
         mySkillLevel: 9
     },
@@ -463,7 +479,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['mobile-first development', 'mobile first development', 'mobile first']
     },
     { mainName: 'babel', count: 0, subNames: ['babel'] },
-    { mainName: 'graphql', count: 0, subNames: ['graphql'] },
+    { mainName: 'graphql', count: 0, subNames: ['graphql', 'GraphQL clients'] },
     { mainName: 'kubernetes', count: 0, subNames: ['kubernetes', 'Kubernetes deployment'] },
     { mainName: 'github copilot', count: 0, subNames: ['github copilot'] },
     { mainName: 'claude code', count: 0, subNames: ['claude code'] },
@@ -471,7 +487,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
     { mainName: 'monorepos', count: 0, subNames: ['monorepos'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
-    { mainName: 'testing', count: 0, subNames: ['testing', 'Testable code', 'Testing strategies'] },
+    {
+        mainName: 'testing',
+        count: 0,
+        subNames: ['testing', 'Testable code', 'Testing strategies', 'Testing practices']
+    },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
@@ -523,7 +543,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'svg', count: 0, subNames: ['svg'] },
     { mainName: 'mobx', count: 0, subNames: ['mobx'] },
     { mainName: 'less', count: 0, subNames: ['less'] },
-    { mainName: 'sass', count: 0, subNames: ['sass'] },
+    { mainName: 'CSS preprocessors', count: 0, subNames: ['sass', 'scss', 'CSS preprocessors', 'PostCSS'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
     { mainName: 'nosql databases', count: 0, subNames: ['nosql databases', 'NoSQL'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
@@ -540,9 +560,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['mobile, tablet, and desktop frontend development']
     },
-    { mainName: 'code quality', count: 0, subNames: ['code quality', 'Code quality tools'] },
-    { mainName: 'code maintainability', count: 0, subNames: ['code maintainability', 'Maintainable code'] },
-    { mainName: 'css-in-js', count: 0, subNames: ['css-in-js'] },
+    { mainName: 'code quality', count: 0, subNames: ['code quality', 'Code quality tools', 'code quality practices'] },
+    {
+        mainName: 'code maintainability',
+        count: 0,
+        subNames: ['code maintainability', 'Maintainable code', 'code maintenance']
+    },
+    { mainName: 'css-in-js', count: 0, subNames: ['css-in-js', 'CSS-in-JS libraries'] },
     { mainName: 'zustand', count: 0, subNames: ['zustand'] },
     { mainName: 'recoil', count: 0, subNames: ['recoil'] },
     { mainName: 'asynchronous operations', count: 0, subNames: ['asynchronous operations', 'Async-first workflows'] },
@@ -647,7 +671,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['front-end tooling', 'Modern front-end tooling', 'Developer tooling']
     },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
-    { mainName: 'prettier', count: 0, subNames: ['prettier'] },
+    { mainName: 'prettier', count: 0, subNames: ['prettier', 'formatters'] },
     { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] },
     {
         mainName: 'testing frameworks',
@@ -655,9 +679,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['testing frameworks', 'Frontend testing frameworks', 'test runner frameworks']
     },
     { mainName: 'grasp principles', count: 0, subNames: ['grasp principles'] },
-    { mainName: 'cross-browser compatibility', count: 0, subNames: ['cross-browser compatibility'] },
-    { mainName: 'npm', count: 0, subNames: ['npm', 'node package manager'] },
-    { mainName: 'linters', count: 0, subNames: ['linters', 'Linting'] },
+    { mainName: 'cross-browser compatibility', count: 0, subNames: ['cross-browser compatibility', 'Cross-browser testing'] },
+    { mainName: 'npm', count: 0, subNames: ['npm', 'node package manager', 'Package managers', 'pnpm'] },
+    { mainName: 'linters', count: 0, subNames: ['linters', 'Linting', 'Stylelint'] },
     { mainName: 'nx framework', count: 0, subNames: ['nx framework', 'Nx'] },
     { mainName: 'typescript ast', count: 0, subNames: ['typescript ast', 'typescript abstract syntax tree'] },
     { mainName: 'code modifiers', count: 0, subNames: ['code modifiers'] },
@@ -798,10 +822,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Secure web application development',
             'Web security',
             'Secure coding',
-            'Secure Web Applications'
+            'Secure Web Applications',
+            'Frontend security',
+            'XSS',
+            'CSRF',
+            'CSP',
+            'secure headers'
         ]
     },
-    { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets'] },
+    { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets', 'WebSocket'] },
     {
         mainName: 'Experience in large technology organizations',
         count: 0,
@@ -890,14 +919,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Cententful', count: 0, subNames: ['Cententful'] },
     { mainName: 'Contentstack', count: 0, subNames: ['Contentstack'] },
     { mainName: 'Kentico', count: 0, subNames: ['Kentico'] },
-    { mainName: 'SCSS', count: 0, subNames: ['SCSS'] },
     { mainName: 'Sitecore JSS', count: 0, subNames: ['Sitecore JSS'] },
     { mainName: 'ISR', count: 0, subNames: ['ISR'] },
-    { mainName: 'Django', count: 0, subNames: ['Django'] },
+    { mainName: 'Django', count: 0, subNames: ['Django', 'Django templates'] },
     { mainName: 'Microfrontends', count: 0, subNames: ['Microfrontends'] },
     { mainName: 'Serverless architectures', count: 0, subNames: ['Serverless architectures'] },
     { mainName: 'Developer automation', count: 0, subNames: ['Developer automation', 'Automation'] },
-    { mainName: 'D3.js', count: 0, subNames: ['D3.js'] },
     { mainName: 'visx', count: 0, subNames: ['visx'] },
     { mainName: 'Sprint Boot', count: 0, subNames: ['Sprint Boot'] },
     {
@@ -947,7 +974,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Rspack', count: 0, subNames: ['Rspack'] },
     { mainName: 'Server-Sent Events', count: 0, subNames: ['Server-Sent Events', 'sse'] },
     { mainName: 'Message streaming', count: 0, subNames: ['Message streaming'] },
-    { mainName: 'Real-time features', count: 0, subNames: ['Real-time features', 'Handling real-time data'] },
+    {
+        mainName: 'Real-time features',
+        count: 0,
+        subNames: ['Real-time features', 'Handling real-time data', 'Real-time dashboards']
+    },
     { mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
     { mainName: 'HeroUI', count: 0, subNames: ['HeroUI'] },
     { mainName: 'NextUI', count: 0, subNames: ['NextUI'] },
@@ -1033,7 +1064,26 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Kotlin', count: 0, subNames: ['Kotlin'] },
     { mainName: 'ElasticSearch', count: 0, subNames: ['ElasticSearch'] },
     { mainName: 'High-traffic B2C platforms', count: 0, subNames: ['High-traffic B2C platforms'] },
-    { mainName: 'Dependency injection', count: 0, subNames: ['Dependency injection'] }
+    { mainName: 'Dependency injection', count: 0, subNames: ['Dependency injection'] },
+    { mainName: 'E-commerce', count: 0, subNames: ['E-commerce', 'E-commerce metrics'] },
+    { mainName: 'ASP.NET MVC', count: 0, subNames: ['ASP.NET MVC', 'ASP.NET Webpages'] },
+    {
+        mainName: 'learning management system',
+        count: 0,
+        subNames: ['LMS content creation', 'lms', 'E-learning storyboard design']
+    },
+    { mainName: 'Articulate Rise', count: 0, subNames: ['Articulate Rise'] },
+    { mainName: 'Adobe Suite', count: 0, subNames: ['Adobe Suite'] },
+    { mainName: 'COTS software integration', count: 0, subNames: ['COTS software integration'] },
+    { mainName: 'HTMX', count: 0, subNames: ['HTMX'] },
+    { mainName: 'Alpine.js', count: 0, subNames: ['Alpine.js'] },
+    { mainName: 'Bootstrap', count: 0, subNames: ['Bootstrap'] },
+    { mainName: 'Jinja2', count: 0, subNames: ['Jinja2', 'Jinja2 templates'] },
+    { mainName: 'charts', count: 0, subNames: ['charts', 'Chart.js', 'ApexCharts', 'Charting libraries', 'D3.js'] },
+{ mainName: 'Apollo', count: 0, subNames: ['Apollo'] },
+{ mainName: 'URQL', count: 0, subNames: ['URQL'] },
+{ mainName: 'Rollup', count: 0, subNames: ['Rollup'], meta: 'webpack clone' },
+
 
     //
     //
