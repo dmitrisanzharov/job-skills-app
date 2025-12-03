@@ -2624,5 +2624,43 @@ export default [
             'Low-ego and mature work culture',
             'Adaptability and learning'
         ]
+    },
+    {
+        dateCreated: 1764781334000,
+        companyName: 'Arista Networks',
+        jobTitle: 'Front-End Software Engineer - Ireland | (Dmitri note: 5 years plus)',
+        workMode: 'On-site',
+        yearsOfExperience: 5,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'JavaScript',
+            'React',
+            'Redux',
+            'NodeJS',
+            'ES6',
+            'Webpack',
+            'Storybook',
+            'TypeScript',
+            'Less',
+            'CI/CD',
+            'Frontend visualization UI',
+            'Frontend telemetry UI',
+            'Component design',
+            'conversion from wireframes',
+            'Performance optimization'
+        ],
+        softSkills: [
+            'Collaboration with cross-functional teams',
+            'Problem-solving',
+            'Adaptability to change',
+            'Attention to quality and reliability',
+            'Ownership and initiative',
+            'Communication skills',
+            'User experience focus',
+            'Curiosity and continuous learning',
+            'Appreciation for engineering culture'
+        ]
     }
 ] as JobEntry[];

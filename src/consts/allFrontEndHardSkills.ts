@@ -24,7 +24,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'modern JavaScript',
             'JavaScript fundamentals',
             'Vanilla JavaScript',
-            'DOM manipulation'
+            'DOM manipulation',
+            'ES6'
         ],
         mySkillLevel: 9
     },
@@ -68,7 +69,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Software architecture',
             'Modern web architecture',
             'Hexagonal architecture',
-            'Component architecture',
             'Scalable software design',
             'Front-end architecture',
             'System design',
@@ -142,7 +142,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'dashboards',
             'Dashboard development',
             'Frontend interfaces',
-            'UI/UX optimization'
+            'UI/UX optimization',
+            'Frontend visualization UI'
         ],
         mySkillLevel: 4
     },
@@ -289,7 +290,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Reusable modules',
             'Library development',
             'Reusable component',
-            'Reusable component development'
+            'Reusable component development',
+            'Component design',
+            'Component architecture'
         ],
         mySkillLevel: 9
     },
@@ -678,7 +681,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier', 'formatters'] },
-    { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications', 'Micro frontend architectures'] },
+    {
+        mainName: 'micro frontend applications',
+        count: 0,
+        subNames: ['micro frontend applications', 'Micro frontend architectures']
+    },
     {
         mainName: 'testing frameworks',
         count: 0,
@@ -1033,7 +1040,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Loki', count: 0, subNames: ['Loki'] },
     { mainName: 'Faro', count: 0, subNames: ['Faro'] },
     { mainName: 'Helm', count: 0, subNames: ['Helm'] },
-    { mainName: 'Telemetry', count: 0, subNames: ['Telemetry'] },
+    { mainName: 'Telemetry', count: 0, subNames: ['Telemetry', 'Frontend telemetry UI'] },
     { mainName: 'Messaging pipelines', count: 0, subNames: ['Messaging pipelines'] },
     {
         mainName: 'Large Language Models',
@@ -1102,6 +1109,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'Static asset analysis', count: 0, subNames: ['Static asset analysis'] },
     { mainName: 'Bun', count: 0, subNames: ['Bun'], meta: 'webpack clone' },
+    { mainName: 'wireframe', count: 0, subNames: ['wireframes', 'wireframe', 'conversion from wireframes'] },
 
 
     //

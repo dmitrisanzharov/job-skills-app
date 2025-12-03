@@ -75,7 +75,7 @@ const SeniorFrontEndSkills: React.FC = () => {
                         onChange={(e) => setShowNotTakingJobs(e.target.checked)}
                     />
 
-                    <Typography variant='caption'>hide skills not taking</Typography>
+                    <Typography variant='caption'>show skills not taking</Typography>
                 </Box>
             </Box>
 
