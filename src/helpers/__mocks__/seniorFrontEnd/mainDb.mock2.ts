@@ -2,7 +2,7 @@ import { JobEntry } from '../../../types';
 
 // same as Mock 1, only has new skill that doesn't exist
 
-export default <JobEntry[]>[
+export default [
     {
         dateCreated: 1763830348,
         companyName: 'Deel',
@@ -80,4 +80,4 @@ export default <JobEntry[]>[
         hardSkills: ['newSkill'],
         softSkills: []
     }
-];
+] as JobEntry[];

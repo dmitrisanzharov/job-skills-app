@@ -13,8 +13,6 @@ import InfoOutlineIcon from '@mui/icons-material/InfoOutline';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Typography from '@mui/material/Typography';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
 
 //
@@ -24,16 +22,8 @@ import { getColorByNumber } from '../../helpers/getColorByNumber';
 
 // skills
 import { allFrontEndHardSkills } from '../../consts/allFrontEndHardSkills';
-import seniorFrontEndDb_withFullStack from '../../databases/seniorFrontEndDb_withFullStack';
 import seniorFrontEndDb_noFullStack from '../../databases/seniorFrontEndDb_noFullStack';
 
-// for tests
-import { seniorFrontEndSkills_25112025 } from '../../helpers/__mocks__/seniorFrontEnd/seniorFrontEndSkills_25112025';
-import mainDbTest from '../../helpers/__mocks__/seniorFrontEnd/mainDb.mock.duplicates';
-import Tab from '@mui/material/Tab';
-import { count } from 'console';
-
-// REACT COMPONENT
 
 const SeniorFrontEndSkills: React.FC = () => {
     const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);

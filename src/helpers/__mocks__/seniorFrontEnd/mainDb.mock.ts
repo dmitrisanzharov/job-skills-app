@@ -1,6 +1,6 @@
 import { JobEntry } from '../../../types';
 
-export default <JobEntry[]>[
+export default [
     {
         dateCreated: 1,
         companyName: 'Deel',
@@ -67,4 +67,4 @@ export default <JobEntry[]>[
         hardSkills: ['html5'],
         softSkills: []
     }
-];
+] as JobEntry[];
