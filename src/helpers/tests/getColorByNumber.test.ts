@@ -1,4 +1,5 @@
 import { getColorByNumber } from '../getColorByNumber';
+import { GREEN_600, YELLOW_600, RED_700 } from '../../consts/colorVars';
 
 describe('getColorByNumber', () => {
     describe('validation', () => {
@@ -23,43 +24,43 @@ describe('getColorByNumber', () => {
 
     describe('green range (>= 8)', () => {
         test('returns green for 8', () => {
-            expect(getColorByNumber(8)).toBe('green');
+            expect(getColorByNumber(8)).toBe(GREEN_600);
         });
 
         test('returns green for numbers above 8', () => {
-            expect(getColorByNumber(10)).toBe('green');
-            expect(getColorByNumber(9.5)).toBe('green');
+            expect(getColorByNumber(10)).toBe(GREEN_600);
+            expect(getColorByNumber(9.5)).toBe(GREEN_600);
         });
 
         test('returns green for 8.01', () => {
-            expect(getColorByNumber(8.01)).toBe('green');
+            expect(getColorByNumber(8.01)).toBe(GREEN_600);
         });
     });
 
     describe('yellow range (5 to 7.99)', () => {
         test('returns yellow for 5', () => {
-            expect(getColorByNumber(5)).toBe('yellow');
+            expect(getColorByNumber(5)).toBe(YELLOW_600);
         });
 
         test('returns yellow for 7.99', () => {
-            expect(getColorByNumber(7.99)).toBe('yellow');
+            expect(getColorByNumber(7.99)).toBe(YELLOW_600);
         });
 
         test('returns yellow for middle values', () => {
-            expect(getColorByNumber(6)).toBe('yellow');
-            expect(getColorByNumber(7.5)).toBe('yellow');
+            expect(getColorByNumber(6)).toBe(YELLOW_600);
+            expect(getColorByNumber(7.5)).toBe(YELLOW_600);
         });
     });
 
     describe('red range (< 5)', () => {
         test('returns red for 4.99', () => {
-            expect(getColorByNumber(4.99)).toBe('red');
+            expect(getColorByNumber(4.99)).toBe(RED_700);
         });
 
         test('returns red for numbers below 5', () => {
-            expect(getColorByNumber(3)).toBe('red');
-            expect(getColorByNumber(0)).toBe('red');
-            expect(getColorByNumber(1.5)).toBe('red');
+            expect(getColorByNumber(3)).toBe(RED_700);
+            expect(getColorByNumber(0)).toBe(RED_700);
+            expect(getColorByNumber(1.5)).toBe(RED_700);
         });
     });
 });

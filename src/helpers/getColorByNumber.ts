@@ -1,4 +1,4 @@
-import { green, amber, red } from "@mui/material/colors";
+import { GREEN_600, YELLOW_600, RED_700 } from '../consts/colorVars';
 
 // do NOT pass NULL or UNDEFINED into this
 export function getColorByNumber(num: number): string {
@@ -11,10 +11,10 @@ export function getColorByNumber(num: number): string {
     }
 
     if (num >= 8) {
-        return green[600];   // GOOD
+        return GREEN_600;   // GOOD
     } else if (num >= 5) {
-        return amber[600];   // OK
+        return YELLOW_600;   // OK
     } else {
-        return red[700];     // BAD
+        return RED_700;     // BAD
     }
 }
