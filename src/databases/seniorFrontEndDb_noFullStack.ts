@@ -2581,5 +2581,48 @@ export default [
             'Adaptability to evolving tooling',
             'Impact-driven mindset'
         ]
+    },
+    {
+        dateCreated: 1764781221000,
+        companyName: 'Block Labs',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: 5,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'React',
+            'JavaScript',
+            'TypeScript',
+            'Micro frontend architectures',
+            'Build tools',
+            'Bun',
+            'Vite',
+            'Webpack',
+            'Cypress',
+            'Selenium',
+            'Testing frameworks',
+            'CI/CD pipelines',
+            'DevOps practices',
+            'Containerization',
+            'Cloud environments',
+            'API integration',
+            'UI/UX optimization',
+            'Cross-browser compatibility',
+            'Accessibility'
+        ],
+        softSkills: [
+            'Collaboration with cross-functional teams',
+            'Attention to performance and responsiveness',
+            'Code quality and maintainability',
+            'Problem-solving',
+            'Communication skills',
+            'Ownership and initiative',
+            'User experience focus',
+            'Mission-driven mindset',
+            'Low-ego and mature work culture',
+            'Adaptability and learning'
+        ]
     }
 ] as JobEntry[];

@@ -141,7 +141,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Engagement features',
             'dashboards',
             'Dashboard development',
-            'Frontend interfaces'
+            'Frontend interfaces',
+            'UI/UX optimization'
         ],
         mySkillLevel: 4
     },
@@ -225,7 +226,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cloud deployment',
             'cloud technologies',
             'Cloud hosting',
-            'Cloud infrastructure'
+            'Cloud infrastructure',
+            'Cloud environments'
         ],
         mySkillLevel: 0
     },
@@ -676,7 +678,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier', 'formatters'] },
-    { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications'] },
+    { mainName: 'micro frontend applications', count: 0, subNames: ['micro frontend applications', 'Micro frontend architectures'] },
     {
         mainName: 'testing frameworks',
         count: 0,
@@ -914,7 +916,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'Web Workers', count: 0, subNames: ['Web Workers'] },
     { mainName: 'CQRS', count: 0, subNames: ['CQRS'] },
-    { mainName: 'DevOps', count: 0, subNames: ['DevOps', 'DevOps knowledge', 'DevOps tools'] },
+    { mainName: 'DevOps', count: 0, subNames: ['DevOps', 'DevOps knowledge', 'DevOps tools', 'DevOps practices'] },
     { mainName: 'SecDevOps', count: 0, subNames: ['SecDevOps'] },
     { mainName: 'Efficient data handling', count: 0, subNames: ['Efficient data handling'] },
     { mainName: 'Vue Composition API', count: 0, subNames: ['Vue Composition API'] },
@@ -1098,7 +1100,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['3D rendering and visualization', '3D', 'Three.js', 'WebGL', 'WebGL frameworks']
     },
-    { mainName: 'Static asset analysis', count: 0, subNames: ['Static asset analysis'] }
+    { mainName: 'Static asset analysis', count: 0, subNames: ['Static asset analysis'] },
+    { mainName: 'Bun', count: 0, subNames: ['Bun'], meta: 'webpack clone' },
+
 
     //
     //
