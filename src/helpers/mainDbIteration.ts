@@ -1,6 +1,12 @@
 import { JobEntry } from '../types';
 
-export type HardAndSoftSkillsArray = { mainName: string; count: number; subNames: string[]; meta?: string, mySkillLevel?: number }[];
+export type HardAndSoftSkillsArray = {
+    mainName: string;
+    count: number;
+    subNames: string[];
+    meta?: string;
+    mySkillLevel?: number;
+}[];
 
 type FinalObjType = {
     totalJobEntries: number;
@@ -35,7 +41,13 @@ export function mainDbIteration(mainDb: JobEntry[], hardSkillsArr: HardAndSoftSk
         hybrid: 0,
         onSite: 0,
 
-        hardSkills: hardSkillsArr || [],
+        // we need to copy the array, otherwise it will double every time you come back to the page
+        hardSkills:
+            hardSkillsArr.map((hs) => ({
+                ...hs,
+                count: hs.count ?? 0,
+                subNames: [...hs.subNames]
+            })) || [],
         softSkills: []
     };
 
@@ -106,7 +118,7 @@ export function mainDbIteration(mainDb: JobEntry[], hardSkillsArr: HardAndSoftSk
                     // skill found and not yet counted for this job
                     hardSkills[foundIndex].count += 1;
                 } else {
-                    console.log(`Skill "${theHardSkillItemItFound.mainName}" was already counted for this job.`);
+                    // console.log(`Skill "${theHardSkillItemItFound.mainName}" was already counted for this job.`);
                 }
             }
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 // MUI
 import Box from '@mui/material/Box';
 import Table from '@mui/material/Table';
@@ -13,7 +13,9 @@ import InfoOutlineIcon from '@mui/icons-material/InfoOutline';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Typography from '@mui/material/Typography';
-import Divider from '@mui/material/Divider';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Switch from '@mui/material/Switch';
 
 //
 import { mainDbIteration } from '../../helpers/mainDbIteration';
@@ -28,30 +30,33 @@ import seniorFrontEndDb_noFullStack from '../../databases/seniorFrontEndDb_noFul
 // for tests
 import { seniorFrontEndSkills_25112025 } from '../../helpers/__mocks__/seniorFrontEnd/seniorFrontEndSkills_25112025';
 import mainDbTest from '../../helpers/__mocks__/seniorFrontEnd/mainDb.mock.duplicates';
+import Tab from '@mui/material/Tab';
+import { count } from 'console';
 
 // REACT COMPONENT
 
 const SeniorFrontEndSkills: React.FC = () => {
+    const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);
+
     const fieldSetStyle = { border: '1px solid #ccc', borderRadius: 2, p: 2, mb: 3 };
 
-    const renderCount = React.useRef(0);
-    renderCount.current += 1;
-    console.log('render count', renderCount.current);
+    const { finalObj, totalJobEntries, avgYears } = useMemo(() => mainDbIteration(seniorFrontEndDb_noFullStack, allFrontEndHardSkills), []);
+    // console.log('🚀 ~ SeniorFrontEndSkills ~ finalObj:', finalObj);
 
-    const { finalObj, totalJobEntries, avgYears } = mainDbIteration(
-        seniorFrontEndDb_noFullStack,
-        allFrontEndHardSkills
-    );
-    const hardSkillsFinal = finalObj.hardSkills
+    const jobInterviewSkillObj = {
+        mainName: 'Job Interview',
+        count: totalJobEntries,
+        subNames: ['Job Interview'],
+        mySkillLevel: 3,
+        meta: 'will do later, skip for now'
+    };
+
+    const hardSkillsFinal = [jobInterviewSkillObj, ...finalObj.hardSkills]
         .filter((hs) => hs.count > totalJobEntries * skillMinPercentageToFilter)
+        .filter((hs) => showNotTakingJobs ? true : !skillThatIWillNotTake.includes(hs.mainName))
         .sort((a, b) => b.count - a.count);
 
     const testIfWorkModeHasAllEntries = finalObj.remote + finalObj.hybrid + finalObj.onSite === totalJobEntries;
-
-    if (renderCount.current >= 2) {
-        console.log('reloaded, cause too many renders');
-        window.location.reload();
-    }
 
     useEffect(() => {
         document.title = 'Skill Analysis';
@@ -65,11 +70,19 @@ const SeniorFrontEndSkills: React.FC = () => {
 
     return (
         <Box>
-            <Typography variant='h4'>Senior Front End Only</Typography>
-            <Typography variant='subtitle1' sx={{ mb: 2 }}>
-                Total Job Entries: {totalJobEntries} | Hard skills{' '}
-                {`>= ${skillMinPercentageToFilter * 100}%`}
-            </Typography>
+            <Box>
+                <Tooltip title='hide jobs not taking' placement='top-end' arrow>
+                    <Switch
+                        size='small'
+                        checked={showNotTakingJobs}
+                        onChange={(e) => setShowNotTakingJobs(e.target.checked)}
+                    />
+                </Tooltip>
+                <Typography variant='h4'>Senior Front End Only</Typography>
+                <Typography variant='subtitle1' sx={{ mb: 2 }}>
+                    Total Job Entries: {totalJobEntries} | Hard skills {`>= ${skillMinPercentageToFilter * 100}%`}
+                </Typography>
+            </Box>
 
             <Box sx={{ display: 'flex', gap: 2 }}>
                 <FormControl component='fieldset' sx={fieldSetStyle}>

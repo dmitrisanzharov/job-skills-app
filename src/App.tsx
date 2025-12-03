@@ -28,12 +28,12 @@ const App: React.FC = () => {
                         Senior Front-End (no full stack)
                     </Typography>
 
-                    <Button color='inherit' component={Link} to={companiesAnalyzedSeniorFrontEndLink}>
-                        Companies Analyzed
-                    </Button>
-
                     <Button color='inherit' component={Link} to={seniorFrontEndDeveloperSkillsLink}>
                         Skills
+                    </Button>
+
+                    <Button color='inherit' component={Link} to={companiesAnalyzedSeniorFrontEndLink}>
+                        Companies Analyzed
                     </Button>
                 </Toolbar>
             </AppBar>
