@@ -9,10 +9,10 @@ export function getColorByNumber(num: number): string {
   }
 
   if (num >= 8) {
-    return 'green';
+    return '#388E3C';
   } else if (num >= 5) {
-    return '#B8860B';
+    return '#F9A825';
   } else {
-    return '#8B0000';
+    return '#D32F2F';
   }
 }
