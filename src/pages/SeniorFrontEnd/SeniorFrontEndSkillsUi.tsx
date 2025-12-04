@@ -24,7 +24,6 @@ import { getColorByNumber } from '../../helpers/getColorByNumber';
 import { allFrontEndHardSkills } from '../../consts/allFrontEndHardSkills';
 import seniorFrontEndDb_noFullStack from '../../databases/seniorFrontEndDb_noFullStack';
 
-
 const SeniorFrontEndSkills: React.FC = () => {
     const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);
 
@@ -97,7 +96,15 @@ const SeniorFrontEndSkills: React.FC = () => {
                 </FormControl>
 
                 <FormControl component='fieldset' sx={fieldSetStyle}>
-                    <FormLabel component='legend'>WorkType</FormLabel>
+                    <Tooltip
+                        title='If Total is NOT equal to remote + hybrid + on-site you will get an error'
+                        arrow
+                        placement='top'
+                    >
+                        <FormLabel component='legend'>
+                            WorkType
+                        </FormLabel>
+                    </Tooltip>
 
                     <Box component='ul' sx={{ pl: 3, m: 0 }}>
                         <Typography>
@@ -111,6 +118,9 @@ const SeniorFrontEndSkills: React.FC = () => {
                         <Typography>
                             On-site: {finalObj.onSite} | {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%
                         </Typography>
+                        {/* <Typography variant='caption'>
+                            total: {finalObj.remote + finalObj.hybrid + finalObj.onSite}
+                        </Typography> */}
                     </Box>
                 </FormControl>
             </Box>

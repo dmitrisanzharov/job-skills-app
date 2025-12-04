@@ -52,12 +52,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Metrics',
             'frontend optimization',
             'High-performance system',
-            'Client-side performance optimization'
+            'Client-side performance optimization',
+            'UI performance optimization',
+            'Load time optimization'
         ],
         mySkillLevel: 2
     },
     { mainName: 'css', count: 0, subNames: ['css', 'css3', 'CSS 4', 'CSS Modules'], mySkillLevel: 8 },
     {
+        // main architecture
         mainName: 'architecture',
         count: 0,
         subNames: [
@@ -85,7 +88,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'scaling system',
             'Scalable code development',
             'Large-scale app architecture',
-            'scalable code'
+            'scalable code',
+            'Maintainable UI architecture',
+            'Architectural patterns',
+            'End-to-end system problem solving',
+            'Building scalable web applications',
+            'Large-scale system design'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -110,7 +118,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'APIs',
             'API integration',
             'Modern API frameworks',
-            'REST API integration'
+            'REST API integration',
+            'RESTful web services'
         ],
         mySkillLevel: 8
     },
@@ -146,7 +155,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Frontend interfaces',
             'UI/UX optimization',
             'Frontend visualization UI',
-            'UI design system development'
+            'UI design system development',
+            'Modern web application development',
+            'Experiment analysis',
+            'Feature ownership'
         ],
         mySkillLevel: 4
     },
@@ -173,7 +185,24 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'aws',
         count: 0,
-        subNames: ['aws', 'AWS cloud services', 'AWS/cloud technologies', 'AWS hosting'],
+        subNames: [
+            'aws',
+            'AWS cloud services',
+            'AWS/cloud technologies',
+            'AWS hosting',
+            'AWS ECS Fargate',
+            'AWS Lambda',
+            'AWS S3',
+            'AWS RDS',
+            'AWS Neptune',
+            'AWS CloudFront',
+            'AWS ALB',
+            'CodeBuild',
+            'AWS CodeBuild',
+            'CodeDeploy',
+            'CodePipeline',
+            'CodeArtifact'
+        ],
         mySkillLevel: 0
     },
     {
@@ -231,7 +260,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'cloud technologies',
             'Cloud hosting',
             'Cloud infrastructure',
-            'Cloud environments'
+            'Cloud environments',
+            'Cloud-based application development'
         ],
         mySkillLevel: 0
     },
@@ -244,7 +274,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Responsive web design',
             'Responsive UX patterns',
             'Responsive UI development',
-            'Responsive web development'
+            'Responsive web development',
+            'Responsive dashboards'
         ],
         mySkillLevel: 7
     },
@@ -257,7 +288,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'accessibility',
         count: 0,
-        subNames: ['accessibility', 'WCAG accessibility', 'Accessibility (WCAG)', 'Web Accessibility', 'WCAG'],
+        subNames: [
+            'accessibility',
+            'WCAG accessibility',
+            'Accessibility (WCAG)',
+            'Web Accessibility',
+            'WCAG',
+            'Accessibility best practices',
+            'Accessibility (a11y)'
+        ],
         mySkillLevel: 2
     },
     { mainName: 'git', count: 0, subNames: ['git', 'Git workflows'], mySkillLevel: 8 },
@@ -271,7 +310,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Monitoring',
             'Observability tools',
             'observability',
-            'alerting'
+            'alerting',
+            'Analytics UI development'
         ],
         meta: 'GOOGLE ANALYTICS?, but this needs New Relic and Stuff like that',
         mySkillLevel: 0
@@ -463,6 +503,26 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 3
     },
     { mainName: 'version control', count: 0, subNames: ['version control'], mySkillLevel: 9 },
+    {
+        mainName: 'testing',
+        count: 0,
+        subNames: [
+            'testing',
+            'Testable code',
+            'Testing strategies',
+            'Testing practices',
+            'maintainable test practices',
+            'Modern testing methodologies',
+            'Testing tools'
+        ],
+        mySkillLevel: 7
+    },
+    {
+        mainName: 'Debugging',
+        count: 0,
+        subNames: ['Debugging large-scale web applications', 'Debugging', 'Cross-browser debugging'],
+        mySkillLevel: 9
+    },
     // -----------------------------------------------------------------
     // ALL OTHER
     { mainName: 'react class components', count: 0, subNames: ['react class components', 'react class component'] },
@@ -475,7 +535,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'SaaS experience',
         count: 0,
-        subNames: ['SaaS experience', 'saas experience', 'saas product development', 'SaaS development']
+        subNames: ['SaaS experience', 'saas experience', 'saas product development', 'SaaS development', 'SaaS application development']
     },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
@@ -495,7 +555,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Options',
             'Digital Assets',
             'Perpetual Swaps',
-            'Global marketplace platforms'
+            'Global marketplace platforms',
+            'Cross-chain transaction flows'
         ]
     },
 
@@ -511,11 +572,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
     { mainName: 'monorepos', count: 0, subNames: ['monorepos', 'Frontend monorepo management'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
-    {
-        mainName: 'testing',
-        count: 0,
-        subNames: ['testing', 'Testable code', 'Testing strategies', 'Testing practices']
-    },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
     { mainName: 'no designer', count: 0, subNames: ['no designer', 'ui/ux design without ux support'] },
@@ -569,14 +625,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'less', count: 0, subNames: ['less'] },
     { mainName: 'CSS preprocessors', count: 0, subNames: ['sass', 'scss', 'CSS preprocessors', 'PostCSS'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
-    { mainName: 'nosql databases', count: 0, subNames: ['nosql databases', 'NoSQL'] },
+    { mainName: 'nosql databases', count: 0, subNames: ['nosql databases', 'NoSQL', 'Non-relational databases'] },
     { mainName: 'linux', count: 0, subNames: ['linux'] },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
     { mainName: 'react native', count: 0, subNames: ['react native'] },
     { mainName: 'sdk development', count: 0, subNames: ['sdk development'] },
     { mainName: 'cross-chain dapps', count: 0, subNames: ['cross-chain dapps'] },
-    { mainName: 'blockchain technology', count: 0, subNames: ['blockchain technology'] },
+    { mainName: 'blockchain technology', count: 0, subNames: ['blockchain technology', 'EVM blockchain interaction'] },
     { mainName: 'defi platforms', count: 0, subNames: ['defi platforms'] },
     { mainName: 'state machines', count: 0, subNames: ['state machines'] },
     {
@@ -616,7 +672,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'object-oriented programming',
         count: 0,
-        subNames: ['object-oriented programming', 'Object-Oriented Programming (OOP)', 'OOP', 'OO languages']
+        subNames: [
+            'object-oriented programming',
+            'Object-Oriented Programming (OOP)',
+            'OOP',
+            'OO languages',
+            'JavaScript object model'
+        ]
     },
     { mainName: 'solid principles', count: 0, subNames: ['solid principles', 'solid'] },
     { mainName: 'dry principles', count: 0, subNames: ['dry principles'] },
@@ -670,7 +732,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'collaboration with designers',
             'UX collaboration',
             'collaboration with product managers',
-            'Remote collaboration'
+            'Remote collaboration',
+            'Design and architecture collaboration'
         ]
     },
     { mainName: 'react router', count: 0, subNames: ['react routing', 'react router', 'React Router 7'] },
@@ -725,7 +788,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'ai-powered solutions', count: 0, subNames: ['ai-powered solutions'] },
     { mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
     { mainName: 'llm workflows', count: 0, subNames: ['llm workflows'] },
-    { mainName: 'ssr', count: 0, subNames: ['ssr', 'server side rendering', 'server-side rendering'] },
+    {
+        mainName: 'server side',
+        count: 0,
+        subNames: ['ssr', 'server side rendering', 'server-side rendering', 'Server-side fundamentals']
+    },
     { mainName: 'ssg', count: 0, subNames: ['ssg'] },
     { mainName: 'ally', count: 0, subNames: ['ally'], meta: 'this is Accessibility tool for Wordpress' },
     { mainName: 'wordpress', count: 0, subNames: ['wordpress'] },
@@ -847,7 +914,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'XSS',
             'CSRF',
             'CSP',
-            'secure headers'
+            'secure headers',
+            'Security considerations'
         ]
     },
     { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets', 'WebSocket'] },
@@ -884,11 +952,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Mock Service Worker', count: 0, subNames: ['Mock Service Worker'] },
     { mainName: 'Application stability', count: 0, subNames: ['Application stability'] },
     {
-        mainName: 'Debugging',
-        count: 0,
-        subNames: ['Debugging large-scale web applications', 'Debugging']
-    },
-    {
         mainName: 'Figma to pixel-perfect implementation',
         count: 0,
         subNames: ['Figma to pixel-perfect implementation']
@@ -914,10 +977,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Cross-channel UI frameworks', count: 0, subNames: ['Cross-channel UI frameworks'] },
     { mainName: 'jQuery', count: 0, subNames: ['jQuery'] },
     { mainName: 'MERN stack', count: 0, subNames: ['MERN stack'] },
-    { mainName: 'Query optimization', count: 0, subNames: ['Query optimization', 'Query optimisation'] },
+    {
+        mainName: 'Query optimization',
+        count: 0,
+        subNames: ['Query optimization', 'Query optimisation', 'Custom query writing']
+    },
     { mainName: 'Frontend migrations', count: 0, subNames: ['Frontend migrations'] },
     { mainName: 'Greenfield development', count: 0, subNames: ['Greenfield development'] },
-    { mainName: 'Python', count: 0, subNames: ['Python'] },
+    { mainName: 'Python', count: 0, subNames: ['Python', 'Python (exposure)'] },
     { mainName: 'Spark', count: 0, subNames: ['Spark'] },
     { mainName: 'Snowflake', count: 0, subNames: ['Snowflake'] },
     {
@@ -1001,7 +1068,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Real-time features',
         count: 0,
-        subNames: ['Real-time features', 'Handling real-time data', 'Real-time dashboards']
+        subNames: ['Real-time features', 'Handling real-time data', 'Real-time dashboards', 'Real-time data handling']
     },
     { mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
     { mainName: 'HeroUI', count: 0, subNames: ['HeroUI'] },
@@ -1030,7 +1097,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Technical architecture', count: 0, subNames: ['Technical architecture', 'System architecture'] },
     { mainName: 'Astro', count: 0, subNames: ['Astro'] },
     { mainName: 'Redis', count: 0, subNames: ['Redis'] },
-    { mainName: 'Interactive experiences', count: 0, subNames: ['Interactive experiences'] },
+    { mainName: 'Interactive experiences', count: 0, subNames: ['Interactive experiences', 'Interactive dashboards'] },
     { mainName: 'Functional programming', count: 0, subNames: ['Functional programming'] },
     { mainName: 'Singleton pattern', count: 0, subNames: ['Singleton pattern'] },
     { mainName: 'Contract design', count: 0, subNames: ['Contract design'] },
@@ -1114,8 +1181,17 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'Static asset analysis', count: 0, subNames: ['Static asset analysis'] },
     { mainName: 'Bun', count: 0, subNames: ['Bun'], meta: 'webpack clone' },
-    { mainName: 'wireframe', count: 0, subNames: ['wireframes', 'wireframe', 'conversion from wireframes'] },
-
+    { mainName: 'wireframe', count: 0, subNames: ['wireframes', 'wireframe', 'conversion from wireframes', 'Wireframing collaboration'] },
+    { mainName: 'Web3 development', count: 0, subNames: ['Web3 development'] },
+    { mainName: 'ethers.js', count: 0, subNames: ['ethers.js'] },
+    {
+        mainName: 'Decentralized application development',
+        count: 0,
+        subNames: ['dApp', 'dApp development', 'Decentralized application development']
+    },
+    { mainName: 'Command-line development', count: 0, subNames: ['Command-line development'] },
+    { mainName: 'Terraform', count: 0, subNames: ['Terraform'] },
+    { mainName: 'Rapid prototyping', count: 0, subNames: ['Rapid prototyping'] }
 
     //
     //
