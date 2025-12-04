@@ -58,7 +58,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'UI performance optimization',
             'Load time optimization',
             'High-performance frontend development',
-            'Page performance optimization'
+            'Page performance optimization',
+            'Performance best practices'
         ],
         mySkillLevel: 2
     },
@@ -187,7 +188,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 7
     },
     { mainName: 'next.js', count: 0, subNames: ['next.js', 'NextJS'], mySkillLevel: 6 },
-    { mainName: 'unit testing', count: 0, subNames: ['unit testing', 'Functional testing'], mySkillLevel: 8 },
+    { mainName: 'unit testing', count: 0, subNames: ['unit testing', 'Functional testing', 'unit'], mySkillLevel: 8 },
     {
         mainName: 'aws',
         count: 0,
@@ -370,7 +371,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         meta: 'there is mix up between angularJS and angular, so group them together',
         mySkillLevel: 4
     },
-    { mainName: 'docker', count: 0, subNames: ['docker'], mySkillLevel: 1 },
+    { mainName: 'docker', count: 0, subNames: ['docker', 'Docker-based development environments'], mySkillLevel: 1 },
     {
         mainName: 'web development',
         count: 0,
@@ -387,7 +388,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'integration testing',
         count: 0,
-        subNames: ['integration testing'],
+        subNames: ['integration testing', 'integration'],
         meta: 'react testing library covers this',
         mySkillLevel: 3
     },
@@ -493,7 +494,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'e2e testing',
         count: 0,
-        subNames: ['e2e testing', 'End-to-end testing'],
+        subNames: ['e2e testing', 'End-to-end testing', 'end-to-end'],
         meta: 'cypress covers this',
         mySkillLevel: 5
     },
@@ -515,6 +516,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'version control', count: 0, subNames: ['version control'], mySkillLevel: 9 },
     {
+        // main testing
         mainName: 'testing',
         count: 0,
         subNames: [
@@ -524,7 +526,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Testing practices',
             'maintainable test practices',
             'Modern testing methodologies',
-            'Testing tools'
+            'Testing tools',
+            'Frontend testing'
         ],
         mySkillLevel: 7
     },
@@ -918,6 +921,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         ]
     },
     {
+        // main security
         mainName: 'Security',
         count: 0,
         subNames: [
@@ -932,7 +936,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'CSRF',
             'CSP',
             'secure headers',
-            'Security considerations'
+            'Security considerations',
+            'Security best practices'
         ]
     },
     { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets', 'WebSocket'] },

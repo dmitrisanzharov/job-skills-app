@@ -3052,5 +3052,45 @@ export default [
             'Impact orientation',
             'Global collaboration'
         ]
+    },
+    {
+        dateCreated: 1764841145000,
+        companyName: 'MyEdSpace',
+        jobTitle: 'Frontend Software Engineer| (Dmitri note: 4 years plus)',
+        workMode: 'Remote',
+        yearsOfExperience: 4,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'React',
+            'TypeScript',
+            'Component libraries',
+            'State management patterns',
+            'RESTful APIs',
+            'Frontend testing',
+            'unit',
+            'integration',
+            'end-to-end',
+            'CI/CD pipelines',
+            'Docker-based development environments',
+            'reusable components',
+            'Frontend architecture',
+            'Performance best practices',
+            'Reliability best practices',
+            'Security best practices'
+        ],
+        softSkills: [
+            'Product mindset',
+            'Usability and UX awareness',
+            'Clear communication',
+            'Collaborative approach',
+            'Systems thinking',
+            'Ownership and accountability',
+            'Iterative improvement',
+            'Feedback receptiveness',
+            'Integrity',
+            'Teamwork'
+        ]
     }
 ] as JobEntry[];
