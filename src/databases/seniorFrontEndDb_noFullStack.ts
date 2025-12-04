@@ -2922,5 +2922,44 @@ export default [
             'Independent working',
             'English communication'
         ]
+    },
+    {
+        dateCreated: 1764840700000,
+        companyName: 'Phorest Software | (Dmitri note: 3 years plus)',
+        jobTitle: 'Frontend Software Engineer, Consumer - Remote',
+        workMode: 'Remote',
+        yearsOfExperience: 3,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'Ember.js',
+            'modern JS frameworks',
+            'JavaScript fundamentals',
+            'RESTful APIs',
+            'GraphQL',
+            'Tailwind CSS',
+            'Node.js',
+            'Unit testing',
+            'Acceptance testing',
+            'Frontend design systems',
+            'Responsive web applications',
+            'Code maintainability',
+            'code reuse',
+            'Clean code principles',
+            'High-performance frontend development'
+        ],
+        softSkills: [
+            'Collaboration',
+            'Proactivity',
+            'Problem-solving',
+            'Technical leadership',
+            'Coaching teammates',
+            'Attention to detail',
+            'Methodical work process',
+            'Continuous learning',
+            'Innovation',
+            'Adaptability'
+        ]
     }
 ] as JobEntry[];

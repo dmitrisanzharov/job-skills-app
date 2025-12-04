@@ -26,7 +26,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Vanilla JavaScript',
             'DOM manipulation',
             'ES6',
-            'ES7'
+            'ES7',
+            'modern JS frameworks'
         ],
         mySkillLevel: 9
     },
@@ -54,7 +55,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'High-performance system',
             'Client-side performance optimization',
             'UI performance optimization',
-            'Load time optimization'
+            'Load time optimization',
+            'High-performance frontend development'
         ],
         mySkillLevel: 2
     },
@@ -93,7 +95,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Architectural patterns',
             'End-to-end system problem solving',
             'Building scalable web applications',
-            'Large-scale system design'
+            'Large-scale system design',
+            'Frontend design systems'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -275,7 +278,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Responsive UX patterns',
             'Responsive UI development',
             'Responsive web development',
-            'Responsive dashboards'
+            'Responsive dashboards',
+            'Responsive web applications'
         ],
         mySkillLevel: 7
     },
@@ -337,7 +341,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Reusable component development',
             'Component design',
             'Component architecture',
-            'UI component development'
+            'UI component development',
+            'code reuse'
         ],
         mySkillLevel: 9
     },
@@ -941,8 +946,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['Fintech mobile applications experience']
     },
     { mainName: 'Async/Await', count: 0, subNames: ['Async/Await'] },
-    { mainName: 'Clean code', count: 0, subNames: ['Clean code'] },
-    { mainName: 'Ember', count: 0, subNames: ['Ember'] },
+    { mainName: 'Clean code', count: 0, subNames: ['Clean code', 'Clean code principles'] },
+    { mainName: 'Ember', count: 0, subNames: ['Ember', 'Ember.js'] },
     { mainName: 'AJAX', count: 0, subNames: ['AJAX'] },
     { mainName: 'Atomic CSS', count: 0, subNames: ['Atomic CSS', 'Atomic design'] },
     { mainName: 'Superagent', count: 0, subNames: ['Superagent'] },
