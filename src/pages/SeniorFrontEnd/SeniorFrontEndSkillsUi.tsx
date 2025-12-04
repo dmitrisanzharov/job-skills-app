@@ -27,7 +27,7 @@ import seniorFrontEndDb_noFullStack from '../../databases/seniorFrontEndDb_noFul
 
 const SeniorFrontEndSkills: React.FC = () => {
     const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);
-    const [showGreenSkills, setShowGreenSkills] = useState(false);
+    const [showGreenSkills, setShowGreenSkills] = useState(true);
     const [showYellowSkills, setShowYellowSkills] = useState(true);
 
     const fieldSetStyle = { border: '1px solid #ccc', borderRadius: 2, p: 2, mb: 3 };
@@ -47,14 +47,25 @@ const SeniorFrontEndSkills: React.FC = () => {
     };
 
     const hardSkillsFinal = [jobInterviewSkillObj, ...finalObj.hardSkills]
-        .filter((hs) => hs.count > totalJobEntries * skillMinPercentageToFilter)
-        .filter((hs) => (showNotTakingJobs ? true : !skillThatIWillNotTake.includes(hs.mainName))) // 'not taking' filter
-        .filter((hs) =>
-            showGreenSkills ? true : hs?.mySkillLevel === null ? true : hs?.mySkillLevel && hs?.mySkillLevel <= 7
-        )
-        .filter((hs) =>
-            showYellowSkills ? true : hs?.mySkillLevel === null ? true : hs?.mySkillLevel && hs?.mySkillLevel < 5
-        )
+        .filter((hs) => {
+            // 1) percentage threshold
+            if (hs.count <= totalJobEntries * skillMinPercentageToFilter) return false;
+
+            // 2) "not taking jobs" filter
+            if (!showNotTakingJobs && skillThatIWillNotTake.includes(hs.mainName)) return false;
+
+            // 3) green skills filter
+            if (!showGreenSkills) {
+                if (hs.mySkillLevel != null && hs.mySkillLevel > 7) return false;
+            }
+
+            // 4) yellow skills filter
+            if (!showYellowSkills) {
+                if (hs.mySkillLevel != null && hs.mySkillLevel >= 5) return false;
+            }
+
+            return true;
+        })
         .sort((a, b) => b.count - a.count);
 
     const testIfWorkModeHasAllEntries = finalObj.remote + finalObj.hybrid + finalObj.onSite === totalJobEntries;
@@ -71,7 +82,7 @@ const SeniorFrontEndSkills: React.FC = () => {
 
     return (
         <Box>
-            <Box sx={{ mb: 3,  position: 'relative' }}>
+            <Box sx={{ mb: 3, position: 'relative' }}>
                 <Box>
                     <Typography variant='h4'>Senior Front End Only</Typography>
                     <Typography sx={{ mb: 2 }}>
