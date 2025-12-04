@@ -13,7 +13,8 @@ import InfoOutlineIcon from '@mui/icons-material/InfoOutline';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Typography from '@mui/material/Typography';
-import Switch from '@mui/material/Switch';
+import Checkbox from '@mui/material/Checkbox';
+import FormControlLabel from '@mui/material/FormControlLabel';
 
 //
 import { mainDbIteration } from '../../helpers/mainDbIteration';
@@ -26,6 +27,8 @@ import seniorFrontEndDb_noFullStack from '../../databases/seniorFrontEndDb_noFul
 
 const SeniorFrontEndSkills: React.FC = () => {
     const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);
+    const [showGreenSkills, setShowGreenSkills] = useState(false);
+    const [showYellowSkills, setShowYellowSkills] = useState(true);
 
     const fieldSetStyle = { border: '1px solid #ccc', borderRadius: 2, p: 2, mb: 3 };
 
@@ -45,7 +48,13 @@ const SeniorFrontEndSkills: React.FC = () => {
 
     const hardSkillsFinal = [jobInterviewSkillObj, ...finalObj.hardSkills]
         .filter((hs) => hs.count > totalJobEntries * skillMinPercentageToFilter)
-        .filter((hs) => (showNotTakingJobs ? true : !skillThatIWillNotTake.includes(hs.mainName)))
+        .filter((hs) => (showNotTakingJobs ? true : !skillThatIWillNotTake.includes(hs.mainName))) // 'not taking' filter
+        .filter((hs) =>
+            showGreenSkills ? true : hs?.mySkillLevel === null ? true : hs?.mySkillLevel && hs?.mySkillLevel <= 7
+        )
+        .filter((hs) =>
+            showYellowSkills ? true : hs?.mySkillLevel === null ? true : hs?.mySkillLevel && hs?.mySkillLevel < 5
+        )
         .sort((a, b) => b.count - a.count);
 
     const testIfWorkModeHasAllEntries = finalObj.remote + finalObj.hybrid + finalObj.onSite === totalJobEntries;
@@ -62,19 +71,50 @@ const SeniorFrontEndSkills: React.FC = () => {
 
     return (
         <Box>
-            <Box sx={{ mb: 3 }}>
-                <Typography variant='h4'>Senior Front End Only</Typography>
-                <Typography sx={{ mb: 2 }}>
-                    Total Job Entries: {totalJobEntries} | Hard skills {`>= ${skillMinPercentageToFilter * 100}%`}
-                </Typography>
-                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                    <Switch
-                        size='small'
-                        checked={showNotTakingJobs}
-                        onChange={(e) => setShowNotTakingJobs(e.target.checked)}
-                    />
+            <Box sx={{ mb: 3,  position: 'relative' }}>
+                <Box>
+                    <Typography variant='h4'>Senior Front End Only</Typography>
+                    <Typography sx={{ mb: 2 }}>
+                        Total Job Entries: {totalJobEntries} | Hard skills {`>= ${skillMinPercentageToFilter * 100}%`}
+                    </Typography>
+                </Box>
 
-                    <Typography variant='caption'>show skills not taking</Typography>
+                <Box sx={{ position: 'absolute', top: 0, right: 0 }}>
+                    <FormControl component='fieldset' sx={fieldSetStyle}>
+                        <FormLabel component='legend'>Filters</FormLabel>
+                        <FormControlLabel
+                            control={
+                                <Checkbox
+                                    size='small'
+                                    checked={showNotTakingJobs}
+                                    onChange={(e: any) => setShowNotTakingJobs(e.target.checked)}
+                                />
+                            }
+                            label={<Typography variant='caption'>show skills not taking</Typography>}
+                        />
+
+                        <FormControlLabel
+                            control={
+                                <Checkbox
+                                    size='small'
+                                    checked={showGreenSkills}
+                                    onChange={(e: any) => setShowGreenSkills(e.target.checked)}
+                                />
+                            }
+                            label={<Typography variant='caption'>show green skills</Typography>}
+                        />
+
+                        <FormControlLabel
+                            control={
+                                <Checkbox
+                                    size='small'
+                                    checked={showYellowSkills}
+                                    onChange={(e: any) => setShowYellowSkills(e.target.checked)}
+                                />
+                            }
+                            label={<Typography variant='caption'>show yellow skills</Typography>}
+                        />
+                    </FormControl>
                 </Box>
             </Box>
 
@@ -101,9 +141,7 @@ const SeniorFrontEndSkills: React.FC = () => {
                         arrow
                         placement='top'
                     >
-                        <FormLabel component='legend'>
-                            WorkType
-                        </FormLabel>
+                        <FormLabel component='legend'>WorkType</FormLabel>
                     </Tooltip>
 
                     <Box component='ul' sx={{ pl: 3, m: 0 }}>
