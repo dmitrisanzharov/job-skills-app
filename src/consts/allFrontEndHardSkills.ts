@@ -32,6 +32,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 9
     },
     {
+        // main performance
         mainName: 'web performance',
         count: 0,
         subNames: [
@@ -56,7 +57,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Client-side performance optimization',
             'UI performance optimization',
             'Load time optimization',
-            'High-performance frontend development'
+            'High-performance frontend development',
+            'Page performance optimization'
         ],
         mySkillLevel: 2
     },
@@ -161,7 +163,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'UI design system development',
             'Modern web application development',
             'Experiment analysis',
-            'Feature ownership'
+            'Feature ownership',
+            'modern patterns'
         ],
         mySkillLevel: 4
     },
@@ -235,7 +238,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Agile workflow',
             'agile teamwork',
             'Agile Project Management tools',
-            'Agile'
+            'Agile',
+            'Agile development practices'
         ],
         mySkillLevel: 9
     },
@@ -279,7 +283,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Responsive UI development',
             'Responsive web development',
             'Responsive dashboards',
-            'Responsive web applications'
+            'Responsive web applications',
+            'Cross-device compatibility'
         ],
         mySkillLevel: 7
     },
@@ -359,7 +364,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'angular',
             'angular.js',
             'angularjs',
-            'angular js'
+            'angular js',
+            'Angular (latest version)'
         ],
         meta: 'there is mix up between angularJS and angular, so group them together',
         mySkillLevel: 4
@@ -540,7 +546,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'SaaS experience',
         count: 0,
-        subNames: ['SaaS experience', 'saas experience', 'saas product development', 'SaaS development', 'SaaS application development']
+        subNames: [
+            'SaaS experience',
+            'saas experience',
+            'saas product development',
+            'SaaS development',
+            'SaaS application development'
+        ]
     },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
     { mainName: 'subscription management', count: 0, subNames: ['subscription management'] },
@@ -757,7 +769,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'micro frontend applications',
         count: 0,
-        subNames: ['micro frontend applications', 'Micro frontend architectures']
+        subNames: ['micro frontend applications', 'Micro frontend architectures', 'Micro-frontend architecture']
     },
     {
         mainName: 'testing frameworks',
@@ -771,7 +783,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['cross-browser compatibility', 'Cross-browser testing']
     },
     { mainName: 'npm', count: 0, subNames: ['npm', 'node package manager', 'Package managers', 'pnpm'] },
-    { mainName: 'linters', count: 0, subNames: ['linters', 'Linting', 'Stylelint'] },
+    { mainName: 'linters', count: 0, subNames: ['linters', 'Linting', 'Stylelint', 'Static code analysis tools'] },
     { mainName: 'nx framework', count: 0, subNames: ['nx framework', 'Nx'] },
     { mainName: 'typescript ast', count: 0, subNames: ['typescript ast', 'typescript abstract syntax tree'] },
     { mainName: 'code modifiers', count: 0, subNames: ['code modifiers'] },
@@ -1159,9 +1171,17 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Swift', count: 0, subNames: ['Swift'] },
     { mainName: 'Kotlin', count: 0, subNames: ['Kotlin'] },
     { mainName: 'ElasticSearch', count: 0, subNames: ['ElasticSearch'] },
-    { mainName: 'High-traffic B2C platforms', count: 0, subNames: ['High-traffic B2C platforms'] },
+    {
+        mainName: 'High-traffic',
+        count: 0,
+        subNames: ['High-traffic B2C platforms', 'High-volume website coding standards']
+    },
     { mainName: 'Dependency injection', count: 0, subNames: ['Dependency injection'] },
-    { mainName: 'E-commerce', count: 0, subNames: ['E-commerce', 'E-commerce metrics'] },
+    {
+        mainName: 'E-commerce',
+        count: 0,
+        subNames: ['E-commerce', 'E-commerce metrics', 'E-commerce website experience']
+    },
     { mainName: 'ASP.NET MVC', count: 0, subNames: ['ASP.NET MVC', 'ASP.NET Webpages'] },
     {
         mainName: 'learning management system',
@@ -1186,7 +1206,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'Static asset analysis', count: 0, subNames: ['Static asset analysis'] },
     { mainName: 'Bun', count: 0, subNames: ['Bun'], meta: 'webpack clone' },
-    { mainName: 'wireframe', count: 0, subNames: ['wireframes', 'wireframe', 'conversion from wireframes', 'Wireframing collaboration'] },
+    {
+        mainName: 'wireframe',
+        count: 0,
+        subNames: ['wireframes', 'wireframe', 'conversion from wireframes', 'Wireframing collaboration']
+    },
     { mainName: 'Web3 development', count: 0, subNames: ['Web3 development'] },
     { mainName: 'ethers.js', count: 0, subNames: ['ethers.js'] },
     {
@@ -1196,7 +1220,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'Command-line development', count: 0, subNames: ['Command-line development'] },
     { mainName: 'Terraform', count: 0, subNames: ['Terraform'] },
-    { mainName: 'Rapid prototyping', count: 0, subNames: ['Rapid prototyping'] }
+    { mainName: 'Rapid prototyping', count: 0, subNames: ['Rapid prototyping'] },
+    { mainName: 'Data structures', count: 0, subNames: ['Data structures', 'Data structures patterns'] },
+    { mainName: 'Qodana', count: 0, subNames: ['Qodana'] }
 
     //
     //
