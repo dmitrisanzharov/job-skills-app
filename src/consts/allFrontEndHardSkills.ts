@@ -993,7 +993,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Visual design', count: 0, subNames: ['Visual design'] },
     { mainName: 'Cross-channel UI frameworks', count: 0, subNames: ['Cross-channel UI frameworks'] },
     { mainName: 'jQuery', count: 0, subNames: ['jQuery'] },
-    { mainName: 'MERN stack', count: 0, subNames: ['MERN stack'] },
+    { mainName: 'MERN stack', count: 0, subNames: ['MERN stack', 'mern'] },
     {
         mainName: 'Query optimization',
         count: 0,
