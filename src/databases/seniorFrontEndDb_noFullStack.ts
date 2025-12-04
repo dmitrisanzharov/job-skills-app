@@ -2662,5 +2662,42 @@ export default [
             'Curiosity and continuous learning',
             'Appreciation for engineering culture'
         ]
+    },
+    {
+        dateCreated: 1764839810000,
+        companyName: 'CoinsPaid',
+        jobTitle: 'Frontend Engineer (Design core team) | (Dmitri note: 5 years plus)',
+        workMode: 'Remote',
+        yearsOfExperience: 4,
+        bachelorDegree: null,
+        mastersDegree: null,
+        compensationRange: null,
+        hardSkills: [
+            'JavaScript',
+            'React 18+',
+            'HTML',
+            'CSS',
+            'Material UI',
+            'Responsive web development',
+            'Cross-browser compatibility',
+            'Client-side performance optimization',
+            'ES6',
+            'ES7',
+            'UI component development',
+            'UI design system development',
+            'Unit testing',
+            'UI testing',
+            'Integration testing',
+            'Component testing',
+            'Agile methodology'
+        ],
+        softSkills: [
+            'Proactivity',
+            'Ownership and responsibility',
+            'Problem-solving',
+            'Ability to work independently',
+            'Collaboration with design and engineering teams',
+            'Communication skills (English and Russian)'
+        ]
     }
 ] as JobEntry[];

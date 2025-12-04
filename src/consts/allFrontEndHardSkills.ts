@@ -25,7 +25,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'JavaScript fundamentals',
             'Vanilla JavaScript',
             'DOM manipulation',
-            'ES6'
+            'ES6',
+            'ES7'
         ],
         mySkillLevel: 9
     },
@@ -50,7 +51,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Feature optimization',
             'Metrics',
             'frontend optimization',
-            'High-performance system'
+            'High-performance system',
+            'Client-side performance optimization'
         ],
         mySkillLevel: 2
     },
@@ -143,7 +145,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Dashboard development',
             'Frontend interfaces',
             'UI/UX optimization',
-            'Frontend visualization UI'
+            'Frontend visualization UI',
+            'UI design system development'
         ],
         mySkillLevel: 4
     },
@@ -240,7 +243,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Responsive layout',
             'Responsive web design',
             'Responsive UX patterns',
-            'Responsive UI development'
+            'Responsive UI development',
+            'Responsive web development'
         ],
         mySkillLevel: 7
     },
@@ -292,7 +296,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Reusable component',
             'Reusable component development',
             'Component design',
-            'Component architecture'
+            'Component architecture',
+            'UI component development'
         ],
         mySkillLevel: 9
     },
