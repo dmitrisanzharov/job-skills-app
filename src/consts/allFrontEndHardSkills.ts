@@ -9,7 +9,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 9
     },
     {
-        // main react
+        // main react; react main
         mainName: 'react',
         count: 0,
         subNames: [
@@ -20,7 +20,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'React 18+',
             'React 19',
             'React ecosystem',
-            'Advanced React'
+            'Advanced React',
+            'react context',
+            'React Context API'
         ],
         mySkillLevel: 9
     },
@@ -115,7 +117,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Building scalable web applications',
             'Large-scale system design',
             'Frontend design systems',
-            'Frontend patterns'
+            'Frontend patterns',
+            'Enterprise design patterns'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -202,7 +205,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'CI/CD principles',
             'Deployment pipelines',
             'CI/CD for frontend',
-            'CI/CD systems'
+            'CI/CD systems',
+            'Frontend deployment strategies'
         ],
         mySkillLevel: 7
     },
@@ -372,7 +376,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Component design',
             'Component architecture',
             'UI component development',
-            'code reuse'
+            'code reuse',
+            'Shared component libraries'
         ],
         mySkillLevel: 9
     },
@@ -390,7 +395,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'angular.js',
             'angularjs',
             'angular js',
-            'Angular (latest version)'
+            'Angular (latest version)',
+            'Angular (16+)'
         ],
         meta: 'there is mix up between angularJS and angular, so group them together',
         mySkillLevel: 4
@@ -529,10 +535,17 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'mui',
         count: 0,
-        subNames: ['mui', 'Material UI', 'Material UI (MUI)', 'Material Design', 'Material-UI'],
+        subNames: [
+            'mui',
+            'Material UI',
+            'Material UI (MUI)',
+            'Material Design',
+            'Material-UI',
+            'Material Design standards'
+        ],
         mySkillLevel: 8
     },
-    { mainName: 'graphql', count: 0, subNames: ['graphql', 'GraphQL clients'], mySkillLevel: 0 },
+    { mainName: 'graphql', count: 0, subNames: ['graphql', 'GraphQL clients', 'GraphQL APIs'], mySkillLevel: 0 },
     {
         mainName: 'react testing library',
         count: 0,
@@ -560,8 +573,35 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Debugging',
         count: 0,
-        subNames: ['Debugging large-scale web applications', 'Debugging', 'Cross-browser debugging'],
+        subNames: [
+            'Debugging large-scale web applications',
+            'Debugging',
+            'Cross-browser debugging',
+            'Advanced debugging'
+        ],
         mySkillLevel: 9
+    },
+    {
+        // main security
+        mainName: 'Security',
+        count: 0,
+        subNames: [
+            'Security',
+            'Secure coding practices',
+            'Secure web application development',
+            'Web security',
+            'Secure coding',
+            'Secure Web Applications',
+            'Frontend security',
+            'XSS',
+            'CSRF',
+            'CSP',
+            'secure headers',
+            'Security considerations',
+            'Security best practices',
+            'JWT'
+        ],
+        mySkillLevel: 0
     },
     // -----------------------------------------------------------------
     // ALL OTHER
@@ -571,7 +611,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['react functional components', 'react functional component']
     },
-    { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook', 'Hooks'] },
+    { mainName: 'react hooks', count: 0, subNames: ['react hooks', 'react hook', 'Hooks', 'Custom React hooks'] },
     {
         mainName: 'SaaS experience',
         count: 0,
@@ -616,7 +656,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'claude code', count: 0, subNames: ['claude code'] },
     { mainName: 'cursor', count: 0, subNames: ['cursor'] },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
-    { mainName: 'monorepos', count: 0, subNames: ['monorepos', 'Frontend monorepo management'] },
+    { mainName: 'monorepos', count: 0, subNames: ['monorepos', 'Frontend monorepo management', 'Monorepo'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
@@ -761,7 +801,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['infrastructure software knowledge', 'Infrastructure as Code']
     },
-    { mainName: 'react context', count: 0, subNames: ['react context'] },
     { mainName: 'react suspense', count: 0, subNames: ['react suspense'] },
     { mainName: 'concurrent react features', count: 0, subNames: ['concurrent react features'] },
     { mainName: 'tanstack query', count: 0, subNames: ['tanstack query'] },
@@ -958,26 +997,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Web application development'
         ]
     },
-    {
-        // main security
-        mainName: 'Security',
-        count: 0,
-        subNames: [
-            'Security',
-            'Secure coding practices',
-            'Secure web application development',
-            'Web security',
-            'Secure coding',
-            'Secure Web Applications',
-            'Frontend security',
-            'XSS',
-            'CSRF',
-            'CSP',
-            'secure headers',
-            'Security considerations',
-            'Security best practices'
-        ]
-    },
     { mainName: 'WebSockets', count: 0, subNames: ['WebSockets', 'Web Sockets', 'WebSocket'] },
     {
         mainName: 'Experience in large technology organizations',
@@ -1164,7 +1183,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Rust', count: 0, subNames: ['Rust'] },
     { mainName: 'HTTP', count: 0, subNames: ['HTTP'] },
     { mainName: 'WebAssembly', count: 0, subNames: ['WebAssembly'] },
-    { mainName: 'Authentication', count: 0, subNames: ['OAuth2', 'Authentication'] },
+    { mainName: 'Authentication', count: 0, subNames: ['OAuth2', 'Authentication', 'OAuth'] },
     { mainName: 'OpenID Connect', count: 0, subNames: ['OpenID Connect'] },
     { mainName: 'Recharts', count: 0, subNames: ['Recharts'] },
     { mainName: 'Grafana', count: 0, subNames: ['Grafana'] },
@@ -1266,7 +1285,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Rapid prototyping', count: 0, subNames: ['Rapid prototyping'] },
     { mainName: 'Data structures', count: 0, subNames: ['Data structures', 'Data structures patterns'] },
     { mainName: 'Qodana', count: 0, subNames: ['Qodana'] },
-    { mainName: 'Prototyping', count: 0, subNames: ['Prototyping'] }
+    { mainName: 'Prototyping', count: 0, subNames: ['Prototyping'] },
+    { mainName: 'Multi-tenant architecture', count: 0, subNames: ['Multi-tenant architecture', 'Tenant isolation'] },
+    { mainName: 'Lerna', count: 0, subNames: ['Lerna'] }
 
     //
     //
