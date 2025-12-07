@@ -9,9 +9,19 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 9
     },
     {
+        // main react
         mainName: 'react',
         count: 0,
-        subNames: ['react', 'react.js', 'reactjs', 'react js', 'React 18+', 'React 19'],
+        subNames: [
+            'react',
+            'react.js',
+            'reactjs',
+            'react js',
+            'React 18+',
+            'React 19',
+            'React ecosystem',
+            'Advanced React'
+        ],
         mySkillLevel: 9
     },
     {
@@ -27,7 +37,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'DOM manipulation',
             'ES6',
             'ES7',
-            'modern JS frameworks'
+            'modern JS frameworks',
+            'Modern ECMAScript',
+            'ESNext'
         ],
         mySkillLevel: 9
     },
@@ -59,7 +71,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Load time optimization',
             'High-performance frontend development',
             'Page performance optimization',
-            'Performance best practices'
+            'Performance best practices',
+            'Loading strategy optimisation',
+            'Rendering optimisation',
+            'Client-side delivery optimisation'
         ],
         mySkillLevel: 2
     },
@@ -99,7 +114,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'End-to-end system problem solving',
             'Building scalable web applications',
             'Large-scale system design',
-            'Frontend design systems'
+            'Frontend design systems',
+            'Frontend patterns'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -125,7 +141,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'API integration',
             'Modern API frameworks',
             'REST API integration',
-            'RESTful web services'
+            'RESTful web services',
+            'Browser APIs',
+            'API-driven data flows'
         ],
         mySkillLevel: 8
     },
@@ -165,7 +183,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Modern web application development',
             'Experiment analysis',
             'Feature ownership',
-            'modern patterns'
+            'modern patterns',
+            'Design implementation'
         ],
         mySkillLevel: 4
     },
@@ -190,6 +209,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'next.js', count: 0, subNames: ['next.js', 'NextJS'], mySkillLevel: 6 },
     { mainName: 'unit testing', count: 0, subNames: ['unit testing', 'Functional testing', 'unit'], mySkillLevel: 8 },
     {
+        // main aws; aws main
         mainName: 'aws',
         count: 0,
         subNames: [
@@ -208,7 +228,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'AWS CodeBuild',
             'CodeDeploy',
             'CodePipeline',
-            'CodeArtifact'
+            'CodeArtifact',
+            'AWS ecosystem'
         ],
         mySkillLevel: 0
     },
@@ -285,7 +306,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Responsive web development',
             'Responsive dashboards',
             'Responsive web applications',
-            'Cross-device compatibility'
+            'Cross-device compatibility',
+            'Responsive interfaces'
         ],
         mySkillLevel: 7
     },
@@ -305,7 +327,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Web Accessibility',
             'WCAG',
             'Accessibility best practices',
-            'Accessibility (a11y)'
+            'Accessibility (a11y)',
+            'Accessibility implementation',
+            'accessibility testing'
         ],
         mySkillLevel: 2
     },
@@ -413,7 +437,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'component libraries',
             'component library',
             'Component library management',
-            'UI component libraries'
+            'UI component libraries',
+            'UI component design'
         ],
         meta: 'MUI, Bootstrap, Material UI cover this',
         mySkillLevel: 8
@@ -527,7 +552,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'maintainable test practices',
             'Modern testing methodologies',
             'Testing tools',
-            'Frontend testing'
+            'Frontend testing',
+            'Testing techniques'
         ],
         mySkillLevel: 7
     },
@@ -615,7 +641,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'bundle size optimization', count: 0, subNames: ['bundle size optimization'] },
     { mainName: 'code splitting', count: 0, subNames: ['code splitting'] },
     { mainName: 'hydration strategies', count: 0, subNames: ['hydration strategies'] },
-    { mainName: 'caching strategies', count: 0, subNames: ['caching strategies'] },
+    { mainName: 'caching strategies', count: 0, subNames: ['caching strategies', 'Client caching'] },
     { mainName: 'virtualization', count: 0, subNames: ['virtualization'] },
     { mainName: 'react query', count: 0, subNames: ['react query', 'React-Query'] },
     { mainName: 'lazy loading', count: 0, subNames: ['lazy loading'] },
@@ -660,7 +686,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['mobile, tablet, and desktop frontend development']
     },
-    { mainName: 'code quality', count: 0, subNames: ['code quality', 'Code quality tools', 'code quality practices'] },
+    {
+        mainName: 'code quality',
+        count: 0,
+        subNames: ['code quality', 'Code quality tools', 'code quality practices', 'Code quality principles']
+    },
     {
         mainName: 'code maintainability',
         count: 0,
@@ -753,7 +783,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'UX collaboration',
             'collaboration with product managers',
             'Remote collaboration',
-            'Design and architecture collaboration'
+            'Design and architecture collaboration',
+            'Collaboration with backend',
+            'Collaboration with design'
         ]
     },
     { mainName: 'react router', count: 0, subNames: ['react routing', 'react router', 'React Router 7'] },
@@ -765,7 +797,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'front-end tooling',
         count: 0,
-        subNames: ['front-end tooling', 'Modern front-end tooling', 'Developer tooling', 'Internal developer tooling']
+        subNames: [
+            'front-end tooling',
+            'Modern front-end tooling',
+            'Developer tooling',
+            'Internal developer tooling',
+            'Tooling improvements'
+        ]
     },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier', 'formatters'] },
@@ -1227,7 +1265,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Terraform', count: 0, subNames: ['Terraform'] },
     { mainName: 'Rapid prototyping', count: 0, subNames: ['Rapid prototyping'] },
     { mainName: 'Data structures', count: 0, subNames: ['Data structures', 'Data structures patterns'] },
-    { mainName: 'Qodana', count: 0, subNames: ['Qodana'] }
+    { mainName: 'Qodana', count: 0, subNames: ['Qodana'] },
+    { mainName: 'Prototyping', count: 0, subNames: ['Prototyping'] }
 
     //
     //
