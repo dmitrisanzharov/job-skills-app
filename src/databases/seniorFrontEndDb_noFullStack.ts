@@ -3344,5 +3344,40 @@ export default [
             'Handling incoming requests and delegating',
             'Passion for web standards'
         ]
+    },
+    {
+        dateCreated: 1765194586000,
+        companyName: 'ReversingLabs',
+        jobTitle: 'Senior Software Engineer | (Dmitri note: Frontend Leaning)',
+        workMode: 'Remote',
+        yearsOfExperience: 7,
+        bachelorDegree: true,
+        mastersDegree: false,
+        hardSkills: [
+            'TypeScript',
+            'React',
+            'HTML5',
+            'CSS3',
+            'Python',
+            'OO languages',
+            'Frontend and backend tooling setup',
+            'Docker',
+            'Redux Toolkit',
+            'Material-UI',
+            'Webpack',
+            'Storybook',
+            'Django',
+            'PostgreSQL',
+            'Secure coding practices',
+            'UX design translation to UI'
+        ],
+        softSkills: [
+            'Independent problem-solving',
+            'Team collaboration',
+            'Technical ownership',
+            'Architectural decision-making',
+            'Continuous learning',
+            'Strong communication skills'
+        ]
     }
 ] as JobEntry[];
