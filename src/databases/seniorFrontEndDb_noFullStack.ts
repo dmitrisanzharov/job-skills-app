@@ -3305,5 +3305,44 @@ export default [
             'Architectural decision-making',
             'Agile workflow experience'
         ]
+    },
+    {
+        dateCreated: 1765194245000,
+        companyName: 'Canonical',
+        jobTitle: 'Web Developer | (Dmitri note: Unknown years plus)',
+        workMode: 'Remote',
+        yearsOfExperience: null,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'HTML',
+            'CSS',
+            'SCSS',
+            'JavaScript',
+            'TypeScript',
+            'JavaScript component libraries',
+            'Responsive UI development',
+            'Cross-browser development',
+            'Git',
+            'SEO best practices',
+            'Accessibility',
+            'accessibility (ally)',
+            'Web performance optimization',
+            'React',
+            'Vanilla Framework',
+            'Python',
+            'Node.js',
+            'Linux desktop familiarity'
+        ],
+        softSkills: [
+            'Attention to detail',
+            'Curiosity and eagerness to learn',
+            'Collaboration with UX/design/backend',
+            'Communication',
+            'Maintaining consistency/standards',
+            'Handling incoming requests and delegating',
+            'Passion for web standards'
+        ]
     }
 ] as JobEntry[];

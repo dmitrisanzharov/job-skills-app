@@ -27,6 +27,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 9
     },
     {
+        // main javascript; javascript main
         mainName: 'javascript',
         count: 0,
         subNames: [
@@ -41,7 +42,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'ES7',
             'modern JS frameworks',
             'Modern ECMAScript',
-            'ESNext'
+            'ESNext',
+            'Vanilla Framework'
         ],
         mySkillLevel: 9
     },
@@ -322,6 +324,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 8
     },
     {
+        // main accessibility; accessibility main
         mainName: 'accessibility',
         count: 0,
         subNames: [
@@ -333,7 +336,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Accessibility best practices',
             'Accessibility (a11y)',
             'Accessibility implementation',
-            'accessibility testing'
+            'accessibility testing',
+            'accessibility (ally)'
         ],
         mySkillLevel: 2
     },
@@ -377,7 +381,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Component architecture',
             'UI component development',
             'code reuse',
-            'Shared component libraries'
+            'Shared component libraries',
+            'JavaScript component libraries'
         ],
         mySkillLevel: 9
     },
@@ -603,6 +608,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         ],
         mySkillLevel: 0
     },
+    {
+        mainName: 'cross-browser compatibility',
+        count: 0,
+        subNames: ['cross-browser compatibility', 'Cross-browser testing', 'Cross-browser development'],
+        mySkillLevel: 8
+    },
     // -----------------------------------------------------------------
     // ALL OTHER
     { mainName: 'react class components', count: 0, subNames: ['react class components', 'react class component'] },
@@ -712,7 +723,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'CSS preprocessors', count: 0, subNames: ['sass', 'scss', 'CSS preprocessors', 'PostCSS'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
     { mainName: 'nosql databases', count: 0, subNames: ['nosql databases', 'NoSQL', 'Non-relational databases'] },
-    { mainName: 'linux', count: 0, subNames: ['linux'] },
+    { mainName: 'linux', count: 0, subNames: ['linux', 'Linux desktop familiarity'] },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
     { mainName: 'react native', count: 0, subNames: ['react native'] },
@@ -857,11 +868,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['testing frameworks', 'Frontend testing frameworks', 'test runner frameworks']
     },
     { mainName: 'grasp principles', count: 0, subNames: ['grasp principles'] },
-    {
-        mainName: 'cross-browser compatibility',
-        count: 0,
-        subNames: ['cross-browser compatibility', 'Cross-browser testing']
-    },
     { mainName: 'npm', count: 0, subNames: ['npm', 'node package manager', 'Package managers', 'pnpm'] },
     { mainName: 'linters', count: 0, subNames: ['linters', 'Linting', 'Stylelint', 'Static code analysis tools'] },
     { mainName: 'nx framework', count: 0, subNames: ['nx framework', 'Nx'] },
