@@ -48,7 +48,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 9
     },
     {
-        // main performance
+        // main performance; main optimisation
         mainName: 'web performance',
         count: 0,
         subNames: [
@@ -78,7 +78,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Performance best practices',
             'Loading strategy optimisation',
             'Rendering optimisation',
-            'Client-side delivery optimisation'
+            'Client-side delivery optimisation',
+            'core web vitals optimization',
+            'Core Web Vitals'
         ],
         mySkillLevel: 2
     },
@@ -902,11 +904,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'joomla', count: 0, subNames: ['joomla'] },
     { mainName: 'drupal', count: 0, subNames: ['drupal'] },
     { mainName: 'cockpit', count: 0, subNames: ['cockpit cms', 'cockpit'], meta: 'its a content management system' },
-    {
-        mainName: 'core web vitals optimization',
-        count: 0,
-        subNames: ['core web vitals optimization', 'Core Web Vitals']
-    },
     { mainName: 'routing', count: 0, subNames: ['routing'] },
     { mainName: 'modularization', count: 0, subNames: ['modularization'] },
     { mainName: 'legacy code refactoring', count: 0, subNames: ['legacy code refactoring'] },
