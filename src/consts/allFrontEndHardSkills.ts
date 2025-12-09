@@ -22,7 +22,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'React ecosystem',
             'Advanced React',
             'react context',
-            'React Context API'
+            'React Context API',
+            'React core principles',
+            'React component lifecycle'
         ],
         mySkillLevel: 9
     },
@@ -80,7 +82,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Rendering optimisation',
             'Client-side delivery optimisation',
             'core web vitals optimization',
-            'Core Web Vitals'
+            'Core Web Vitals',
+            'Mobile performance optimization'
         ],
         mySkillLevel: 2
     },
@@ -122,7 +125,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Large-scale system design',
             'Frontend design systems',
             'Frontend patterns',
-            'Enterprise design patterns'
+            'Enterprise design patterns',
+            'Mobile application architecture'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -315,7 +319,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Responsive dashboards',
             'Responsive web applications',
             'Cross-device compatibility',
-            'Responsive interfaces'
+            'Responsive interfaces',
+            'Responsive UI'
         ],
         mySkillLevel: 7
     },
@@ -556,7 +561,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'react testing library',
         count: 0,
-        subNames: ['react testing library', 'Component/integration testing (React Testing Library)'],
+        subNames: [
+            'react testing library',
+            'Component/integration testing (React Testing Library)',
+            'React Native Testing Library'
+        ],
         mySkillLevel: 3
     },
     { mainName: 'version control', count: 0, subNames: ['version control'], mySkillLevel: 9 },
@@ -679,7 +688,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'streamlit', count: 0, subNames: ['streamlit'] },
     { mainName: 'svelte', count: 0, subNames: ['svelte', 'sveltekit'] },
     { mainName: 'theming', count: 0, subNames: ['tokens and theming', 'tokens', 'theming'] },
-    { mainName: 'animations', count: 0, subNames: ['animations'] },
+    { mainName: 'animations', count: 0, subNames: ['animations', 'Reanimated'] },
     { mainName: 'micro-interactions', count: 0, subNames: ['micro-interactions'] },
     { mainName: 'framer motion', count: 0, subNames: ['framer motion'] },
     { mainName: 'gsap', count: 0, subNames: ['gsap'] },
@@ -728,7 +737,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'linux', count: 0, subNames: ['linux', 'Linux desktop familiarity'] },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
-    { mainName: 'react native', count: 0, subNames: ['react native'] },
+    { mainName: 'react native', count: 0, subNames: ['react native', 'React Navigation'] },
     { mainName: 'sdk development', count: 0, subNames: ['sdk development'] },
     { mainName: 'cross-chain dapps', count: 0, subNames: ['cross-chain dapps'] },
     { mainName: 'blockchain technology', count: 0, subNames: ['blockchain technology', 'EVM blockchain interaction'] },
@@ -752,7 +761,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'css-in-js', count: 0, subNames: ['css-in-js', 'CSS-in-JS libraries'] },
     { mainName: 'zustand', count: 0, subNames: ['zustand'] },
     { mainName: 'recoil', count: 0, subNames: ['recoil'] },
-    { mainName: 'asynchronous operations', count: 0, subNames: ['asynchronous operations', 'Async-first workflows'] },
+    {
+        mainName: 'asynchronous operations',
+        count: 0,
+        subNames: ['asynchronous operations', 'Async-first workflows', 'Asynchronous programming']
+    },
     {
         mainName: 'frontend-backend integration',
         count: 0,
@@ -1023,7 +1036,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['Fintech mobile applications experience']
     },
     { mainName: 'Async/Await', count: 0, subNames: ['Async/Await'] },
-    { mainName: 'Clean code', count: 0, subNames: ['Clean code', 'Clean code principles'] },
+    { mainName: 'Clean code', count: 0, subNames: ['Clean code', 'Clean code principles', 'Clean Code practices'] },
     { mainName: 'Ember', count: 0, subNames: ['Ember', 'Ember.js'] },
     { mainName: 'AJAX', count: 0, subNames: ['AJAX'] },
     { mainName: 'Atomic CSS', count: 0, subNames: ['Atomic CSS', 'Atomic design'] },
@@ -1038,8 +1051,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Figma to pixel-perfect implementation']
     },
-    { mainName: 'iOS development', count: 0, subNames: ['iOS development'] },
-    { mainName: 'Android development', count: 0, subNames: ['Android development'] },
+    { mainName: 'iOS development', count: 0, subNames: ['iOS development', 'iOS native modules'] },
+    { mainName: 'Android development', count: 0, subNames: ['Android development', 'Android native modules'] },
     { mainName: 'Multi-channel deployment', count: 0, subNames: ['Multi-channel deployment'] },
     { mainName: 'MFA implementation', count: 0, subNames: ['MFA implementation'] },
     { mainName: 'SSO', count: 0, subNames: ['SSO'] },
@@ -1290,7 +1303,62 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Qodana', count: 0, subNames: ['Qodana'] },
     { mainName: 'Prototyping', count: 0, subNames: ['Prototyping'] },
     { mainName: 'Multi-tenant architecture', count: 0, subNames: ['Multi-tenant architecture', 'Tenant isolation'] },
-    { mainName: 'Lerna', count: 0, subNames: ['Lerna'] }
+    { mainName: 'Lerna', count: 0, subNames: ['Lerna'] },
+    {
+        mainName: 'Observables',
+        count: 0,
+        subNames: ['Observables']
+    },
+    {
+        mainName: 'Streams',
+        count: 0,
+        subNames: ['Streams']
+    },
+    {
+        mainName: 'Event-driven data flows',
+        count: 0,
+        subNames: ['Event-driven data flows']
+    },
+    {
+        mainName: 'Navigation',
+        count: 0,
+        subNames: ['Navigation']
+    },
+    {
+        mainName: 'Google App Store',
+        count: 0,
+        subNames: ['Google App Store', 'Google Play release processes']
+    },
+    {
+        mainName: 'App signing',
+        count: 0,
+        subNames: ['App signing']
+    },
+    {
+        mainName: 'In-App Purchases',
+        count: 0,
+        subNames: ['In-App Purchases Google', 'In-App Purchases Apple']
+    },
+    {
+        mainName: 'APNs',
+        count: 0,
+        subNames: ['APNs']
+    },
+    {
+        mainName: 'Firebase',
+        count: 0,
+        subNames: ['Firebase', 'Firebase Cloud Messaging (FCM)']
+    },
+    {
+        mainName: 'Gesture Handler',
+        count: 0,
+        subNames: ['Gesture Handler']
+    },
+    {
+        mainName: 'Detox',
+        count: 0,
+        subNames: ['Detox']
+    }
 
     //
     //
