@@ -126,7 +126,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Frontend design systems',
             'Frontend patterns',
             'Enterprise design patterns',
-            'Mobile application architecture'
+            'Mobile application architecture',
+            'Scalable front-end systems'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -195,7 +196,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Experiment analysis',
             'Feature ownership',
             'modern patterns',
-            'Design implementation'
+            'Design implementation',
+            'UI patterns',
+            'Customer-centric UX design',
+            'User-centred design'
         ],
         mySkillLevel: 4
     },
@@ -285,7 +289,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Fullstack web application development',
             'Fullstack development',
             'Frontend and backend tooling setup',
-            'Full-stack development'
+            'Full-stack development',
+            'End-to-end development'
         ],
         meta: 'skip this skill',
         mySkillLevel: 5
@@ -486,7 +491,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'ai tooling',
             'windsurf',
             'AI tools',
-            'OpenAi'
+            'OpenAi',
+            'AI-powered development tools'
         ],
         mySkillLevel: 8
     },
@@ -615,7 +621,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'secure headers',
             'Security considerations',
             'Security best practices',
-            'JWT'
+            'JWT',
+            'Application security fundamentals'
         ],
         mySkillLevel: 0
     },
@@ -751,7 +758,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'code quality',
         count: 0,
-        subNames: ['code quality', 'Code quality tools', 'code quality practices', 'Code quality principles']
+        subNames: ['code quality', 'Code quality tools', 'code quality practices', 'Code quality principles', 'High-quality code']
     },
     {
         mainName: 'code maintainability',
@@ -850,7 +857,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Remote collaboration',
             'Design and architecture collaboration',
             'Collaboration with backend',
-            'Collaboration with design'
+            'Collaboration with design',
+            'Product-focused development'
         ]
     },
     { mainName: 'react router', count: 0, subNames: ['react routing', 'react router', 'React Router 7'] },

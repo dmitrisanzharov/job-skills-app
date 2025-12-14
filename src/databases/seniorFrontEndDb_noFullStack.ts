@@ -3445,5 +3445,77 @@ export default [
             'Positive communication',
             'Ability to collaborate in distributed teams'
         ]
+    },
+    {
+        dateCreated: 1765724428000,
+        companyName: 'Bounce Digital',
+        jobTitle: 'Senior Software Engineer (Frontend-Leaning)',
+        workMode: 'On-site',
+        yearsOfExperience: null,
+        bachelorDegree: null,
+        mastersDegree: false,
+        compensationRange: [100000, 130000],
+        hardSkills: [
+            'TypeScript',
+            'React',
+            'Frontend architecture',
+            'UI patterns',
+            'End-to-end development',
+            'High-quality code',
+            'maintainable code',
+            'Product-focused development',
+            'Customer-centric UX design'
+        ],
+        softSkills: [
+            'Ownership mentality',
+            'Pragmatism',
+            'Bias to action',
+            'Product mindset',
+            'Collaboration and in-person teamwork',
+            'High standards for UX and code quality',
+            'Startup mentality'
+        ]
+    },
+    {
+        dateCreated: 1765724428000,
+        companyName: 'Teckro',
+        jobTitle: 'Front-End Software Engineer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 3,
+        bachelorDegree: true,
+        mastersDegree: true,
+        compensationRange: null,
+        hardSkills: [
+            'JavaScript',
+            'TypeScript',
+            'React',
+            'Angular',
+            'Vue',
+            'HTML5',
+            'CSS3',
+            'DOM manipulation',
+            'Component architecture',
+            'Performance optimisation',
+            'Accessibility best practices',
+            'User-centred design',
+            'Application security fundamentals',
+            'Unit testing',
+            'Integration testing',
+            'Agile development',
+            'Scalable front-end systems',
+            'AI-powered development tools'
+        ],
+        softSkills: [
+            'End-to-end ownership of deliverables',
+            'Code quality and maintainability',
+            'Collaboration in cross-functional teams',
+            'Constructive feedback',
+            'Problem-solving and process improvement',
+            'Innovative thinking',
+            'Adaptability to regulated industry requirements',
+            'Experience in international/multi-site environments',
+            'Startup and early-stage company mindset',
+            'User experience advocacy'
+        ]
     }
 ] as JobEntry[];
