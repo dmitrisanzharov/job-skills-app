@@ -24,7 +24,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'react context',
             'React Context API',
             'React core principles',
-            'React component lifecycle'
+            'React component lifecycle',
+            'React v18+'
         ],
         mySkillLevel: 9
     },
@@ -83,13 +84,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Client-side delivery optimisation',
             'core web vitals optimization',
             'Core Web Vitals',
-            'Mobile performance optimization'
+            'Mobile performance optimization',
+            'Website performance optimization'
         ],
         mySkillLevel: 2
     },
     { mainName: 'css', count: 0, subNames: ['css', 'css3', 'CSS 4', 'CSS Modules'], mySkillLevel: 8 },
     {
-        // main architecture
+        // main architecture; architecture main;
         mainName: 'architecture',
         count: 0,
         subNames: [
@@ -127,7 +129,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Frontend patterns',
             'Enterprise design patterns',
             'Mobile application architecture',
-            'Scalable front-end systems'
+            'Scalable front-end systems',
+            'Frontend infrastructure'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -218,7 +221,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Deployment pipelines',
             'CI/CD for frontend',
             'CI/CD systems',
-            'Frontend deployment strategies'
+            'Frontend deployment strategies',
+            'Gitflow',
+            'Pull-request workflows',
+            'Continuous delivery'
         ],
         mySkillLevel: 7
     },
@@ -599,7 +605,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Debugging large-scale web applications',
             'Debugging',
             'Cross-browser debugging',
-            'Advanced debugging'
+            'Advanced debugging',
+            'Chrome Developer Tools'
         ],
         mySkillLevel: 9
     },
@@ -758,7 +765,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'code quality',
         count: 0,
-        subNames: ['code quality', 'Code quality tools', 'code quality practices', 'Code quality principles', 'High-quality code']
+        subNames: [
+            'code quality',
+            'Code quality tools',
+            'code quality practices',
+            'Code quality principles',
+            'High-quality code'
+        ]
     },
     {
         mainName: 'code maintainability',
@@ -1093,7 +1106,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'PWA',
         count: 0,
-        subNames: ['PWA', 'PWA development'],
+        subNames: ['PWA', 'PWA development', 'Progressive enhancement'],
         meta: 'progressive web application, this is like Single page application, just another term for it'
     },
     { mainName: 'Web Workers', count: 0, subNames: ['Web Workers'] },
@@ -1304,7 +1317,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['dApp', 'dApp development', 'Decentralized application development']
     },
-    { mainName: 'Command-line development', count: 0, subNames: ['Command-line development'] },
+    { mainName: 'Command-line development', count: 0, subNames: ['Command-line development', 'Command line'] },
     { mainName: 'Terraform', count: 0, subNames: ['Terraform'] },
     { mainName: 'Rapid prototyping', count: 0, subNames: ['Rapid prototyping'] },
     { mainName: 'Data structures', count: 0, subNames: ['Data structures', 'Data structures patterns'] },
@@ -1366,6 +1379,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Detox',
         count: 0,
         subNames: ['Detox']
+    },
+    {
+        mainName: 'MacOs',
+        count: 0,
+        subNames: ['MacOs']
     }
 
     //
