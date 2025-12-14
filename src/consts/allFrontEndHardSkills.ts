@@ -202,7 +202,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Design implementation',
             'UI patterns',
             'Customer-centric UX design',
-            'User-centred design'
+            'User-centred design',
+            'User experience design'
         ],
         mySkillLevel: 4
     },
@@ -331,7 +332,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Responsive web applications',
             'Cross-device compatibility',
             'Responsive interfaces',
-            'Responsive UI'
+            'Responsive UI',
+            'Responsive frontend development'
         ],
         mySkillLevel: 7
     },
@@ -505,7 +507,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'vue',
         count: 0,
-        subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3'],
+        subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3', 'Vuex', 'Vue Router'],
         meta: 'skip this one',
         mySkillLevel: 0
     },
@@ -639,6 +641,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['cross-browser compatibility', 'Cross-browser testing', 'Cross-browser development'],
         mySkillLevel: 8
     },
+    {
+        mainName: 'CSS preprocessors',
+        count: 0,
+        subNames: ['sass', 'scss', 'CSS preprocessors', 'PostCSS'],
+        mySkillLevel: 8
+    },
     // -----------------------------------------------------------------
     // ALL OTHER
     { mainName: 'react class components', count: 0, subNames: ['react class components', 'react class component'] },
@@ -745,7 +753,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'svg', count: 0, subNames: ['svg'] },
     { mainName: 'mobx', count: 0, subNames: ['mobx'] },
     { mainName: 'less', count: 0, subNames: ['less'] },
-    { mainName: 'CSS preprocessors', count: 0, subNames: ['sass', 'scss', 'CSS preprocessors', 'PostCSS'] },
     { mainName: 'relational databases', count: 0, subNames: ['relational databases'] },
     { mainName: 'nosql databases', count: 0, subNames: ['nosql databases', 'NoSQL', 'Non-relational databases'] },
     { mainName: 'linux', count: 0, subNames: ['linux', 'Linux desktop familiarity'] },
@@ -1184,7 +1191,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Real-time features',
         count: 0,
-        subNames: ['Real-time features', 'Handling real-time data', 'Real-time dashboards', 'Real-time data handling']
+        subNames: [
+            'Real-time features',
+            'Handling real-time data',
+            'Real-time dashboards',
+            'Real-time data handling',
+            'Real-time applications'
+        ]
     },
     { mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
     { mainName: 'HeroUI', count: 0, subNames: ['HeroUI'] },

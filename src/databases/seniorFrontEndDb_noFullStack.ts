@@ -3573,5 +3573,46 @@ export default [
             'Collaboration with cross-functional teams',
             'Problem-solving and improving code quality'
         ]
+    },
+    {
+        dateCreated: 1765725252000,
+        companyName: 'Sporty Group',
+        jobTitle: 'Frontend Developer | (Dmitri note: No years given, did for Tech Stack)',
+        workMode: 'Remote',
+        yearsOfExperience: null,
+        bachelorDegree: null,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'Vue.js',
+            'Vuex',
+            'Vue Router',
+            'Vuetify',
+            'TypeScript',
+            'Webpack',
+            'SCSS',
+            'Sass',
+            'Git',
+            'ES6',
+            'Responsive frontend development',
+            'Real-time applications',
+            'State management',
+            'Vuex',
+            'Redux',
+            'Ngrx',
+            'Performance optimization',
+            'User experience design',
+            'Firebase'
+        ],
+        softSkills: [
+            'Independent work',
+            'Collaboration with Product Owners and development teams',
+            'Code review participation',
+            'Mentoring junior team members',
+            'Effective communication',
+            'Problem-solving in production issues',
+            'Agile ceremonies participation',
+            'Focus on quality and user experience'
+        ]
     }
 ] as JobEntry[];
