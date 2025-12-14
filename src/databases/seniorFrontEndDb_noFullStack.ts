@@ -3614,5 +3614,54 @@ export default [
             'Agile ceremonies participation',
             'Focus on quality and user experience'
         ]
+    },
+    {
+        dateCreated: 1765725805000,
+        companyName: 'Upstack Data',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: 6,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: [42000, 78000],
+        hardSkills: [
+            'React',
+            'TypeScript',
+            'shadcn/ui',
+            'Radix UI',
+            'headless component libraries',
+            'Tailwind CSS',
+            'Modern CSS practices',
+            'flexbox',
+            'grid',
+            'responsive design',
+            'RESTful API integration',
+            'B2B SaaS frontend development',
+            'Component library management',
+            'design system management',
+            'UI/UX design without mockups',
+            'Data tables',
+            'filters',
+            'dashboards',
+            'forms',
+            'settings UI patterns',
+            'Git workflows',
+            'Frontend testing frameworks',
+            'Performance optimization',
+            'Core Web Vitals',
+            'bundle size',
+            'load times'
+        ],
+        softSkills: [
+            'Autonomous problem-solving',
+            'Independent UI/UX decision-making',
+            'Collaboration with executive-level stakeholders',
+            'Communication skills (verbal and written)',
+            'Continuous learning of frontend trends',
+            'Proactive identification of technical improvements',
+            'Code review participation',
+            'Product-minded development',
+            'Time-zone collaboration (US Eastern overlap)'
+        ]
     }
 ] as JobEntry[];

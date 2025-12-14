@@ -46,7 +46,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'modern JS frameworks',
             'Modern ECMAScript',
             'ESNext',
-            'Vanilla Framework'
+            'Vanilla Framework',
+            'filters',
+            'forms'
         ],
         mySkillLevel: 9
     },
@@ -85,11 +87,19 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'core web vitals optimization',
             'Core Web Vitals',
             'Mobile performance optimization',
-            'Website performance optimization'
+            'Website performance optimization',
+            'bundle size',
+            'load times'
         ],
         mySkillLevel: 2
     },
-    { mainName: 'css', count: 0, subNames: ['css', 'css3', 'CSS 4', 'CSS Modules'], mySkillLevel: 8 },
+    {
+        // main css; css main;
+        mainName: 'css',
+        count: 0,
+        subNames: ['css', 'css3', 'CSS 4', 'CSS Modules', 'Modern CSS practices'],
+        mySkillLevel: 8
+    },
     {
         // main architecture; architecture main;
         mainName: 'architecture',
@@ -130,7 +140,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Enterprise design patterns',
             'Mobile application architecture',
             'Scalable front-end systems',
-            'Frontend infrastructure'
+            'Frontend infrastructure',
+            'design system management'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -203,7 +214,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'UI patterns',
             'Customer-centric UX design',
             'User-centred design',
-            'User experience design'
+            'User experience design',
+            'UI/UX design without mockups',
+            'settings UI patterns'
         ],
         mySkillLevel: 4
     },
@@ -401,8 +414,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Component architecture',
             'UI component development',
             'code reuse',
-            'Shared component libraries',
-            'JavaScript component libraries'
+            'Shared component libraries'
         ],
         mySkillLevel: 9
     },
@@ -469,7 +481,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'component library',
             'Component library management',
             'UI component libraries',
-            'UI component design'
+            'UI component design',
+            'headless component libraries',
+            'JavaScript component libraries',
+            'Radix UI'
         ],
         meta: 'MUI, Bootstrap, Material UI cover this',
         mySkillLevel: 8
@@ -664,7 +679,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'saas experience',
             'saas product development',
             'SaaS development',
-            'SaaS application development'
+            'SaaS application development',
+            'B2B SaaS frontend development'
         ]
     },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
@@ -718,7 +734,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'keyboard support', count: 0, subNames: ['keyboard support'] },
     { mainName: 'color contrast standards', count: 0, subNames: ['color contrast standards'] },
     { mainName: 'container queries', count: 0, subNames: ['container queries'] },
-    { mainName: 'css grid', count: 0, subNames: ['css grid'] },
+    { mainName: 'css grid', count: 0, subNames: ['css grid', 'grid'] },
     { mainName: 'flexbox', count: 0, subNames: ['flexbox'] },
     { mainName: 'css custom properties', count: 0, subNames: ['css custom properties'] },
     { mainName: 'shadcn', count: 0, subNames: ['shadcn/ui', 'Shadcn'] },
@@ -1333,7 +1349,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Command-line development', count: 0, subNames: ['Command-line development', 'Command line'] },
     { mainName: 'Terraform', count: 0, subNames: ['Terraform'] },
     { mainName: 'Rapid prototyping', count: 0, subNames: ['Rapid prototyping'] },
-    { mainName: 'Data structures', count: 0, subNames: ['Data structures', 'Data structures patterns'] },
+    { mainName: 'Data structures', count: 0, subNames: ['Data structures', 'Data structures patterns', 'Data tables'] },
     { mainName: 'Qodana', count: 0, subNames: ['Qodana'] },
     { mainName: 'Prototyping', count: 0, subNames: ['Prototyping'] },
     { mainName: 'Multi-tenant architecture', count: 0, subNames: ['Multi-tenant architecture', 'Tenant isolation'] },
