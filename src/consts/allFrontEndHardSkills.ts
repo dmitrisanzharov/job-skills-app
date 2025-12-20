@@ -25,7 +25,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'React Context API',
             'React core principles',
             'React component lifecycle',
-            'React v18+'
+            'React v18+',
+            'Context'
         ],
         mySkillLevel: 9
     },
@@ -49,7 +50,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Vanilla Framework',
             'filters',
             'forms',
-            'JavaScript ES6+'
+            'JavaScript ES6+',
+            'Form libraries'
         ],
         mySkillLevel: 9
     },
@@ -91,7 +93,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Website performance optimization',
             'bundle size',
             'load times',
-            'High-performance code'
+            'High-performance code',
+            'Performance optimization for frontend and embedded contexts'
         ],
         mySkillLevel: 2
     },
@@ -144,7 +147,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Scalable front-end systems',
             'Frontend infrastructure',
             'design system management',
-            'Component-driven architecture'
+            'Component-driven architecture',
+            'Frontend asset management',
+            'Composition patterns',
+            'Design system patterns',
+            'iframe-based architectures'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -172,7 +179,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'REST API integration',
             'RESTful web services',
             'Browser APIs',
-            'API-driven data flows'
+            'API-driven data flows',
+            'Type-safe API integration'
         ],
         mySkillLevel: 8
     },
@@ -376,7 +384,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Accessibility implementation',
             'accessibility testing',
             'accessibility (ally)',
-            'Accessibility standards'
+            'Accessibility standards',
+            'Accessibility-first development',
+            'WCAG compliance',
+            'ARIA patterns'
         ],
         mySkillLevel: 2
     },
@@ -420,7 +431,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Component architecture',
             'UI component development',
             'code reuse',
-            'Shared component libraries'
+            'Shared component libraries',
+            'Component systems'
         ],
         mySkillLevel: 9
     },
@@ -473,7 +485,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Automated testing',
             'Browser testing',
             'Test automation frameworks',
-            'Frontend automation testing'
+            'Frontend automation testing',
+            'Test automation'
         ],
         mySkillLevel: 5
     },
@@ -521,7 +534,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'windsurf',
             'AI tools',
             'OpenAi',
-            'AI-powered development tools'
+            'AI-powered development tools',
+            'Ability to use AI tools (Copilot, ChatGPT, Claude, Cursor) effectively'
         ],
         mySkillLevel: 8
     },
@@ -593,7 +607,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         ],
         mySkillLevel: 8
     },
-    { mainName: 'graphql', count: 0, subNames: ['graphql', 'GraphQL clients', 'GraphQL APIs'], mySkillLevel: 0 },
+    { mainName: 'graphql', count: 0, subNames: ['graphql', 'GraphQL clients', 'GraphQL APIs', 'GraphQL with codegen'], mySkillLevel: 0 },
     {
         mainName: 'react testing library',
         count: 0,
@@ -724,7 +738,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'claude code', count: 0, subNames: ['claude code'] },
     { mainName: 'cursor', count: 0, subNames: ['cursor'] },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
-    { mainName: 'monorepos', count: 0, subNames: ['monorepos', 'Frontend monorepo management', 'Monorepo'] },
+    { mainName: 'monorepo', count: 0, subNames: ['monorepos', 'Frontend monorepo management', 'Monorepo', 'Monorepo management', 'pnpm', 'pnpm workspaces'] },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
@@ -783,7 +797,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
     { mainName: 'react native', count: 0, subNames: ['react native', 'React Navigation'] },
-    { mainName: 'sdk development', count: 0, subNames: ['sdk development'] },
+    { mainName: 'sdk development', count: 0, subNames: ['sdk development', 'Embedded SDKs'] },
     { mainName: 'cross-chain dapps', count: 0, subNames: ['cross-chain dapps'] },
     { mainName: 'blockchain technology', count: 0, subNames: ['blockchain technology', 'EVM blockchain interaction'] },
     { mainName: 'defi platforms', count: 0, subNames: ['defi platforms'] },
@@ -835,7 +849,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['reliability best practices', 'Reliability engineering']
     },
-    { mainName: 'test-driven development', count: 0, subNames: ['test-driven development', 'TDD'] },
+    { mainName: 'test-driven development', count: 0, subNames: ['test-driven development', 'TDD', 'TDD practices'] },
     {
         mainName: 'object-oriented programming',
         count: 0,
@@ -935,7 +949,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['testing frameworks', 'Frontend testing frameworks', 'test runner frameworks']
     },
     { mainName: 'grasp principles', count: 0, subNames: ['grasp principles'] },
-    { mainName: 'npm', count: 0, subNames: ['npm', 'node package manager', 'Package managers', 'pnpm'] },
+    { mainName: 'npm', count: 0, subNames: ['npm', 'node package manager', 'Package managers'] },
     { mainName: 'linters', count: 0, subNames: ['linters', 'Linting', 'Stylelint', 'Static code analysis tools'] },
     { mainName: 'nx framework', count: 0, subNames: ['nx framework', 'Nx'] },
     { mainName: 'typescript ast', count: 0, subNames: ['typescript ast', 'typescript abstract syntax tree'] },
@@ -961,7 +975,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'server side',
         count: 0,
-        subNames: ['ssr', 'server side rendering', 'server-side rendering', 'Server-side fundamentals']
+        subNames: ['ssr', 'server side rendering', 'server-side rendering', 'Server-side fundamentals', 'server state', 'URL state']
     },
     { mainName: 'ssg', count: 0, subNames: ['ssg'] },
     { mainName: 'ally', count: 0, subNames: ['ally'], meta: 'this is Accessibility tool for Wordpress' },
@@ -1230,7 +1244,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Valibot', count: 0, subNames: ['Valibot'] },
     { mainName: 'Biome', count: 0, subNames: ['Biome'] },
     { mainName: 'SonarQube', count: 0, subNames: ['SonarQube'] },
-    { mainName: 'zod', count: 0, subNames: ['zod'] },
+    { mainName: 'zod', count: 0, subNames: ['zod', 'zod validation schemas'] },
     { mainName: 'Lexical', count: 0, subNames: ['Lexical'] },
     { mainName: 'Collaborative editing', count: 0, subNames: ['Collaborative editing'] },
     { mainName: 'WebRTC', count: 0, subNames: ['WebRTC'] },
@@ -1379,9 +1393,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['Streams']
     },
     {
-        mainName: 'Event-driven data flows',
+        mainName: 'Event-driven',
         count: 0,
-        subNames: ['Event-driven data flows']
+        subNames: ['Event-driven data flows', 'Event-driven architecture exposure']
     },
     {
         mainName: 'Navigation',
@@ -1427,6 +1441,36 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'MacOs',
         count: 0,
         subNames: ['MacOs']
+    },
+    {
+        mainName: 'BDD',
+        count: 0,
+        subNames: ['BDD', 'BDD practices']
+    },
+    {
+        mainName: 'PyTest',
+        count: 0,
+        subNames: ['PyTest']
+    },
+    {
+        mainName: 'Generics',
+        count: 0,
+        subNames: ['Generics']
+    },
+    {
+        mainName: 'Conditional Types',
+        count: 0,
+        subNames: ['Conditional Types']
+    },
+    {
+        mainName: '@ts-rest',
+        count: 0,
+        subNames: ['@ts-rest']
+    },
+    {
+        mainName: 'tRPC',
+        count: 0,
+        subNames: ['tRPC']
     }
 
     //
