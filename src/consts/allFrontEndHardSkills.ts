@@ -48,7 +48,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'ESNext',
             'Vanilla Framework',
             'filters',
-            'forms'
+            'forms',
+            'JavaScript ES6+'
         ],
         mySkillLevel: 9
     },
@@ -89,7 +90,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Mobile performance optimization',
             'Website performance optimization',
             'bundle size',
-            'load times'
+            'load times',
+            'High-performance code'
         ],
         mySkillLevel: 2
     },
@@ -141,7 +143,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Mobile application architecture',
             'Scalable front-end systems',
             'Frontend infrastructure',
-            'design system management'
+            'design system management',
+            'Component-driven architecture'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -216,7 +219,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'User-centred design',
             'User experience design',
             'UI/UX design without mockups',
-            'settings UI patterns'
+            'settings UI patterns',
+            'UI/UX design guidance'
         ],
         mySkillLevel: 4
     },
@@ -297,7 +301,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'agile teamwork',
             'Agile Project Management tools',
             'Agile',
-            'Agile development practices'
+            'Agile development practices',
+            'Agile software development'
         ],
         mySkillLevel: 9
     },
@@ -370,7 +375,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Accessibility (a11y)',
             'Accessibility implementation',
             'accessibility testing',
-            'accessibility (ally)'
+            'accessibility (ally)',
+            'Accessibility standards'
         ],
         mySkillLevel: 2
     },
@@ -582,7 +588,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Material UI (MUI)',
             'Material Design',
             'Material-UI',
-            'Material Design standards'
+            'Material Design standards',
+            'Material UI Components'
         ],
         mySkillLevel: 8
     },
@@ -680,7 +687,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'saas product development',
             'SaaS development',
             'SaaS application development',
-            'B2B SaaS frontend development'
+            'B2B SaaS frontend development',
+            'SaaS product frontend development'
         ]
     },
     { mainName: 'pixel-perfect', count: 0, subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'] },
@@ -1308,7 +1316,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'E-commerce',
         count: 0,
-        subNames: ['E-commerce', 'E-commerce metrics', 'E-commerce website experience']
+        subNames: [
+            'E-commerce',
+            'E-commerce metrics',
+            'E-commerce website experience',
+            'E-commerce workflows',
+            'E-commerce payment integration'
+        ]
     },
     { mainName: 'ASP.NET MVC', count: 0, subNames: ['ASP.NET MVC', 'ASP.NET Webpages'] },
     {
