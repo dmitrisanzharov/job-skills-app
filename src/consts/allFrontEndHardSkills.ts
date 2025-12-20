@@ -607,7 +607,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         ],
         mySkillLevel: 8
     },
-    { mainName: 'graphql', count: 0, subNames: ['graphql', 'GraphQL clients', 'GraphQL APIs', 'GraphQL with codegen'], mySkillLevel: 0 },
+    {
+        mainName: 'graphql',
+        count: 0,
+        subNames: ['graphql', 'GraphQL clients', 'GraphQL APIs', 'GraphQL with codegen'],
+        mySkillLevel: 0
+    },
     {
         mainName: 'react testing library',
         count: 0,
@@ -738,7 +743,18 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'claude code', count: 0, subNames: ['claude code'] },
     { mainName: 'cursor', count: 0, subNames: ['cursor'] },
     { mainName: 'styled components', count: 0, subNames: ['styled components'] },
-    { mainName: 'monorepo', count: 0, subNames: ['monorepos', 'Frontend monorepo management', 'Monorepo', 'Monorepo management', 'pnpm', 'pnpm workspaces'] },
+    {
+        mainName: 'monorepo',
+        count: 0,
+        subNames: [
+            'monorepos',
+            'Frontend monorepo management',
+            'Monorepo',
+            'Monorepo management',
+            'pnpm',
+            'pnpm workspaces'
+        ]
+    },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
     { mainName: 'confluence', count: 0, subNames: ['confluence'] },
@@ -975,7 +991,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'server side',
         count: 0,
-        subNames: ['ssr', 'server side rendering', 'server-side rendering', 'Server-side fundamentals', 'server state', 'URL state']
+        subNames: [
+            'ssr',
+            'server side rendering',
+            'server-side rendering',
+            'Server-side fundamentals',
+            'server state',
+            'URL state'
+        ]
     },
     { mainName: 'ssg', count: 0, subNames: ['ssg'] },
     { mainName: 'ally', count: 0, subNames: ['ally'], meta: 'this is Accessibility tool for Wordpress' },
