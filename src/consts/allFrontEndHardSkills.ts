@@ -3,9 +3,20 @@ import { HardAndSoftSkillsArray } from '../helpers/mainDbIteration';
 export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     // CORE
     {
+        // main typescript; typescript main
         mainName: 'typescript',
         count: 0,
-        subNames: ['TypeScript', 'typescript', 'typescript.js', 'type script', 'TypeScript 5+', 'TypeScript 5.9'],
+        subNames: [
+            'TypeScript',
+            'typescript',
+            'typescript.js',
+            'type script',
+            'TypeScript 5+',
+            'TypeScript 5.9',
+            'TypeScript advanced utility types',
+            'TypeScript custom types',
+            'TypeScript expressive public APIs'
+        ],
         mySkillLevel: 9
     },
     {
@@ -26,7 +37,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'React core principles',
             'React component lifecycle',
             'React v18+',
-            'Context'
+            'Context',
+            'React best practices'
         ],
         mySkillLevel: 9
     },
@@ -51,7 +63,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'filters',
             'forms',
             'JavaScript ES6+',
-            'Form libraries'
+            'Form libraries',
+            'JavaScript standard browser APIs'
         ],
         mySkillLevel: 9
     },
@@ -94,7 +107,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'bundle size',
             'load times',
             'High-performance code',
-            'Performance optimization for frontend and embedded contexts'
+            'Performance optimization for frontend and embedded contexts',
+            'CSS design system-driven styling'
         ],
         mySkillLevel: 2
     },
@@ -102,7 +116,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         // main css; css main;
         mainName: 'css',
         count: 0,
-        subNames: ['css', 'css3', 'CSS 4', 'CSS Modules', 'Modern CSS practices'],
+        subNames: [
+            'css',
+            'css3',
+            'CSS 4',
+            'CSS Modules',
+            'Modern CSS practices',
+            'CSS modern layout techniques',
+            'CSS scalable styling strategies'
+        ],
         mySkillLevel: 8
     },
     {
@@ -151,7 +173,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Frontend asset management',
             'Composition patterns',
             'Design system patterns',
-            'iframe-based architectures'
+            'iframe-based architectures',
+            'Frontend library architecture'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 4
@@ -432,7 +455,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'UI component development',
             'code reuse',
             'Shared component libraries',
-            'Component systems'
+            'Component systems',
+            'component maintenance'
         ],
         mySkillLevel: 9
     },
@@ -858,7 +882,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'technical mentoring',
         count: 0,
-        subNames: ['technical mentoring', 'Technical leadership', 'Code mentorship']
+        subNames: ['technical mentoring', 'Technical leadership', 'Code mentorship', 'Mentoring']
     },
     {
         mainName: 'reliability best practices',
@@ -1257,7 +1281,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Handling real-time data',
             'Real-time dashboards',
             'Real-time data handling',
-            'Real-time applications'
+            'Real-time applications',
+            'Real-time interfaces (chat, voice, agent UI)'
         ]
     },
     { mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
@@ -1418,7 +1443,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Event-driven',
         count: 0,
-        subNames: ['Event-driven data flows', 'Event-driven architecture exposure']
+        subNames: ['Event-driven data flows', 'Event-driven architecture exposure', 'Event-driven applications']
     },
     {
         mainName: 'Navigation',
@@ -1494,6 +1519,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'tRPC',
         count: 0,
         subNames: ['tRPC']
+    },
+    {
+        mainName: 'Regulated Environment Compliance',
+        count: 0,
+        subNames: ['Regulated Environment Compliance', 'Design systems for regulated environments']
     }
 
     //

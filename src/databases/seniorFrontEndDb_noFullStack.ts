@@ -3884,5 +3884,84 @@ export default [
             'Performance obsession and optimization focus',
             'End-to-end ownership of frontend products'
         ]
+    },
+    {
+        dateCreated: 1766329608000,
+        companyName: 'Quadrivia AI',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: 10,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'React',
+            'TypeScript',
+            'Frontend architecture',
+            'performance optimization',
+            'Real-time interfaces (chat, voice, agent UI)',
+            'API integration',
+            'State management',
+            'WebSockets',
+            'OAuth2',
+            'WebRTC',
+            'Test-driven development',
+            'CI/CD practices',
+            'Accessibility',
+            'regulated environment compliance',
+            'Design systems for regulated environments',
+            'Event-driven applications'
+        ],
+        softSkills: [
+            'Collaboration with design, QA, clinical, and backend teams',
+            'Communication skills (structured, clear, concise)',
+            'Problem-solving in high-risk or regulated domains',
+            'Attention to detail and reliability',
+            'End-to-end ownership of frontend products',
+            'User-focused mindset (clinicians, patients, customers)',
+            'Maintaining performance and latency standards'
+        ]
+    },
+    {
+        dateCreated: 1766329931000,
+        companyName: 'Embeddable',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 8,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: [80000, 95000],
+        hardSkills: [
+            'React core principles',
+            'React hooks',
+            'performance optimisation',
+            'accessibility',
+            'testing',
+            'React best practices',
+            'TypeScript advanced utility types',
+            'TypeScript custom types',
+            'TypeScript expressive public APIs',
+            'JavaScript ES6+',
+            'JavaScript standard browser APIs',
+            'JavaScript fundamentals',
+            'CSS',
+            'CSS modern layout techniques',
+            'CSS scalable styling strategies',
+            'CSS design system-driven styling',
+            'Frontend library architecture',
+            'Component design',
+            'component maintenance',
+            'Mentoring',
+            'code review'
+        ],
+        softSkills: [
+            'Communication skills',
+            'Active listening',
+            'Explaining solutions clearly and respectfully',
+            'Passion for work and high quality standards',
+            'Curiosity and eagerness to learn',
+            'Collaboration in international teams',
+            'Autonomous and reliable'
+        ]
     }
 ] as JobEntry[];
