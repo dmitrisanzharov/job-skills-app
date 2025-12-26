@@ -1,171 +1,237 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo } from "react";
 // MUI
-import Box from '@mui/material/Box';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
-import Tooltip from '@mui/material/Tooltip';
-import InfoOutlineIcon from '@mui/icons-material/InfoOutline';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-import Typography from '@mui/material/Typography';
-import Checkbox from '@mui/material/Checkbox';
-import FormControlLabel from '@mui/material/FormControlLabel';
+import Box from "@mui/material/Box";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
+import Tooltip from "@mui/material/Tooltip";
+import InfoOutlineIcon from "@mui/icons-material/InfoOutline";
+import FormControl from "@mui/material/FormControl";
+import FormLabel from "@mui/material/FormLabel";
+import Typography from "@mui/material/Typography";
+import Checkbox from "@mui/material/Checkbox";
+import FormControlLabel from "@mui/material/FormControlLabel";
 
 //
-import { mainDbIteration } from '../../helpers/mainDbIteration';
-import { skillMinPercentageToFilter, skillThatIWillNotTake } from '../../consts/globalVars';
-import { getColorByNumber } from '../../helpers/getColorByNumber';
+import { mainDbIteration } from "../../helpers/mainDbIteration";
+import {
+    skillMinPercentageToFilter,
+    skillThatIWillNotTake
+} from "../../consts/globalVars";
+import { getColorByNumber } from "../../helpers/getColorByNumber";
 
 // skills
-import { allFrontEndHardSkills } from '../../consts/allFrontEndHardSkills';
-import seniorFrontEndDb_noFullStack from '../../databases/seniorFrontEndDb_noFullStack';
+import { allFrontEndHardSkills } from "../../consts/allFrontEndHardSkills";
+import seniorFrontEndDb_noFullStack from "../../databases/seniorFrontEndDb_noFullStack";
 
 const SeniorFrontEndSkills: React.FC = () => {
     const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);
-    const [showGreenSkills, setShowGreenSkills] = useState(true);
-    const [showYellowSkills, setShowYellowSkills] = useState(true);
+    const [showGreenSkills, setShowGreenSkills] = useState(false);
+    const [showYellowSkills, setShowYellowSkills] = useState(false);
 
-    const fieldSetStyle = { border: '1px solid #ccc', borderRadius: 2, p: 2, mb: 3 };
+    const fieldSetStyle = {
+        border: "1px solid #ccc",
+        borderRadius: 2,
+        p: 2,
+        mb: 3
+    };
 
     const { finalObj, totalJobEntries, avgYears } = useMemo(
-        () => mainDbIteration(seniorFrontEndDb_noFullStack, allFrontEndHardSkills),
+        () =>
+            mainDbIteration(
+                seniorFrontEndDb_noFullStack,
+                allFrontEndHardSkills
+            ),
         []
     );
     // console.log('🚀 ~ SeniorFrontEndSkills ~ finalObj:', finalObj);
 
     const jobInterviewSkillObj = {
-        mainName: 'Job Interview',
+        mainName: "Job Interview",
         count: totalJobEntries,
-        subNames: ['Job Interview'],
+        subNames: ["Job Interview"],
         mySkillLevel: 3,
-        meta: 'will do later, skip for now'
+        meta: "will do later, skip for now"
     };
 
     const hardSkillsFinal = [jobInterviewSkillObj, ...finalObj.hardSkills]
         .filter((hs) => {
             // 1) percentage threshold
-            if (hs.count <= totalJobEntries * skillMinPercentageToFilter) return false;
+            if (hs.count <= totalJobEntries * skillMinPercentageToFilter)
+                return false;
 
             // 2) "not taking jobs" filter
-            if (!showNotTakingJobs && skillThatIWillNotTake.includes(hs.mainName)) return false;
+            if (
+                !showNotTakingJobs &&
+                skillThatIWillNotTake.includes(hs.mainName)
+            )
+                return false;
 
             // 3) green skills filter
             if (!showGreenSkills) {
-                if (hs.mySkillLevel != null && hs.mySkillLevel > 7) return false;
+                if (hs.mySkillLevel != null && hs.mySkillLevel > 7)
+                    return false;
             }
 
             // 4) yellow skills filter
             if (!showYellowSkills) {
-                if (hs.mySkillLevel != null && hs.mySkillLevel >= 5) return false;
+                if (hs.mySkillLevel != null && hs.mySkillLevel >= 5)
+                    return false;
             }
 
             return true;
         })
         .sort((a, b) => b.count - a.count);
 
-    const testIfWorkModeHasAllEntries = finalObj.remote + finalObj.hybrid + finalObj.onSite === totalJobEntries;
+    const testIfWorkModeHasAllEntries =
+        finalObj.remote + finalObj.hybrid + finalObj.onSite === totalJobEntries;
 
     useEffect(() => {
-        document.title = 'Skill Analysis';
+        document.title = "Skill Analysis";
     }, []);
 
     if (!testIfWorkModeHasAllEntries) {
         throw new Error(
-            'DMITRIs CUSTOM ERROR: Work mode entry is missing from one of the jobs OR misspelled... find it and fix it!'
+            "DMITRIs CUSTOM ERROR: Work mode entry is missing from one of the jobs OR misspelled... find it and fix it!"
         );
     }
 
     return (
         <Box>
-            <Box sx={{ mb: 3, position: 'relative' }}>
+            <Box sx={{ mb: 3, position: "relative" }}>
                 <Box>
-                    <Typography variant='h4'>Senior Front End Only</Typography>
+                    <Typography variant="h4">Senior Front End Only</Typography>
                     <Typography sx={{ mb: 2 }}>
-                        Total Job Entries: {totalJobEntries} | Hard skills {`>= ${skillMinPercentageToFilter * 100}%`}
+                        Total Job Entries: {totalJobEntries} | Hard skills{" "}
+                        {`>= ${skillMinPercentageToFilter * 100}%`}
                     </Typography>
                 </Box>
 
-                <Box sx={{ position: 'absolute', top: 0, right: 0 }}>
-                    <FormControl component='fieldset' sx={fieldSetStyle}>
-                        <FormLabel component='legend'>Filters</FormLabel>
+                <Box sx={{ position: "absolute", top: 0, right: 0 }}>
+                    <FormControl component="fieldset" sx={fieldSetStyle}>
+                        <FormLabel component="legend">Filters</FormLabel>
                         <FormControlLabel
                             control={
                                 <Checkbox
-                                    size='small'
+                                    size="small"
                                     checked={showNotTakingJobs}
-                                    onChange={(e: any) => setShowNotTakingJobs(e.target.checked)}
+                                    onChange={(e: any) =>
+                                        setShowNotTakingJobs(e.target.checked)
+                                    }
                                 />
                             }
-                            label={<Typography variant='caption'>show skills not taking</Typography>}
+                            label={
+                                <Typography variant="caption">
+                                    show skills not taking
+                                </Typography>
+                            }
                         />
 
                         <FormControlLabel
                             control={
                                 <Checkbox
-                                    size='small'
+                                    size="small"
                                     checked={showGreenSkills}
-                                    onChange={(e: any) => setShowGreenSkills(e.target.checked)}
+                                    onChange={(e: any) =>
+                                        setShowGreenSkills(e.target.checked)
+                                    }
                                 />
                             }
-                            label={<Typography variant='caption'>show green skills</Typography>}
+                            label={
+                                <Typography variant="caption">
+                                    show green skills
+                                </Typography>
+                            }
                         />
 
                         <FormControlLabel
                             control={
                                 <Checkbox
-                                    size='small'
+                                    size="small"
                                     checked={showYellowSkills}
-                                    onChange={(e: any) => setShowYellowSkills(e.target.checked)}
+                                    onChange={(e: any) =>
+                                        setShowYellowSkills(e.target.checked)
+                                    }
                                 />
                             }
-                            label={<Typography variant='caption'>show yellow skills</Typography>}
+                            label={
+                                <Typography variant="caption">
+                                    show yellow skills
+                                </Typography>
+                            }
                         />
                     </FormControl>
                 </Box>
             </Box>
 
-            <Box sx={{ display: 'flex', gap: 2 }}>
-                <FormControl component='fieldset' sx={fieldSetStyle}>
-                    <FormLabel component='legend'>Education & Experience</FormLabel>
-
-                    <Typography>Average Years of Experience: {avgYears.toFixed(0)}</Typography>
+            <Box sx={{ display: "flex", gap: 2 }}>
+                <FormControl component="fieldset" sx={fieldSetStyle}>
+                    <FormLabel component="legend">
+                        Education & Experience
+                    </FormLabel>
 
                     <Typography>
-                        Bachelor: {finalObj.bachelorDegreeFinal} |{' '}
-                        {((finalObj.bachelorDegreeFinal / totalJobEntries) * 100).toFixed(0)}%
+                        Average Years of Experience: {avgYears.toFixed(0)}
                     </Typography>
 
                     <Typography>
-                        Masters: {finalObj.mastersDegreeFinal} |{' '}
-                        {((finalObj.mastersDegreeFinal / totalJobEntries) * 100).toFixed(0)}%
+                        Bachelor: {finalObj.bachelorDegreeFinal} |{" "}
+                        {(
+                            (finalObj.bachelorDegreeFinal / totalJobEntries) *
+                            100
+                        ).toFixed(0)}
+                        %
+                    </Typography>
+
+                    <Typography>
+                        Masters: {finalObj.mastersDegreeFinal} |{" "}
+                        {(
+                            (finalObj.mastersDegreeFinal / totalJobEntries) *
+                            100
+                        ).toFixed(0)}
+                        %
                     </Typography>
                 </FormControl>
 
-                <FormControl component='fieldset' sx={fieldSetStyle}>
+                <FormControl component="fieldset" sx={fieldSetStyle}>
                     <Tooltip
-                        title='If Total is NOT equal to remote + hybrid + on-site you will get an error'
+                        title="If Total is NOT equal to remote + hybrid + on-site you will get an error"
                         arrow
-                        placement='top'
+                        placement="top"
                     >
-                        <FormLabel component='legend'>WorkType</FormLabel>
+                        <FormLabel component="legend">WorkType</FormLabel>
                     </Tooltip>
 
-                    <Box component='ul' sx={{ pl: 3, m: 0 }}>
+                    <Box component="ul" sx={{ pl: 3, m: 0 }}>
                         <Typography>
-                            Remote: {finalObj.remote} | {((finalObj.remote / totalJobEntries) * 100).toFixed(0)}%
+                            Remote: {finalObj.remote} |{" "}
+                            {(
+                                (finalObj.remote / totalJobEntries) *
+                                100
+                            ).toFixed(0)}
+                            %
                         </Typography>
 
                         <Typography>
-                            Hybrid: {finalObj.hybrid} | {((finalObj.hybrid / totalJobEntries) * 100).toFixed(0)}%
+                            Hybrid: {finalObj.hybrid} |{" "}
+                            {(
+                                (finalObj.hybrid / totalJobEntries) *
+                                100
+                            ).toFixed(0)}
+                            %
                         </Typography>
 
                         <Typography>
-                            On-site: {finalObj.onSite} | {((finalObj.onSite / totalJobEntries) * 100).toFixed(0)}%
+                            On-site: {finalObj.onSite} |{" "}
+                            {(
+                                (finalObj.onSite / totalJobEntries) *
+                                100
+                            ).toFixed(0)}
+                            %
                         </Typography>
                         {/* <Typography variant='caption'>
                             total: {finalObj.remote + finalObj.hybrid + finalObj.onSite}
@@ -193,6 +259,9 @@ const SeniorFrontEndSkills: React.FC = () => {
                             <TableCell>
                                 <strong>Count</strong>
                             </TableCell>
+                            <TableCell sx={{ width: 20, color: 'lightgray'  }}>
+                                <strong>Idx</strong>
+                            </TableCell>
                         </TableRow>
                     </TableHead>
 
@@ -201,26 +270,42 @@ const SeniorFrontEndSkills: React.FC = () => {
                             const skillCount = skill.count;
                             const skillLevel = skill.mySkillLevel;
                             const skillLevelColor =
-                                skillLevel === 0 || skillLevel ? getColorByNumber(skillLevel) : null;
+                                skillLevel === 0 || skillLevel
+                                    ? getColorByNumber(skillLevel)
+                                    : null;
                             const hasMetaInfo = !!skill.meta;
 
                             return (
                                 <TableRow key={index}>
-                                    <TableCell sx={{ backgroundColor: skillLevelColor }}>{skillLevel}</TableCell>
+                                    <TableCell
+                                        sx={{
+                                            backgroundColor: skillLevelColor
+                                        }}
+                                    >
+                                        {skillLevel}
+                                    </TableCell>
                                     <TableCell>
-                                        {' '}
+                                        {" "}
                                         {hasMetaInfo ? (
                                             <Tooltip title={skill.meta} arrow>
                                                 <span>
-                                                    {skill.mainName} <InfoOutlineIcon fontSize='small' />
+                                                    {skill.mainName}{" "}
+                                                    <InfoOutlineIcon fontSize="small" />
                                                 </span>
                                             </Tooltip>
                                         ) : (
                                             skill.mainName
                                         )}
                                     </TableCell>
-                                    <TableCell>{((skillCount / totalJobEntries) * 100).toFixed(0)}%</TableCell>
+                                    <TableCell>
+                                        {(
+                                            (skillCount / totalJobEntries) *
+                                            100
+                                        ).toFixed(0)}
+                                        %
+                                    </TableCell>
                                     <TableCell>{skillCount}</TableCell>
+                                    <TableCell sx={{ color: 'lightgray'}}>{index + 1}</TableCell>
                                 </TableRow>
                             );
                         })}

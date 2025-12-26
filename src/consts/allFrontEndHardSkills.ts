@@ -110,7 +110,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Performance optimization for frontend and embedded contexts',
             'CSS design system-driven styling'
         ],
-        mySkillLevel: 2
+        mySkillLevel: 5
     },
     {
         // main css; css main;
