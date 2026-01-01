@@ -180,7 +180,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "iframe-based architectures",
             "Frontend library architecture",
             "Component-based architectures",
-            "complex feature-rich projects"
+            "complex feature-rich projects",
+            "infrastructure software knowledge",
+            "Infrastructure as Code",
+            "Infrastructure-as-code"
         ],
         meta: "SCALABLE and ARCHITECTURE are very important word here",
         mySkillLevel: 4
@@ -217,6 +220,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "ui/ux",
         count: 0,
         subNames: [
+            "Implementation of UI components and views from design",
+            "Modern UI development practices",
             "interactive components",
             "design translation",
             "ui/ux",
@@ -286,7 +291,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Frontend deployment strategies",
             "Gitflow",
             "Pull-request workflows",
-            "Continuous delivery"
+            "Continuous delivery",
+            "Git version control",
+            "CI/CD tooling"
         ],
         mySkillLevel: 7
     },
@@ -323,7 +330,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "CodeDeploy",
             "CodePipeline",
             "CodeArtifact",
-            "AWS ecosystem"
+            "AWS ecosystem",
+            "AWS-hosted applications"
         ],
         mySkillLevel: 0
     },
@@ -510,7 +518,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "angularjs",
             "angular js",
             "Angular (latest version)",
-            "Angular (16+)"
+            "Angular (16+)",
+            "Angular (v2+ required, v18+ preferred)",
+            "Creation and maintenance of Angular libraries"
         ],
         meta: "there is mix up between angularJS and angular, so group them together",
         mySkillLevel: 4
@@ -1204,14 +1214,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "mathematical foundations (geometry, trigonometry)",
             "geometry",
             "trigonometry"
-        ]
-    },
-    {
-        mainName: "infrastructure software knowledge",
-        count: 0,
-        subNames: [
-            "infrastructure software knowledge",
-            "Infrastructure as Code"
         ]
     },
     { mainName: "react suspense", count: 0, subNames: ["react suspense"] },
@@ -2264,6 +2266,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "Error Handling",
         count: 0,
         subNames: ["Error Handling"]
+    },
+    {
+        mainName: "Production Application Development",
+        count: 0,
+        subNames: ["Production Application Development"]
     }
 
     //

@@ -4097,5 +4097,90 @@ export default [
             "Adaptability in a distributed remote team",
             "Focus on usability and maintainability"
         ]
+    },
+    {
+        dateCreated: 1767276328000,
+        companyName: "Profitap",
+        jobTitle:
+            "Front-End Software Engineer | (Dmitri note: 3 years, added for stack)",
+        workMode: "Hybrid",
+        yearsOfExperience: 3,
+        bachelorDegree: null,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            "Angular (v2+ required, v18+ preferred)",
+            "REST API integration",
+            "Git version control",
+            "CI/CD tooling",
+            "GitLab",
+            "Linux",
+            "Creation and maintenance of Angular libraries"
+        ],
+        softSkills: [
+            "Good written and oral communication in English",
+            "Collaboration in dynamic R&D teams",
+            "Adaptable and open to new ideas",
+            "Problem-solving and independent work",
+            "Multicultural teamwork",
+            "High attention to detail and reliability"
+        ]
+    },
+    {
+        dateCreated: 1767276535000,
+        companyName: "NexGen Tech Solutions",
+        jobTitle: "Software Engineer (Node, React, Next.js)",
+        workMode: "Remote",
+        yearsOfExperience: null,
+        bachelorDegree: null,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            "Node.js",
+            "React",
+            "Next.js",
+            "Modern UI development practices",
+            "Git",
+            "GitLab",
+            "version control",
+            "Implementation of UI components and views from design"
+        ],
+        softSkills: [
+            "Strong coding skills and technical foundation",
+            "Problem-solving abilities",
+            "Intense attention to detail",
+            "Collaboration with designers",
+            "Adaptable to change management processes"
+        ]
+    },
+    {
+        dateCreated: 1765724428000,
+        companyName: "Keyholder",
+        jobTitle: "Software Developer (Frontend, React/TypeScript)",
+        workMode: "Hybrid",
+        yearsOfExperience: 3,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            "React",
+            "TypeScript",
+            "Vite",
+            "AWS-hosted applications",
+            "REST API integration",
+            "CI/CD pipelines",
+            "Infrastructure-as-code",
+            "Production application development",
+            "Debugging",
+            "performance optimisation"
+        ],
+        softSkills: [
+            "Strong problem-solving skills",
+            "Attention to detail",
+            "Clear communication",
+            "Collaborative team player",
+            "Autonomy and decision-making",
+            "Interest in privacy, identity, or workflow automation platforms"
+        ]
     }
 ] as JobEntry[];
