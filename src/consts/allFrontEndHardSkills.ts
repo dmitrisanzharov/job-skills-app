@@ -112,7 +112,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "High-performance code",
             "Performance optimization for frontend and embedded contexts",
             "CSS design system-driven styling",
-            "lazy loading"
+            "lazy loading",
+            "Partial pre-rendering & caching"
         ],
         mySkillLevel: 5
     },
@@ -127,7 +128,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "CSS Modules",
             "Modern CSS practices",
             "CSS modern layout techniques",
-            "CSS scalable styling strategies"
+            "CSS scalable styling strategies",
+            "Modern CSS methodologies and patterns"
         ],
         mySkillLevel: 8
     },
@@ -220,6 +222,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "ui/ux",
         count: 0,
         subNames: [
+            "Proactive problem-solving in UI/UX",
+            "Visual design expertise",
+            "Enterprise-grade UI design",
             "Implementation of UI components and views from design",
             "Modern UI development practices",
             "interactive components",
@@ -293,7 +298,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Pull-request workflows",
             "Continuous delivery",
             "Git version control",
-            "CI/CD tooling"
+            "CI/CD tooling",
+            "Git version control and documentation"
         ],
         mySkillLevel: 7
     },
@@ -499,10 +505,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Component architecture",
             "UI component development",
             "code reuse",
-            "Shared component libraries",
             "Component systems",
             "component maintenance",
-            "reusable component libraries"
+            "Component-based front-end frameworks"
         ],
         mySkillLevel: 9
     },
@@ -585,7 +590,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "UI component design",
             "headless component libraries",
             "JavaScript component libraries",
-            "Radix UI"
+            "Radix UI",
+            "Shared component libraries",
+            "reusable component libraries"
         ],
         meta: "MUI, Bootstrap, Material UI cover this",
         mySkillLevel: 8
@@ -803,7 +810,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Security considerations",
             "Security best practices",
             "JWT",
-            "Application security fundamentals"
+            "Application security fundamentals",
+            "Web security best practices (XSS, CSRF, SQL Injection, secure cookies, data encryption)"
         ],
         mySkillLevel: 0
     },
@@ -1142,7 +1150,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Technical leadership",
             "Code mentorship",
             "Mentoring",
-            "Mentoring junior developers"
+            "Mentoring junior developers",
+            "Mentorship and coaching of junior engineers"
         ]
     },
     {
@@ -1269,7 +1278,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Collaboration with design",
             "Product-focused development",
             "Collaboration with design, product, and backend teams",
-            "Collaboration with UI/UX, backend, GIS, and DevOps teams"
+            "Collaboration with UI/UX, backend, GIS, and DevOps teams",
+            "Collaboration with product teams",
+            "Cross-functional collaboration"
         ]
     },
     {
@@ -1375,7 +1386,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ["backend api layer experience"]
     },
-    { mainName: "sql", count: 0, subNames: ["sql", "SQL querying tools", "SQL Server Spatial"] },
+    {
+        mainName: "sql",
+        count: 0,
+        subNames: ["sql", "SQL querying tools", "SQL Server Spatial"]
+    },
     {
         mainName: "data-driven query languages",
         count: 0,
@@ -1413,7 +1428,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "server-side rendering",
             "Server-side fundamentals",
             "server state",
-            "URL state"
+            "URL state",
+            "Server-side rendering (SSR)"
         ]
     },
     { mainName: "ssg", count: 0, subNames: ["ssg"] },
@@ -1758,7 +1774,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: "Contentstack", count: 0, subNames: ["Contentstack"] },
     { mainName: "Kentico", count: 0, subNames: ["Kentico"] },
     { mainName: "Sitecore JSS", count: 0, subNames: ["Sitecore JSS"] },
-    { mainName: "ISR", count: 0, subNames: ["ISR"] },
+    { mainName: "ISR", count: 0, subNames: ["ISR", "Incremental static regeneration (ISR)"] },
     { mainName: "Django", count: 0, subNames: ["Django", "Django templates"] },
     { mainName: "Microfrontends", count: 0, subNames: ["Microfrontends"] },
     {
@@ -1921,7 +1937,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: "Authentication",
         count: 0,
-        subNames: ["OAuth2", "Authentication", "OAuth"]
+        subNames: ["OAuth2", "Authentication", "OAuth", "Authentication & Authorization protocols (OAuth, JWT, SSO, OpenID Connect, MFA, RBAC, ABAC)", "Identity provider integration (Auth0, Okta, etc.)"]
     },
     { mainName: "OpenID Connect", count: 0, subNames: ["OpenID Connect"] },
     { mainName: "Recharts", count: 0, subNames: ["Recharts"] },

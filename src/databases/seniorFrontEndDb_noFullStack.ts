@@ -3592,48 +3592,49 @@ export default [
             "Problem-solving and improving code quality"
         ]
     },
-    {
-        dateCreated: 1765725252000,
-        companyName: "Sporty Group",
-        jobTitle:
-            "Frontend Developer | (Dmitri note: No years given, did for Tech Stack)",
-        workMode: "Remote",
-        yearsOfExperience: null,
-        bachelorDegree: null,
-        mastersDegree: false,
-        compensationRange: null,
-        hardSkills: [
-            "Vue.js",
-            "Vuex",
-            "Vue Router",
-            "Vuetify",
-            "TypeScript",
-            "Webpack",
-            "SCSS",
-            "Sass",
-            "Git",
-            "ES6",
-            "Responsive frontend development",
-            "Real-time applications",
-            "State management",
-            "Vuex",
-            "Redux",
-            "Ngrx",
-            "Performance optimization",
-            "User experience design",
-            "Firebase"
-        ],
-        softSkills: [
-            "Independent work",
-            "Collaboration with Product Owners and development teams",
-            "Code review participation",
-            "Mentoring junior team members",
-            "Effective communication",
-            "Problem-solving in production issues",
-            "Agile ceremonies participation",
-            "Focus on quality and user experience"
-        ]
-    },
+    // NOT SENIOR
+    // {
+    //     dateCreated: 1765725252000,
+    //     companyName: "Sporty Group",
+    //     jobTitle:
+    //         "Frontend Developer | (Dmitri note: No years given, did for Tech Stack)",
+    //     workMode: "Remote",
+    //     yearsOfExperience: null,
+    //     bachelorDegree: null,
+    //     mastersDegree: false,
+    //     compensationRange: null,
+    //     hardSkills: [
+    //         "Vue.js",
+    //         "Vuex",
+    //         "Vue Router",
+    //         "Vuetify",
+    //         "TypeScript",
+    //         "Webpack",
+    //         "SCSS",
+    //         "Sass",
+    //         "Git",
+    //         "ES6",
+    //         "Responsive frontend development",
+    //         "Real-time applications",
+    //         "State management",
+    //         "Vuex",
+    //         "Redux",
+    //         "Ngrx",
+    //         "Performance optimization",
+    //         "User experience design",
+    //         "Firebase"
+    //     ],
+    //     softSkills: [
+    //         "Independent work",
+    //         "Collaboration with Product Owners and development teams",
+    //         "Code review participation",
+    //         "Mentoring junior team members",
+    //         "Effective communication",
+    //         "Problem-solving in production issues",
+    //         "Agile ceremonies participation",
+    //         "Focus on quality and user experience"
+    //     ]
+    // },
     {
         dateCreated: 1765725805000,
         companyName: "Upstack Data",
@@ -3720,42 +3721,43 @@ export default [
             "Test Driven Development mindset"
         ]
     },
-    {
-        dateCreated: 1766251381000,
-        companyName: "Twine",
-        jobTitle:
-            "Frontend Developer | (Dmitri note: no years, added for stack)",
-        workMode: "Remote",
-        yearsOfExperience: null,
-        bachelorDegree: null,
-        mastersDegree: false,
-        compensationRange: null,
-        hardSkills: [
-            "React",
-            "Vue",
-            "Angular",
-            "HTML5",
-            "CSS3",
-            "JavaScript ES6+",
-            "Responsive web design",
-            "Accessibility best practices",
-            "E-commerce workflows",
-            "E-commerce payment integration",
-            "Version control",
-            "Git",
-            "UI/UX design guidance",
-            "Cross-browser compatibility"
-        ],
-        softSkills: [
-            "Consulting and advising on web development projects",
-            "Communication with non-technical stakeholders",
-            "Independent and self-motivated work",
-            "Detail-oriented",
-            "Problem-solving in frontend development",
-            "Collaboration on wireframes and prototypes",
-            "Code organization, maintainability, and scalability guidance"
-        ]
-    },
+    // NOT SENIOR
+    // {
+    //     dateCreated: 1766251381000,
+    //     companyName: "Twine",
+    //     jobTitle:
+    //         "Frontend Developer | (Dmitri note: no years, added for stack)",
+    //     workMode: "Remote",
+    //     yearsOfExperience: null,
+    //     bachelorDegree: null,
+    //     mastersDegree: false,
+    //     compensationRange: null,
+    //     hardSkills: [
+    //         "React",
+    //         "Vue",
+    //         "Angular",
+    //         "HTML5",
+    //         "CSS3",
+    //         "JavaScript ES6+",
+    //         "Responsive web design",
+    //         "Accessibility best practices",
+    //         "E-commerce workflows",
+    //         "E-commerce payment integration",
+    //         "Version control",
+    //         "Git",
+    //         "UI/UX design guidance",
+    //         "Cross-browser compatibility"
+    //     ],
+    //     softSkills: [
+    //         "Consulting and advising on web development projects",
+    //         "Communication with non-technical stakeholders",
+    //         "Independent and self-motivated work",
+    //         "Detail-oriented",
+    //         "Problem-solving in frontend development",
+    //         "Collaboration on wireframes and prototypes",
+    //         "Code organization, maintainability, and scalability guidance"
+    //     ]
+    // },
     {
         dateCreated: 1766251659000,
         companyName: "Brightflag",
@@ -4098,91 +4100,94 @@ export default [
             "Focus on usability and maintainability"
         ]
     },
-    {
-        dateCreated: 1767276328000,
-        companyName: "Profitap",
-        jobTitle:
-            "Front-End Software Engineer | (Dmitri note: 3 years, added for stack)",
-        workMode: "Hybrid",
-        yearsOfExperience: 3,
-        bachelorDegree: null,
-        mastersDegree: false,
-        compensationRange: null,
-        hardSkills: [
-            "Angular (v2+ required, v18+ preferred)",
-            "REST API integration",
-            "Git version control",
-            "CI/CD tooling",
-            "GitLab",
-            "Linux",
-            "Creation and maintenance of Angular libraries"
-        ],
-        softSkills: [
-            "Good written and oral communication in English",
-            "Collaboration in dynamic R&D teams",
-            "Adaptable and open to new ideas",
-            "Problem-solving and independent work",
-            "Multicultural teamwork",
-            "High attention to detail and reliability"
-        ]
-    },
-    {
-        dateCreated: 1767276535000,
-        companyName: "NexGen Tech Solutions",
-        jobTitle: "Software Engineer (Node, React, Next.js)",
-        workMode: "Remote",
-        yearsOfExperience: null,
-        bachelorDegree: null,
-        mastersDegree: false,
-        compensationRange: null,
-        hardSkills: [
-            "Node.js",
-            "React",
-            "Next.js",
-            "Modern UI development practices",
-            "Git",
-            "GitLab",
-            "version control",
-            "Implementation of UI components and views from design"
-        ],
-        softSkills: [
-            "Strong coding skills and technical foundation",
-            "Problem-solving abilities",
-            "Intense attention to detail",
-            "Collaboration with designers",
-            "Adaptable to change management processes"
-        ]
-    },
-    {
-        dateCreated: 1767277323000,
-        companyName: "Keyholder",
-        jobTitle: "Software Developer (Frontend, React/TypeScript)",
-        workMode: "Hybrid",
-        yearsOfExperience: 3,
-        bachelorDegree: false,
-        mastersDegree: false,
-        compensationRange: null,
-        hardSkills: [
-            "React",
-            "TypeScript",
-            "Vite",
-            "AWS-hosted applications",
-            "REST API integration",
-            "CI/CD pipelines",
-            "Infrastructure-as-code",
-            "Production application development",
-            "Debugging",
-            "performance optimisation"
-        ],
-        softSkills: [
-            "Strong problem-solving skills",
-            "Attention to detail",
-            "Clear communication",
-            "Collaborative team player",
-            "Autonomy and decision-making",
-            "Interest in privacy, identity, or workflow automation platforms"
-        ]
-    },
+    // NOT SENIOR
+    // {
+    //     dateCreated: 1767276328000,
+    //     companyName: "Profitap",
+    //     jobTitle:
+    //         "Front-End Software Engineer | (Dmitri note: 3 years, added for stack)",
+    //     workMode: "Hybrid",
+    //     yearsOfExperience: 3,
+    //     bachelorDegree: null,
+    //     mastersDegree: false,
+    //     compensationRange: null,
+    //     hardSkills: [
+    //         "Angular (v2+ required, v18+ preferred)",
+    //         "REST API integration",
+    //         "Git version control",
+    //         "CI/CD tooling",
+    //         "GitLab",
+    //         "Linux",
+    //         "Creation and maintenance of Angular libraries"
+    //     ],
+    //     softSkills: [
+    //         "Good written and oral communication in English",
+    //         "Collaboration in dynamic R&D teams",
+    //         "Adaptable and open to new ideas",
+    //         "Problem-solving and independent work",
+    //         "Multicultural teamwork",
+    //         "High attention to detail and reliability"
+    //     ]
+    // },
+    // NOT SENIOR
+    // {
+    //     dateCreated: 1767276535000,
+    //     companyName: "NexGen Tech Solutions",
+    //     jobTitle: "Software Engineer (Node, React, Next.js)",
+    //     workMode: "Remote",
+    //     yearsOfExperience: null,
+    //     bachelorDegree: null,
+    //     mastersDegree: false,
+    //     compensationRange: null,
+    //     hardSkills: [
+    //         "Node.js",
+    //         "React",
+    //         "Next.js",
+    //         "Modern UI development practices",
+    //         "Git",
+    //         "GitLab",
+    //         "version control",
+    //         "Implementation of UI components and views from design"
+    //     ],
+    //     softSkills: [
+    //         "Strong coding skills and technical foundation",
+    //         "Problem-solving abilities",
+    //         "Intense attention to detail",
+    //         "Collaboration with designers",
+    //         "Adaptable to change management processes"
+    //     ]
+    // },
+    // NOT SENIOR
+    // {
+    //     dateCreated: 1767277323000,
+    //     companyName: "Keyholder",
+    //     jobTitle: "Software Developer (Frontend, React/TypeScript)",
+    //     workMode: "Hybrid",
+    //     yearsOfExperience: 3,
+    //     bachelorDegree: false,
+    //     mastersDegree: false,
+    //     compensationRange: null,
+    //     hardSkills: [
+    //         "React",
+    //         "TypeScript",
+    //         "Vite",
+    //         "AWS-hosted applications",
+    //         "REST API integration",
+    //         "CI/CD pipelines",
+    //         "Infrastructure-as-code",
+    //         "Production application development",
+    //         "Debugging",
+    //         "performance optimisation"
+    //     ],
+    //     softSkills: [
+    //         "Strong problem-solving skills",
+    //         "Attention to detail",
+    //         "Clear communication",
+    //         "Collaborative team player",
+    //         "Autonomy and decision-making",
+    //         "Interest in privacy, identity, or workflow automation platforms"
+    //     ]
+    // },
     {
         dateCreated: 1767277091,
         companyName: "Hostaway",
@@ -4221,48 +4226,112 @@ export default [
             "Knowledge sharing and documentation"
         ]
     },
+    // NOT SENIOR
+    // {
+    //     dateCreated: 1767277747000,
+    //     companyName: "Compass Informatics",
+    //     jobTitle:
+    //         "Front-End Developer | (Dmitri note: No years, added for stack)",
+    //     workMode: "Hybrid",
+    //     yearsOfExperience: null,
+    //     bachelorDegree: null,
+    //     mastersDegree: false,
+    //     compensationRange: null,
+    //     hardSkills: [
+    //         "JavaScript",
+    //         "AngularJS",
+    //         "Angular",
+    //         "Ext JS",
+    //         "Responsive web design",
+    //         "REST APIs",
+    //         "JSON",
+    //         "XML",
+    //         "Mapping libraries",
+    //         "Leaflet",
+    //         "OpenLayers",
+    //         "ArcGIS SDK",
+    //         "Geospatial services: WMS, WFS",
+    //         "Version control",
+    //         "Git",
+    //         "TFS",
+    //         "Agile",
+    //         "Scrum delivery",
+    //         "Collaboration with UI/UX, backend, GIS, and DevOps teams",
+    //         "Python",
+    //         "C#",
+    //         ".NET",
+    //         "PostgreSQL",
+    //         "PostGIS",
+    //         "SQL Server Spatial"
+    //     ],
+    //     softSkills: [
+    //         "Excellent communication and documentation skills",
+    //         "Problem-solving and analytical thinking",
+    //         "Willingness to learn and grow GIS knowledge",
+    //         "Team-oriented mindset"
+    //     ]
+    // },
+    // NOT SENIOR
+    // {
+    //     dateCreated: 1767278195000,
+    //     companyName: "Dotsub",
+    //     jobTitle: "Frontend Engineer | (Dmitri note: No years, added for stack)",
+    //     workMode: "Remote",
+    //     yearsOfExperience: null,
+    //     bachelorDegree: false,
+    //     mastersDegree: false,
+    //     compensationRange: null,
+    //     hardSkills: [
+    //         "React",
+    //         "TypeScript",
+    //         "Tailwind CSS",
+    //         "Modern CSS methodologies and patterns",
+    //         "Enterprise-grade UI design",
+    //         "Component-based front-end frameworks",
+    //         "Visual design expertise",
+    //         "Proactive problem-solving in UI/UX",
+    //         "Collaboration with product teams"
+    //     ],
+    //     softSkills: [
+    //         "Ability to lead or work independently on design decisions",
+    //         "Attention to detail and iterative improvement mindset"
+    //     ],
+    //     roleType:
+    //         "Project-based, full-time for 3-6 months (potentially extendable)"
+    // },
     {
-        dateCreated: 1767277747000,
-        companyName: "Compass Informatics",
-        jobTitle:
-            "Front-End Developer | (Dmitri note: No years, added for stack)",
-        workMode: "Hybrid",
-        yearsOfExperience: null,
-        bachelorDegree: null,
+        dateCreated: 1767278903000,
+        companyName: "Seminal",
+        jobTitle: "Senior Next.js Developer",
+        workMode:
+            "Remote",
+        yearsOfExperience: 5,
+        bachelorDegree: false,
         mastersDegree: false,
         compensationRange: null,
         hardSkills: [
-            "JavaScript",
-            "AngularJS",
-            "Angular",
-            "Ext JS",
-            "Responsive web design",
-            "REST APIs",
-            "JSON",
-            "XML",
-            "Mapping libraries",
-            "Leaflet",
-            "OpenLayers",
-            "ArcGIS SDK",
-            "Geospatial services: WMS, WFS",
-            "Version control",
-            "Git",
-            "TFS",
-            "Agile",
-            "Scrum delivery",
-            "Collaboration with UI/UX, backend, GIS, and DevOps teams",
-            "Python",
-            "C#",
-            ".NET",
-            "PostgreSQL",
-            "PostGIS",
-            "SQL Server Spatial"
+            "Next.js",
+            "React.js",
+            "Authentication & Authorization protocols (OAuth, JWT, SSO, OpenID Connect, MFA, RBAC, ABAC)",
+            "Identity provider integration (Auth0, Okta, etc.)",
+            "State management",
+            "Server-side rendering (SSR)",
+            "Incremental static regeneration (ISR)",
+            "Partial pre-rendering & caching",
+            "TDD",
+            "Jest",
+            "React Testing Library",
+            "Agile development",
+            "Git version control and documentation",
+            "Web security best practices (XSS, CSRF, SQL Injection, secure cookies, data encryption)",
+            "Mentorship and coaching of junior engineers",
+            "Cross-functional collaboration"
         ],
         softSkills: [
-            "Excellent communication and documentation skills",
-            "Problem-solving and analytical thinking",
-            "Willingness to learn and grow GIS knowledge",
-            "Team-oriented mindset"
-        ]
+            "Proactive problem-solving",
+            "Excellent written and verbal communication",
+            "Adaptability and continuous learning",
+            "Leadership in technical decision-making"
+        ],
     }
 ] as JobEntry[];
