@@ -4154,7 +4154,7 @@ export default [
         ]
     },
     {
-        dateCreated: 1765724428000,
+        dateCreated: 1767277323000,
         companyName: "Keyholder",
         jobTitle: "Software Developer (Frontend, React/TypeScript)",
         workMode: "Hybrid",
@@ -4181,6 +4181,88 @@ export default [
             "Collaborative team player",
             "Autonomy and decision-making",
             "Interest in privacy, identity, or workflow automation platforms"
+        ]
+    },
+    {
+        dateCreated: 1767277091,
+        companyName: "Hostaway",
+        jobTitle: "Senior Frontend Engineer",
+        workMode: "Remote",
+        yearsOfExperience: 6,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            "React",
+            "TypeScript",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Redux",
+            "Redux-saga",
+            "Context API",
+            "RESTful API integration",
+            "Webpack",
+            "Frontend testing frameworks",
+            "Jest",
+            "Cypress",
+            "Playwright",
+            "Accessibility (a11y) best practices",
+            "Frontend performance optimization",
+            "Cloud environment experience",
+            "AWS",
+            "Collaboration with design, product, and backend teams",
+            "Mentoring junior developers"
+        ],
+        softSkills: [
+            "Proactive identification of technical improvements",
+            "Strong communication in English (C1)",
+            "Attention to detail and clean coding practices",
+            "Knowledge sharing and documentation"
+        ]
+    },
+    {
+        dateCreated: 1767277747000,
+        companyName: "Compass Informatics",
+        jobTitle:
+            "Front-End Developer | (Dmitri note: No years, added for stack)",
+        workMode: "Hybrid",
+        yearsOfExperience: null,
+        bachelorDegree: null,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            "JavaScript",
+            "AngularJS",
+            "Angular",
+            "Ext JS",
+            "Responsive web design",
+            "REST APIs",
+            "JSON",
+            "XML",
+            "Mapping libraries",
+            "Leaflet",
+            "OpenLayers",
+            "ArcGIS SDK",
+            "Geospatial services: WMS, WFS",
+            "Version control",
+            "Git",
+            "TFS",
+            "Agile",
+            "Scrum delivery",
+            "Collaboration with UI/UX, backend, GIS, and DevOps teams",
+            "Python",
+            "C#",
+            ".NET",
+            "PostgreSQL",
+            "PostGIS",
+            "SQL Server Spatial"
+        ],
+        softSkills: [
+            "Excellent communication and documentation skills",
+            "Problem-solving and analytical thinking",
+            "Willingness to learn and grow GIS knowledge",
+            "Team-oriented mindset"
         ]
     }
 ] as JobEntry[];

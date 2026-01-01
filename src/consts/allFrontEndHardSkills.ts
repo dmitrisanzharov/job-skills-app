@@ -358,6 +358,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "agile methodology",
             "agile development",
             "scrum",
+            "Scrum delivery",
             "agile / scrum",
             "Agile workflow",
             "agile teamwork",
@@ -399,7 +400,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Cloud hosting",
             "Cloud infrastructure",
             "Cloud environments",
-            "Cloud-based application development"
+            "Cloud-based application development",
+            "Cloud environment experience"
         ],
         mySkillLevel: 0
     },
@@ -447,7 +449,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Accessibility standards",
             "Accessibility-first development",
             "WCAG compliance",
-            "ARIA patterns"
+            "ARIA patterns",
+            "Accessibility (a11y) best practices"
         ],
         mySkillLevel: 2
     },
@@ -1138,7 +1141,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "technical mentoring",
             "Technical leadership",
             "Code mentorship",
-            "Mentoring"
+            "Mentoring",
+            "Mentoring junior developers"
         ]
     },
     {
@@ -1263,7 +1267,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Design and architecture collaboration",
             "Collaboration with backend",
             "Collaboration with design",
-            "Product-focused development"
+            "Product-focused development",
+            "Collaboration with design, product, and backend teams",
+            "Collaboration with UI/UX, backend, GIS, and DevOps teams"
         ]
     },
     {
@@ -1369,7 +1375,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ["backend api layer experience"]
     },
-    { mainName: "sql", count: 0, subNames: ["sql", "SQL querying tools"] },
+    { mainName: "sql", count: 0, subNames: ["sql", "SQL querying tools", "SQL Server Spatial"] },
     {
         mainName: "data-driven query languages",
         count: 0,
@@ -1805,7 +1811,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Microservices"
         ]
     },
-    { mainName: "Redux Saga", count: 0, subNames: ["Redux Saga"] },
+    {
+        mainName: "Redux Saga",
+        count: 0,
+        subNames: ["Redux Saga", "Redux-saga"]
+    },
     { mainName: "A/B testing", count: 0, subNames: ["A/B testing"] },
     {
         mainName: "Multivariate testing",
@@ -2077,7 +2087,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "ApexCharts",
             "Charting libraries",
             "D3.js",
-            "Mapbox"
+            "Mapbox",
+            "Mapping libraries",
+            "Leaflet",
+            "OpenLayers",
+            "ArcGIS SDK"
         ]
     },
     { mainName: "Apollo", count: 0, subNames: ["Apollo"] },
@@ -2271,6 +2285,26 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "Production Application Development",
         count: 0,
         subNames: ["Production Application Development"]
+    },
+    {
+        mainName: "Ext Js",
+        count: 0,
+        subNames: ["Ext Js"]
+    },
+    {
+        mainName: "XML",
+        count: 0,
+        subNames: ["XML"]
+    },
+    {
+        mainName: "Geospatial Services: WMS, WFS",
+        count: 0,
+        subNames: ["Geospatial Services: WMS, WFS"]
+    },
+    {
+        mainName: "PostGIS",
+        count: 0,
+        subNames: ["PostGIS"]
     }
 
     //
