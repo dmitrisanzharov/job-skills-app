@@ -49,6 +49,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "javascript",
         count: 0,
         subNames: [
+            "JavaScript (deep language understanding)",
             "Modern JavaScript frontend development",
             "javascript",
             "JavaScript (ES6+)",
@@ -76,6 +77,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "web performance",
         count: 0,
         subNames: [
+            "Performance",
+            "Frontend performance optimization (bundle size, load times, rendering)",
             "Frontend performance troubleshooting",
             "web performance",
             "performance optimization",
@@ -139,6 +142,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "architecture",
         count: 0,
         subNames: [
+            "scalability",
+            "architectural decision-making",
+            "Frontend best practices",
+            "Ownership of features from design to production",
+            "Frontend system design",
             "Enterprise-grade code development",
             "design systems",
             "design system",
@@ -202,6 +210,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "rest api",
         count: 0,
         subNames: [
+            "REST",
             "rest apis",
             "rest api",
             "RESTful APIs",
@@ -415,7 +424,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Cloud infrastructure",
             "Cloud environments",
             "Cloud-based application development",
-            "Cloud environment experience"
+            "Cloud environment experience",
+            "Large-scale cloud-based web applications"
         ],
         mySkillLevel: 0
     },
@@ -436,7 +446,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Responsive UI",
             "Responsive frontend development",
             "Building dashboards",
-            "Cross-platform/browser compatibility"
+            "Cross-platform/browser compatibility",
+            "Cross-browser and cross-OS compatibility"
         ],
         mySkillLevel: 7
     },
@@ -494,9 +505,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 0
     },
     {
+        // main reusable components; reusable components main
         mainName: "reusable components",
         count: 0,
         subNames: [
+            "usability optimization",
             "internal component library",
             "modular component design",
             "Frontend component-based architecture",
@@ -690,7 +703,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Backend development",
             "Typed backend languages",
             "Databases",
-            "Backend systems"
+            "Backend systems",
+            "Familiarity with backend technologies"
         ],
         mySkillLevel: 5
     },
@@ -713,7 +727,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: "e2e testing",
         count: 0,
-        subNames: ["e2e testing", "End-to-end testing", "end-to-end"],
+        subNames: [
+            "e2e testing",
+            "End-to-end testing",
+            "end-to-end",
+            "End-to-end testing frameworks"
+        ],
         meta: "cypress covers this",
         mySkillLevel: 5
     },
@@ -862,8 +881,16 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Collaboration with product teams",
             "Cross-functional collaboration",
             "Collaboration across distributed teams",
-            "Collaboration with cross-functional teams"
+            "Collaboration with cross-functional teams",
+            "Collaboration with product managers and designers",
+            "Collaboration with product managers and UX designers"
         ],
+        mySkillLevel: 9
+    },
+    {
+        mainName: "react hooks",
+        count: 0,
+        subNames: ["react hooks", "react hook", "Hooks", "Custom React hooks"],
         mySkillLevel: 9
     },
     // end of CORE
@@ -880,11 +907,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ["react functional components", "react functional component"]
     },
     {
-        mainName: "react hooks",
-        count: 0,
-        subNames: ["react hooks", "react hook", "Hooks", "Custom React hooks"]
-    },
-    {
         mainName: "SaaS experience",
         count: 0,
         subNames: [
@@ -894,7 +916,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "SaaS development",
             "SaaS application development",
             "B2B SaaS frontend development",
-            "SaaS product frontend development"
+            "SaaS product frontend development",
+            "Enterprise SaaS development"
         ]
     },
     {
@@ -1179,6 +1202,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ["design documentation"]
     },
+    // main mentoring; mentoring main
     {
         mainName: "technical mentoring",
         count: 0,
@@ -1189,7 +1213,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Mentoring",
             "Mentoring junior developers",
             "Mentorship and coaching of junior engineers",
-            "Mentoring and developing junior talent"
+            "Mentoring and developing junior talent",
+            "Mentoring and guiding team members",
+            "Mentoring and supporting engineers across teams"
         ]
     },
     {
