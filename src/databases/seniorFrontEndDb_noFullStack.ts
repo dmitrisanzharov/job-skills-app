@@ -4387,7 +4387,44 @@ export default [
             "Strong problem-solving skills",
             "Clear written and verbal communication",
             "Ability to manage priorities and deadlines independently"
+        ]
+    },
+    {
+        dateCreated: 1768667755000,
+        companyName: "LearnUpon",
+        jobTitle: "Senior Software Engineer, Frontend",
+        workMode: "Hybrid",
+        yearsOfExperience: 4,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            "JavaScript",
+            "TypeScript",
+            "RXJS",
+            "Angular",
+            "Web Components",
+            "HTML",
+            "CSS",
+            "Webpack",
+            "SASS",
+            "Version control systems",
+            "Git",
+            "UI Test Automation frameworks",
+            "Enterprise-grade code development",
+            "Frontend performance troubleshooting",
+            "Cross-platform/browser compatibility",
+            "Design patterns",
+            "UX principles",
+            "Storybook",
+            "internal component library",
+            "Collaboration with cross-functional teams",
+            "Mentoring and developing junior talent"
         ],
-        roleType: "Full-time, senior-level"
+        softSkills: [
+            "Resourceful, creative, adaptable",
+            "Detail-oriented with strong time management",
+            "Excellent written and verbal communication in English"
+        ]
     }
 ] as JobEntry[];

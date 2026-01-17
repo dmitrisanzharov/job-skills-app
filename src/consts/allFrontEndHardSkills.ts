@@ -76,6 +76,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "web performance",
         count: 0,
         subNames: [
+            "Frontend performance troubleshooting",
             "web performance",
             "performance optimization",
             "Performance tooling",
@@ -138,6 +139,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "architecture",
         count: 0,
         subNames: [
+            "Enterprise-grade code development",
             "design systems",
             "design system",
             "Scalable system design",
@@ -223,6 +225,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "ui/ux",
         count: 0,
         subNames: [
+            "UX principles",
             "Proactive problem-solving in UI/UX",
             "Visual design expertise",
             "Enterprise-grade UI design",
@@ -302,7 +305,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Continuous delivery",
             "Git version control",
             "CI/CD tooling",
-            "Git version control and documentation"
+            "Git version control and documentation",
+            "Version control systems"
         ],
         mySkillLevel: 7
     },
@@ -375,7 +379,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Agile",
             "Agile development practices",
             "Agile software development",
-            "Agile/Scrum development",
+            "Agile/Scrum development"
         ],
         mySkillLevel: 9
     },
@@ -431,7 +435,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Responsive interfaces",
             "Responsive UI",
             "Responsive frontend development",
-            "Building dashboards"
+            "Building dashboards",
+            "Cross-platform/browser compatibility"
         ],
         mySkillLevel: 7
     },
@@ -492,6 +497,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "reusable components",
         count: 0,
         subNames: [
+            "internal component library",
             "modular component design",
             "Frontend component-based architecture",
             "component-based architecture",
@@ -513,7 +519,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "code reuse",
             "Component systems",
             "component maintenance",
-            "Component-based front-end frameworks"
+            "Component-based front-end frameworks",
+            "Web Components"
         ],
         mySkillLevel: 9
     },
@@ -574,7 +581,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Browser testing",
             "Test automation frameworks",
             "Frontend automation testing",
-            "Test automation"
+            "Test automation",
+            "UI Test Automation frameworks"
         ],
         mySkillLevel: 5
     },
@@ -837,6 +845,28 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ["sass", "scss", "CSS preprocessors", "PostCSS"],
         mySkillLevel: 8
     },
+    {
+        mainName: "collaboration with product team",
+        count: 0,
+        subNames: [
+            "collaboration with designers",
+            "UX collaboration",
+            "collaboration with product managers",
+            "Remote collaboration",
+            "Design and architecture collaboration",
+            "Collaboration with backend",
+            "Collaboration with design",
+            "Product-focused development",
+            "Collaboration with design, product, and backend teams",
+            "Collaboration with UI/UX, backend, GIS, and DevOps teams",
+            "Collaboration with product teams",
+            "Cross-functional collaboration",
+            "Collaboration across distributed teams",
+            "Collaboration with cross-functional teams"
+        ],
+        mySkillLevel: 9
+    },
+    // end of CORE
     // -----------------------------------------------------------------
     // ALL OTHER
     {
@@ -1158,7 +1188,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Code mentorship",
             "Mentoring",
             "Mentoring junior developers",
-            "Mentorship and coaching of junior engineers"
+            "Mentorship and coaching of junior engineers",
+            "Mentoring and developing junior talent"
         ]
     },
     {
@@ -1271,25 +1302,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "translation workflows",
         count: 0,
         subNames: ["translation workflows"]
-    },
-    {
-        mainName: "collaboration with product team",
-        count: 0,
-        subNames: [
-            "collaboration with designers",
-            "UX collaboration",
-            "collaboration with product managers",
-            "Remote collaboration",
-            "Design and architecture collaboration",
-            "Collaboration with backend",
-            "Collaboration with design",
-            "Product-focused development",
-            "Collaboration with design, product, and backend teams",
-            "Collaboration with UI/UX, backend, GIS, and DevOps teams",
-            "Collaboration with product teams",
-            "Cross-functional collaboration",
-            "Collaboration across distributed teams"
-        ]
     },
     {
         mainName: "react router",
