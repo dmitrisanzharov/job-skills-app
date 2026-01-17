@@ -142,6 +142,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "architecture",
         count: 0,
         subNames: [
+            "Design and development of dedicated sub-sites",
             "Code organization",
             "React design principles",
             "Frontend web application development",
@@ -466,6 +467,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "accessibility",
         count: 0,
         subNames: [
+            "Accessible site-wide form development",
+            "EU Web Accessibility Directive compliance",
+            "WCAG 2.2 Level AA compliance",
+            "Accessible web design",
             "accessibility",
             "WCAG accessibility",
             "Accessibility (WCAG)",
@@ -577,7 +582,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Frontend development",
             "Frontend web development",
             "Web client development",
-            "Frontend application development"
+            "Frontend application development",
+            "Web development (8+ years)",
+            "Modern web technologies"
         ],
         mySkillLevel: 9
     },
@@ -834,6 +841,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "Security",
         count: 0,
         subNames: [
+            "Incident response and cybersecurity best practices",
+            "Access control implementation",
+            "Secure development and hosting practices",
+            "Data protection and privacy principles",
+            "GDPR-compliant data management",
             "Security",
             "Secure coding practices",
             "Secure web application development",
@@ -1588,7 +1600,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "CMS",
             "CMS architecture",
             "Headless CMS",
-            "CMS migrations"
+            "CMS migrations",
+            "Content management systems (CMS)",
+            "Role-based workflows in CMS"
         ]
     },
     {
@@ -1655,11 +1669,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "fast growing startups",
             "Experience in fast growing startups"
         ]
-    },
-    {
-        mainName: "Consumer payments experience",
-        count: 0,
-        subNames: ["Consumer payments experience", "Payments systems"]
     },
     {
         mainName: "Crypto applications experience",
@@ -1842,7 +1851,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: "Developer automation",
         count: 0,
-        subNames: ["Developer automation", "Automation", "Automation solutions", "Code automation"]
+        subNames: [
+            "Developer automation",
+            "Automation",
+            "Automation solutions",
+            "Code automation"
+        ]
     },
     { mainName: "visx", count: 0, subNames: ["visx"] },
     { mainName: "Sprint Boot", count: 0, subNames: ["Sprint Boot"] },
@@ -2072,7 +2086,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: "Stripe integration",
         count: 0,
-        subNames: ["Stripe integration"]
+        subNames: [
+            "Stripe integration",
+            "Stripe",
+            "PayPal",
+            "Recurring payment system implementation"
+        ]
     },
     {
         mainName: "Compliance domain knowledge",
@@ -2129,7 +2148,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "E-commerce metrics",
             "E-commerce website experience",
             "E-commerce workflows",
-            "E-commerce payment integration"
+            "E-commerce payment integration",
+            "Secure payment gateway integration",
+            "Consumer payments experience",
+            "Payments systems"
         ]
     },
     {
@@ -2394,6 +2416,24 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "UXpin",
         count: 0,
         subNames: ["UXpin"]
+    },
+    {
+        mainName: "Multimedia Content Management",
+        count: 0,
+        subNames: ["Multimedia Content Management"]
+    },
+    {
+        mainName: "Structured Content for Mandatory Public Disclosures",
+        count: 0,
+        subNames: ["Structured Content for Mandatory Public Disclosures"]
+    },
+    {
+        mainName:
+            "Delivery of Compliant Digital Solutions in Regulated Environments",
+        count: 0,
+        subNames: [
+            "Delivery of Compliant Digital Solutions in Regulated Environments"
+        ]
     }
 
     //

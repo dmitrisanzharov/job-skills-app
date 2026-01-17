@@ -4560,5 +4560,51 @@ export default [
             "Customer-focused problem solving",
             "Data-driven development and decision making"
         ]
+    },
+    {
+        dateCreated: 1765728600000,
+        companyName: null,
+        jobTitle: "Senior Web Developer",
+        workMode: "Remote",
+        yearsOfExperience: 8,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            "Web development (8+ years)",
+            "Accessible web design",
+            "WCAG 2.2 Level AA compliance",
+            "EU Web Accessibility Directive compliance",
+            "GDPR-compliant data management",
+            "Data protection and privacy principles",
+            "Secure coding practices",
+            "Secure development and hosting practices",
+            "Access control implementation",
+            "Incident response and cybersecurity best practices",
+            "Design and development of dedicated sub-sites",
+            "Content management systems (CMS)",
+            "Role-based workflows in CMS",
+            "Multimedia content management",
+            "Accessible site-wide form development",
+            "Structured content for mandatory public disclosures",
+            "Modern web technologies",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Secure payment gateway integration",
+            "Stripe",
+            "PayPal",
+            "Recurring payment system implementation",
+            "Delivery of compliant digital solutions in regulated environments"
+        ],
+        softSkills: [
+            "Attention to detail",
+            "Strong compliance and risk awareness",
+            "Ability to work in regulated environments",
+            "Problem-solving mindset",
+            "Strong documentation practices",
+            "Reliability and accountability",
+            "Clear written and verbal communication"
+        ]
     }
 ] as JobEntry[];
