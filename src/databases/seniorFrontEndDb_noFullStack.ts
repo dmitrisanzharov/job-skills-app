@@ -4481,7 +4481,7 @@ export default [
         ]
     },
     {
-        dateCreated: 1768668439000,
+        dateCreated: 1768668752000,
         companyName: "Gong",
         jobTitle: "Frontend Engineer (Staff / Principal level)",
         workMode: "On-site",
@@ -4519,6 +4519,46 @@ export default [
             "Enjoys both independent work and team collaboration",
             "Adaptability in fast-growing startup environments",
             "Cross-functional and cross-feature technical leadership"
+        ]
+    },
+    {
+        dateCreated: 1768669064000,
+        companyName: "ABC Fitness",
+        jobTitle: "Senior Softwre Developer - Frontend",
+        workMode: "Remote",
+        yearsOfExperience: 4,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            "JavaScript",
+            "React",
+            "Frontend web application development",
+            "React design principles",
+            "Software development",
+            "Testing",
+            "Documentation",
+            "Code automation",
+            "Code organization",
+            "Modern quality assurance",
+            "modern testing principles",
+            "Version control systems",
+            "Collaboration with developers, QA engineers, and product managers",
+            "Continuous integration and deployment tooling",
+            "AWS",
+            "Angular",
+            "React Native"
+        ],
+        softSkills: [
+            "Strong written and verbal communication",
+            "Growth mindset and willingness to learn",
+            "Team collaboration and cross-functional communication",
+            "Adaptability to new technologies and systems",
+            "Customer empathy and active listening",
+            "Attention to detail",
+            "Ability to work in a fast-paced, iterative environment",
+            "Customer-focused problem solving",
+            "Data-driven development and decision making"
         ]
     }
 ] as JobEntry[];

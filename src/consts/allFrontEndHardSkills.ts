@@ -142,6 +142,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "architecture",
         count: 0,
         subNames: [
+            "Code organization",
+            "React design principles",
+            "Frontend web application development",
             "scalability",
             "architectural decision-making",
             "Frontend best practices",
@@ -315,7 +318,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Git version control",
             "CI/CD tooling",
             "Git version control and documentation",
-            "Version control systems"
+            "Version control systems",
+            "Continuous integration and deployment tooling"
         ],
         mySkillLevel: 7
     },
@@ -808,7 +812,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Modern testing methodologies",
             "Testing tools",
             "Frontend testing",
-            "Testing techniques"
+            "Testing techniques",
+            "modern testing principles"
         ],
         mySkillLevel: 7
     },
@@ -868,6 +873,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "collaboration with product team",
         count: 0,
         subNames: [
+            "Collaboration with developers, QA engineers, and product managers",
             "collaboration with designers",
             "UX collaboration",
             "collaboration with product managers",
@@ -1161,7 +1167,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Code quality tools",
             "code quality practices",
             "Code quality principles",
-            "High-quality code"
+            "High-quality code",
+            "Modern quality assurance"
         ]
     },
     {
@@ -1835,7 +1842,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: "Developer automation",
         count: 0,
-        subNames: ["Developer automation", "Automation", "Automation solutions"]
+        subNames: ["Developer automation", "Automation", "Automation solutions", "Code automation"]
     },
     { mainName: "visx", count: 0, subNames: ["visx"] },
     { mainName: "Sprint Boot", count: 0, subNames: ["Sprint Boot"] },
