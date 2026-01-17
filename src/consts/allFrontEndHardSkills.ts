@@ -214,7 +214,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "RESTful web services",
             "Browser APIs",
             "API-driven data flows",
-            "Type-safe API integration"
+            "Type-safe API integration",
+            "Designing and consuming HTTP/RESTful APIs"
         ],
         mySkillLevel: 8
     },
@@ -269,7 +270,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "User experience design",
             "UI/UX design without mockups",
             "settings UI patterns",
-            "UI/UX design guidance"
+            "UI/UX design guidance",
+            "Design tools",
+            "Modern UI tooling"
         ],
         mySkillLevel: 4
     },
@@ -371,7 +374,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Agile Project Management tools",
             "Agile",
             "Agile development practices",
-            "Agile software development"
+            "Agile software development",
+            "Agile/Scrum development",
         ],
         mySkillLevel: 9
     },
@@ -456,7 +460,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Accessibility-first development",
             "WCAG compliance",
             "ARIA patterns",
-            "Accessibility (a11y) best practices"
+            "Accessibility (a11y) best practices",
+            "Accessibility requirements",
+            "Accessibility strategies"
         ],
         mySkillLevel: 2
     },
@@ -1127,7 +1133,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: [
             "asynchronous operations",
             "Async-first workflows",
-            "Asynchronous programming"
+            "Asynchronous programming",
+            "asynchronous coding"
         ]
     },
     {
@@ -1280,7 +1287,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Collaboration with design, product, and backend teams",
             "Collaboration with UI/UX, backend, GIS, and DevOps teams",
             "Collaboration with product teams",
-            "Cross-functional collaboration"
+            "Cross-functional collaboration",
+            "Collaboration across distributed teams"
         ]
     },
     {
@@ -1767,14 +1775,18 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: "Reactive programming",
         count: 0,
-        subNames: ["Reactive programming"]
+        subNames: ["Reactive programming", "reactive coding"]
     },
     { mainName: "Java", count: 0, subNames: ["Java"] },
     { mainName: "Cententful", count: 0, subNames: ["Cententful"] },
     { mainName: "Contentstack", count: 0, subNames: ["Contentstack"] },
     { mainName: "Kentico", count: 0, subNames: ["Kentico"] },
     { mainName: "Sitecore JSS", count: 0, subNames: ["Sitecore JSS"] },
-    { mainName: "ISR", count: 0, subNames: ["ISR", "Incremental static regeneration (ISR)"] },
+    {
+        mainName: "ISR",
+        count: 0,
+        subNames: ["ISR", "Incremental static regeneration (ISR)"]
+    },
     { mainName: "Django", count: 0, subNames: ["Django", "Django templates"] },
     { mainName: "Microfrontends", count: 0, subNames: ["Microfrontends"] },
     {
@@ -1937,7 +1949,13 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: "Authentication",
         count: 0,
-        subNames: ["OAuth2", "Authentication", "OAuth", "Authentication & Authorization protocols (OAuth, JWT, SSO, OpenID Connect, MFA, RBAC, ABAC)", "Identity provider integration (Auth0, Okta, etc.)"]
+        subNames: [
+            "OAuth2",
+            "Authentication",
+            "OAuth",
+            "Authentication & Authorization protocols (OAuth, JWT, SSO, OpenID Connect, MFA, RBAC, ABAC)",
+            "Identity provider integration (Auth0, Okta, etc.)"
+        ]
     },
     { mainName: "OpenID Connect", count: 0, subNames: ["OpenID Connect"] },
     { mainName: "Recharts", count: 0, subNames: ["Recharts"] },
@@ -2321,6 +2339,16 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: "PostGIS",
         count: 0,
         subNames: ["PostGIS"]
+    },
+    {
+        mainName: "LambdaTest",
+        count: 0,
+        subNames: ["LambdaTest"]
+    },
+    {
+        mainName: "UXpin",
+        count: 0,
+        subNames: ["UXpin"]
     }
 
     //
