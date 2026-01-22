@@ -202,7 +202,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             "Infrastructure-as-code"
         ],
         meta: "SCALABLE and ARCHITECTURE are very important word here",
-        mySkillLevel: 4
+        mySkillLevel: 5
     },
     {
         mainName: "node.js",
