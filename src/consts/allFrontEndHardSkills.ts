@@ -119,7 +119,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Performance optimization for frontend and embedded contexts',
             'CSS design system-driven styling',
             'lazy loading',
-            'Partial pre-rendering & caching'
+            'Partial pre-rendering & caching',
+            'Web performance optimization (Core Web Vitals)'
         ],
         mySkillLevel: 5
     },
@@ -144,6 +145,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'architecture',
         count: 0,
         subNames: [
+            'Scalable web applications',
             'maintainable frontend systems',
             'Scalable systems',
             'Resilient systems',
@@ -371,7 +373,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'CodePipeline',
             'CodeArtifact',
             'AWS ecosystem',
-            'AWS-hosted applications'
+            'AWS-hosted applications',
+            'AWS services'
         ],
         mySkillLevel: 0
     },
@@ -509,7 +512,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'git',
         count: 0,
-        subNames: ['git', 'Git workflows'],
+        subNames: ['git', 'Git workflows', 'Source code management (GIT)'],
         mySkillLevel: 8
     },
     {
@@ -523,7 +526,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Observability tools',
             'observability',
             'alerting',
-            'Analytics UI development'
+            'Analytics UI development',
+            'Frontend observability patterns'
         ],
         meta: 'GOOGLE ANALYTICS?, but this needs New Relic and Stuff like that',
         mySkillLevel: 0
@@ -659,7 +663,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'documentation',
         count: 0,
-        subNames: ['documentation', 'Technical documentation', 'well-documented code', 'Documentation generation'],
+        subNames: [
+            'documentation',
+            'Technical documentation',
+            'well-documented code',
+            'Documentation generation',
+            'Documentation writing',
+            'technical writing'
+        ],
         mySkillLevel: 8
     },
     {
@@ -829,7 +840,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Advanced debugging',
             'Chrome Developer Tools',
             'Browser debugging',
-            'Debugging and profiling'
+            'Debugging and profiling',
+            'Debugging and troubleshooting'
         ],
         mySkillLevel: 9
     },
@@ -897,7 +909,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Collaboration with product managers and UX designers',
             'Collaboration with stakeholders and cross-functional teams',
             'Cross-platform functionality',
-            'Cross-team initiative leadership'
+            'Cross-team initiative leadership',
+            'Collaboration with Product, UX, QA teams'
         ],
         mySkillLevel: 9
     },
@@ -907,6 +920,28 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['react hooks', 'react hook', 'Hooks', 'Custom React hooks'],
         mySkillLevel: 9
     },
+
+    // main mentoring; mentoring main
+    {
+        mainName: 'technical mentoring',
+        count: 0,
+        subNames: [
+            'technical mentoring',
+            'Technical leadership',
+            'Code mentorship',
+            'Mentoring',
+            'Mentoring junior developers',
+            'Mentorship and coaching of junior engineers',
+            'Mentoring and developing junior talent',
+            'Mentoring and guiding team members',
+            'Mentoring and supporting engineers across teams',
+            'Mentoring and supporting engineers',
+            'Mentorship of engineers',
+            'Mentorship of junior team members'
+        ],
+         mySkillLevel: 5
+    },
+
     // end of CORE
     // -----------------------------------------------------------------
     // ALL OTHER
@@ -1210,24 +1245,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['design documentation']
     },
-    // main mentoring; mentoring main
-    {
-        mainName: 'technical mentoring',
-        count: 0,
-        subNames: [
-            'technical mentoring',
-            'Technical leadership',
-            'Code mentorship',
-            'Mentoring',
-            'Mentoring junior developers',
-            'Mentorship and coaching of junior engineers',
-            'Mentoring and developing junior talent',
-            'Mentoring and guiding team members',
-            'Mentoring and supporting engineers across teams',
-            'Mentoring and supporting engineers',
-            'Mentorship of engineers'
-        ]
-    },
     {
         mainName: 'reliability best practices',
         count: 0,
@@ -1267,7 +1284,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'software development life cycle (sdlc)',
             'software development life cycle',
             'sdlc',
-            'Web development lifecycle'
+            'Web development lifecycle',
+            'Full software development lifecycle'
         ]
     },
     { mainName: 'c++', count: 0, subNames: ['c++'] },
@@ -1362,7 +1380,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Modern front-end tooling',
             'Developer tooling',
             'Internal developer tooling',
-            'Tooling improvements'
+            'Tooling improvements',
+            'Frontend tooling improvements'
         ]
     },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
@@ -2381,6 +2400,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Web Service Technologies',
         count: 0,
         subNames: ['Web Service Technologies', 'Web service technologies (CDNs, monitoring tools like Sentry)']
+    },
+    {
+        mainName: 'Code Optimization',
+        count: 0,
+        subNames: ['Code Optimization', 'Code refactoring', 'code style consistency']
     }
     //
     //
