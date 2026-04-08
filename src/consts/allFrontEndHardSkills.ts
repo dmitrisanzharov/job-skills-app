@@ -68,7 +68,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'forms',
             'JavaScript ES6+',
             'Form libraries',
-            'JavaScript standard browser APIs'
+            'JavaScript standard browser APIs',
+            'JavaScript (modern/ES6+)'
         ],
         mySkillLevel: 9
     },
@@ -143,6 +144,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'architecture',
         count: 0,
         subNames: [
+            'maintainable frontend systems',
             'Scalable systems',
             'Resilient systems',
             'Distributed systems',
@@ -812,7 +814,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Testing techniques',
             'modern testing principles',
             'quality assurance',
-            'Testing and software quality'
+            'Testing and software quality',
+            'Testing and frontend quality assurance'
         ],
         mySkillLevel: 7
     },
@@ -825,7 +828,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cross-browser debugging',
             'Advanced debugging',
             'Chrome Developer Tools',
-            'Browser debugging'
+            'Browser debugging',
+            'Debugging and profiling'
         ],
         mySkillLevel: 9
     },
@@ -892,7 +896,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Collaboration with product managers and designers',
             'Collaboration with product managers and UX designers',
             'Collaboration with stakeholders and cross-functional teams',
-            'Cross-platform functionality'
+            'Cross-platform functionality',
+            'Cross-team initiative leadership'
         ],
         mySkillLevel: 9
     },
@@ -1219,7 +1224,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Mentoring and developing junior talent',
             'Mentoring and guiding team members',
             'Mentoring and supporting engineers across teams',
-            'Mentoring and supporting engineers'
+            'Mentoring and supporting engineers',
+            'Mentorship of engineers'
         ]
     },
     {
@@ -2370,6 +2376,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Sketch',
         count: 0,
         subNames: ['Sketch']
+    },
+    {
+        mainName: 'Web Service Technologies',
+        count: 0,
+        subNames: ['Web Service Technologies', 'Web service technologies (CDNs, monitoring tools like Sentry)']
     }
     //
     //

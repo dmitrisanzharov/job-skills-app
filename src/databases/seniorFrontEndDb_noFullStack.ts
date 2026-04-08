@@ -4685,9 +4685,9 @@ export default [
         ]
     },
     {
-        dateCreated: Date.now(),
+        dateCreated: 1775654320000,
         companyName: 'F5',
-        jobTitle: 'Frontend Engineer',
+        jobTitle: 'Senior Frontend Engineer',
         workMode: 'On-site',
         yearsOfExperience: 4,
         bachelorDegree: true,
@@ -4742,6 +4742,47 @@ export default [
             'Teamwork',
             'Mentorship',
             'Ability to work in multidisciplinary teams'
+        ]
+    },
+    {
+        dateCreated: 1775654654000,
+        companyName: 'Paddle',
+        jobTitle: 'Principal Frontend Engineer',
+        workMode: 'Hybrid',
+        yearsOfExperience: null,
+        bachelorDegree: true,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'Frontend architecture',
+            'React',
+            'TypeScript',
+            'JavaScript (modern/ES6+)',
+            'Component libraries',
+            'Design systems',
+            'Performance optimization',
+            'Accessibility best practices',
+            'Maintainable frontend systems',
+            'Web service technologies (CDNs, monitoring tools like Sentry)',
+            'Testing and frontend quality assurance',
+            'System design',
+            'Debugging and profiling',
+            'Cross-team initiative leadership',
+            'Code review',
+            'Mentorship of engineers'
+        ],
+        softSkills: [
+            'Strategic thinking',
+            'Problem solving',
+            'Leadership and influence',
+            'Mentorship and coaching',
+            'Collaboration across functions',
+            'Communication with engineers and executives',
+            'Intellectual curiosity',
+            'Ownership mentality',
+            'Simplifying complex systems',
+            'Driving adoption of best practices',
+            'Inclusive collaboration'
         ]
     }
 ] as JobEntry[];
