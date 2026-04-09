@@ -79,7 +79,7 @@ const SeniorFrontEndSkills: React.FC = () => {
 
             // 4) yellow skills filter
             if (!showYellowSkills) {
-                if (hs.mySkillLevel != null && hs.mySkillLevel >= 5)
+                if (hs.mySkillLevel != null && hs.mySkillLevel >= 5 && hs.mySkillLevel <= 7)
                     return false;
             }
 
