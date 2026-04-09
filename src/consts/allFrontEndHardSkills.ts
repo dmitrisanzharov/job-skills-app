@@ -343,7 +343,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Version control systems',
             'Continuous integration and deployment tooling',
             'Branching strategies',
-            'Streaming pipelines'
+            'Streaming pipelines',
+            'Bitbucket'
         ],
         mySkillLevel: 7
     },
@@ -597,7 +598,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Angular (16+)',
             'Angular (v2+ required, v18+ preferred)',
             'Creation and maintenance of Angular libraries',
-            'Angular CLI'
+            'Angular CLI',
+            'Angular Reactive Forms'
         ],
         meta: 'there is mix up between angularJS and angular, so group them together',
         mySkillLevel: 4
@@ -808,7 +810,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Material Design',
             'Material-UI',
             'Material Design standards',
-            'Material UI Components'
+            'Material UI Components',
+            'Angular Material'
         ],
         mySkillLevel: 8
     },
@@ -854,7 +857,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'quality assurance',
             'Testing and software quality',
             'Testing and frontend quality assurance',
-            'Contract testing'
+            'Contract testing',
+            'ISO 27001'
         ],
         mySkillLevel: 7
     },
@@ -898,7 +902,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Security best practices',
             'JWT',
             'Application security fundamentals',
-            'Web security best practices (XSS, CSRF, SQL Injection, secure cookies, data encryption)'
+            'Web security best practices (XSS, CSRF, SQL Injection, secure cookies, data encryption)',
+            'OWASP Top 10'
         ],
         mySkillLevel: 0
     },
@@ -1816,7 +1821,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Reactive programming', 'reactive coding']
     },
-    { mainName: 'Java', count: 0, subNames: ['Java'] },
+    { mainName: 'Java', count: 0, subNames: ['Java', 'Java (J2EE)', 'JSP', 'JavaServer Pages'] },
     { mainName: 'Cententful', count: 0, subNames: ['Cententful'] },
     { mainName: 'Contentstack', count: 0, subNames: ['Contentstack'] },
     { mainName: 'Kentico', count: 0, subNames: ['Kentico'] },
@@ -1843,7 +1848,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Spring Batch',
         count: 0,
-        subNames: ['Spring Batch']
+        subNames: ['Spring Batch', 'Spring Boot']
     },
     {
         mainName: 'Hibernate',
@@ -1857,7 +1862,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'Oracle Database', count: 0, subNames: ['Oracle Database'] },
     { mainName: 'PL', count: 0, subNames: ['PL'] },
-    { mainName: 'SOAP', count: 0, subNames: ['SOAP'] },
+    { mainName: 'SOAP', count: 0, subNames: ['SOAP', 'SOAP web services'] },
     { mainName: 'Jenkins', count: 0, subNames: ['Jenkins'] },
     { mainName: 'Maven', count: 0, subNames: ['Maven'] },
     { mainName: 'Gradle', count: 0, subNames: ['Gradle'] },
@@ -2480,7 +2485,27 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Browser Media APIs',
         count: 0,
         subNames: ['Browser Media APIs']
-    }
+    },
+    {
+        mainName: 'Struts',
+        count: 0,
+        subNames: ['Struts']
+    },
+    {
+        mainName: 'IBM WebSphere',
+        count: 0,
+        subNames: ['IBM WebSphere']
+    },
+    {
+        mainName: 'Atlassian Tools',
+        count: 0,
+        subNames: ['Atlassian Tools']
+    },
+    {
+    "mainName": "NIST Standards",
+    "count": 0,
+    "subNames": ["NIST Standards"]
+},
     //
     //
 ];

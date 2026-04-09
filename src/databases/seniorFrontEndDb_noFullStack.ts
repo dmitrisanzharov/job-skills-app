@@ -5164,5 +5164,57 @@ export default [
             'Adaptability',
             'Teamwork'
         ]
+    },
+    {
+        dateCreated: 1775724259000,
+        companyName: 'Zurich',
+        jobTitle: 'Senior Web Developer',
+        workMode: 'Hybrid',
+        yearsOfExperience: 7,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: null,
+        hardSkills: [
+            'Java (J2EE)',
+            'Angular',
+            'TypeScript',
+            'JavaScript',
+            'HTML5',
+            'CSS3',
+            'Struts',
+            'JSP',
+            'IBM WebSphere',
+            'Angular Reactive Forms',
+            'Angular Material',
+            'RESTful APIs',
+            'SOAP web services',
+            'Spring Boot',
+            'Node.js',
+            'CI/CD pipelines',
+            'DevOps practices',
+            'Agile methodologies',
+            'Atlassian tools',
+            'Jira',
+            'Confluence',
+            'Bitbucket',
+            'Secure coding practices',
+            'OWASP Top 10',
+            'NIST standards',
+            'ISO 27001',
+            'Performance optimization',
+            'Debugging and troubleshooting',
+            'Code reviews',
+            'Collaboration with cross-functional teams'
+        ],
+        softSkills: [
+            'Problem solving',
+            'Communication skills',
+            'Adaptability',
+            'Willingness to learn (cross-training)',
+            'Attention to detail',
+            'Teamwork',
+            'Ownership mentality',
+            'Continuous improvement mindset'
+        ]
     }
 ] as JobEntry[];
