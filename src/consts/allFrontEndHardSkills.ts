@@ -50,6 +50,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'javascript',
         count: 0,
         subNames: [
+            'JavaScript (modern)',
             'JavaScript (deep language understanding)',
             'Modern JavaScript frontend development',
             'javascript',
@@ -146,6 +147,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'architecture',
         count: 0,
         subNames: [
+            'Modular design',
             'Modular frontend systems',
             'Scalable web applications',
             'maintainable frontend systems',
@@ -250,6 +252,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'ui/ux',
         count: 0,
         subNames: [
+            'Data-driven UI development',
             'UX/Design sensibility',
             'UX principles',
             'User experience (UX)',
@@ -338,7 +341,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'CI/CD tooling',
             'Git version control and documentation',
             'Version control systems',
-            'Continuous integration and deployment tooling'
+            'Continuous integration and deployment tooling',
+            'Branching strategies',
+            'Streaming pipelines'
         ],
         mySkillLevel: 7
     },
@@ -432,7 +437,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Frontend and backend tooling setup',
             'Full-stack development',
             'End-to-end development',
-            'General software development across multiple stacks'
+            'General software development across multiple stacks',
+            'Full-stack architecture'
         ],
         meta: 'skip this skill',
         mySkillLevel: 5
@@ -473,7 +479,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Responsive frontend development',
             'Building dashboards',
             'Cross-platform/browser compatibility',
-            'Cross-browser and cross-OS compatibility'
+            'Cross-browser and cross-OS compatibility',
+            'Cross-platform development'
         ],
         mySkillLevel: 7
     },
@@ -532,7 +539,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'observability',
             'alerting',
             'Analytics UI development',
-            'Frontend observability patterns'
+            'Frontend observability patterns',
+            'Frontend observability'
         ],
         meta: 'GOOGLE ANALYTICS?, but this needs New Relic and Stuff like that',
         mySkillLevel: 0
@@ -588,7 +596,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Angular (latest version)',
             'Angular (16+)',
             'Angular (v2+ required, v18+ preferred)',
-            'Creation and maintenance of Angular libraries'
+            'Creation and maintenance of Angular libraries',
+            'Angular CLI'
         ],
         meta: 'there is mix up between angularJS and angular, so group them together',
         mySkillLevel: 4
@@ -609,7 +618,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Web client development',
             'Frontend application development',
             'Web development (8+ years)',
-            'Modern web technologies'
+            'Modern web technologies',
+            'Modern web frameworks'
         ],
         mySkillLevel: 9
     },
@@ -703,7 +713,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'AI-assisted development tools (GitHub Copilot, Cursor)',
             'GitHub Copilot',
             'Cursor',
-            'AI-assisted coding tools'
+            'AI-assisted coding tools',
+            'AI-powered UI development',
+            'ai-powered solutions'
         ],
         mySkillLevel: 8
     },
@@ -729,7 +741,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 0
     },
     {
-        // main backend; main back end; 
+        // main backend; main back end;
         mainName: 'backend development',
         count: 0,
         subNames: [
@@ -755,7 +767,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Modern build tools',
             'Modern front-end build pipelines',
             'build tools',
-            'build'
+            'build',
+            'Internal tooling development'
         ],
         meta: 'this refers to WebPack... e.g. of post in Amazon AWS -> Modern build tools (Webpack, Vite, or similar)',
         mySkillLevel: 8
@@ -826,6 +839,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'testing',
         count: 0,
         subNames: [
+            'Quality assurance collaboration',
+            'A/B testing and experimentation frameworks',
             'testing',
             'Testable code',
             'Testing strategies',
@@ -927,7 +942,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cross-platform functionality',
             'Cross-team initiative leadership',
             'Collaboration with Product, UX, QA teams',
-            'Collaboration in cross-functional teams'
+            'Collaboration in cross-functional teams',
+            'Product-led growth systems'
         ],
         mySkillLevel: 9
     },
@@ -1059,7 +1075,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['data-heavy interfaces']
     },
-    { mainName: 'flutterflow', count: 0, subNames: ['flutterflow'] },
+    { mainName: 'flutter', count: 0, subNames: ['flutterflow', 'Flutter'] },
     { mainName: 'streamlit', count: 0, subNames: ['streamlit'] },
     { mainName: 'svelte', count: 0, subNames: ['svelte', 'sveltekit'] },
     {
@@ -1382,7 +1398,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'spa development',
         count: 0,
-        subNames: ['spa development', 'single page application']
+        subNames: ['spa development', 'single page application', 'spa']
     },
     {
         mainName: 'object-oriented javascript',
@@ -1475,11 +1491,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'data visualization',
         count: 0,
         subNames: ['data visualization', 'Data visualisation', 'Data visualization libraries']
-    },
-    {
-        mainName: 'ai-powered solutions',
-        count: 0,
-        subNames: ['ai-powered solutions']
     },
     { mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
     { mainName: 'llm workflows', count: 0, subNames: ['llm workflows'] },
@@ -2449,6 +2460,26 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Plotly',
         count: 0,
         subNames: ['Plotly']
+    },
+    {
+        mainName: 'Personalization Systems',
+        count: 0,
+        subNames: ['Personalization Systems']
+    },
+    {
+        mainName: 'Change Detection Strategies',
+        count: 0,
+        subNames: ['Change Detection Strategies']
+    },
+    {
+        mainName: 'Media Playback Technologies',
+        count: 0,
+        subNames: ['Media Playback Technologies']
+    },
+    {
+        mainName: 'Browser Media APIs',
+        count: 0,
+        subNames: ['Browser Media APIs']
     }
     //
     //
