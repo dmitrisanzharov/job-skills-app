@@ -15,7 +15,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'TypeScript 5.9',
             'TypeScript advanced utility types',
             'TypeScript custom types',
-            'TypeScript expressive public APIs'
+            'TypeScript expressive public APIs',
+            'TypeScript (TSX)'
         ],
         mySkillLevel: 9
     },
@@ -145,6 +146,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'architecture',
         count: 0,
         subNames: [
+            'Modular frontend systems',
             'Scalable web applications',
             'maintainable frontend systems',
             'Scalable systems',
@@ -248,6 +250,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'ui/ux',
         count: 0,
         subNames: [
+            'UX/Design sensibility',
             'UX principles',
             'User experience (UX)',
             'User experience (UX) ',
@@ -309,7 +312,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'html',
         count: 0,
-        subNames: ['html', 'html5', 'Semantic HTML'],
+        subNames: ['html', 'html5', 'Semantic HTML', 'HTML (TSX)'],
         mySkillLevel: 8
     },
     {
@@ -485,6 +488,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'accessibility',
         count: 0,
         subNames: [
+            'Accessibility standards (WCAG 2.1)',
             'Accessible site-wide form development',
             'EU Web Accessibility Directive compliance',
             'WCAG 2.2 Level AA compliance',
@@ -505,7 +509,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'ARIA patterns',
             'Accessibility (a11y) best practices',
             'Accessibility requirements',
-            'Accessibility strategies'
+            'Accessibility strategies',
+            'Accessibility standards (WCAG)'
         ],
         mySkillLevel: 2
     },
@@ -537,6 +542,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'reusable components',
         count: 0,
         subNames: [
+            'Complex component architecture',
             'usability optimization',
             'internal component library',
             'modular component design',
@@ -633,7 +639,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'storybook',
         count: 0,
-        subNames: ['storybook'],
+        subNames: ['storybook', 'StorybookJS'],
         mySkillLevel: 5
     },
     {
@@ -693,7 +699,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'AI tools',
             'OpenAi',
             'AI-powered development tools',
-            'Ability to use AI tools (Copilot, ChatGPT, Claude, Cursor) effectively'
+            'Ability to use AI tools (Copilot, ChatGPT, Claude, Cursor) effectively',
+            'AI-assisted development tools (GitHub Copilot, Cursor)',
+            'GitHub Copilot',
+            'Cursor',
+            'AI-assisted coding tools'
         ],
         mySkillLevel: 8
     },
@@ -719,6 +729,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 0
     },
     {
+        // main backend; main back end; 
         mainName: 'backend development',
         count: 0,
         subNames: [
@@ -728,7 +739,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Typed backend languages',
             'Databases',
             'Backend systems',
-            'Familiarity with backend technologies'
+            'Familiarity with backend technologies',
+            'Backend familiarity'
         ],
         mySkillLevel: 5
     },
@@ -826,7 +838,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'modern testing principles',
             'quality assurance',
             'Testing and software quality',
-            'Testing and frontend quality assurance'
+            'Testing and frontend quality assurance',
+            'Contract testing'
         ],
         mySkillLevel: 7
     },
@@ -887,9 +900,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mySkillLevel: 8
     },
     {
-        mainName: 'collaboration with product team',
+        // main cross function; main collaboration
+        mainName: 'Cross-functional collaboration',
         count: 0,
         subNames: [
+            'Collaboration with designers and developers',
             'Collaboration with developers, QA engineers, and product managers',
             'collaboration with designers',
             'UX collaboration',
@@ -902,6 +917,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Collaboration with design, product, and backend teams',
             'Collaboration with UI/UX, backend, GIS, and DevOps teams',
             'Collaboration with product teams',
+            'collaboration with product team',
             'Cross-functional collaboration',
             'Collaboration across distributed teams',
             'Collaboration with cross-functional teams',
@@ -910,7 +926,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Collaboration with stakeholders and cross-functional teams',
             'Cross-platform functionality',
             'Cross-team initiative leadership',
-            'Collaboration with Product, UX, QA teams'
+            'Collaboration with Product, UX, QA teams',
+            'Collaboration in cross-functional teams'
         ],
         mySkillLevel: 9
     },
@@ -937,9 +954,10 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Mentoring and supporting engineers across teams',
             'Mentoring and supporting engineers',
             'Mentorship of engineers',
-            'Mentorship of junior team members'
+            'Mentorship of junior team members',
+            'Mentorship'
         ],
-         mySkillLevel: 5
+        mySkillLevel: 5
     },
 
     // end of CORE
@@ -1024,7 +1042,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Monorepo management',
             'pnpm',
             'pnpm workspaces',
-            'Monorepo architecture'
+            'Monorepo architecture',
+            'NX Monorepo'
         ]
     },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
@@ -1455,7 +1474,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'data visualization',
         count: 0,
-        subNames: ['data visualization', 'Data visualisation']
+        subNames: ['data visualization', 'Data visualisation', 'Data visualization libraries']
     },
     {
         mainName: 'ai-powered solutions',
@@ -2405,6 +2424,31 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Code Optimization',
         count: 0,
         subNames: ['Code Optimization', 'Code refactoring', 'code style consistency']
+    },
+    {
+        mainName: 'StencilJS',
+        count: 0,
+        subNames: ['StencilJS']
+    },
+    {
+        mainName: 'Amazon Style Dictionary',
+        count: 0,
+        subNames: ['Amazon Style Dictionary']
+    },
+    {
+        mainName: 'Ant Design Component Library',
+        count: 0,
+        subNames: ['Ant Design Component Library']
+    },
+    {
+        mainName: 'Jotai',
+        count: 0,
+        subNames: ['Jotai']
+    },
+    {
+        mainName: 'Plotly',
+        count: 0,
+        subNames: ['Plotly']
     }
     //
     //
