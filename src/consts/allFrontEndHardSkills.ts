@@ -138,7 +138,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Modern CSS practices',
             'CSS modern layout techniques',
             'CSS scalable styling strategies',
-            'Modern CSS methodologies and patterns'
+            'Modern CSS methodologies and patterns',
+            'CSS and modern styling techniques'
         ],
         mySkillLevel: 8
     },
@@ -147,6 +148,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'architecture',
         count: 0,
         subNames: [
+            'System design (end-to-end flows)',
             'Modular design',
             'Modular frontend systems',
             'Scalable web applications',
@@ -399,7 +401,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'State management libraries',
             'State management patterns',
             'Client-side state management',
-            'Pinia (state management)'
+            'Pinia (state management)',
+            'State management (React Context API)'
         ],
         mySkillLevel: 8
     },
@@ -518,7 +521,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Accessibility (a11y) best practices',
             'Accessibility requirements',
             'Accessibility strategies',
-            'Accessibility standards (WCAG)'
+            'Accessibility standards (WCAG)',
+            'Accessibility standards (WCAG, ARIA)'
         ],
         mySkillLevel: 2
     },
@@ -541,7 +545,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'alerting',
             'Analytics UI development',
             'Frontend observability patterns',
-            'Frontend observability'
+            'Frontend observability',
+            'Observability / telemetry (RUM, analytics)'
         ],
         meta: 'GOOGLE ANALYTICS?, but this needs New Relic and Stuff like that',
         mySkillLevel: 0
@@ -608,7 +613,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'docker',
         count: 0,
         subNames: ['docker', 'Docker-based development environments'],
-        mySkillLevel: 1
+        mySkillLevel: 5
     },
     {
         mainName: 'web development',
@@ -631,7 +636,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['integration testing', 'integration'],
         meta: 'react testing library covers this',
-        mySkillLevel: 3
+        mySkillLevel: 5
     },
     {
         mainName: 'automation testing',
@@ -717,7 +722,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cursor',
             'AI-assisted coding tools',
             'AI-powered UI development',
-            'ai-powered solutions'
+            'ai-powered solutions',
+            'AI-assisted development (GitHub Copilot)'
         ],
         mySkillLevel: 8
     },
@@ -811,7 +817,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Material-UI',
             'Material Design standards',
             'Material UI Components',
-            'Angular Material'
+            'Angular Material',
+            'MUI (Material UI)'
         ],
         mySkillLevel: 8
     },
@@ -1303,7 +1310,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Object-Oriented Programming (OOP)',
             'OOP',
             'OO languages',
-            'JavaScript object model'
+            'JavaScript object model',
+            'Object-oriented design'
         ]
     },
     {
@@ -1495,7 +1503,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'data visualization',
         count: 0,
-        subNames: ['data visualization', 'Data visualisation', 'Data visualization libraries']
+        subNames: [
+            'data visualization',
+            'Data visualisation',
+            'Data visualization libraries',
+            'Data visualization (graphs, dashboards)'
+        ]
     },
     { mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
     { mainName: 'llm workflows', count: 0, subNames: ['llm workflows'] },
@@ -1991,7 +2004,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Authentication',
             'OAuth',
             'Authentication & Authorization protocols (OAuth, JWT, SSO, OpenID Connect, MFA, RBAC, ABAC)',
-            'Identity provider integration (Auth0, Okta, etc.)'
+            'Identity provider integration (Auth0, Okta, etc.)',
+            'Authentication (OAuth2, OIDC)'
         ]
     },
     { mainName: 'OpenID Connect', count: 0, subNames: ['OpenID Connect'] },
@@ -2399,7 +2413,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Ruby on Rails',
         count: 0,
-        subNames: ['Ruby on Rails']
+        subNames: ['Ruby on Rails', 'Ruby on Rails (backend familiarity)']
     },
     {
         mainName: 'Kafka',
@@ -2502,10 +2516,20 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['Atlassian Tools']
     },
     {
-    "mainName": "NIST Standards",
-    "count": 0,
-    "subNames": ["NIST Standards"]
-},
+        mainName: 'NIST Standards',
+        count: 0,
+        subNames: ['NIST Standards']
+    },
+    {
+        mainName: 'Diagnostics',
+        count: 0,
+        subNames: ['Diagnostics']
+    },
+    {
+        mainName: 'Algorithms',
+        count: 0,
+        subNames: ['Algorithms']
+    }
     //
     //
 ];
