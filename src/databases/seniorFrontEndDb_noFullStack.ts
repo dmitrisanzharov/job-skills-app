@@ -5376,5 +5376,57 @@ export default [
             'Continuous learning',
             'Ability to simplify complex workflows'
         ]
+    },
+    {
+        dateCreated: 1777734257000,
+        companyName: 'Grafana Labs | High Salary & Remote = GOOD FIT',
+        jobTitle: 'Senior Frontend Engineer',
+        workMode: 'Remote',
+        yearsOfExperience: null,
+        bachelorDegree: false,
+        mastersDegree: false,
+        compensationRange: [104000, 124800],
+        hardSkills: [
+            'React',
+            'TypeScript',
+            'Redux Toolkit',
+            'RTK Query (RTKQ)',
+            'State management',
+            'JavaScript',
+            'Emotion (CSS-in-JS)',
+            'Frontend architecture',
+            'Scalable web applications',
+            'Distributed systems awareness',
+            'Performance optimization',
+            'Reliability engineering',
+            'Jest',
+            'React Testing Library',
+            'MSW (Mock Service Worker)',
+            'Unit testing',
+            'Integration testing',
+            'Webpack',
+            'Nx monorepo',
+            'Yarn workspaces',
+            'Code quality tools',
+            'Eslint',
+            'Prettier',
+            'Design systems',
+            'Saga',
+            'Grafana UI',
+            'Observability systems',
+            'CI/CD practices',
+            'Mentorship',
+            'Collaboration in distributed teams'
+        ],
+        softSkills: [
+            'Ownership mentality',
+            'Communication skills',
+            'Problem solving',
+            'Autonomy',
+            'Adaptability',
+            'Open-source mindset',
+            'Continuous learning',
+            'Accountability (on-call responsibility)'
+        ]
     }
 ] as JobEntry[];

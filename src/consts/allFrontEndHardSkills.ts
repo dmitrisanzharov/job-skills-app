@@ -148,6 +148,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'architecture',
         count: 0,
         subNames: [
+            'Distributed systems awareness',
             'System design (end-to-end flows)',
             'Modular design',
             'Modular frontend systems',
@@ -547,7 +548,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Analytics UI development',
             'Frontend observability patterns',
             'Frontend observability',
-            'Observability / telemetry (RUM, analytics)'
+            'Observability / telemetry (RUM, analytics)',
+            'Observability systems'
         ],
         meta: 'GOOGLE ANALYTICS?, but this needs New Relic and Stuff like that',
         mySkillLevel: 0
@@ -956,7 +958,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cross-team initiative leadership',
             'Collaboration with Product, UX, QA teams',
             'Collaboration in cross-functional teams',
-            'Product-led growth systems'
+            'Product-led growth systems',
+            'Collaboration in distributed teams'
         ],
         mySkillLevel: 9
     },
@@ -1267,7 +1270,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'css-in-js',
         count: 0,
-        subNames: ['css-in-js', 'CSS-in-JS libraries']
+        subNames: ['css-in-js', 'CSS-in-JS libraries', 'Emotion (CSS-in-JS)']
     },
     { mainName: 'zustand', count: 0, subNames: ['zustand'] },
     { mainName: 'recoil', count: 0, subNames: ['recoil'] },
@@ -1717,7 +1720,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Mock Service Worker',
         count: 0,
-        subNames: ['Mock Service Worker']
+        subNames: ['Mock Service Worker', 'MSW (Mock Service Worker)']
     },
     {
         mainName: 'Application stability',
@@ -1913,7 +1916,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     { mainName: 'Notion', count: 0, subNames: ['Notion'] },
     { mainName: 'Slack', count: 0, subNames: ['Slack'] },
     { mainName: 'Google Suite', count: 0, subNames: ['Google Suite'] },
-    { mainName: 'RTK Query', count: 0, subNames: ['RTK Query'] },
+    { mainName: 'RTK Query', count: 0, subNames: ['RTK Query', 'RTK Query (RTKQ)'] },
     { mainName: 'Rsbuild', count: 0, subNames: ['Rsbuild'] },
     { mainName: 'Rspack', count: 0, subNames: ['Rspack'] },
     {
@@ -2066,7 +2069,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         subNames: ['Domain-driven design', 'DDD', 'Domain-driven design (DDD)']
     },
     { mainName: 'Transpiling', count: 0, subNames: ['Transpiling'] },
-    { mainName: 'Yarn', count: 0, subNames: ['Yarn'] },
+    { mainName: 'Yarn', count: 0, subNames: ['Yarn', 'Yarn workspaces'] },
     { mainName: 'Turborepo', count: 0, subNames: ['Turborepo'] },
     { mainName: 'Formatting', count: 0, subNames: ['Formatting'] },
     { mainName: 'PHPUnit', count: 0, subNames: ['PHPUnit'] },
@@ -2536,6 +2539,18 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Replit'],
         meta: 'rapid prototyping stuff'
+    },
+    {
+        mainName: 'Saga',
+        count: 0,
+        subNames: ['Saga'],
+        meta: 'system design stuff'
+    },
+    {
+        mainName: 'Grafana UI',
+        count: 0,
+        subNames: ['Grafana UI'],
+        meta: 'system design stuff'
     }
     //
     //

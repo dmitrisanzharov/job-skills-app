@@ -35,6 +35,9 @@ const CompaniesAnalyzedSeniorFrontEnd: React.FC<Props> = () => {
                             <TableCell>
                                 <strong>Job Title</strong>
                             </TableCell>
+                            <TableCell>
+                                <strong>Remote?</strong>
+                            </TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -46,6 +49,7 @@ const CompaniesAnalyzedSeniorFrontEnd: React.FC<Props> = () => {
                                     <TableCell>{dayjs(job.dateCreated).format('DD-MMM-YYYY')}</TableCell>
                                     <TableCell>{job.companyName}</TableCell>
                                     <TableCell>{job.jobTitle}</TableCell>
+                                    <TableCell style={{ color: job.workMode.toLowerCase() === 'remote' ? 'green' : 'black' }}>{job.workMode}</TableCell>
                                 </TableRow>
                             ))}
                     </TableBody>
