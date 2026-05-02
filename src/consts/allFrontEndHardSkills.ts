@@ -254,6 +254,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'ui/ux',
         count: 0,
         subNames: [
+            'UI/UX design principles',
             'Data-driven UI development',
             'UX/Design sensibility',
             'UX principles',
@@ -1711,7 +1712,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     },
     { mainName: 'Superagent', count: 0, subNames: ['Superagent'] },
     { mainName: 'Web Vitals', count: 0, subNames: ['Web Vitals'] },
-    { mainName: 'JSON', count: 0, subNames: ['JSON'] },
+    { mainName: 'JSON', count: 0, subNames: ['JSON', 'JSON data handling'] },
     { mainName: 'WebdriverIO', count: 0, subNames: ['WebdriverIO'] },
     {
         mainName: 'Mock Service Worker',
@@ -2529,6 +2530,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Algorithms',
         count: 0,
         subNames: ['Algorithms']
+    },
+    {
+        mainName: 'Replit',
+        count: 0,
+        subNames: ['Replit'],
+        meta: 'rapid prototyping stuff'
     }
     //
     //
