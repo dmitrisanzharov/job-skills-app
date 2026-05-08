@@ -684,7 +684,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'tailwind',
         count: 0,
         subNames: ['tailwind css', 'tailwind', 'TailwindCSS'],
-        mySkillLevel: 0
+        mySkillLevel: 5
     },
     {
         mainName: 'documentation',
