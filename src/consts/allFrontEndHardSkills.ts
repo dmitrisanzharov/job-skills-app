@@ -829,7 +829,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'graphql',
         count: 0,
         subNames: ['graphql', 'GraphQL clients', 'GraphQL APIs', 'GraphQL with codegen', 'Apollo GraphQL'],
-        mySkillLevel: 0
+        mySkillLevel: 5
     },
     {
         mainName: 'react testing library',
