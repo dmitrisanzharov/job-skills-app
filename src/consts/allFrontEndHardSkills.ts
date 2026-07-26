@@ -748,8 +748,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'vite',
         count: 0,
         subNames: ['vite', 'Vite configuration'],
-        meta: 'Webpack clone - SKIP',
-        mySkillLevel: 0
+        meta: 'Webpack clone',
+        mySkillLevel: 5
     },
     {
         // main backend; main back end;

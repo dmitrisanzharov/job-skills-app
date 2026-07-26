@@ -16,7 +16,6 @@ const skillsThatIRemovedWithExplainer: { skillName: string; reason: string }[] =
     { skillName: 'angular', reason: 'React focus' },
     { skillName: 'vue', reason: 'React focus' },
     { skillName: 'playwright', reason: 'Cypress covers this' },
-    { skillName: 'vite', reason: 'Webpack focus' },
     { skillName: 'cloud platforms', reason: 'AWS covers this already' }
 ];
 
