@@ -15,6 +15,9 @@ import Button from '@mui/material/Button';
 import SeniorFrontEndSkillsUi from './pages/SeniorFrontEnd/SeniorFrontEndSkillsUi';
 import CompaniesAnalyzedSeniorFrontEnd from './pages/SeniorFrontEnd/CompaniesAnalyzedSeniorFrontEnd';
 
+// full stack
+import FullStackIndex from './pages/FullStack';
+
 const App: React.FC = () => {
     const path = window.location.pathname
     const seniorFrontEndDeveloperSkillsLink = '/';
@@ -50,7 +53,7 @@ const App: React.FC = () => {
             <Routes>
                 <Route path={seniorFrontEndDeveloperSkillsLink} element={<SeniorFrontEndSkillsUi />} />
                 <Route path={companiesAnalyzedSeniorFrontEndLink} element={<CompaniesAnalyzedSeniorFrontEnd />} />
-                 <Route path={fullStackDeveloper} element={<h1>Hello</h1>} />
+                 <Route path={fullStackDeveloper} element={<FullStackIndex />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </Box>

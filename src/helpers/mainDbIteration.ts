@@ -6,6 +6,7 @@ export type HardAndSoftSkillsArray = {
     subNames: string[];
     meta?: string;
     mySkillLevel?: number;
+    skillType?: 'hard' | 'soft';
 }[];
 
 type FinalObjType = {
