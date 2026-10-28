@@ -6,7 +6,7 @@ import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 
 type Props = {};
 
-const Index = (props: Props) => {
+const Index: React.FC = (props: Props) => {
 
     const fullStackSkillsLink = '/full-stack-developer';
     const fullStackCompaniesAnalyzedLink = '/full-stack-developer-companies-analyzed';
@@ -29,7 +29,7 @@ const Index = (props: Props) => {
                     </Button>
                 </Toolbar>
             </AppBar>
-            <CompaniesAnalyzedSeniorFrontEnd />
+            {/* <CompaniesAnalyzedSeniorFrontEnd /> */}
         </Box>
     );
 };

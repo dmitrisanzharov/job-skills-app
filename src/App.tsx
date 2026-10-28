@@ -19,7 +19,7 @@ import CompaniesAnalyzedSeniorFrontEnd from './pages/SeniorFrontEnd/CompaniesAna
 import FullStackIndex from './pages/FullStack';
 
 const App: React.FC = () => {
-    const path = window.location.pathname
+    const path = window.location.pathname;
     const seniorFrontEndDeveloperSkillsLink = '/';
     const companiesAnalyzedSeniorFrontEndLink = '/senior-front-end-companies-analyzed';
     const fullStackDeveloper = '/full-stack-developer';
@@ -27,11 +27,15 @@ const App: React.FC = () => {
     return (
         <Box>
             <ul>
-                <li><a href={seniorFrontEndDeveloperSkillsLink}>Senior FrontEnd</a></li>
-                <li><a href={fullStackDeveloper}>Full Stack</a></li>
+                <li>
+                    <a href={seniorFrontEndDeveloperSkillsLink}>Senior FrontEnd</a>
+                </li>
+                <li>
+                    <a href={fullStackDeveloper}>Full Stack</a>
+                </li>
             </ul>
             {/* MUI AppBar Navbar */}
-            <AppBar position='static' style={{display: path === fullStackDeveloper ? 'none' : 'block'}}>
+            <AppBar position='static' style={{ display: path === fullStackDeveloper ? 'none' : 'block' }}>
                 <Toolbar>
                     <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
                         Senior Front-End (no full stack)
@@ -51,9 +55,12 @@ const App: React.FC = () => {
 
             {/* Routing */}
             <Routes>
-                <Route path={seniorFrontEndDeveloperSkillsLink} element={<SeniorFrontEndSkillsUi />} />
-                <Route path={companiesAnalyzedSeniorFrontEndLink} element={<CompaniesAnalyzedSeniorFrontEnd />} />
-                 <Route path={fullStackDeveloper} element={<FullStackIndex />} />
+                <Route path={seniorFrontEndDeveloperSkillsLink} element={<SeniorFrontEndSkillsUi skillsDb={SeniorFrontEndSkillsUi} companiesAnalyzedDb={CompaniesAnalyzedSeniorFrontEnd} />} />
+                <Route
+                    path={companiesAnalyzedSeniorFrontEndLink}
+                    element={<CompaniesAnalyzedSeniorFrontEnd />}
+                />
+                <Route path={fullStackDeveloper} element={<FullStackIndex />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </Box>

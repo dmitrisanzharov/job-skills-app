@@ -24,11 +24,9 @@ import {
 } from "../../consts/globalVars";
 import { getColorByNumber } from "../../helpers/getColorByNumber";
 
-// skills
-import { allFrontEndHardSkills } from "../../consts/allFrontEndHardSkills";
-import seniorFrontEndDb_noFullStack from "../../databases/seniorFrontEndDb_noFullStack";
 
-const SeniorFrontEndSkills: React.FC = () => {
+
+const SeniorFrontEndSkillsUi: any = (skillsDb: any, companiesAnalyzedDb: any) => {
     const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);
     const [showGreenSkills, setShowGreenSkills] = useState(true);
     const [showYellowSkills, setShowYellowSkills] = useState(true);
@@ -43,8 +41,8 @@ const SeniorFrontEndSkills: React.FC = () => {
     const { finalObj, totalJobEntries, avgYears } = useMemo(
         () =>
             mainDbIteration(
-                seniorFrontEndDb_noFullStack,
-                allFrontEndHardSkills
+                companiesAnalyzedDb,
+                skillsDb
             ),
         []
     );
@@ -316,4 +314,4 @@ const SeniorFrontEndSkills: React.FC = () => {
     );
 };
 
-export default SeniorFrontEndSkills;
+export default SeniorFrontEndSkillsUi;
