@@ -16,13 +16,19 @@ import SeniorFrontEndSkillsUi from './pages/SeniorFrontEnd/SeniorFrontEndSkillsU
 import CompaniesAnalyzedSeniorFrontEnd from './pages/SeniorFrontEnd/CompaniesAnalyzedSeniorFrontEnd';
 
 const App: React.FC = () => {
+    const path = window.location.pathname
     const seniorFrontEndDeveloperSkillsLink = '/';
     const companiesAnalyzedSeniorFrontEndLink = '/senior-front-end-companies-analyzed';
+    const fullStackDeveloper = '/full-stack-developer';
 
     return (
         <Box>
+            <ul>
+                <li><a href={seniorFrontEndDeveloperSkillsLink}>Senior FrontEnd</a></li>
+                <li><a href={fullStackDeveloper}>Full Stack</a></li>
+            </ul>
             {/* MUI AppBar Navbar */}
-            <AppBar position='static'>
+            <AppBar position='static' style={{display: path === fullStackDeveloper ? 'none' : 'block'}}>
                 <Toolbar>
                     <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
                         Senior Front-End (no full stack)
@@ -44,6 +50,7 @@ const App: React.FC = () => {
             <Routes>
                 <Route path={seniorFrontEndDeveloperSkillsLink} element={<SeniorFrontEndSkillsUi />} />
                 <Route path={companiesAnalyzedSeniorFrontEndLink} element={<CompaniesAnalyzedSeniorFrontEnd />} />
+                 <Route path={fullStackDeveloper} element={<h1>Hello</h1>} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </Box>

@@ -30,8 +30,8 @@ import seniorFrontEndDb_noFullStack from "../../databases/seniorFrontEndDb_noFul
 
 const SeniorFrontEndSkills: React.FC = () => {
     const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);
-    const [showGreenSkills, setShowGreenSkills] = useState(false);
-    const [showYellowSkills, setShowYellowSkills] = useState(false);
+    const [showGreenSkills, setShowGreenSkills] = useState(true);
+    const [showYellowSkills, setShowYellowSkills] = useState(true);
 
     const fieldSetStyle = {
         border: "1px solid #ccc",
