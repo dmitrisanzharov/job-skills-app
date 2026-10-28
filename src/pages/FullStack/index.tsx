@@ -8,7 +8,7 @@ type Props = {};
 
 const Index = (props: Props) => {
 
-    const fullStackSkillsLink = '/full-stack-developer-skills';
+    const fullStackSkillsLink = '/full-stack-developer';
     const fullStackCompaniesAnalyzedLink = '/full-stack-developer-companies-analyzed';
 
 
