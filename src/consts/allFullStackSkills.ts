@@ -46,7 +46,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'React latest versions',
             'React or similar frameworks implied'
         ],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
     {
         // main javascript; javascript main
@@ -76,7 +77,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'JavaScript standard browser APIs',
             'JavaScript (modern/ES6+)'
         ],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
     {
         // main performance; main optimisation
@@ -127,7 +129,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Partial pre-rendering & caching',
             'Web performance optimization (Core Web Vitals)'
         ],
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         // main css; css main;
@@ -144,7 +147,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Modern CSS methodologies and patterns',
             'CSS and modern styling techniques'
         ],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         // main architecture; architecture main;
@@ -222,13 +226,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Frontend design patterns'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'node.js',
         count: 0,
         subNames: ['node.js', 'nodejs', 'node js', 'node', 'Node.js ecosystem'],
-        mySkillLevel: 6
+        mySkillLevel: 6,
+        skillType: 'hard'
     },
     {
         mainName: 'rest api',
@@ -252,7 +258,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Type-safe API integration',
             'Designing and consuming HTTP/RESTful APIs'
         ],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'ui/ux',
@@ -317,13 +324,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Modern UI tooling',
             'User-centric UI development'
         ],
-        mySkillLevel: 4
+        mySkillLevel: 4,
+        skillType: 'hard'
     },
     {
         mainName: 'html',
         count: 0,
         subNames: ['html', 'html5', 'Semantic HTML', 'HTML (TSX)'],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'ci/cd',
@@ -353,19 +362,22 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Streaming pipelines',
             'Bitbucket'
         ],
-        mySkillLevel: 7
+        mySkillLevel: 7,
+        skillType: 'hard'
     },
     {
         mainName: 'next.js',
         count: 0,
         subNames: ['next.js', 'NextJS'],
-        mySkillLevel: 6
+        mySkillLevel: 6,
+        skillType: 'hard'
     },
     {
         mainName: 'unit testing',
         count: 0,
         subNames: ['unit testing', 'Functional testing', 'unit'],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         // main aws; aws main
@@ -392,7 +404,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'AWS-hosted applications',
             'AWS services'
         ],
-        mySkillLevel: 0
+        mySkillLevel: 0,
+        skillType: 'hard'
     },
     {
         mainName: 'state management tools',
@@ -409,7 +422,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Pinia (state management)',
             'State management (React Context API)'
         ],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'agile',
@@ -429,13 +443,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Agile software development',
             'Agile/Scrum development'
         ],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
     {
         mainName: 'redux',
         count: 0,
         subNames: ['redux', 'Redux.js', 'Redux Toolkit'],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'Fullstack web application development',
@@ -450,7 +466,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Full-stack architecture'
         ],
         meta: 'skip this skill',
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'cloud platforms',
@@ -468,7 +485,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cloud environment experience',
             'Large-scale cloud-based web applications'
         ],
-        mySkillLevel: 0
+        mySkillLevel: 0,
+        skillType: 'hard'
     },
     {
         mainName: 'responsive design',
@@ -491,13 +509,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cross-browser and cross-OS compatibility',
             'Cross-platform development'
         ],
-        mySkillLevel: 7
+        mySkillLevel: 7,
+        skillType: 'hard'
     },
     {
         mainName: 'webpack',
         count: 0,
         subNames: ['webpack', 'Webpack configuration', 'Bundling', 'esbuild'],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         // main accessibility; accessibility main
@@ -529,13 +549,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Accessibility standards (WCAG)',
             'Accessibility standards (WCAG, ARIA)'
         ],
-        mySkillLevel: 2
+        mySkillLevel: 2,
+        skillType: 'hard'
     },
     {
         mainName: 'git',
         count: 0,
         subNames: ['git', 'Git workflows', 'Source code management (GIT)'],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'monitoring tools',
@@ -555,7 +577,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Observability systems'
         ],
         meta: 'GOOGLE ANALYTICS?, but this needs New Relic and Stuff like that',
-        mySkillLevel: 0
+        mySkillLevel: 0,
+        skillType: 'hard'
     },
     {
         // main reusable components; reusable components main
@@ -589,7 +612,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Component-based front-end frameworks',
             'Web Components'
         ],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
     {
         mainName: 'angular',
@@ -613,13 +637,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Angular Reactive Forms'
         ],
         meta: 'there is mix up between angularJS and angular, so group them together',
-        mySkillLevel: 4
+        mySkillLevel: 4,
+        skillType: 'hard'
     },
     {
         mainName: 'docker',
         count: 0,
         subNames: ['docker', 'Docker-based development environments'],
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'web development',
@@ -634,7 +660,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Modern web technologies',
             'Modern web frameworks'
         ],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
     { mainName: 'jest', count: 0, subNames: ['jest'], mySkillLevel: 8 },
     {
@@ -642,7 +669,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['integration testing', 'integration'],
         meta: 'react testing library covers this',
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'automation testing',
@@ -656,14 +684,16 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Test automation',
             'UI Test Automation frameworks'
         ],
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     { mainName: 'cypress', count: 0, subNames: ['cypress'], mySkillLevel: 5 },
     {
         mainName: 'storybook',
         count: 0,
         subNames: ['storybook', 'StorybookJS'],
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'component libraries',
@@ -681,13 +711,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'reusable component libraries'
         ],
         meta: 'MUI, Bootstrap, Material UI cover this',
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'tailwind',
         count: 0,
         subNames: ['tailwind css', 'tailwind', 'TailwindCSS'],
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'documentation',
@@ -700,13 +732,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Documentation writing',
             'technical writing'
         ],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'code review',
         count: 0,
         subNames: ['code review', 'code reviews', 'Pull request review'],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'AI-assisted development tools',
@@ -731,28 +765,32 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'ai-powered solutions',
             'AI-assisted development (GitHub Copilot)'
         ],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'vue',
         count: 0,
         subNames: ['vue', 'vue.js', 'vuejs', 'vue js', 'Vue 3', 'Vuex', 'Vue Router'],
         meta: 'skip this one',
-        mySkillLevel: 0
+        mySkillLevel: 0,
+        skillType: 'hard'
     },
     {
         mainName: 'playwright',
         count: 0,
         subNames: ['playwright'],
         meta: 'similar to Cypress',
-        mySkillLevel: 0
+        mySkillLevel: 0,
+        skillType: 'hard'
     },
     {
         mainName: 'vite',
         count: 0,
         subNames: ['vite', 'Vite configuration'],
         meta: 'Webpack clone',
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         // main backend; main back end;
@@ -768,7 +806,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Familiarity with backend technologies',
             'Backend familiarity'
         ],
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'build tools',
@@ -785,32 +824,37 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Internal tooling development'
         ],
         meta: 'this refers to WebPack... e.g. of post in Amazon AWS -> Modern build tools (Webpack, Vite, or similar)',
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'e2e testing',
         count: 0,
         subNames: ['e2e testing', 'End-to-end testing', 'end-to-end', 'End-to-end testing frameworks'],
         meta: 'cypress covers this',
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'figma',
         count: 0,
         subNames: ['figma', 'Figma to production UI', 'Figma API'],
-        mySkillLevel: 1
+        mySkillLevel: 1,
+        skillType: 'hard'
     },
     {
         mainName: 'kubernetes',
         count: 0,
         subNames: ['kubernetes', 'Kubernetes deployment'],
-        mySkillLevel: 0
+        mySkillLevel: 0,
+        skillType: 'hard'
     },
     {
         mainName: 'github',
         count: 0,
         subNames: ['github', 'GitHub Actions'],
-        mySkillLevel: 4
+        mySkillLevel: 4,
+        skillType: 'hard'
     },
     {
         mainName: 'mui',
@@ -826,13 +870,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Angular Material',
             'MUI (Material UI)'
         ],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'graphql',
         count: 0,
         subNames: ['graphql', 'GraphQL clients', 'GraphQL APIs', 'GraphQL with codegen', 'Apollo GraphQL'],
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
     {
         mainName: 'react testing library',
@@ -842,13 +888,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Component/integration testing (React Testing Library)',
             'React Native Testing Library'
         ],
-        mySkillLevel: 3
+        mySkillLevel: 3,
+        skillType: 'hard'
     },
     {
         mainName: 'version control',
         count: 0,
         subNames: ['version control'],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
     {
         // main testing
@@ -873,7 +921,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Contract testing',
             'ISO 27001'
         ],
-        mySkillLevel: 7
+        mySkillLevel: 7,
+        skillType: 'hard'
     },
     {
         mainName: 'Debugging',
@@ -888,7 +937,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Debugging and profiling',
             'Debugging and troubleshooting'
         ],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
     {
         // main security
@@ -918,19 +968,22 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Web security best practices (XSS, CSRF, SQL Injection, secure cookies, data encryption)',
             'OWASP Top 10'
         ],
-        mySkillLevel: 0
+        mySkillLevel: 0,
+        skillType: 'hard'
     },
     {
         mainName: 'cross-browser compatibility',
         count: 0,
         subNames: ['cross-browser compatibility', 'Cross-browser testing', 'Cross-browser development'],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         mainName: 'CSS preprocessors',
         count: 0,
         subNames: ['sass', 'scss', 'CSS preprocessors', 'PostCSS'],
-        mySkillLevel: 8
+        mySkillLevel: 8,
+        skillType: 'hard'
     },
     {
         // main cross function; main collaboration
@@ -964,13 +1017,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Product-led growth systems',
             'Collaboration in distributed teams'
         ],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
     {
         mainName: 'react hooks',
         count: 0,
         subNames: ['react hooks', 'react hook', 'Hooks', 'Custom React hooks'],
-        mySkillLevel: 9
+        mySkillLevel: 9,
+        skillType: 'hard'
     },
 
     // main mentoring; mentoring main
@@ -992,7 +1047,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Mentorship of junior team members',
             'Mentorship'
         ],
-        mySkillLevel: 5
+        mySkillLevel: 5,
+        skillType: 'hard'
     },
 
     // end of CORE
@@ -1001,12 +1057,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'react class components',
         count: 0,
-        subNames: ['react class components', 'react class component']
+        subNames: ['react class components', 'react class component'],
+        skillType: 'hard'
     },
     {
         mainName: 'react functional components',
         count: 0,
-        subNames: ['react functional components', 'react functional component']
+        subNames: ['react functional components', 'react functional component'],
+        skillType: 'hard'
     },
     {
         mainName: 'SaaS experience',
@@ -1020,17 +1078,20 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'B2B SaaS frontend development',
             'SaaS product frontend development',
             'Enterprise SaaS development'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'pixel-perfect',
         count: 0,
-        subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui']
+        subNames: ['pixel-perfect ui implementation', 'pixel-perfect ui'],
+        skillType: 'hard'
     },
     {
         mainName: 'subscription management',
         count: 0,
-        subNames: ['subscription management']
+        subNames: ['subscription management'],
+        skillType: 'hard'
     },
     { mainName: 'access auditing', count: 0, subNames: ['access auditing'] },
     {
@@ -1050,13 +1111,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Perpetual Swaps',
             'Global marketplace platforms',
             'Cross-chain transaction flows'
-        ]
+        ],
+        skillType: 'hard'
     },
 
     {
         mainName: 'mobile first',
         count: 0,
-        subNames: ['mobile-first development', 'mobile first development', 'mobile first', 'Mobile-first design']
+        subNames: ['mobile-first development', 'mobile first development', 'mobile first', 'Mobile-first design'],
+        skillType: 'hard'
     },
     { mainName: 'babel', count: 0, subNames: ['babel'] },
     { mainName: 'github copilot', count: 0, subNames: ['github copilot'] },
@@ -1065,7 +1128,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'styled components',
         count: 0,
-        subNames: ['styled components']
+        subNames: ['styled components'],
+        skillType: 'hard'
     },
     {
         mainName: 'monorepo',
@@ -1079,7 +1143,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'pnpm workspaces',
             'Monorepo architecture',
             'NX Monorepo'
-        ]
+        ],
+        skillType: 'hard'
     },
     { mainName: 'design patterns', count: 0, subNames: ['design patterns'] },
     { mainName: 'jira', count: 0, subNames: ['jira'] },
@@ -1087,12 +1152,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'no designer',
         count: 0,
-        subNames: ['no designer', 'ui/ux design without ux support']
+        subNames: ['no designer', 'ui/ux design without ux support'],
+        skillType: 'hard'
     },
     {
         mainName: 'data-heavy interfaces',
         count: 0,
-        subNames: ['data-heavy interfaces']
+        subNames: ['data-heavy interfaces'],
+        skillType: 'hard'
     },
     { mainName: 'flutter', count: 0, subNames: ['flutterflow', 'Flutter'] },
     { mainName: 'streamlit', count: 0, subNames: ['streamlit'] },
@@ -1100,17 +1167,20 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'theming',
         count: 0,
-        subNames: ['tokens and theming', 'tokens', 'theming']
+        subNames: ['tokens and theming', 'tokens', 'theming'],
+        skillType: 'hard'
     },
     {
         mainName: 'animations',
         count: 0,
-        subNames: ['animations', 'Reanimated']
+        subNames: ['animations', 'Reanimated'],
+        skillType: 'hard'
     },
     {
         mainName: 'micro-interactions',
         count: 0,
-        subNames: ['micro-interactions']
+        subNames: ['micro-interactions'],
+        skillType: 'hard'
     },
     { mainName: 'framer motion', count: 0, subNames: ['framer motion'] },
     { mainName: 'gsap', count: 0, subNames: ['gsap'] },
@@ -1119,69 +1189,81 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'color contrast standards',
         count: 0,
-        subNames: ['color contrast standards']
+        subNames: ['color contrast standards'],
+        skillType: 'hard'
     },
     {
         mainName: 'container queries',
         count: 0,
-        subNames: ['container queries']
+        subNames: ['container queries'],
+        skillType: 'hard'
     },
     { mainName: 'css grid', count: 0, subNames: ['css grid', 'grid'] },
     { mainName: 'flexbox', count: 0, subNames: ['flexbox'] },
     {
         mainName: 'css custom properties',
         count: 0,
-        subNames: ['css custom properties']
+        subNames: ['css custom properties'],
+        skillType: 'hard'
     },
     { mainName: 'shadcn', count: 0, subNames: ['shadcn/ui', 'Shadcn'] },
     {
         mainName: 'bundle size optimization',
         count: 0,
-        subNames: ['bundle size optimization']
+        subNames: ['bundle size optimization'],
+        skillType: 'hard'
     },
     { mainName: 'code splitting', count: 0, subNames: ['code splitting'] },
     {
         mainName: 'hydration strategies',
         count: 0,
-        subNames: ['hydration strategies']
+        subNames: ['hydration strategies'],
+        skillType: 'hard'
     },
     {
         mainName: 'caching strategies',
         count: 0,
-        subNames: ['caching strategies', 'Client caching']
+        subNames: ['caching strategies', 'Client caching'],
+        skillType: 'hard'
     },
     { mainName: 'virtualization', count: 0, subNames: ['virtualization'] },
     {
         mainName: 'react query',
         count: 0,
-        subNames: ['react query', 'React-Query']
+        subNames: ['react query', 'React-Query'],
+        skillType: 'hard'
     },
     { mainName: 'lazy loading', count: 0, subNames: ['lazy loading'] },
     { mainName: 'swr', count: 0, subNames: ['swr'] },
     {
         mainName: 'digital wallets',
         count: 0,
-        subNames: ['wallet integrations', 'WalletConnect']
+        subNames: ['wallet integrations', 'WalletConnect'],
+        skillType: 'hard'
     },
     {
         mainName: 'injected providers',
         count: 0,
-        subNames: ['injected providers']
+        subNames: ['injected providers'],
+        skillType: 'hard'
     },
     {
         mainName: 'on-chain data rendering',
         count: 0,
-        subNames: ['on-chain data rendering']
+        subNames: ['on-chain data rendering'],
+        skillType: 'hard'
     },
     {
         mainName: 'rpc/indexer integration',
         count: 0,
-        subNames: ['rpc/indexer integration']
+        subNames: ['rpc/indexer integration'],
+        skillType: 'hard'
     },
     {
         mainName: 'testing best practices',
         count: 0,
-        subNames: ['testing best practices']
+        subNames: ['testing best practices'],
+        skillType: 'hard'
     },
     { mainName: 'ci checks', count: 0, subNames: ['ci checks'] },
     { mainName: 'ui refactoring', count: 0, subNames: ['ui refactoring'] },
@@ -1190,13 +1272,15 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'visual regression testing',
         count: 0,
-        subNames: ['visual regression testing']
+        subNames: ['visual regression testing'],
+        skillType: 'hard'
     },
     { mainName: 'style dictionary', count: 0, subNames: ['style dictionary'] },
     {
         mainName: 'lighthouse',
         count: 0,
-        subNames: ['lighthouse', 'Lighthouse CI']
+        subNames: ['lighthouse', 'Lighthouse CI'],
+        skillType: 'hard'
     },
     { mainName: 'perfetto', count: 0, subNames: ['perfetto'] },
     { mainName: 'sentry', count: 0, subNames: ['sentry'] },
@@ -1212,46 +1296,54 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'relational databases',
         count: 0,
-        subNames: ['relational databases']
+        subNames: ['relational databases'],
+        skillType: 'hard'
     },
     {
         mainName: 'nosql databases',
         count: 0,
-        subNames: ['nosql databases', 'NoSQL', 'Non-relational databases']
+        subNames: ['nosql databases', 'NoSQL', 'Non-relational databases'],
+        skillType: 'hard'
     },
     {
         mainName: 'linux',
         count: 0,
-        subNames: ['linux', 'Linux desktop familiarity']
+        subNames: ['linux', 'Linux desktop familiarity'],
+        skillType: 'hard'
     },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
     {
         mainName: 'react native',
         count: 0,
-        subNames: ['react native', 'React Navigation']
+        subNames: ['react native', 'React Navigation'],
+        skillType: 'hard'
     },
     {
         mainName: 'sdk development',
         count: 0,
-        subNames: ['sdk development', 'Embedded SDKs']
+        subNames: ['sdk development', 'Embedded SDKs'],
+        skillType: 'hard'
     },
     {
         mainName: 'cross-chain dapps',
         count: 0,
-        subNames: ['cross-chain dapps']
+        subNames: ['cross-chain dapps'],
+        skillType: 'hard'
     },
     {
         mainName: 'blockchain technology',
         count: 0,
-        subNames: ['blockchain technology', 'EVM blockchain interaction']
+        subNames: ['blockchain technology', 'EVM blockchain interaction'],
+        skillType: 'hard'
     },
     { mainName: 'defi platforms', count: 0, subNames: ['defi platforms'] },
     { mainName: 'state machines', count: 0, subNames: ['state machines'] },
     {
         mainName: 'mobile, tablet, and desktop frontend development',
         count: 0,
-        subNames: ['mobile, tablet, and desktop frontend development']
+        subNames: ['mobile, tablet, and desktop frontend development'],
+        skillType: 'hard'
     },
     {
         mainName: 'code quality',
@@ -1263,17 +1355,20 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Code quality principles',
             'High-quality code',
             'Modern quality assurance'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'code maintainability',
         count: 0,
-        subNames: ['code maintainability', 'Maintainable code', 'code maintenance']
+        subNames: ['code maintainability', 'Maintainable code', 'code maintenance'],
+        skillType: 'hard'
     },
     {
         mainName: 'css-in-js',
         count: 0,
-        subNames: ['css-in-js', 'CSS-in-JS libraries', 'Emotion (CSS-in-JS)']
+        subNames: ['css-in-js', 'CSS-in-JS libraries', 'Emotion (CSS-in-JS)'],
+        skillType: 'hard'
     },
     { mainName: 'zustand', count: 0, subNames: ['zustand'] },
     { mainName: 'recoil', count: 0, subNames: ['recoil'] },
@@ -1285,29 +1380,34 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Async-first workflows',
             'Asynchronous programming',
             'asynchronous coding'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'frontend-backend integration',
         count: 0,
-        subNames: ['frontend-backend integration', 'Backend integration']
+        subNames: ['frontend-backend integration', 'Backend integration'],
+        skillType: 'hard'
     },
     { mainName: 'grpc', count: 0, subNames: ['grpc'] },
     { mainName: 'localization', count: 0, subNames: ['localization'] },
     {
         mainName: 'design documentation',
         count: 0,
-        subNames: ['design documentation']
+        subNames: ['design documentation'],
+        skillType: 'hard'
     },
     {
         mainName: 'reliability best practices',
         count: 0,
-        subNames: ['reliability best practices', 'Reliability engineering']
+        subNames: ['reliability best practices', 'Reliability engineering'],
+        skillType: 'hard'
     },
     {
         mainName: 'test-driven development',
         count: 0,
-        subNames: ['test-driven development', 'TDD', 'TDD practices']
+        subNames: ['test-driven development', 'TDD', 'TDD practices'],
+        skillType: 'hard'
     },
     {
         mainName: 'object-oriented programming',
@@ -1319,18 +1419,21 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'OO languages',
             'JavaScript object model',
             'Object-oriented design'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'solid principles',
         count: 0,
-        subNames: ['solid principles', 'solid']
+        subNames: ['solid principles', 'solid'],
+        skillType: 'hard'
     },
     { mainName: 'dry principles', count: 0, subNames: ['dry principles'] },
     {
         mainName: 'software design principles',
         count: 0,
-        subNames: ['software design principles']
+        subNames: ['software design principles'],
+        skillType: 'hard'
     },
     {
         mainName: 'software development life cycle',
@@ -1341,7 +1444,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'sdlc',
             'Web development lifecycle',
             'Full software development lifecycle'
-        ]
+        ],
+        skillType: 'hard'
     },
     { mainName: 'c++', count: 0, subNames: ['c++'] },
     { mainName: 'c#', count: 0, subNames: ['c#'] },
@@ -1350,80 +1454,95 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'backlog management',
         count: 0,
-        subNames: ['backlog management']
+        subNames: ['backlog management'],
+        skillType: 'hard'
     },
     {
         mainName: 'team foundation server',
         count: 0,
-        subNames: ['team foundation server', 'tfs']
+        subNames: ['team foundation server', 'tfs'],
+        skillType: 'hard'
     },
     {
         mainName: 'activex data objects',
         count: 0,
-        subNames: ['activex data objects', 'ado']
+        subNames: ['activex data objects', 'ado'],
+        skillType: 'hard'
     },
     {
         mainName: 'software design diagrams',
         count: 0,
-        subNames: ['software design diagrams']
+        subNames: ['software design diagrams'],
+        skillType: 'hard'
     },
     {
         mainName: 'mathematical foundations',
         count: 0,
-        subNames: ['mathematical foundations (geometry, trigonometry)', 'geometry', 'trigonometry']
+        subNames: ['mathematical foundations (geometry, trigonometry)', 'geometry', 'trigonometry'],
+        skillType: 'hard'
     },
     { mainName: 'react suspense', count: 0, subNames: ['react suspense'] },
     {
         mainName: 'concurrent react features',
         count: 0,
-        subNames: ['concurrent react features']
+        subNames: ['concurrent react features'],
+        skillType: 'hard'
     },
     { mainName: 'tanstack query', count: 0, subNames: ['tanstack query'] },
     {
         mainName: 'graphql',
         count: 0,
-        subNames: ['graphql', 'GraphQL (queries, mutations, caching, fragments)']
+        subNames: ['graphql', 'GraphQL (queries, mutations, caching, fragments)'],
+        skillType: 'hard'
     },
     { mainName: 'vitest', count: 0, subNames: ['vitest'] },
     {
         mainName: 'component testing',
         count: 0,
-        subNames: ['component testing']
+        subNames: ['component testing'],
+        skillType: 'hard'
     },
     {
         mainName: 'maintainable architecture',
         count: 0,
-        subNames: ['maintainable architecture', 'Maintainable system design']
+        subNames: ['maintainable architecture', 'Maintainable system design'],
+        skillType: 'hard'
     },
     {
         mainName: 'internationalization',
         count: 0,
-        subNames: ['internationalization']
+        subNames: ['internationalization'],
+        skillType: 'hard'
     },
     {
         mainName: 'translation workflows',
         count: 0,
-        subNames: ['translation workflows']
+        subNames: ['translation workflows'],
+        skillType: 'hard'
     },
     {
         mainName: 'react router',
         count: 0,
-        subNames: ['react routing', 'react router', 'React Router 7']
+        subNames: ['react routing', 'react router', 'React Router 7'],
+        skillType: 'hard'
     },
     {
         mainName: 'component composition',
         count: 0,
-        subNames: ['component composition']
+        subNames: ['component composition'],
+        skillType: 'hard'
     },
     {
         mainName: 'spa development',
         count: 0,
-        subNames: ['spa development', 'single page application', 'spa']
+        subNames: ['spa development', 'single page application', 'spa'],
+        skillType: 'hard'
     },
     {
         mainName: 'object-oriented javascript',
         count: 0,
-        subNames: ['object-oriented javascript']
+        subNames: ['object-oriented javascript'],
+        skillType: 'hard'
     },
     { mainName: 'ui testing', count: 0, subNames: ['ui testing'] },
     { mainName: 'selenium', count: 0, subNames: ['selenium'] },
@@ -1437,36 +1556,42 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Internal developer tooling',
             'Tooling improvements',
             'Frontend tooling improvements'
-        ]
+        ],
+        skillType: 'hard'
     },
     { mainName: 'eslint', count: 0, subNames: ['eslint'] },
     { mainName: 'prettier', count: 0, subNames: ['prettier', 'formatters'] },
     {
         mainName: 'micro frontend applications',
         count: 0,
-        subNames: ['micro frontend applications', 'Micro frontend architectures', 'Micro-frontend architecture']
+        subNames: ['micro frontend applications', 'Micro frontend architectures', 'Micro-frontend architecture'],
+        skillType: 'hard'
     },
     {
         mainName: 'testing frameworks',
         count: 0,
-        subNames: ['testing frameworks', 'Frontend testing frameworks', 'test runner frameworks']
+        subNames: ['testing frameworks', 'Frontend testing frameworks', 'test runner frameworks'],
+        skillType: 'hard'
     },
     { mainName: 'grasp principles', count: 0, subNames: ['grasp principles'] },
     {
         mainName: 'npm',
         count: 0,
-        subNames: ['npm', 'node package manager', 'Package managers', 'NPM ecosystem', 'npm and package management']
+        subNames: ['npm', 'node package manager', 'Package managers', 'NPM ecosystem', 'npm and package management'],
+        skillType: 'hard'
     },
     {
         mainName: 'linters',
         count: 0,
-        subNames: ['linters', 'Linting', 'Stylelint', 'Static code analysis tools']
+        subNames: ['linters', 'Linting', 'Stylelint', 'Static code analysis tools'],
+        skillType: 'hard'
     },
     { mainName: 'nx framework', count: 0, subNames: ['nx framework', 'Nx'] },
     {
         mainName: 'typescript ast',
         count: 0,
-        subNames: ['typescript ast', 'typescript abstract syntax tree']
+        subNames: ['typescript ast', 'typescript abstract syntax tree'],
+        skillType: 'hard'
     },
     { mainName: 'code modifiers', count: 0, subNames: ['code modifiers'] },
     { mainName: 'gitlab', count: 0, subNames: ['gitlab', 'GitLab CI'] },
@@ -1474,38 +1599,45 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'modern frameworks',
         count: 0,
-        subNames: ['modern frameworks']
+        subNames: ['modern frameworks'],
+        skillType: 'hard'
     },
     {
         mainName: 'api development',
         count: 0,
-        subNames: ['api development', 'API design', 'API development understanding', 'Context API']
+        subNames: ['api development', 'API design', 'API development understanding', 'Context API'],
+        skillType: 'hard'
     },
     {
         mainName: 'backend api layer experience',
         count: 0,
-        subNames: ['backend api layer experience']
+        subNames: ['backend api layer experience'],
+        skillType: 'hard'
     },
     {
         mainName: 'sql',
         count: 0,
-        subNames: ['sql', 'SQL querying tools', 'SQL Server Spatial', 'SQL Server']
+        subNames: ['sql', 'SQL querying tools', 'SQL Server Spatial', 'SQL Server'],
+        skillType: 'hard'
     },
     {
         mainName: 'data-driven query languages',
         count: 0,
-        subNames: ['data-driven query languages']
+        subNames: ['data-driven query languages'],
+        skillType: 'hard'
     },
     {
         mainName: 'cloud services ui development',
         count: 0,
-        subNames: ['cloud services ui development']
+        subNames: ['cloud services ui development'],
+        skillType: 'hard'
     },
     { mainName: 'golang', count: 0, subNames: ['golang', 'Go'] },
     {
         mainName: 'postgresql',
         count: 0,
-        subNames: ['postgresql', 'Postgres', 'Postgres (context)']
+        subNames: ['postgresql', 'Postgres', 'Postgres (context)'],
+        skillType: 'hard'
     },
     {
         mainName: 'data visualization',
@@ -1515,7 +1647,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Data visualisation',
             'Data visualization libraries',
             'Data visualization (graphs, dashboards)'
-        ]
+        ],
+        skillType: 'hard'
     },
     { mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
     { mainName: 'llm workflows', count: 0, subNames: ['llm workflows'] },
@@ -1530,14 +1663,16 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'server state',
             'URL state',
             'Server-side rendering (SSR)'
-        ]
+        ],
+        skillType: 'hard'
     },
     { mainName: 'ssg', count: 0, subNames: ['ssg'] },
     {
         mainName: 'ally',
         count: 0,
         subNames: ['ally'],
-        meta: 'this is Accessibility tool for Wordpress'
+        meta: 'this is Accessibility tool for Wordpress',
+        skillType: 'hard'
     },
     { mainName: 'wordpress', count: 0, subNames: ['wordpress'] },
     { mainName: 'joomla', count: 0, subNames: ['joomla'] },
@@ -1546,29 +1681,34 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'cockpit',
         count: 0,
         subNames: ['cockpit cms', 'cockpit'],
-        meta: 'its a content management system'
+        meta: 'its a content management system',
+        skillType: 'hard'
     },
     { mainName: 'routing', count: 0, subNames: ['routing'] },
     { mainName: 'modularization', count: 0, subNames: ['modularization'] },
     {
         mainName: 'legacy code refactoring',
         count: 0,
-        subNames: ['legacy code refactoring']
+        subNames: ['legacy code refactoring'],
+        skillType: 'hard'
     },
     {
         mainName: 'architectural improvements',
         count: 0,
-        subNames: ['architectural improvements']
+        subNames: ['architectural improvements'],
+        skillType: 'hard'
     },
     {
         mainName: 'api collaboration',
         count: 0,
-        subNames: ['api collaboration']
+        subNames: ['api collaboration'],
+        skillType: 'hard'
     },
     {
         mainName: 'large-scale applications',
         count: 0,
-        subNames: ['large-scale applications']
+        subNames: ['large-scale applications'],
+        skillType: 'hard'
     },
     { mainName: 'jasmine', count: 0, subNames: ['jasmine'] },
     { mainName: 'karma', count: 0, subNames: ['karma'] },
@@ -1576,18 +1716,21 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'shadcn ui components',
         count: 0,
-        subNames: ['shadcn ui components']
+        subNames: ['shadcn ui components'],
+        skillType: 'hard'
     },
     { mainName: 'tanstack router', count: 0, subNames: ['tanstack router'] },
     {
         mainName: 'tanstack libraries',
         count: 0,
-        subNames: ['tanstack libraries']
+        subNames: ['tanstack libraries'],
+        skillType: 'hard'
     },
     {
         mainName: 'containerized application development',
         count: 0,
-        subNames: ['containerized application development', 'Containerized environments', 'Containerisation']
+        subNames: ['containerized application development', 'Containerized environments', 'Containerisation'],
+        skillType: 'hard'
     },
     { mainName: 'ngrx', count: 0, subNames: ['ngrx'] },
     { mainName: 'rxjs', count: 0, subNames: ['rxjs'] },
@@ -1604,7 +1747,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'SEO compliance',
             'SEO optimization',
             'SEO principles'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'Third-party APIs',
@@ -1615,12 +1759,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Integration of third-party services',
             '3rd party SDK integration',
             'Third-Party Integrations'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'Analytics integrations',
         count: 0,
-        subNames: ['Analytics integrations', 'Analytics tools', 'Analytics']
+        subNames: ['Analytics integrations', 'Analytics tools', 'Analytics'],
+        skillType: 'hard'
     },
     {
         mainName: 'CMS integrations',
@@ -1634,12 +1780,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'CMS migrations',
             'Content management systems (CMS)',
             'Role-based workflows in CMS'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'Elixir/Phoenix (context)',
         count: 0,
-        subNames: ['Elixir/Phoenix (context)']
+        subNames: ['Elixir/Phoenix (context)'],
+        skillType: 'hard'
     },
     { mainName: 'Express.js', count: 0, subNames: ['Express.js', 'Express'] },
     { mainName: 'Ant Design', count: 0, subNames: ['Ant Design'] },
@@ -1648,12 +1796,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Database schema design',
         count: 0,
-        subNames: ['Database schema design', 'schema design', 'Database design']
+        subNames: ['Database schema design', 'schema design', 'Database design'],
+        skillType: 'hard'
     },
     {
         mainName: 'Database performance optimization',
         count: 0,
-        subNames: ['Database performance optimization', 'Database optimization']
+        subNames: ['Database performance optimization', 'Database optimization'],
+        skillType: 'hard'
     },
     { mainName: 'GCP', count: 0, subNames: ['GCP'] },
     { mainName: 'Azure', count: 0, subNames: ['Azure'] },
@@ -1661,12 +1811,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Scalable backend systems',
         count: 0,
-        subNames: ['Scalable backend systems']
+        subNames: ['Scalable backend systems'],
+        skillType: 'hard'
     },
     {
         mainName: 'Software development',
         count: 0,
-        subNames: ['Software development', 'Software development processes']
+        subNames: ['Software development', 'Software development processes'],
+        skillType: 'hard'
     },
     {
         mainName: 'Web applications',
@@ -1676,45 +1828,53 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Building modern web applications',
             'Building modern desktop applications',
             'Web application development'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'WebSockets',
         count: 0,
-        subNames: ['WebSockets', 'Web Sockets', 'WebSocket', 'WebSocket integration', 'Socket.IO']
+        subNames: ['WebSockets', 'Web Sockets', 'WebSocket', 'WebSocket integration', 'Socket.IO'],
+        skillType: 'hard'
     },
     {
         mainName: 'Experience in large technology organizations',
         count: 0,
-        subNames: ['Experience in large technology organizations']
+        subNames: ['Experience in large technology organizations'],
+        skillType: 'hard'
     },
     {
         mainName: 'fast growing startups',
         count: 0,
-        subNames: ['fast growing startups', 'Experience in fast growing startups']
+        subNames: ['fast growing startups', 'Experience in fast growing startups'],
+        skillType: 'hard'
     },
     {
         mainName: 'Crypto applications experience',
         count: 0,
-        subNames: ['Crypto applications experience']
+        subNames: ['Crypto applications experience'],
+        skillType: 'hard'
     },
     {
         mainName: 'Fintech mobile applications experience',
         count: 0,
-        subNames: ['Fintech mobile applications experience']
+        subNames: ['Fintech mobile applications experience'],
+        skillType: 'hard'
     },
     { mainName: 'Async/Await', count: 0, subNames: ['Async/Await'] },
     {
         mainName: 'Clean code',
         count: 0,
-        subNames: ['Clean code', 'Clean code principles', 'Clean Code practices']
+        subNames: ['Clean code', 'Clean code principles', 'Clean Code practices'],
+        skillType: 'hard'
     },
     { mainName: 'Ember', count: 0, subNames: ['Ember', 'Ember.js'] },
     { mainName: 'AJAX', count: 0, subNames: ['AJAX'] },
     {
         mainName: 'Atomic CSS',
         count: 0,
-        subNames: ['Atomic CSS', 'Atomic design', 'Atomic design principles']
+        subNames: ['Atomic CSS', 'Atomic design', 'Atomic design principles'],
+        skillType: 'hard'
     },
     { mainName: 'Superagent', count: 0, subNames: ['Superagent'] },
     { mainName: 'Web Vitals', count: 0, subNames: ['Web Vitals'] },
@@ -1723,43 +1883,51 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Mock Service Worker',
         count: 0,
-        subNames: ['Mock Service Worker', 'MSW (Mock Service Worker)']
+        subNames: ['Mock Service Worker', 'MSW (Mock Service Worker)'],
+        skillType: 'hard'
     },
     {
         mainName: 'Application stability',
         count: 0,
-        subNames: ['Application stability']
+        subNames: ['Application stability'],
+        skillType: 'hard'
     },
     {
         mainName: 'Figma to pixel-perfect implementation',
         count: 0,
-        subNames: ['Figma to pixel-perfect implementation']
+        subNames: ['Figma to pixel-perfect implementation'],
+        skillType: 'hard'
     },
     {
         mainName: 'iOS development',
         count: 0,
-        subNames: ['iOS development', 'iOS native modules']
+        subNames: ['iOS development', 'iOS native modules'],
+        skillType: 'hard'
     },
     {
         mainName: 'Android development',
         count: 0,
-        subNames: ['Android development', 'Android native modules']
+        subNames: ['Android development', 'Android native modules'],
+        skillType: 'hard'
     },
     {
         mainName: 'Multi-channel deployment',
         count: 0,
-        subNames: ['Multi-channel deployment']
+        subNames: ['Multi-channel deployment'],
+        skillType: 'hard'
     },
     {
         mainName: 'MFA implementation',
         count: 0,
-        subNames: ['MFA implementation']
+        subNames: ['MFA implementation'],
+        skillType: 'hard'
     },
     { mainName: 'SSO', count: 0, subNames: ['SSO'] },
     {
         mainName: 'Offline-first applications',
         count: 0,
-        subNames: ['Offline-first applications']
+        subNames: ['Offline-first applications'],
+        skillType: 'hard'
     },
     { mainName: 'Local storage', count: 0, subNames: ['Local storage'] },
     { mainName: 'Deep linking', count: 0, subNames: ['Deep linking'] },
@@ -1767,45 +1935,53 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'UI code deployment',
         count: 0,
-        subNames: ['UI code deployment']
+        subNames: ['UI code deployment'],
+        skillType: 'hard'
     },
     {
         mainName: 'Release management',
         count: 0,
-        subNames: ['Release management']
+        subNames: ['Release management'],
+        skillType: 'hard'
     },
     {
         mainName: 'Alerting principles',
         count: 0,
-        subNames: ['Alerting principles']
+        subNames: ['Alerting principles'],
+        skillType: 'hard'
     },
     {
         mainName: 'DevOps/SRE automation for UI deployments',
         count: 0,
-        subNames: ['DevOps/SRE automation for UI deployments']
+        subNames: ['DevOps/SRE automation for UI deployments'],
+        skillType: 'hard'
     },
     { mainName: 'Visual design', count: 0, subNames: ['Visual design'] },
     {
         mainName: 'Cross-channel UI frameworks',
         count: 0,
-        subNames: ['Cross-channel UI frameworks']
+        subNames: ['Cross-channel UI frameworks'],
+        skillType: 'hard'
     },
     { mainName: 'jQuery', count: 0, subNames: ['jQuery'] },
     { mainName: 'MERN stack', count: 0, subNames: ['MERN stack', 'mern'] },
     {
         mainName: 'Query optimization',
         count: 0,
-        subNames: ['Query optimization', 'Query optimisation', 'Custom query writing']
+        subNames: ['Query optimization', 'Query optimisation', 'Custom query writing'],
+        skillType: 'hard'
     },
     {
         mainName: 'Frontend migrations',
         count: 0,
-        subNames: ['Frontend migrations']
+        subNames: ['Frontend migrations'],
+        skillType: 'hard'
     },
     {
         mainName: 'Greenfield development',
         count: 0,
-        subNames: ['Greenfield development']
+        subNames: ['Greenfield development'],
+        skillType: 'hard'
     },
     { mainName: 'Python', count: 0, subNames: ['Python', 'Python (exposure)'] },
     { mainName: 'Spark', count: 0, subNames: ['Spark'] },
@@ -1814,32 +1990,37 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'PWA',
         count: 0,
         subNames: ['PWA', 'PWA development', 'Progressive enhancement', 'Progressive Web Apps (PWA)'],
-        meta: 'progressive web application, this is like Single page application, just another term for it'
+        meta: 'progressive web application, this is like Single page application, just another term for it',
+        skillType: 'hard'
     },
     { mainName: 'Web Workers', count: 0, subNames: ['Web Workers'] },
     { mainName: 'CQRS', count: 0, subNames: ['CQRS'] },
     {
         mainName: 'DevOps',
         count: 0,
-        subNames: ['DevOps', 'DevOps knowledge', 'DevOps tools', 'DevOps practices']
+        subNames: ['DevOps', 'DevOps knowledge', 'DevOps tools', 'DevOps practices'],
+        skillType: 'hard'
     },
     { mainName: 'SecDevOps', count: 0, subNames: ['SecDevOps'] },
     {
         mainName: 'Efficient data handling',
         count: 0,
-        subNames: ['Efficient data handling']
+        subNames: ['Efficient data handling'],
+        skillType: 'hard'
     },
     {
         mainName: 'Vue Composition API',
         count: 0,
-        subNames: ['Vue Composition API']
+        subNames: ['Vue Composition API'],
+        skillType: 'hard'
     },
     { mainName: 'Vuetify', count: 0, subNames: ['Vuetify'] },
     { mainName: 'Signals', count: 0, subNames: ['Signals'] },
     {
         mainName: 'Reactive programming',
         count: 0,
-        subNames: ['Reactive programming', 'reactive coding']
+        subNames: ['Reactive programming', 'reactive coding'],
+        skillType: 'hard'
     },
     { mainName: 'Java', count: 0, subNames: ['Java', 'Java (J2EE)', 'JSP', 'JavaServer Pages'] },
     { mainName: 'Cententful', count: 0, subNames: ['Cententful'] },
@@ -1849,36 +2030,42 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'ISR',
         count: 0,
-        subNames: ['ISR', 'Incremental static regeneration (ISR)']
+        subNames: ['ISR', 'Incremental static regeneration (ISR)'],
+        skillType: 'hard'
     },
     { mainName: 'Django', count: 0, subNames: ['Django', 'Django templates'] },
     { mainName: 'Microfrontends', count: 0, subNames: ['Microfrontends'] },
     {
         mainName: 'Serverless architectures',
         count: 0,
-        subNames: ['Serverless architectures']
+        subNames: ['Serverless architectures'],
+        skillType: 'hard'
     },
     {
         mainName: 'Developer automation',
         count: 0,
-        subNames: ['Developer automation', 'Automation', 'Automation solutions', 'Code automation']
+        subNames: ['Developer automation', 'Automation', 'Automation solutions', 'Code automation'],
+        skillType: 'hard'
     },
     { mainName: 'visx', count: 0, subNames: ['visx'] },
     { mainName: 'Sprint Boot', count: 0, subNames: ['Sprint Boot'] },
     {
         mainName: 'Spring Batch',
         count: 0,
-        subNames: ['Spring Batch', 'Spring Boot']
+        subNames: ['Spring Batch', 'Spring Boot'],
+        skillType: 'hard'
     },
     {
         mainName: 'Hibernate',
         count: 0,
-        subNames: ['Hibernate']
+        subNames: ['Hibernate'],
+        skillType: 'hard'
     },
     {
         mainName: 'JPA',
         count: 0,
-        subNames: ['JPA']
+        subNames: ['JPA'],
+        skillType: 'hard'
     },
     { mainName: 'Oracle Database', count: 0, subNames: ['Oracle Database'] },
     { mainName: 'PL', count: 0, subNames: ['PL'] },
@@ -1897,23 +2084,27 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Microservices design patterns',
         count: 0,
-        subNames: ['Microservices design patterns', 'Microservices Architecture', 'Microservices']
+        subNames: ['Microservices design patterns', 'Microservices Architecture', 'Microservices'],
+        skillType: 'hard'
     },
     {
         mainName: 'Redux Saga',
         count: 0,
-        subNames: ['Redux Saga', 'Redux-saga']
+        subNames: ['Redux Saga', 'Redux-saga'],
+        skillType: 'hard'
     },
     { mainName: 'A/B testing', count: 0, subNames: ['A/B testing'] },
     {
         mainName: 'Multivariate testing',
         count: 0,
-        subNames: ['Multivariate testing']
+        subNames: ['Multivariate testing'],
+        skillType: 'hard'
     },
     {
         mainName: 'Chrome extension development',
         count: 0,
-        subNames: ['Chrome extension development']
+        subNames: ['Chrome extension development'],
+        skillType: 'hard'
     },
     { mainName: 'Linear', count: 0, subNames: ['Linear'] },
     { mainName: 'Notion', count: 0, subNames: ['Notion'] },
@@ -1925,12 +2116,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Server-Sent Events',
         count: 0,
-        subNames: ['Server-Sent Events', 'sse']
+        subNames: ['Server-Sent Events', 'sse'],
+        skillType: 'hard'
     },
     {
         mainName: 'Message streaming',
         count: 0,
-        subNames: ['Message streaming']
+        subNames: ['Message streaming'],
+        skillType: 'hard'
     },
     {
         mainName: 'Real-time features',
@@ -1942,7 +2135,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Real-time data handling',
             'Real-time applications',
             'Real-time interfaces (chat, voice, agent UI)'
-        ]
+        ],
+        skillType: 'hard'
     },
     { mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
     { mainName: 'HeroUI', count: 0, subNames: ['HeroUI'] },
@@ -1956,7 +2150,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Collaborative editing',
         count: 0,
-        subNames: ['Collaborative editing']
+        subNames: ['Collaborative editing'],
+        skillType: 'hard'
     },
     { mainName: 'WebRTC', count: 0, subNames: ['WebRTC'] },
     { mainName: 'EC2', count: 0, subNames: ['EC2'], meta: 'part of aws suite' },
@@ -1965,14 +2160,16 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'CloudFront',
         count: 0,
         subNames: ['CloudFront'],
-        meta: 'part of aws suite'
+        meta: 'part of aws suite',
+        skillType: 'hard'
     },
     { mainName: 'ECS', count: 0, subNames: ['ECS'], meta: 'part of aws suite' },
     { mainName: 'PHP', count: 0, subNames: ['PHP'] },
     {
         mainName: 'Custom WordPress',
         count: 0,
-        subNames: ['Custom WordPress theme development', 'Custom WordPress plugin development']
+        subNames: ['Custom WordPress theme development', 'Custom WordPress plugin development'],
+        skillType: 'hard'
     },
     { mainName: 'HubSpot', count: 0, subNames: ['HubSpot'] },
     { mainName: 'GA4', count: 0, subNames: ['GA4'] },
@@ -1980,24 +2177,28 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Technical architecture',
         count: 0,
-        subNames: ['Technical architecture', 'System architecture']
+        subNames: ['Technical architecture', 'System architecture'],
+        skillType: 'hard'
     },
     { mainName: 'Astro', count: 0, subNames: ['Astro'] },
     { mainName: 'Redis', count: 0, subNames: ['Redis'] },
     {
         mainName: 'Interactive experiences',
         count: 0,
-        subNames: ['Interactive experiences', 'Interactive dashboards']
+        subNames: ['Interactive experiences', 'Interactive dashboards'],
+        skillType: 'hard'
     },
     {
         mainName: 'Functional programming',
         count: 0,
-        subNames: ['Functional programming']
+        subNames: ['Functional programming'],
+        skillType: 'hard'
     },
     {
         mainName: 'Singleton pattern',
         count: 0,
-        subNames: ['Singleton pattern']
+        subNames: ['Singleton pattern'],
+        skillType: 'hard'
     },
     { mainName: 'Contract design', count: 0, subNames: ['Contract design'] },
     { mainName: 'Rust', count: 0, subNames: ['Rust'] },
@@ -2013,7 +2214,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Authentication & Authorization protocols (OAuth, JWT, SSO, OpenID Connect, MFA, RBAC, ABAC)',
             'Identity provider integration (Auth0, Okta, etc.)',
             'Authentication (OAuth2, OIDC)'
-        ]
+        ],
+        skillType: 'hard'
     },
     { mainName: 'OpenID Connect', count: 0, subNames: ['OpenID Connect'] },
     { mainName: 'Recharts', count: 0, subNames: ['Recharts'] },
@@ -2025,51 +2227,60 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Telemetry',
         count: 0,
-        subNames: ['Telemetry', 'Frontend telemetry UI']
+        subNames: ['Telemetry', 'Frontend telemetry UI'],
+        skillType: 'hard'
     },
     {
         mainName: 'Messaging pipelines',
         count: 0,
-        subNames: ['Messaging pipelines']
+        subNames: ['Messaging pipelines'],
+        skillType: 'hard'
     },
     {
         mainName: 'Large Language Models',
         count: 0,
-        subNames: ['Large Language Models', 'Large Language Models (LLMs)', 'llm', 'llms']
+        subNames: ['Large Language Models', 'Large Language Models (LLMs)', 'llm', 'llms'],
+        skillType: 'hard'
     },
     {
         mainName: 'Low-level systems',
         count: 0,
-        subNames: ['Low-level systems']
+        subNames: ['Low-level systems'],
+        skillType: 'hard'
     },
     {
         mainName: 'Firmware integrations',
         count: 0,
-        subNames: ['Firmware integrations']
+        subNames: ['Firmware integrations'],
+        skillType: 'hard'
     },
     { mainName: 'OTA updates', count: 0, subNames: ['OTA updates'] },
     {
         mainName: 'Open-source development',
         count: 0,
-        subNames: ['Open-source development']
+        subNames: ['Open-source development'],
+        skillType: 'hard'
     },
     { mainName: 'Drone', count: 0, subNames: ['Drone'] },
     {
         mainName: 'Technical specification writing',
         count: 0,
-        subNames: ['Technical specification writing']
+        subNames: ['Technical specification writing'],
+        skillType: 'hard'
     },
     { mainName: 'On-call rotation', count: 0, subNames: ['On-call rotation'] },
     { mainName: 'SolidJS', count: 0, subNames: ['SolidJS'] },
     {
         mainName: 'Acceptance testing',
         count: 0,
-        subNames: ['Acceptance testing']
+        subNames: ['Acceptance testing'],
+        skillType: 'hard'
     },
     {
         mainName: 'Domain-driven design',
         count: 0,
-        subNames: ['Domain-driven design', 'DDD', 'Domain-driven design (DDD)']
+        subNames: ['Domain-driven design', 'DDD', 'Domain-driven design (DDD)'],
+        skillType: 'hard'
     },
     { mainName: 'Transpiling', count: 0, subNames: ['Transpiling'] },
     { mainName: 'Yarn', count: 0, subNames: ['Yarn', 'Yarn workspaces'] },
@@ -2080,38 +2291,44 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Stripe integration',
         count: 0,
-        subNames: ['Stripe integration', 'Stripe', 'PayPal', 'Recurring payment system implementation']
+        subNames: ['Stripe integration', 'Stripe', 'PayPal', 'Recurring payment system implementation'],
+        skillType: 'hard'
     },
     {
         mainName: 'Compliance domain knowledge',
         count: 0,
-        subNames: ['Compliance domain knowledge']
+        subNames: ['Compliance domain knowledge'],
+        skillType: 'hard'
     },
     { mainName: 'Troubleshooting', count: 0, subNames: ['Troubleshooting'] },
     { mainName: 'Logging', count: 0, subNames: ['Logging'] },
     {
         mainName: 'Data Analysis',
         count: 0,
-        subNames: ['Data Analysis', 'Data Tracking']
+        subNames: ['Data Analysis', 'Data Tracking'],
+        skillType: 'hard'
     },
     {
         mainName: 'Sales Automation Tools',
         count: 0,
-        subNames: ['Sales Automation Tools']
+        subNames: ['Sales Automation Tools'],
+        skillType: 'hard'
     },
     { mainName: 'Mixpanel', count: 0, subNames: ['Mixpanel'] },
     { mainName: 'Jimo', count: 0, subNames: ['Jimo'] },
     {
         mainName: 'Requirement Gathering',
         count: 0,
-        subNames: ['Requirement Gathering', 'Workload Assessment']
+        subNames: ['Requirement Gathering', 'Workload Assessment'],
+        skillType: 'hard'
     },
     { mainName: 'Symfony', count: 0, subNames: ['Symfony'] },
     { mainName: 'Memcache', count: 0, subNames: ['Memcache'] },
     {
         mainName: 'Conversion funnels',
         count: 0,
-        subNames: ['Conversion funnels']
+        subNames: ['Conversion funnels'],
+        skillType: 'hard'
     },
     { mainName: 'Swift', count: 0, subNames: ['Swift'] },
     { mainName: 'Kotlin', count: 0, subNames: ['Kotlin'] },
@@ -2119,12 +2336,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'High-traffic',
         count: 0,
-        subNames: ['High-traffic B2C platforms', 'High-volume website coding standards']
+        subNames: ['High-traffic B2C platforms', 'High-volume website coding standards'],
+        skillType: 'hard'
     },
     {
         mainName: 'Dependency injection',
         count: 0,
-        subNames: ['Dependency injection']
+        subNames: ['Dependency injection'],
+        skillType: 'hard'
     },
     {
         mainName: 'E-commerce',
@@ -2138,24 +2357,28 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Secure payment gateway integration',
             'Consumer payments experience',
             'Payments systems'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'ASP.NET MVC',
         count: 0,
-        subNames: ['ASP.NET MVC', 'ASP.NET Webpages']
+        subNames: ['ASP.NET MVC', 'ASP.NET Webpages'],
+        skillType: 'hard'
     },
     {
         mainName: 'learning management system',
         count: 0,
-        subNames: ['LMS content creation', 'lms', 'E-learning storyboard design']
+        subNames: ['LMS content creation', 'lms', 'E-learning storyboard design'],
+        skillType: 'hard'
     },
     { mainName: 'Articulate Rise', count: 0, subNames: ['Articulate Rise'] },
     { mainName: 'Adobe Suite', count: 0, subNames: ['Adobe Suite'] },
     {
         mainName: 'COTS software integration',
         count: 0,
-        subNames: ['COTS software integration']
+        subNames: ['COTS software integration'],
+        skillType: 'hard'
     },
     { mainName: 'HTMX', count: 0, subNames: ['HTMX'] },
     { mainName: 'Alpine.js', count: 0, subNames: ['Alpine.js'] },
@@ -2175,7 +2398,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Leaflet',
             'OpenLayers',
             'ArcGIS SDK'
-        ]
+        ],
+        skillType: 'hard'
     },
     { mainName: 'Apollo', count: 0, subNames: ['Apollo'] },
     { mainName: 'URQL', count: 0, subNames: ['URQL'] },
@@ -2183,64 +2407,75 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Rollup',
         count: 0,
         subNames: ['Rollup'],
-        meta: 'webpack clone'
+        meta: 'webpack clone',
+        skillType: 'hard'
     },
     {
         mainName: '3D rendering and visualization',
         count: 0,
-        subNames: ['3D rendering and visualization', '3D', 'Three.js', 'WebGL', 'WebGL frameworks']
+        subNames: ['3D rendering and visualization', '3D', 'Three.js', 'WebGL', 'WebGL frameworks'],
+        skillType: 'hard'
     },
     {
         mainName: 'Static asset analysis',
         count: 0,
-        subNames: ['Static asset analysis']
+        subNames: ['Static asset analysis'],
+        skillType: 'hard'
     },
     { mainName: 'Bun', count: 0, subNames: ['Bun'], meta: 'webpack clone' },
     {
         mainName: 'wireframe',
         count: 0,
-        subNames: ['wireframes', 'wireframe', 'conversion from wireframes', 'Wireframing collaboration']
+        subNames: ['wireframes', 'wireframe', 'conversion from wireframes', 'Wireframing collaboration'],
+        skillType: 'hard'
     },
     { mainName: 'Web3 development', count: 0, subNames: ['Web3 development'] },
     { mainName: 'ethers.js', count: 0, subNames: ['ethers.js'] },
     {
         mainName: 'Decentralized application development',
         count: 0,
-        subNames: ['dApp', 'dApp development', 'Decentralized application development']
+        subNames: ['dApp', 'dApp development', 'Decentralized application development'],
+        skillType: 'hard'
     },
     {
         mainName: 'Command-line development',
         count: 0,
-        subNames: ['Command-line development', 'Command line']
+        subNames: ['Command-line development', 'Command line'],
+        skillType: 'hard'
     },
     { mainName: 'Terraform', count: 0, subNames: ['Terraform'] },
     {
         mainName: 'Rapid prototyping',
         count: 0,
-        subNames: ['Rapid prototyping']
+        subNames: ['Rapid prototyping'],
+        skillType: 'hard'
     },
     {
         mainName: 'Data structures',
         count: 0,
-        subNames: ['Data structures', 'Data structures patterns', 'Data tables']
+        subNames: ['Data structures', 'Data structures patterns', 'Data tables'],
+        skillType: 'hard'
     },
     { mainName: 'Qodana', count: 0, subNames: ['Qodana'] },
     { mainName: 'Prototyping', count: 0, subNames: ['Prototyping'] },
     {
         mainName: 'Multi-tenant architecture',
         count: 0,
-        subNames: ['Multi-tenant architecture', 'Tenant isolation']
+        subNames: ['Multi-tenant architecture', 'Tenant isolation'],
+        skillType: 'hard'
     },
     { mainName: 'Lerna', count: 0, subNames: ['Lerna'] },
     {
         mainName: 'Observables',
         count: 0,
-        subNames: ['Observables']
+        subNames: ['Observables'],
+        skillType: 'hard'
     },
     {
         mainName: 'Streams',
         count: 0,
-        subNames: ['Streams']
+        subNames: ['Streams'],
+        skillType: 'hard'
     },
     {
         mainName: 'Event-driven',
@@ -2250,311 +2485,371 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Event-driven architecture exposure',
             'Event-driven applications',
             'Event-driven architecture'
-        ]
+        ],
+        skillType: 'hard'
     },
     {
         mainName: 'Navigation',
         count: 0,
-        subNames: ['Navigation']
+        subNames: ['Navigation'],
+        skillType: 'hard'
     },
     {
         mainName: 'Google App Store',
         count: 0,
-        subNames: ['Google App Store', 'Google Play release processes']
+        subNames: ['Google App Store', 'Google Play release processes'],
+        skillType: 'hard'
     },
     {
         mainName: 'App signing',
         count: 0,
-        subNames: ['App signing']
+        subNames: ['App signing'],
+        skillType: 'hard'
     },
     {
         mainName: 'In-App Purchases',
         count: 0,
-        subNames: ['In-App Purchases Google', 'In-App Purchases Apple']
+        subNames: ['In-App Purchases Google', 'In-App Purchases Apple'],
+        skillType: 'hard'
     },
     {
         mainName: 'APNs',
         count: 0,
-        subNames: ['APNs']
+        subNames: ['APNs'],
+        skillType: 'hard'
     },
     {
         mainName: 'Firebase',
         count: 0,
-        subNames: ['Firebase', 'Firebase Cloud Messaging (FCM)']
+        subNames: ['Firebase', 'Firebase Cloud Messaging (FCM)'],
+        skillType: 'hard'
     },
     {
         mainName: 'Gesture Handler',
         count: 0,
-        subNames: ['Gesture Handler']
+        subNames: ['Gesture Handler'],
+        skillType: 'hard'
     },
     {
         mainName: 'Detox',
         count: 0,
-        subNames: ['Detox']
+        subNames: ['Detox'],
+        skillType: 'hard'
     },
     {
         mainName: 'MacOs',
         count: 0,
-        subNames: ['MacOs']
+        subNames: ['MacOs'],
+        skillType: 'hard'
     },
     {
         mainName: 'BDD',
         count: 0,
-        subNames: ['BDD', 'BDD practices']
+        subNames: ['BDD', 'BDD practices'],
+        skillType: 'hard'
     },
     {
         mainName: 'PyTest',
         count: 0,
-        subNames: ['PyTest']
+        subNames: ['PyTest'],
+        skillType: 'hard'
     },
     {
         mainName: 'Generics',
         count: 0,
-        subNames: ['Generics']
+        subNames: ['Generics'],
+        skillType: 'hard'
     },
     {
         mainName: 'Conditional Types',
         count: 0,
-        subNames: ['Conditional Types']
+        subNames: ['Conditional Types'],
+        skillType: 'hard'
     },
     {
         mainName: '@ts-rest',
         count: 0,
-        subNames: ['@ts-rest']
+        subNames: ['@ts-rest'],
+        skillType: 'hard'
     },
     {
         mainName: 'tRPC',
         count: 0,
-        subNames: ['tRPC']
+        subNames: ['tRPC'],
+        skillType: 'hard'
     },
     {
         mainName: 'Regulated Environment Compliance',
         count: 0,
-        subNames: ['Regulated Environment Compliance', 'Design systems for regulated environments']
+        subNames: ['Regulated Environment Compliance', 'Design systems for regulated environments'],
+        skillType: 'hard'
     },
     {
         mainName: 'backend-as-a-service',
         count: 0,
-        subNames: ['backend-as-a-service', 'Supabase']
+        subNames: ['backend-as-a-service', 'Supabase'],
+        skillType: 'hard'
     },
     {
         mainName: 'PostMessage integration with game client',
         count: 0,
-        subNames: ['PostMessage integration with game client']
+        subNames: ['PostMessage integration with game client'],
+        skillType: 'hard'
     },
     {
         mainName: 'Error Handling',
         count: 0,
-        subNames: ['Error Handling']
+        subNames: ['Error Handling'],
+        skillType: 'hard'
     },
     {
         mainName: 'Production Application Development',
         count: 0,
-        subNames: ['Production Application Development']
+        subNames: ['Production Application Development'],
+        skillType: 'hard'
     },
     {
         mainName: 'Ext Js',
         count: 0,
-        subNames: ['Ext Js']
+        subNames: ['Ext Js'],
+        skillType: 'hard'
     },
     {
         mainName: 'XML',
         count: 0,
-        subNames: ['XML']
+        subNames: ['XML'],
+        skillType: 'hard'
     },
     {
         mainName: 'Geospatial Services: WMS, WFS',
         count: 0,
-        subNames: ['Geospatial Services: WMS, WFS']
+        subNames: ['Geospatial Services: WMS, WFS'],
+        skillType: 'hard'
     },
     {
         mainName: 'PostGIS',
         count: 0,
-        subNames: ['PostGIS']
+        subNames: ['PostGIS'],
+        skillType: 'hard'
     },
     {
         mainName: 'LambdaTest',
         count: 0,
-        subNames: ['LambdaTest']
+        subNames: ['LambdaTest'],
+        skillType: 'hard'
     },
     {
         mainName: 'UXpin',
         count: 0,
-        subNames: ['UXpin']
+        subNames: ['UXpin'],
+        skillType: 'hard'
     },
     {
         mainName: 'Multimedia Content Management',
         count: 0,
-        subNames: ['Multimedia Content Management']
+        subNames: ['Multimedia Content Management'],
+        skillType: 'hard'
     },
     {
         mainName: 'Structured Content for Mandatory Public Disclosures',
         count: 0,
-        subNames: ['Structured Content for Mandatory Public Disclosures']
+        subNames: ['Structured Content for Mandatory Public Disclosures'],
+        skillType: 'hard'
     },
     {
         mainName: 'Delivery of Compliant Digital Solutions in Regulated Environments',
         count: 0,
-        subNames: ['Delivery of Compliant Digital Solutions in Regulated Environments']
+        subNames: ['Delivery of Compliant Digital Solutions in Regulated Environments'],
+        skillType: 'hard'
     },
     {
         mainName: 'Initiative Ownership',
         count: 0,
-        subNames: ['Initiative Ownership']
+        subNames: ['Initiative Ownership'],
+        skillType: 'hard'
     },
     {
         mainName: 'Technical Debt',
         count: 0,
-        subNames: ['Identifying and Resolving Technical Debt']
+        subNames: ['Identifying and Resolving Technical Debt'],
+        skillType: 'hard'
     },
     {
         mainName: 'Product-Focused Engineering',
         count: 0,
-        subNames: ['Product-Focused Engineering']
+        subNames: ['Product-Focused Engineering'],
+        skillType: 'hard'
     },
     {
         mainName: 'Business Value Analysis',
         count: 0,
-        subNames: ['Business Value Analysis']
+        subNames: ['Business Value Analysis'],
+        skillType: 'hard'
     },
     {
         mainName: 'Ruby on Rails',
         count: 0,
-        subNames: ['Ruby on Rails', 'Ruby on Rails (backend familiarity)']
+        subNames: ['Ruby on Rails', 'Ruby on Rails (backend familiarity)'],
+        skillType: 'hard'
     },
     {
         mainName: 'Kafka',
         count: 0,
-        subNames: ['Kafka']
+        subNames: ['Kafka'],
+        skillType: 'hard'
     },
     {
         mainName: 'Search Technologies',
         count: 0,
-        subNames: ['Search Technologies']
+        subNames: ['Search Technologies'],
+        skillType: 'hard'
     },
     {
         mainName: 'Apache',
         count: 0,
-        subNames: ['Apache', 'Apache Solr']
+        subNames: ['Apache', 'Apache Solr'],
+        skillType: 'hard'
     },
     {
         mainName: 'Business Rule Modeling',
         count: 0,
-        subNames: ['Business Rule Modeling']
+        subNames: ['Business Rule Modeling'],
+        skillType: 'hard'
     },
     {
         mainName: 'Adobe XD',
         count: 0,
-        subNames: ['Adobe XD']
+        subNames: ['Adobe XD'],
+        skillType: 'hard'
     },
     {
         mainName: 'Sketch',
         count: 0,
-        subNames: ['Sketch']
+        subNames: ['Sketch'],
+        skillType: 'hard'
     },
     {
         mainName: 'Web Service Technologies',
         count: 0,
-        subNames: ['Web Service Technologies', 'Web service technologies (CDNs, monitoring tools like Sentry)']
+        subNames: ['Web Service Technologies', 'Web service technologies (CDNs, monitoring tools like Sentry)'],
+        skillType: 'hard'
     },
     {
         mainName: 'Code Optimization',
         count: 0,
-        subNames: ['Code Optimization', 'Code refactoring', 'code style consistency']
+        subNames: ['Code Optimization', 'Code refactoring', 'code style consistency'],
+        skillType: 'hard'
     },
     {
         mainName: 'StencilJS',
         count: 0,
-        subNames: ['StencilJS']
+        subNames: ['StencilJS'],
+        skillType: 'hard'
     },
     {
         mainName: 'Amazon Style Dictionary',
         count: 0,
-        subNames: ['Amazon Style Dictionary']
+        subNames: ['Amazon Style Dictionary'],
+        skillType: 'hard'
     },
     {
         mainName: 'Ant Design Component Library',
         count: 0,
-        subNames: ['Ant Design Component Library']
+        subNames: ['Ant Design Component Library'],
+        skillType: 'hard'
     },
     {
         mainName: 'Jotai',
         count: 0,
-        subNames: ['Jotai']
+        subNames: ['Jotai'],
+        skillType: 'hard'
     },
     {
         mainName: 'Plotly',
         count: 0,
-        subNames: ['Plotly']
+        subNames: ['Plotly'],
+        skillType: 'hard'
     },
     {
         mainName: 'Personalization Systems',
         count: 0,
-        subNames: ['Personalization Systems']
+        subNames: ['Personalization Systems'],
+        skillType: 'hard'
     },
     {
         mainName: 'Change Detection Strategies',
         count: 0,
-        subNames: ['Change Detection Strategies']
+        subNames: ['Change Detection Strategies'],
+        skillType: 'hard'
     },
     {
         mainName: 'Media Playback Technologies',
         count: 0,
-        subNames: ['Media Playback Technologies']
+        subNames: ['Media Playback Technologies'],
+        skillType: 'hard'
     },
     {
         mainName: 'Browser Media APIs',
         count: 0,
-        subNames: ['Browser Media APIs']
+        subNames: ['Browser Media APIs'],
+        skillType: 'hard'
     },
     {
         mainName: 'Struts',
         count: 0,
-        subNames: ['Struts']
+        subNames: ['Struts'],
+        skillType: 'hard'
     },
     {
         mainName: 'IBM WebSphere',
         count: 0,
-        subNames: ['IBM WebSphere']
+        subNames: ['IBM WebSphere'],
+        skillType: 'hard'
     },
     {
         mainName: 'Atlassian Tools',
         count: 0,
-        subNames: ['Atlassian Tools']
+        subNames: ['Atlassian Tools'],
+        skillType: 'hard'
     },
     {
         mainName: 'NIST Standards',
         count: 0,
-        subNames: ['NIST Standards']
+        subNames: ['NIST Standards'],
+        skillType: 'hard'
     },
     {
         mainName: 'Diagnostics',
         count: 0,
-        subNames: ['Diagnostics']
+        subNames: ['Diagnostics'],
+        skillType: 'hard'
     },
     {
         mainName: 'Algorithms',
         count: 0,
-        subNames: ['Algorithms']
+        subNames: ['Algorithms'],
+        skillType: 'hard'
     },
     {
         mainName: 'Replit',
         count: 0,
         subNames: ['Replit'],
-        meta: 'rapid prototyping stuff'
+        meta: 'rapid prototyping stuff',
+        skillType: 'hard'
     },
     {
         mainName: 'Saga',
         count: 0,
         subNames: ['Saga'],
-        meta: 'system design stuff'
+        meta: 'system design stuff',
+        skillType: 'hard'
     },
     {
         mainName: 'Grafana UI',
         count: 0,
         subNames: ['Grafana UI'],
-        meta: 'system design stuff'
+        meta: 'system design stuff',
+        skillType: 'hard'
     }
     //
-    //
-];
+    //];
