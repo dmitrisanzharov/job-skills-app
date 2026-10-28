@@ -2852,4 +2852,4 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         skillType: 'hard'
     }
     //
-    //];
+    ];
