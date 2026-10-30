@@ -27,7 +27,7 @@ const App: React.FC = () => {
             <AppBar position='static' style={{display: path === fullStackDeveloper ? 'none' : 'block'}}>
                 <Toolbar>
                     <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
-                        Senior Front-End (no full stack)
+                        Full Stack
                     </Typography>
 
                     <Button color='inherit' component={Link} to={seniorFrontEndDeveloperSkillsLink}>

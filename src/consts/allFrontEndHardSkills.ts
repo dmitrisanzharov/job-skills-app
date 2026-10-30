@@ -122,7 +122,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'CSS design system-driven styling',
             'lazy loading',
             'Partial pre-rendering & caching',
-            'Web performance optimization (Core Web Vitals)'
+            'Web performance optimization (Core Web Vitals)',
+            'High-performance applications',
+            'Application performance optimisation'
         ],
         mySkillLevel: 5
     },
@@ -148,6 +150,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'architecture',
         count: 0,
         subNames: [
+            'Scalable distributed systems',
             'Distributed systems awareness',
             'System design (end-to-end flows)',
             'Modular design',
@@ -216,7 +219,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'infrastructure software knowledge',
             'Infrastructure as Code',
             'Infrastructure-as-code',
-            'Frontend design patterns'
+            'Infrastructure as Code (IaC)',
+            'Frontend design patterns',
+            'Cross-service architecture',
+            'Application architecture',
+            'Scalable services'
         ],
         meta: 'SCALABLE and ARCHITECTURE are very important word here',
         mySkillLevel: 5
@@ -255,6 +262,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'ui/ux',
         count: 0,
         subNames: [
+            'Customer experience optimisation',
             'UI/UX design principles',
             'Data-driven UI development',
             'UX/Design sensibility',
@@ -312,7 +320,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'UI/UX design guidance',
             'Design tools',
             'Modern UI tooling',
-            'User-centric UI development'
+            'User-centric UI development',
+            'Interface design'
         ],
         mySkillLevel: 4
     },
@@ -326,6 +335,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'ci/cd',
         count: 0,
         subNames: [
+            'Continuous delivery (CD)',
             'ci/cd',
             'continuous integration',
             'continuous deployment',
@@ -348,7 +358,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Continuous integration and deployment tooling',
             'Branching strategies',
             'Streaming pipelines',
-            'Bitbucket'
+            'Bitbucket',
+            'Continuous integration (CI)',
+            'CI pipelines'
         ],
         mySkillLevel: 7
     },
@@ -444,7 +456,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Full-stack development',
             'End-to-end development',
             'General software development across multiple stacks',
-            'Full-stack architecture'
+            'Full-stack architecture',
+            'Full stack development',
+            'End-to-end feature development'
         ],
         meta: 'skip this skill',
         mySkillLevel: 5
@@ -463,7 +477,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Cloud environments',
             'Cloud-based application development',
             'Cloud environment experience',
-            'Large-scale cloud-based web applications'
+            'Large-scale cloud-based web applications',
+            'Cloud architecture'
         ],
         mySkillLevel: 0
     },
@@ -531,7 +546,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'git',
         count: 0,
-        subNames: ['git', 'Git workflows', 'Source code management (GIT)'],
+        subNames: ['git', 'Git workflows', 'Source code management (GIT)', 'Source code management'],
         mySkillLevel: 8
     },
     {
@@ -584,7 +599,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Component systems',
             'component maintenance',
             'Component-based front-end frameworks',
-            'Web Components'
+            'Web Components',
+            'Component development'
         ],
         mySkillLevel: 9
     },
@@ -651,7 +667,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Test automation frameworks',
             'Frontend automation testing',
             'Test automation',
-            'UI Test Automation frameworks'
+            'UI Test Automation frameworks',
+            'Automated test generation'
         ],
         mySkillLevel: 5
     },
@@ -726,7 +743,11 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'AI-assisted coding tools',
             'AI-powered UI development',
             'ai-powered solutions',
-            'AI-assisted development (GitHub Copilot)'
+            'AI-assisted development (GitHub Copilot)',
+            'AI-assisted code generation',
+            'AI-assisted debugging',
+            'Claude',
+            
         ],
         mySkillLevel: 8
     },
@@ -763,7 +784,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Databases',
             'Backend systems',
             'Familiarity with backend technologies',
-            'Backend familiarity'
+            'Backend familiarity',
+            'API architecture',
+            'Backend services'
         ],
         mySkillLevel: 5
     },
@@ -868,7 +891,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Testing and software quality',
             'Testing and frontend quality assurance',
             'Contract testing',
-            'ISO 27001'
+            'ISO 27001',
+            'Test strategy design',
+            'Software quality assurance'
         ],
         mySkillLevel: 7
     },
@@ -883,7 +908,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Chrome Developer Tools',
             'Browser debugging',
             'Debugging and profiling',
-            'Debugging and troubleshooting'
+            'Debugging and troubleshooting',
+            'Production debugging'
         ],
         mySkillLevel: 9
     },
@@ -892,6 +918,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         mainName: 'Security',
         count: 0,
         subNames: [
+            'Security compliance',
             'Incident response and cybersecurity best practices',
             'Access control implementation',
             'Secure development and hosting practices',
@@ -913,7 +940,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'JWT',
             'Application security fundamentals',
             'Web security best practices (XSS, CSRF, SQL Injection, secure cookies, data encryption)',
-            'OWASP Top 10'
+            'OWASP Top 10',
+            'Enterprise SaaS security',
+            'Access control systems'
         ],
         mySkillLevel: 0
     },
@@ -1046,7 +1075,12 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Digital Assets',
             'Perpetual Swaps',
             'Global marketplace platforms',
-            'Cross-chain transaction flows'
+            'Cross-chain transaction flows',
+            'Financial market technology',
+            'Trading systems',
+            'Financial markets',
+            'Financial technology',
+            'Regulated financial services'
         ]
     },
 
@@ -1219,7 +1253,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'linux',
         count: 0,
-        subNames: ['linux', 'Linux desktop familiarity']
+        subNames: ['linux', 'Linux desktop familiarity', 'Linux application development']
     },
     { mainName: 'xstate', count: 0, subNames: ['xstate'] },
     { mainName: 'wagmi', count: 0, subNames: ['wagmi'] },
@@ -1281,7 +1315,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'asynchronous operations',
             'Async-first workflows',
             'Asynchronous programming',
-            'asynchronous coding'
+            'asynchronous coding',
+            'Asynchronous processing'
         ]
     },
     {
@@ -1299,7 +1334,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'reliability best practices',
         count: 0,
-        subNames: ['reliability best practices', 'Reliability engineering']
+        subNames: ['reliability best practices', 'Reliability engineering', 'Application reliability']
     },
     {
         mainName: 'test-driven development',
@@ -1515,7 +1550,6 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         ]
     },
     { mainName: 'chatbots', count: 0, subNames: ['chatbots'] },
-    { mainName: 'llm workflows', count: 0, subNames: ['llm workflows'] },
     {
         mainName: 'server side',
         count: 0,
@@ -1565,7 +1599,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'large-scale applications',
         count: 0,
-        subNames: ['large-scale applications']
+        subNames: ['large-scale applications', 'Large-scale web applications']
     },
     { mainName: 'jasmine', count: 0, subNames: ['jasmine'] },
     { mainName: 'karma', count: 0, subNames: ['karma'] },
@@ -1652,8 +1686,8 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Database performance optimization', 'Database optimization']
     },
-    { mainName: 'GCP', count: 0, subNames: ['GCP'] },
-    { mainName: 'Azure', count: 0, subNames: ['Azure'] },
+    { mainName: 'GCP', count: 0, subNames: ['GCP', 'Google Cloud Platform (GCP)'] },
+    { mainName: 'Azure', count: 0, subNames: ['Azure', 'Microsoft Azure'] },
     { mainName: 'Containerization', count: 0, subNames: ['Containerization'] },
     {
         mainName: 'Scalable backend systems',
@@ -1752,7 +1786,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['MFA implementation']
     },
-    { mainName: 'SSO', count: 0, subNames: ['SSO'] },
+    { mainName: 'single sign-on', count: 0, subNames: ['SSO', 'Single Sign-On (SSO)'] },
     {
         mainName: 'Offline-first applications',
         count: 0,
@@ -1818,7 +1852,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'DevOps',
         count: 0,
-        subNames: ['DevOps', 'DevOps knowledge', 'DevOps tools', 'DevOps practices']
+        subNames: ['DevOps', 'DevOps knowledge', 'DevOps tools', 'DevOps practices', 'DevOps automation']
     },
     { mainName: 'SecDevOps', count: 0, subNames: ['SecDevOps'] },
     {
@@ -1853,7 +1887,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Serverless architectures',
         count: 0,
-        subNames: ['Serverless architectures']
+        subNames: ['Serverless architectures', 'Serverless computing']
     },
     {
         mainName: 'Developer automation',
@@ -1938,7 +1972,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'Real-time dashboards',
             'Real-time data handling',
             'Real-time applications',
-            'Real-time interfaces (chat, voice, agent UI)'
+            'Real-time interfaces (chat, voice, agent UI)',
+            'Real-time systems',
+            'Real-time trading applications'
         ]
     },
     { mainName: 'Vanilla Extract', count: 0, subNames: ['Vanilla Extract'] },
@@ -2009,7 +2045,9 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
             'OAuth',
             'Authentication & Authorization protocols (OAuth, JWT, SSO, OpenID Connect, MFA, RBAC, ABAC)',
             'Identity provider integration (Auth0, Okta, etc.)',
-            'Authentication (OAuth2, OIDC)'
+            'Authentication (OAuth2, OIDC)',
+            'Authorization',
+            'OAuth 2.0'
         ]
     },
     { mainName: 'OpenID Connect', count: 0, subNames: ['OpenID Connect'] },
@@ -2032,7 +2070,14 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'Large Language Models',
         count: 0,
-        subNames: ['Large Language Models', 'Large Language Models (LLMs)', 'llm', 'llms']
+        subNames: [
+            'Large Language Models',
+            'Large Language Models (LLMs)',
+            'llm',
+            'llms',
+            'LLM-based developer tools',
+            'llm workflows'
+        ]
     },
     {
         mainName: 'Low-level systems',
@@ -2084,7 +2129,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Compliance domain knowledge']
     },
-    { mainName: 'Troubleshooting', count: 0, subNames: ['Troubleshooting'] },
+    { mainName: 'Troubleshooting', count: 0, subNames: ['Troubleshooting', 'Production troubleshooting'] },
     { mainName: 'Logging', count: 0, subNames: ['Logging'] },
     {
         mainName: 'Data Analysis',
@@ -2292,7 +2337,7 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
     {
         mainName: 'MacOs',
         count: 0,
-        subNames: ['MacOs']
+        subNames: ['MacOs', 'macOS application development']
     },
     {
         mainName: 'BDD',
@@ -2551,7 +2596,392 @@ export const allFrontEndHardSkills: HardAndSoftSkillsArray = [
         count: 0,
         subNames: ['Grafana UI'],
         meta: 'system design stuff'
-    }
+    },
+    {
+        mainName: 'Data modelling',
+        count: 0,
+        subNames: ['Data modelling'],
+        meta: ''
+    },
+    {
+        mainName: 'Message queues',
+        count: 0,
+        subNames: ['Message queues'],
+        meta: ''
+    },
+    {
+        mainName: 'Idempotency',
+        count: 0,
+        subNames: ['Idempotency'],
+        meta: ''
+    },
+    {
+        mainName: 'Data ingestion pipelines',
+        count: 0,
+        subNames: ['Data ingestion pipelines'],
+        meta: ''
+    },
+    {
+        mainName: 'Email integrations',
+        count: 0,
+        subNames: ['Email integrations'],
+        meta: ''
+    },
+    {
+        mainName: 'Calendar integrations',
+        count: 0,
+        subNames: ['Calendar integrations'],
+        meta: ''
+    },
+    {
+        mainName: 'Call data integrations',
+        count: 0,
+        subNames: ['Call data integrations'],
+        meta: ''
+    },
+    {
+        mainName: 'CRM systems',
+        count: 0,
+        subNames: ['CRM systems', 'CRM data management'],
+        meta: ''
+    },
+    {
+        mainName: 'LLM agent systems',
+        count: 0,
+        subNames: ['LLM agent systems'],
+        meta: ''
+    },
+    {
+        mainName: 'Agent orchestration',
+        count: 0,
+        subNames: ['Agent orchestration'],
+        meta: ''
+    },
+    {
+        mainName: 'LLM retrieval',
+        count: 0,
+        subNames: ['LLM retrieval'],
+        meta: ''
+    },
+    {
+        mainName: 'Tool calling',
+        count: 0,
+        subNames: ['Tool calling'],
+        meta: ''
+    },
+
+    {
+        mainName: 'LLM evaluation (Evals)',
+        count: 0,
+        subNames: ['LLM evaluation (Evals)'],
+        meta: ''
+    },
+    {
+        mainName: 'Human-in-the-loop workflows',
+        count: 0,
+        subNames: ['Human-in-the-loop workflows'],
+        meta: ''
+    },
+    {
+        mainName: 'AI guardrails',
+        count: 0,
+        subNames: ['AI guardrails'],
+        meta: ''
+    },
+    {
+        mainName: 'Review queues',
+        count: 0,
+        subNames: ['Review queues'],
+        meta: ''
+    },
+    {
+        mainName: 'Approval workflows',
+        count: 0,
+        subNames: ['Approval workflows'],
+        meta: ''
+    },
+    {
+        mainName: 'Production ownership',
+        count: 0,
+        subNames: ['Production ownership'],
+        meta: ''
+    },
+    {
+        mainName: 'Instrumentation',
+        count: 0,
+        subNames: ['Instrumentation'],
+        meta: ''
+    },
+    {
+        mainName: 'On-call operations',
+        count: 0,
+        subNames: ['On-call operations'],
+        meta: ''
+    },
+    {
+        mainName: 'Latency optimisation',
+        count: 0,
+        subNames: ['Latency optimisation', 'Low-latency systems'],
+        meta: ''
+    },
+    {
+        mainName: 'Cost optimisation',
+        count: 0,
+        subNames: ['Cost optimisation'],
+        meta: ''
+    },
+    {
+        mainName: 'B2B SaaS',
+        count: 0,
+        subNames: ['B2B SaaS'],
+        meta: ''
+    },
+    {
+        mainName: 'Sales technology',
+        count: 0,
+        subNames: ['Sales technology'],
+        meta: ''
+    },
+    {
+        mainName: 'Pulumi',
+        count: 0,
+        subNames: ['Pulumi'],
+        meta: ''
+    },
+    {
+        mainName: 'JUnit',
+        count: 0,
+        subNames: ['JUnit'],
+        meta: ''
+    },
+    {
+        mainName: 'Highly integrated systems',
+        count: 0,
+        subNames: ['Highly integrated systems'],
+        meta: ''
+    },
+    {
+        mainName: 'Distributed application development',
+        count: 0,
+        subNames: ['Distributed application development'],
+        meta: ''
+    },
+    {
+        mainName: 'Dynatrace',
+        count: 0,
+        subNames: ['Dynatrace'],
+        meta: ''
+    },
+    {
+        mainName: 'Quality engineering',
+        count: 0,
+        subNames: ['Quality engineering'],
+        meta: ''
+    },
+    {
+        mainName: 'Production operations',
+        count: 0,
+        subNames: ['Production operations'],
+        meta: ''
+    },
+    {
+        mainName: 'IT systems development',
+        count: 0,
+        subNames: ['IT systems development'],
+        meta: ''
+    },
+    {
+        mainName: 'KDB',
+        count: 0,
+        subNames: ['KDB'],
+        meta: ''
+    },
+    {
+        mainName: 'Analytics dashboards',
+        count: 0,
+        subNames: ['Analytics dashboards'],
+        meta: ''
+    },
+    {
+        mainName: 'Reporting tools',
+        count: 0,
+        subNames: ['Reporting tools'],
+        meta: ''
+    },
+    {
+        mainName: 'Qt',
+        count: 0,
+        subNames: ['Qt'],
+        meta: ''
+    },
+    {
+        mainName: 'Cocoa',
+        count: 0,
+        subNames: ['Cocoa'],
+        meta: ''
+    },
+    {
+        mainName: 'Spring Framework',
+        count: 0,
+        subNames: ['Spring Framework'],
+        meta: ''
+    },
+    {
+        mainName: 'Code validation',
+        count: 0,
+        subNames: ['Code validation'],
+        meta: ''
+    },
+    {
+        mainName: 'Windows application development',
+        count: 0,
+        subNames: ['Windows application development'],
+        meta: ''
+    },
+    {
+        mainName: 'Windows application development',
+        count: 0,
+        subNames: ['Windows application development'],
+        meta: ''
+    },
+    {
+        mainName: 'Cross-platform optimisation',
+        count: 0,
+        subNames: ['Cross-platform optimisation'],
+        meta: ''
+    },
+    {
+        mainName: 'Customer satisfaction metrics',
+        count: 0,
+        subNames: ['Customer satisfaction metrics'],
+        meta: ''
+    },
+    {
+        mainName: 'Net Promoter Score (NPS)',
+        count: 0,
+        subNames: ['Net Promoter Score (NPS)'],
+        meta: ''
+    },
+    {
+        mainName: 'Webex collaboration technologies',
+        count: 0,
+        subNames: ['Webex collaboration technologies'],
+        meta: ''
+    },
+    {
+        mainName: 'FastAPI',
+        count: 0,
+        subNames: ['FastAPI'],
+        meta: ''
+    },
+    {
+        mainName: 'SQLAlchemy',
+        count: 0,
+        subNames: ['SQLAlchemy'],
+        meta: ''
+    },
+    {
+        mainName: 'Identity and Access Management (IAM)',
+        count: 0,
+        subNames: ['Identity and Access Management (IAM)'],
+        meta: ''
+    },
+    {
+        mainName: 'Role-Based Access Control (RBAC)',
+        count: 0,
+        subNames: ['Role-Based Access Control (RBAC)'],
+        meta: ''
+    },
+    {
+        mainName: 'Relationship-Based Access Control (ReBAC)',
+        count: 0,
+        subNames: ['Relationship-Based Access Control (ReBAC)'],
+        meta: ''
+    },
+    {
+        mainName: 'permissions',
+        count: 0,
+        subNames: ['Fine-grained permissions', 'Permission models'],
+        meta: ''
+    },
+    {
+        mainName: 'Policy engines',
+        count: 0,
+        subNames: ['Policy engines'],
+        meta: ''
+    },
+    {
+        mainName: 'OpenFGA',
+        count: 0,
+        subNames: ['OpenFGA'],
+        meta: ''
+    },
+    {
+        mainName: 'authorisation',
+        count: 0,
+        subNames: ['authorisation', 'Zanzibar-style authorization systems'],
+        meta: ''
+    },
+    {
+        mainName: 'Open Policy Agent (OPA)',
+        count: 0,
+        subNames: ['Open Policy Agent (OPA)'],
+        meta: ''
+    },
+    {
+        mainName: 'OpenID Connect (OIDC)',
+        count: 0,
+        subNames: ['OpenID Connect (OIDC)'],
+        meta: ''
+    },
+    {
+        mainName: 'Audit trails',
+        count: 0,
+        subNames: ['Audit trails'],
+        meta: ''
+    },
+    {
+        mainName: 'Access logging',
+        count: 0,
+        subNames: ['Access logging'],
+        meta: ''
+    },
+    {
+        mainName: 'SOC 2',
+        count: 0,
+        subNames: ['SOC 2'],
+        meta: ''
+    },
+    {
+        mainName: 'Data residency',
+        count: 0,
+        subNames: ['Data residency'],
+        meta: ''
+    },
+        {
+        mainName: 'system performance',
+        count: 0,
+        subNames: ['system performance', 'Performance tuning'],
+        meta: ''
+    },
+            {
+        mainName: 'Agentic systems',
+        count: 0,
+        subNames: ['Agentic systems'],
+        meta: ''
+    },
+                {
+        mainName: 'Agentic systems',
+        count: 0,
+        subNames: ['Agentic systems'],
+        meta: ''
+    },
+                    {
+        mainName: 'AI-native platforms',
+        count: 0,
+        subNames: ['AI-native platforms'],
+        meta: ''
+    },
     //
     //
 ];

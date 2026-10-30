@@ -28,8 +28,10 @@ import { getColorByNumber } from "../../helpers/getColorByNumber";
 import { allFrontEndHardSkills } from "../../consts/allFrontEndHardSkills";
 import seniorFrontEndDb_noFullStack from "../../databases/seniorFrontEndDb_noFullStack";
 
+const TITLE = "Full Stack"
+
 const SeniorFrontEndSkills: React.FC = () => {
-    const [showNotTakingJobs, setShowNotTakingJobs] = useState(false);
+    const [showNotTakingJobs, setShowNotTakingJobs] = useState(true);
     const [showGreenSkills, setShowGreenSkills] = useState(true);
     const [showYellowSkills, setShowYellowSkills] = useState(true);
 
@@ -104,7 +106,7 @@ const SeniorFrontEndSkills: React.FC = () => {
         <Box>
             <Box sx={{ mb: 3, position: "relative" }}>
                 <Box>
-                    <Typography variant="h4">Senior Front End Only</Typography>
+                    <Typography variant="h4">{TITLE}</Typography>
                     <Typography sx={{ mb: 2 }}>
                         Total Job Entries: {totalJobEntries} | Hard skills{" "}
                         {`>= ${skillMinPercentageToFilter * 100}%`}
